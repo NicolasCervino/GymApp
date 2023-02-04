@@ -12,6 +12,7 @@ const PasswordInput = ({ handlePassword }: { handlePassword: (e: ChangeEvent<HTM
         placeholder="password"
         onChange={(e) => handlePassword(e)}
         autoComplete={"on"}
+        required
       />
       <label className="justify-self-end pr-4" onClick={() => setHidePassword(!hidePassword)}>
         {hidePassword ? <FaEye /> : <FaEyeSlash />}
