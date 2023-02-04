@@ -14,7 +14,7 @@ export default function Home() {
           Get Started
         </Link>
         <p className="text-gray-500 font-semibold pb-3">
-          Alredy have an account?{" "}
+          Already have an account?{" "}
           <Link href={"login"} className="text-[#25ab75] font-bold">
             Login
           </Link>
