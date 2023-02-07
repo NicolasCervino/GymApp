@@ -3,18 +3,31 @@ import { useState } from "react";
 import PasswordInput from "../components/PasswordInput";
 import { FcGoogle } from "react-icons/fc";
 import Link from "next/link";
+import { supabaseClient } from "@/utils/supabaseClient";
 
 const Login = () => {
-  const [email, setEmail] = useState<String>("");
-  const [password, setPassword] = useState<String>("");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
 
   const handlePassword = (e: React.ChangeEvent<HTMLInputElement>): void => setPassword(e.target.value);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const { data, error } = await supabaseClient.auth.signInWithPassword({
+      email,
+      password,
+    });
+    if (error) {
+      setMessage(error.message); // Invalid login credentials
+    }
+  };
 
   return (
     <IndexLayout type="login" extraClass="items-end md:items-center">
       <div className="w-full md:w-fit px-10 min-h-[50%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
         <h1 className="text-4xl text-center font-bold mb-6 md:mb-3">Welcome back!</h1>
-        <form className="flex flex-col gap-[0.4rem]">
+        <form className="flex flex-col gap-[0.4rem]" onSubmit={handleSubmit}>
           <label className="text-sm">Email</label>
           <input
             className="bg-transparent border-b py-2 outline-none"
@@ -25,6 +38,8 @@ const Login = () => {
           />
           <label className="text-sm">Password</label>
           <PasswordInput handlePassword={handlePassword} />
+          {/* Error message */}
+          <label className={`text-red-500 font-semibold text-sm text-center ${message === "" ? "hidden" : ""}`}>{message}</label>
           <button
             className="w-full h-12 text-white font-semibold rounded-lg bg-[#25ab75] text-lg flex items-center justify-center mt-6 hover:bg-[#1f8b60]"
             type="submit"
