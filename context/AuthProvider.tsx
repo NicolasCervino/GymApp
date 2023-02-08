@@ -27,7 +27,11 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     const updateUser = async (): Promise<void> => {
       const fetchedUser = await getUser();
       if (fetchedUser) {
-        setUserData({ username: fetchedUser.user_metadata.username, email: fetchedUser.email });
+        setUserData({
+          username: fetchedUser.user_metadata.name,
+          email: fetchedUser.email,
+          image: fetchedUser.user_metadata.avatar_url,
+        });
       } else {
         setUserData(null);
       }
@@ -39,7 +43,11 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         setIsAuthenticated(true);
         const fetchedUser = await getUser();
         if (fetchedUser) {
-          setUserData({ username: fetchedUser.user_metadata.username, email: fetchedUser.email });
+          setUserData({
+            username: fetchedUser.user_metadata.name,
+            email: fetchedUser.email,
+            image: fetchedUser.user_metadata.avatar_url,
+          });
         } else {
           setUserData(null);
         }
