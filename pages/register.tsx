@@ -2,13 +2,17 @@ import IndexLayout from "@/layout";
 import PasswordInput from "../components/PasswordInput";
 import { useState, useEffect } from "react";
 import { FcGoogle } from "react-icons/fc";
+import { BsCheck2Circle } from "react-icons/bs";
 import Link from "next/link";
+import { supabaseClient } from "@/utils/supabaseClient";
 
 const Register = () => {
-  const [email, setEmail] = useState<String>("");
-  const [password, setPassword] = useState<String>("");
-  const [repeatPassword, setRepeatPassword] = useState<String>("");
-  const [message, setMessage] = useState<String>("");
+  const [username, setUsername] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [password, setPassword] = useState<string>("");
+  const [repeatPassword, setRepeatPassword] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
+  const [success, setSuccess] = useState<boolean>(false);
 
   useEffect(() => {
     setMessage(password && repeatPassword && password !== repeatPassword ? "Passwords do not match" : "");
@@ -17,9 +21,42 @@ const Register = () => {
   const handlePassword = (e: React.ChangeEvent<HTMLInputElement>): void => setPassword(e.target.value);
   const handleRepeatPassword = (e: React.ChangeEvent<HTMLInputElement>): void => setRepeatPassword(e.target.value);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    // The signUp function doesnt throw an error if you try to sign up
+    // with an email that its already in use ._.
+    try {
+      const { data, error } = await supabaseClient.auth.signUp({
+        email: email,
+        password: password,
+        options: {
+          data: {
+            username: username,
+          },
+        },
+      });
+      if (data.user) setSuccess(true);
+      else if (error) throw error;
+    } catch (error: any) {
+      alert(error.message);
+    }
   };
+
+  if (success) {
+    return (
+      <IndexLayout type="" extraClass="items-end md:items-center">
+        <div className="w-full md:w-fit px-10 min-h-[20%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
+          <div className="flex flex-col text-center justify-center items-center pb-4">
+            <BsCheck2Circle className="w-14 h-14 text-[#25ab75]" />
+            <h1 className="text-4xl font-bold text-gray-800">Check your mailbox</h1>
+          </div>
+          <p className="text-lg text-gray-700 text-center font-semibold mb-6 md:mb-3">
+            We have sent a confirmation email with a link. Please ensure to check your spam box incase you can’t find it in your inbox
+          </p>
+        </div>
+      </IndexLayout>
+    );
+  }
 
   return (
     <IndexLayout type="" extraClass="items-end md:items-center">
@@ -29,9 +66,9 @@ const Register = () => {
           <label className="text-sm">Username</label>
           <input
             className="bg-transparent border-b py-2 outline-none"
-            type={"email"}
+            type={"text"}
             placeholder="randomnickname"
-            onChange={(e) => setEmail(e.target.value)}
+            onChange={(e) => setUsername(e.target.value)}
             autoComplete={"on"}
             required
           />
