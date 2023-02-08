@@ -24,7 +24,7 @@ const Login = () => {
   };
 
   return (
-    <IndexLayout type="login" extraClass="items-end md:items-center">
+    <IndexLayout extraClass="items-end md:items-center">
       <div className="w-full md:w-fit px-10 min-h-[50%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
         <h1 className="text-4xl text-center font-bold mb-6 md:mb-3">Welcome back!</h1>
         <form className="flex flex-col gap-[0.4rem]" onSubmit={handleSubmit}>
