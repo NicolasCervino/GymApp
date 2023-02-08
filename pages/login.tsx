@@ -14,12 +14,21 @@ const Login = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const { data, error } = await supabaseClient.auth.signInWithPassword({
+    const { error } = await supabaseClient.auth.signInWithPassword({
       email,
       password,
     });
     if (error) {
       setMessage(error.message); // Invalid login credentials
+    }
+  };
+
+  const handleGoogleLogin = async () => {
+    const { error } = await supabaseClient.auth.signInWithOAuth({
+      provider: "google",
+    });
+    if (error) {
+      setMessage(error.message);
     }
   };
 
@@ -53,7 +62,10 @@ const Login = () => {
           <span className="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2">or</span>
         </div>
         {/* Google Login */}
-        <button className="w-full flex justify-center items-center border border-black rounded-xl font-semibold text-sm py-2 hover:bg-gray-200">
+        <button
+          className="w-full flex justify-center items-center border border-black rounded-xl font-semibold text-sm py-2 hover:bg-gray-200"
+          onClick={handleGoogleLogin}
+        >
           <FcGoogle className="mr-1" /> Log in with Google
         </button>
         {/* Password restore */}

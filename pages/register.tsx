@@ -31,7 +31,7 @@ const Register = () => {
         password: password,
         options: {
           data: {
-            username: username,
+            name: username,
           },
         },
       });
@@ -39,6 +39,15 @@ const Register = () => {
       else if (error) throw error;
     } catch (error: any) {
       alert(error.message);
+    }
+  };
+
+  const handleGoogleLogin = async () => {
+    const { error } = await supabaseClient.auth.signInWithOAuth({
+      provider: "google",
+    });
+    if (error) {
+      setMessage(error.message);
     }
   };
 
@@ -100,7 +109,10 @@ const Register = () => {
           <span className="absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2">or</span>
         </div>
         {/* Google Login */}
-        <button className="w-full flex justify-center items-center border border-black rounded-xl font-semibold text-sm py-2 hover:bg-gray-200">
+        <button
+          className="w-full flex justify-center items-center border border-black rounded-xl font-semibold text-sm py-2 hover:bg-gray-200"
+          onClick={handleGoogleLogin}
+        >
           <FcGoogle className="mr-1" /> Log in with Google
         </button>
 
