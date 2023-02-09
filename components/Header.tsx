@@ -8,6 +8,7 @@ import { TbLogout } from "react-icons/tb";
 const Header = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
+  const imageUrl = userData ? userData.image : null;
 
   const [greeting, setGreeting] = useState<string>("");
 
@@ -31,8 +32,12 @@ const Header = () => {
     <div className="bg-[#25ab75] min-h-[12vh] flex items-center justify-between">
       {/* Profile pic and name */}
       <div className="flex items-center gap-3 ml-5">
-        {/* <Image src={"s"} alt="profile-pic" width={20} height={20} /> */}
-        <FaUserCircle className="w-12 h-12" />
+        {imageUrl ? (
+          <Image src={userData?.image || ""} alt="profile-pic" className="w-12 h-12 rounded-full" width={48} height={48} />
+        ) : (
+          <FaUserCircle className="w-12 h-12" />
+        )}
+
         <div className="flex flex-col">
           <h1 className="text-xl font-bold">Hello {username}</h1>
           <p className="text-base font-light">{greeting}</p>
