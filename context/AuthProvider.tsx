@@ -3,7 +3,7 @@ import { supabaseClient } from "@/utils/supabaseClient";
 import { AuthContext } from "./AuthContext";
 import { useRouter } from "next/router";
 import { UserData } from "@/interfaces/userData";
-import { User } from "@supabase/supabase-js";
+import { AuthChangeEvent, User } from "@supabase/supabase-js";
 
 interface AuthProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -22,20 +22,39 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     return user;
   };
 
-  useEffect(() => {
-    // TO UPDATE USER WHEN AUTH EVENT
-    const updateUser = async (): Promise<void> => {
-      const fetchedUser = await getUser();
-      if (fetchedUser) {
-        setUserData({
-          username: fetchedUser.user_metadata.name,
-          email: fetchedUser.email,
-          image: fetchedUser.user_metadata.avatar_url,
-        });
-      } else {
-        setUserData(null);
+  // TO UPDATE USER WHEN AUTH EVENT
+  const updateUser = async (): Promise<void> => {
+    const fetchedUser = await getUser();
+    if (fetchedUser) {
+      setUserData({
+        username: fetchedUser.user_metadata.name,
+        email: fetchedUser.email,
+        image: fetchedUser.user_metadata.avatar_url,
+      });
+    } else {
+      setUserData(null);
+    }
+  };
+
+  // Runs on auth event
+  const handleAuthChange = (event: AuthChangeEvent) => {
+    if (event === "PASSWORD_RECOVERY") {
+      router.push("/reset-password");
+    }
+    if (event === "SIGNED_IN") {
+      setIsAuthenticated(true);
+      updateUser();
+      if (router.pathname !== "/reset-password") {
+        router.push("/app");
       }
-    };
+    } else if (event === "SIGNED_OUT") {
+      setIsAuthenticated(false);
+      updateUser();
+      router.push("/");
+    }
+  };
+
+  useEffect(() => {
     // To maintain session
     const checkSession = async () => {
       const session = await supabaseClient.auth.getSession();
@@ -51,29 +70,15 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         } else {
           setUserData(null);
         }
-        setTimeout(() => {
+        if (router.pathname !== "/reset-password") {
           router.push("/app");
-        }, 0);
+        }
       }
     };
     checkSession();
     // Sets listener to auth state change
-    const { data } = supabaseClient.auth.onAuthStateChange((event, session) => {
-      // This also executes everytime you change tabs apparently ._.
-      // Not sure if that is actually a problem
-      if (event === "SIGNED_IN") {
-        setIsAuthenticated(true);
-        updateUser();
-        setTimeout(() => {
-          router.push("/app");
-        }, 0);
-      } else if (event === "SIGNED_OUT") {
-        setIsAuthenticated(false);
-        updateUser();
-        setTimeout(() => {
-          router.push("/");
-        }, 0);
-      }
+    const { data } = supabaseClient.auth.onAuthStateChange(async (event, session) => {
+      handleAuthChange(event);
     });
     return () => {
       data.subscription.unsubscribe();
