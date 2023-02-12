@@ -69,9 +69,19 @@ const Login = () => {
           <FcGoogle className="mr-1" /> Log in with Google
         </button>
         {/* Password restore */}
-        <Link href={"/"} className="w-full flex items-center justify-center text-sm text-gray-500 mt-3">
+        <Link
+          href={"/reset-password"}
+          className="w-full flex items-center justify-center text-sm text-gray-500 mt-3 hover:text-black hover:font-semibold"
+        >
           Forgot your password?
         </Link>
+        {/* Link to register */}
+        <p className="w-full flex items-center justify-center text-sm text-gray-500 mt-3 cursor-default">
+          Are you new?{" "}
+          <Link href={"/register"} className="ml-1 text-[#25ab75] font-bold">
+            Register
+          </Link>
+        </p>
       </div>
     </IndexLayout>
   );
