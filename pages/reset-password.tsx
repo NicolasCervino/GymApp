@@ -5,6 +5,7 @@ import Link from "next/link";
 import { supabaseClient } from "@/utils/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useRouter } from "next/router";
+import SubmitButton from "@/components/SubmitButton";
 
 const ResetPassword = () => {
   const [email, setEmail] = useState<string>("");
@@ -57,12 +58,7 @@ const ResetPassword = () => {
               onChange={(e) => setNewPassword(e.target.value)}
               autoComplete={"on"}
             />
-            <button
-              className="w-full h-12 text-white font-semibold rounded-lg bg-[#25ab75] text-lg flex items-center justify-center mt-6 hover:bg-[#1f8b60]"
-              type="submit"
-            >
-              Submit
-            </button>
+            <SubmitButton text="Submit" />
             <Link href={"/login"} className="flex items-center w-fit font-semibold text-gray-500 hover:text-[#25ab75]">
               <AiOutlineLeft className="text-black" />
               Back to login
@@ -92,12 +88,7 @@ const ResetPassword = () => {
             onChange={(e) => setEmail(e.target.value)}
             autoComplete={"on"}
           />
-          <button
-            className="w-full h-12 text-white font-semibold rounded-lg bg-[#25ab75] text-lg flex items-center justify-center mt-6 hover:bg-[#1f8b60]"
-            type="submit"
-          >
-            Submit
-          </button>
+          <SubmitButton text="Submit" />
           {/* Success message */}
           <label className={`text-[#25ab75] text-base font-semibold text-center ${!success ? "hidden" : ""}`}>Check your mailbox!</label>
           {/* Error message */}

@@ -4,6 +4,7 @@ import PasswordInput from "../components/PasswordInput";
 import { FcGoogle } from "react-icons/fc";
 import Link from "next/link";
 import { supabaseClient } from "@/utils/supabaseClient";
+import SubmitButton from "@/components/SubmitButton";
 
 const Login = () => {
   const [email, setEmail] = useState<string>("");
@@ -49,12 +50,7 @@ const Login = () => {
           <PasswordInput handlePassword={handlePassword} />
           {/* Error message */}
           <label className={`text-red-500 font-semibold text-sm text-center ${message === "" ? "hidden" : ""}`}>{message}</label>
-          <button
-            className="w-full h-12 text-white font-semibold rounded-lg bg-[#25ab75] text-lg flex items-center justify-center mt-6 hover:bg-[#1f8b60]"
-            type="submit"
-          >
-            Sign in
-          </button>
+          <SubmitButton text="Sign in" />
         </form>
         {/* Divider */}
         <div className="inline-flex items-center justify-center w-full h-11">

@@ -5,6 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import { BsCheck2Circle } from "react-icons/bs";
 import Link from "next/link";
 import { supabaseClient } from "@/utils/supabaseClient";
+import SubmitButton from "@/components/SubmitButton";
 
 const Register = () => {
   const [username, setUsername] = useState<string>("");
@@ -96,12 +97,7 @@ const Register = () => {
           <PasswordInput handlePassword={handleRepeatPassword} />
           {/* Error message */}
           <label className={`text-red-500 font-semibold text-sm text-center ${message === "" ? "hidden" : ""}`}>{message}</label>
-          <button
-            className="w-full h-12 text-white font-semibold rounded-lg bg-[#25ab75] text-lg flex items-center justify-center mt-6 hover:bg-[#1f8b60]"
-            type="submit"
-          >
-            Register
-          </button>
+          <SubmitButton text="Register" />
         </form>
         {/* Divider */}
         <div className="inline-flex items-center justify-center w-full h-11">
