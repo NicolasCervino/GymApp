@@ -1,4 +1,5 @@
 // HOC component
+import Spinner from "@/components/Spinner";
 import { useAuth } from "@/hooks/useAuth";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -11,17 +12,13 @@ const withAuth = (WrappedComponent: React.ComponentType<any>) => {
     useEffect(() => {
       if (!isAuth) {
         router.push("/");
-      }
-    }, [isAuth, router]);
+      } // eslint-disable-next-line
+    }, [isAuth]);
 
-    return isAuth ? <WrappedComponent {...props} /> : null;
+    return isAuth ? <WrappedComponent {...props} /> : <Spinner />;
   };
-  AuthCheck.displayName = `WithAuth(${getDisplayName(WrappedComponent)})`;
+  AuthCheck.displayName = `WithAuth(${WrappedComponent.displayName || WrappedComponent.name || "Component"})`;
   return AuthCheck;
 };
-
-function getDisplayName(WrappedComponent: React.ComponentType<any>) {
-  return WrappedComponent.displayName || WrappedComponent.name || "Component";
-}
 
 export default withAuth;
