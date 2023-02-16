@@ -29,7 +29,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#25ab75] min-h-[12vh] flex items-center justify-between">
+    <div className="bg-[#25ab75] min-h-[12vh] flex items-center justify-between text-white">
       {/* Profile pic and name */}
       <div className="flex items-center gap-3 ml-5">
         {imageUrl ? (

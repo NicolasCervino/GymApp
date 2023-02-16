@@ -7,7 +7,7 @@ const LatestWorkoutBanner = () => {
   const [workoutStatus, setWorkoutStatus] = useState<boolean>(false);
 
   return (
-    <div className="flex flex-col items-center gap-4 m-5">
+    <div className="flex flex-col items-center gap-4 m-5 text-white">
       <h1 className="font-bold text-2xl self-start xl:self-center">Todays Session</h1>
       {workoutStatus ? (
         <p>You haven’t worked out yet today...</p>
