@@ -1,0 +1,46 @@
+import RoutineBanner from "@/components/RoutineBanner";
+import UserImage from "@/components/UserImage";
+import withAuth from "@/hocs/withAuth";
+import { useUser } from "@/hooks/useUser";
+import AppLayout from "@/layout/appLayout";
+import Link from "next/link";
+import { AiOutlinePlus } from "react-icons/ai";
+
+const Profile = () => {
+  const userData = useUser();
+  const username = userData ? userData.username : null;
+
+  return (
+    <AppLayout>
+      <div className="md:ml-28 h-[85vh] md:h-[92vh] overflow-x-hidden px-6 py-5 text-white">
+        {/* User Info Area */}
+        <div className="flex items-center gap-4">
+          <UserImage size={90} />
+          <div>
+            <h2 className="font-bold text-2xl">{username}</h2>
+            <h3 className="text-lg font-normal text-gray-400">
+              Workouts: <span className="text-[#25ab75]">91</span>
+            </h3>
+          </div>
+        </div>
+        {/* User Routines Area */}
+        <div className="pt-6 flex flex-col gap-4">
+          <h2 className="font-bold text-2xl">Routines:</h2>
+          <Link href={"/new-routine"} className="p-3 rounded-lg w-fit hover:bg-slate-500 flex gap-2 items-center bg-gray-700 text-base">
+            <AiOutlinePlus color="#25ab75" />
+            New Routine
+          </Link>
+          <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <RoutineBanner />
+            <RoutineBanner />
+            <RoutineBanner />
+            <RoutineBanner />
+            <RoutineBanner />
+          </div>
+        </div>
+      </div>
+    </AppLayout>
+  );
+};
+
+export default withAuth(Profile);
