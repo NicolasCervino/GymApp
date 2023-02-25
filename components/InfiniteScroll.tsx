@@ -12,26 +12,26 @@ const InfiniteScroll = ({ exerciseList, scrollContainerRef }: InfiniteScrollProp
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const showFirst5Posts = () => {
-      if (exerciseList.length >= 5) {
-        setShowingExercises(exerciseList.slice(0, 5));
-        setIndex(5);
+    const showFirst8Posts = () => {
+      if (exerciseList.length >= 8) {
+        setShowingExercises(exerciseList.slice(0, 8));
+        setIndex(8);
       } else {
         setShowingExercises(exerciseList);
         setIndex(exerciseList.length);
       }
     };
-    showFirst5Posts();
+    showFirst8Posts();
   }, [exerciseList]);
 
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
 
     const showMorePosts = () => {
-      if (index + 5 < exerciseList.length) {
-        const newExercises = exerciseList.slice(index, index + 5);
+      if (index + 8 < exerciseList.length) {
+        const newExercises = exerciseList.slice(index, index + 8);
         setShowingExercises(showingExercises.concat(newExercises));
-        setIndex(index + 5);
+        setIndex(index + 8);
       } else if (exerciseList.length !== index) {
         const newExercises = exerciseList.slice(index, index + 1);
         setShowingExercises(showingExercises.concat(newExercises));
@@ -40,7 +40,7 @@ const InfiniteScroll = ({ exerciseList, scrollContainerRef }: InfiniteScrollProp
     };
 
     const handleScroll = ({ target }: any) => {
-      if (target.scrollHeight - target.scrollTop === target.clientHeight) {
+      if (target.scrollHeight - Math.ceil(target.scrollTop) <= target.clientHeight) {
         showMorePosts();
       }
     };
