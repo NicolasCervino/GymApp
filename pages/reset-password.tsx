@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import IndexLayout from "@/layout";
 import { AiOutlineExclamationCircle, AiOutlineLeft } from "react-icons/ai";
 import Link from "next/link";
@@ -6,6 +6,9 @@ import { supabaseClient } from "@/utils/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useRouter } from "next/router";
 import SubmitButton from "@/components/SubmitButton";
+import { usePasswordReset } from "@/hooks/usePasswordReset";
+import PasswordInput from "@/components/PasswordInput";
+import Spinner from "@/components/Spinner";
 
 const ResetPassword = () => {
   const [email, setEmail] = useState<string>("");
@@ -14,6 +17,21 @@ const ResetPassword = () => {
   const [newPassword, setNewPassword] = useState<string>("");
   const isAuth = useAuth();
   const router = useRouter();
+  const [loading, setLoading] = useState<boolean>(true);
+
+  // In case user tries to enter this route beeing logged in
+  useEffect(() => {
+    const path = router.asPath;
+    if (!path.includes("type=recovery") && isAuth) {
+      setLoading(true);
+      router.push("/app");
+    } else {
+      setLoading(false);
+    }
+    // eslint-disable-next-line
+  }, [isAuth]);
+
+  const handlePassword = (e: React.ChangeEvent<HTMLInputElement>): void => setNewPassword(e.target.value);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -35,10 +53,15 @@ const ResetPassword = () => {
     const { data, error } = await supabaseClient.auth.updateUser({ password: newPassword });
     if (data) {
       alert("Password updated successfully!");
-      router.push("/app");
+      await supabaseClient.auth.signOut();
+      router.push("/login");
     }
     if (error) alert("There was an error updating your password.");
   };
+
+  if (loading) {
+    return <Spinner />;
+  }
 
   if (isAuth) {
     return (
@@ -51,13 +74,7 @@ const ResetPassword = () => {
           <p className="text-lg text-gray-600 text-center font-semibold mb-6 md:mb-3">Enter you new password</p>
           <form className="flex flex-col gap-[0.4rem]" onSubmit={handleNewPasswordSubmit}>
             <label className="text-sm">Password</label>
-            <input
-              className="bg-transparent border-b py-2 outline-none"
-              type={"text"}
-              placeholder="new password"
-              onChange={(e) => setNewPassword(e.target.value)}
-              autoComplete={"on"}
-            />
+            <PasswordInput handlePassword={handlePassword} />
             <SubmitButton text="Submit" />
             <Link href={"/login"} className="flex items-center w-fit font-semibold text-gray-500 hover:text-[#25ab75]">
               <AiOutlineLeft className="text-black" />

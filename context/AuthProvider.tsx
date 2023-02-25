@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { supabaseClient } from "@/utils/supabaseClient";
 import { AuthContext } from "./AuthContext";
-import { useRouter } from "next/router";
 import { UserData } from "@/interfaces/userData";
 import { AuthChangeEvent, User } from "@supabase/supabase-js";
 
@@ -12,7 +11,6 @@ interface AuthProviderProps {
 export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [userData, setUserData] = useState<UserData | null>(null);
-  const router = useRouter();
 
   // To get user data
   const getUser = async (): Promise<User | null> => {
@@ -38,19 +36,12 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
 
   // Runs on auth event
   const handleAuthChange = (event: AuthChangeEvent) => {
-    if (event === "PASSWORD_RECOVERY") {
-      router.push("/reset-password");
-    }
     if (event === "SIGNED_IN") {
       setIsAuthenticated(true);
       updateUser();
-      if (router.pathname !== "/reset-password") {
-        router.push("/app");
-      }
     } else if (event === "SIGNED_OUT") {
       setIsAuthenticated(false);
       updateUser();
-      router.push("/");
     }
   };
 
@@ -69,9 +60,6 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
           });
         } else {
           setUserData(null);
-        }
-        if (router.pathname !== "/reset-password") {
-          router.push("/app");
         }
       }
     };
