@@ -1,16 +1,27 @@
 import { useUser } from "@/hooks/useUser";
 import { supabaseClient } from "@/utils/supabaseClient";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { FaUserCircle } from "react-icons/fa";
-import { TbLogout } from "react-icons/tb";
+import { TbLogout, TbPencil } from "react-icons/tb";
 
 const Header = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
   const imageUrl = userData ? userData.image : null;
+  const [profileMode, setProfileMode] = useState<boolean>(false);
+  const router = useRouter();
 
   const [greeting, setGreeting] = useState<string>("");
+
+  useEffect(() => {
+    const path = router.asPath;
+    if (path.includes("/profile")) {
+      setProfileMode(true);
+    }
+  }, []);
 
   useEffect(() => {
     const currentHour = new Date().getHours();
@@ -29,23 +40,28 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#0f0f0f] min-h-[12vh] flex items-center justify-between text-white">
-      {/* Profile pic and name */}
-      <div className="flex items-center gap-3 ml-5">
-        {imageUrl ? (
-          <Image src={userData?.image || ""} alt="profile-pic" className="w-12 h-12 rounded-full" width={48} height={48} />
-        ) : (
-          <FaUserCircle className="w-12 h-12" />
-        )}
-
-        <div className="flex flex-col">
-          <h1 className="text-xl font-bold">Hello {username}</h1>
-          <p className="text-base font-light">{greeting}</p>
+    <div className="bg-[#0f0f0f] min-h-[8vh] flex items-center justify-between text-white">
+      {profileMode ? (
+        <Link className="ml-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" href={"/edit-profile"}>
+          <TbPencil className="w-5 h-5" />
+        </Link>
+      ) : (
+        <div className="flex items-center gap-3 ml-5">
+          {imageUrl ? (
+            <Image src={userData?.image || ""} alt="profile-pic" className="w-12 h-12 rounded-full" width={48} height={48} />
+          ) : (
+            <FaUserCircle className="w-12 h-12" />
+          )}
+          <div className="flex flex-col">
+            <h1 className="text-xl font-bold">Hello {username}</h1>
+            <p className="text-base font-light">{greeting}</p>
+          </div>
         </div>
-      </div>
+      )}
+      {profileMode ? <h1 className="text-xl font-bold">Profile</h1> : ""}
       {/* Logout button */}
       <button className="mr-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleLogout}>
-        <TbLogout className="w-6 h-6"></TbLogout>
+        <TbLogout className="w-5 h-5"></TbLogout>
       </button>
     </div>
   );

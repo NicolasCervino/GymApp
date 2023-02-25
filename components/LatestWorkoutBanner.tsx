@@ -8,7 +8,7 @@ const LatestWorkoutBanner = () => {
 
   return (
     <div className="flex flex-col items-center md:items-start gap-4 m-5 text-white">
-      <h1 className="font-bold text-2xl self-start">Todays Session</h1>
+      <h1 className="font-bold text-2xl self-start">Today’s Session</h1>
       {workoutStatus ? (
         <p>You haven’t worked out yet today...</p>
       ) : (

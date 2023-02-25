@@ -18,7 +18,7 @@ const Exercises = () => {
 
   return (
     <AppLayout>
-      <div className="flex flex-col h-[81vh] md:ml-28 overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
+      <div className="flex flex-col h-[85vh] md:ml-28 overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
         <SearchBar onSearch={handleSearch} />
         <h1 className="font-bold text-2xl pl-6">All Exercises:</h1>
         <InfiniteScroll exerciseList={exercises} scrollContainerRef={scrollContainerRef} />
