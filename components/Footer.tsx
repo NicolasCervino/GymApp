@@ -8,7 +8,7 @@ function Footer() {
   const router = useRouter();
 
   return (
-    <div className="flex items-center justify-around bg-[#151515] fixed bottom-0 left-0 w-full min-h-[7vh] border-t py-4 border-[#25ab75] text-white">
+    <div className="flex md:flex-col items-center md:text-xs md:justify-evenly justify-around bg-[#151515] fixed bottom-0 md:top-[12vh] left-0 w-full md:w-24 min-h-[7vh] md:h-full border-t md:border-r md:border-t-0 py-4 border-[#25ab75] text-white">
       <Link href={"/app"} className={`flex flex-col items-center ${router.pathname === "/app" ? "text-[#25ab75]" : ""}`}>
         <RiHomeLine />
         Home

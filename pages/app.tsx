@@ -6,8 +6,10 @@ import AppLayout from "@/layout/appLayout";
 const App = () => {
   return (
     <AppLayout>
-      <SearchBar />
-      <LatestWorkoutBanner />
+      <div className="md:ml-28">
+        <SearchBar />
+        <LatestWorkoutBanner />
+      </div>
     </AppLayout>
   );
 };
