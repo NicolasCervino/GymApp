@@ -1,16 +1,14 @@
 import { useUser } from "@/hooks/useUser";
 import { supabaseClient } from "@/utils/supabaseClient";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-import { FaUserCircle } from "react-icons/fa";
 import { TbLogout, TbPencil } from "react-icons/tb";
+import UserImage from "./UserImage";
 
 const Header = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
-  const imageUrl = userData ? userData.image : null;
   const [profileMode, setProfileMode] = useState<boolean>(false);
   const router = useRouter();
 
@@ -47,11 +45,7 @@ const Header = () => {
         </Link>
       ) : (
         <div className="flex items-center gap-3 ml-5">
-          {imageUrl ? (
-            <Image src={userData?.image || ""} alt="profile-pic" className="w-12 h-12 rounded-full" width={48} height={48} />
-          ) : (
-            <FaUserCircle className="w-12 h-12" />
-          )}
+          <UserImage size={48} />
           <div className="flex flex-col">
             <h1 className="text-xl font-bold">Hello {username}</h1>
             <p className="text-base font-light">{greeting}</p>
