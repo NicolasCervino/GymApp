@@ -15,11 +15,8 @@ const Header = () => {
   const [greeting, setGreeting] = useState<string>("");
 
   useEffect(() => {
-    const path = router.asPath;
-    if (path.includes("/profile")) {
-      setProfileMode(true);
-    }
-  }, []);
+    setProfileMode(router.asPath.includes("/profile"));
+  }, [router.asPath]);
 
   useEffect(() => {
     const currentHour = new Date().getHours();
@@ -38,7 +35,7 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#0f0f0f] min-h-[8vh] flex items-center justify-between text-white">
+    <div className="bg-[#151515] min-h-[8vh] flex items-center justify-between text-white">
       {profileMode ? (
         <Link className="ml-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" href={"/edit-profile"}>
           <TbPencil className="w-5 h-5" />
