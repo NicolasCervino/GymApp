@@ -6,7 +6,6 @@ import { supabaseClient } from "@/utils/supabaseClient";
 import { useAuth } from "@/hooks/useAuth";
 import { useRouter } from "next/router";
 import SubmitButton from "@/components/SubmitButton";
-import { usePasswordReset } from "@/hooks/usePasswordReset";
 import PasswordInput from "@/components/PasswordInput";
 import Spinner from "@/components/Spinner";
 
