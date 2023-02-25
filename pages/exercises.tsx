@@ -1,9 +1,8 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import InfiniteScroll from "@/components/InfiniteScroll";
 import SearchBar from "@/components/SearchBar";
 import withAuth from "@/hocs/withAuth";
 import { Exercise } from "@/interfaces/exercise";
+import AppLayout from "@/layout/appLayout";
 import data from "public/data/exercises.json";
 import { useRef, useState } from "react";
 
@@ -18,15 +17,13 @@ const Exercises = () => {
   };
 
   return (
-    <>
-      <Header />
-      <div className="flex flex-col h-[81vh] bg-[#151515] overflow-scroll" ref={scrollContainerRef}>
+    <AppLayout>
+      <div className="flex flex-col h-[81vh] overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
         <SearchBar onSearch={handleSearch} />
         <h1 className="font-bold text-2xl pl-6">All Exercises:</h1>
         <InfiniteScroll exerciseList={exercises} scrollContainerRef={scrollContainerRef} />
       </div>
-      <Footer />
-    </>
+    </AppLayout>
   );
 };
 
