@@ -5,6 +5,7 @@ import { FcGoogle } from "react-icons/fc";
 import Link from "next/link";
 import { supabaseClient } from "@/utils/supabaseClient";
 import SubmitButton from "@/components/SubmitButton";
+import publicOnly from "@/hocs/publicOnly";
 
 const Login = () => {
   const [email, setEmail] = useState<string>("");
@@ -83,4 +84,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default publicOnly(Login);

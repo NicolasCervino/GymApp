@@ -1,7 +1,8 @@
+import publicOnly from "@/hocs/publicOnly";
 import IndexLayout from "@/layout";
 import Link from "next/link";
 
-export default function Home() {
+function Home() {
   return (
     <IndexLayout extraClass="items-center">
       <div className="w-full md:w-fit mx-auto px-6 sm:h-fit gap-5 bg-white absolute bottom-0 rounded-t-3xl flex flex-col items-center justify-around">
@@ -23,3 +24,5 @@ export default function Home() {
     </IndexLayout>
   );
 }
+
+export default publicOnly(Home);

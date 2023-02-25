@@ -6,6 +6,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 import Link from "next/link";
 import { supabaseClient } from "@/utils/supabaseClient";
 import SubmitButton from "@/components/SubmitButton";
+import publicOnly from "@/hocs/publicOnly";
 
 const Register = () => {
   const [username, setUsername] = useState<string>("");
@@ -123,4 +124,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default publicOnly(Register);
