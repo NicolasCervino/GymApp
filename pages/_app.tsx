@@ -1,4 +1,5 @@
-import { AuthProvider } from "@/context/AuthProvider";
+import { AuthProvider } from "@/context/auth/AuthProvider";
+import { RoutineProvider } from "@/context/routine/RoutineProvider";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -14,7 +15,9 @@ export default function App({ Component, pageProps }: AppProps) {
       </Head>
 
       <AuthProvider>
-        <Component {...pageProps} />
+        <RoutineProvider>
+          <Component {...pageProps} />
+        </RoutineProvider>
       </AuthProvider>
     </>
   );
