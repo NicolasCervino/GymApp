@@ -1,37 +1,38 @@
 import { Exercise } from "@/interfaces/exercise";
-import { RefObject, useEffect, useState } from "react";
+import { Dispatch, RefObject, SetStateAction, useEffect, useState } from "react";
 import ExerciseBanner from "./ExerciseBanner";
 
 interface InfiniteScrollProps {
   exerciseList: Exercise[];
   scrollContainerRef: RefObject<HTMLDivElement>;
+  setSelectedExercises?: Dispatch<SetStateAction<Exercise[]>>;
 }
 
-const InfiniteScroll = ({ exerciseList, scrollContainerRef }: InfiniteScrollProps) => {
+const InfiniteScroll = ({ exerciseList, scrollContainerRef, setSelectedExercises }: InfiniteScrollProps) => {
   const [showingExercises, setShowingExercises] = useState<Exercise[]>([]);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const showFirst8Posts = () => {
-      if (exerciseList.length >= 8) {
-        setShowingExercises(exerciseList.slice(0, 8));
-        setIndex(8);
+    const showFirst20Posts = () => {
+      if (exerciseList.length >= 20) {
+        setShowingExercises(exerciseList.slice(0, 20));
+        setIndex(20);
       } else {
         setShowingExercises(exerciseList);
         setIndex(exerciseList.length);
       }
     };
-    showFirst8Posts();
+    showFirst20Posts();
   }, [exerciseList]);
 
   useEffect(() => {
     const scrollContainer = scrollContainerRef.current;
 
     const showMorePosts = () => {
-      if (index + 8 < exerciseList.length) {
-        const newExercises = exerciseList.slice(index, index + 8);
+      if (index + 20 < exerciseList.length) {
+        const newExercises = exerciseList.slice(index, index + 20);
         setShowingExercises(showingExercises.concat(newExercises));
-        setIndex(index + 8);
+        setIndex(index + 20);
       } else if (exerciseList.length !== index) {
         const newExercises = exerciseList.slice(index, index + 1);
         setShowingExercises(showingExercises.concat(newExercises));
@@ -54,9 +55,9 @@ const InfiniteScroll = ({ exerciseList, scrollContainerRef }: InfiniteScrollProp
   });
 
   return exerciseList.length > 0 ? (
-    <div className="w-full p-6 outline-none flex flex-col gap-4 py-8 flex-grow">
+    <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4 p-6">
       {showingExercises.map((exercise) => (
-        <ExerciseBanner key={exercise.id} exercise={exercise} />
+        <ExerciseBanner key={exercise.id} exercise={exercise} setSelectedExercises={setSelectedExercises} />
       ))}
     </div>
   ) : (
