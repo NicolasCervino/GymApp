@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { supabaseClient } from "@/utils/supabaseClient";
-import { AuthContext } from "./AuthContext";
 import { UserData } from "@/interfaces/userData";
 import { AuthChangeEvent, User } from "@supabase/supabase-js";
+import { AuthContext } from "./AuthContext";
 
 interface AuthProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -12,7 +12,6 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [userData, setUserData] = useState<UserData | null>(null);
 
-  // To get user data
   const getUser = async (): Promise<User | null> => {
     const {
       data: { user },
