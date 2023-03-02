@@ -12,9 +12,10 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
   const { exercise } = task;
 
   const handleAddSet = () => {
+    const lastSet = sets[sets.length - 1];
     const newSet: ExerciseSet = {
-      kg: 0,
-      reps: 0,
+      kg: lastSet ? lastSet.kg : 0,
+      reps: lastSet ? lastSet.reps : 0,
       setNumber: sets.length + 1,
       id: uuid(),
     };
@@ -36,6 +37,28 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
       </SwipeAction>
     </TrailingActions>
   );
+
+  const handleKgChange = (id: string, newKgCount: number) => {
+    setSets((prevSets) =>
+      prevSets.map((set) => {
+        if (set.id === id) {
+          return { ...set, kg: newKgCount };
+        }
+        return set;
+      })
+    );
+  };
+
+  const handleRepChange = (id: string, newRepCount: number) => {
+    setSets((prevSets) =>
+      prevSets.map((set) => {
+        if (set.id === id) {
+          return { ...set, reps: newRepCount };
+        }
+        return set;
+      })
+    );
+  };
 
   return (
     <div className="border w-full flex flex-col">
@@ -69,6 +92,8 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
                             placeholder="1"
                             required
                             min={0}
+                            value={set.kg}
+                            onChange={(e) => handleKgChange(set.id, parseInt(e.target.value))}
                           />
                         </div>
                       )}
@@ -81,6 +106,8 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
                             placeholder="1"
                             required
                             min={0}
+                            value={set.reps}
+                            onChange={(e) => handleRepChange(set.id, parseInt(e.target.value))}
                           />
                         </div>
                       </div>
