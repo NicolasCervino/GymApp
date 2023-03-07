@@ -11,7 +11,7 @@ const Profile = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
 
-  const { routines, loading } = useRoutines();
+  const { routines, loading, removeRoutine } = useRoutines();
 
   return (
     <AppLayout>
@@ -34,7 +34,11 @@ const Profile = () => {
             New Routine
           </Link>
           <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {loading ? <h1>Loading...</h1> : routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} />)}
+            {loading ? (
+              <h1>Loading...</h1>
+            ) : (
+              routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} removeRoutine={removeRoutine} />)
+            )}
           </div>
         </div>
       </div>

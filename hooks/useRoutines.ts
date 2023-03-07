@@ -29,7 +29,21 @@ const useRoutines = () => {
     fetchRoutines();
   }, [userId]);
 
-  return { routines, loading };
+  const removeRoutine = async (routineId: string) => {
+    try {
+      const { error } = await supabaseClient.from("routines").delete().eq("id", routineId);
+      if (error) {
+        throw error;
+      }
+      setRoutines(routines.filter((routine) => routine.id !== routineId));
+      return true; // operation was successful
+    } catch (error) {
+      console.error("Error deleting routine", error);
+      return false; // operation failed
+    }
+  };
+
+  return { routines, loading, removeRoutine };
 };
 
 export default useRoutines;
