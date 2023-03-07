@@ -4,6 +4,7 @@ import { RoutineContext } from "./RoutineContext";
 import { ExerciseSet } from "@/interfaces/exerciseSet";
 import { Exercise } from "@/interfaces/exercise";
 import { v4 as uuid } from "uuid";
+import { supabaseClient } from "@/utils/supabaseClient";
 
 interface RoutineProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -77,8 +78,26 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
     });
   };
 
+  const saveNewRoutine = async () => {
+    if (newRoutine) {
+      try {
+        const { data, error } = await supabaseClient.from("routines").insert(newRoutine);
+        if (error) {
+          throw error;
+        }
+        return true; // operation was successful
+      } catch (error) {
+        console.error("Error saving routine", error);
+        return false; // operation failed
+      }
+    }
+    return false; // newRoutine is null
+  };
+
   return (
-    <RoutineContext.Provider value={{ newRoutine, setNewRoutine, updateTaskSets, removeTask, updateName, addSelectedExercises }}>
+    <RoutineContext.Provider
+      value={{ newRoutine, setNewRoutine, updateTaskSets, removeTask, updateName, addSelectedExercises, saveNewRoutine }}
+    >
       {children}
     </RoutineContext.Provider>
   );

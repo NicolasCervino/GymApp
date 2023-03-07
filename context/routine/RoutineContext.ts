@@ -10,6 +10,7 @@ interface RoutineContextProps {
   removeTask: (taskId: string) => void;
   updateName: (newName: string) => void;
   addSelectedExercises: (selectedExercises: Exercise[]) => void;
+  saveNewRoutine: () => Promise<Boolean>;
 }
 
 export const RoutineContext = createContext<RoutineContextProps>({
@@ -19,4 +20,5 @@ export const RoutineContext = createContext<RoutineContextProps>({
   removeTask: () => {},
   updateName: () => {},
   addSelectedExercises: () => {},
+  saveNewRoutine: () => Promise.resolve(false),
 });
