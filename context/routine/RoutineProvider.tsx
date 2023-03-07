@@ -5,6 +5,7 @@ import { ExerciseSet } from "@/interfaces/exerciseSet";
 import { Exercise } from "@/interfaces/exercise";
 import { v4 as uuid } from "uuid";
 import { supabaseClient } from "@/utils/supabaseClient";
+import { useUser } from "@/hooks/useUser";
 
 interface RoutineProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -12,6 +13,8 @@ interface RoutineProviderProps {
 
 export const RoutineProvider = ({ children }: RoutineProviderProps) => {
   const [newRoutine, setNewRoutine] = useState<Routine | null>(null);
+  const userData = useUser();
+  const userId = userData ? userData.userId : null;
 
   // Alows to update a specific task with a new ExerciseSet in the newRoutine state
   const updateTaskSets = (taskId: string, newSets: ExerciseSet[]) => {
@@ -81,7 +84,9 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
   const saveNewRoutine = async () => {
     if (newRoutine) {
       try {
-        const { data, error } = await supabaseClient.from("routines").insert(newRoutine);
+        const { data, error } = await supabaseClient
+          .from("routines")
+          .insert({ id: newRoutine.id, name: newRoutine.name, tasks: newRoutine.tasks, userID: userId });
         if (error) {
           throw error;
         }
