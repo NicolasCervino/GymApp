@@ -3,13 +3,10 @@ import SearchBar from "@/components/SearchBar";
 import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import withAuth from "@/hocs/withAuth";
 import { Exercise } from "@/interfaces/exercise";
-import { Routine } from "@/interfaces/routine";
-import { RoutineTask } from "@/interfaces/routineTask";
 import AppLayout from "@/layout/appLayout";
 import { useRouter } from "next/router";
 import data from "public/data/exercises.json";
 import { useRef, useState } from "react";
-import { v4 as uuid } from "uuid";
 
 const AddExercises = () => {
   const allExercises: Exercise[] = data;
