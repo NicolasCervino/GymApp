@@ -1,15 +1,26 @@
 import { ExerciseSet } from "@/interfaces/exerciseSet";
 import { RoutineTask } from "@/interfaces/routineTask";
 import Image from "next/image";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { SwipeableList, SwipeableListItem, SwipeAction, TrailingActions } from "react-swipeable-list";
 import { v4 as uuid } from "uuid";
 import "react-swipeable-list/dist/styles.css";
+import { useRoutineContext } from "@/context/routine/RoutineProvider";
+import { FiTrash2 } from "react-icons/fi";
 
 const TaskBanner = ({ task }: { task: RoutineTask }) => {
   const [sets, setSets] = useState<ExerciseSet[]>(task.sets);
   const { exercise } = task;
+  const { removeTask, updateTaskSets } = useRoutineContext();
+
+  useEffect(() => {
+    updateTaskSets(task.id, sets);
+  }, [sets]);
+
+  const handleDeleteTask = () => {
+    removeTask(task.id);
+  };
 
   const handleAddSet = () => {
     const lastSet = sets[sets.length - 1];
@@ -65,6 +76,9 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
       <div className="flex items-center gap-3 px-4 py-2 bg-gray-900">
         <Image src={exercise.gif_url} alt="exercise-img" width={55} height={55} className="rounded-full" loading={"lazy"} />
         <h3 className="text-[#25ab75] capitalize">{task.exercise.name}</h3>
+        <button className="ml-auto" onClick={handleDeleteTask}>
+          <FiTrash2 size={18} className="hover:text-red-700" />
+        </button>
       </div>
       <div className="relative overflow-x-auto shadow-md">
         <div className="w-full bg-gray-900">

@@ -3,6 +3,7 @@ import SearchBar from "@/components/SearchBar";
 import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import withAuth from "@/hocs/withAuth";
 import { Exercise } from "@/interfaces/exercise";
+import { Routine } from "@/interfaces/routine";
 import { RoutineTask } from "@/interfaces/routineTask";
 import AppLayout from "@/layout/appLayout";
 import { useRouter } from "next/router";
@@ -17,7 +18,7 @@ const AddExercises = () => {
   const [selectedExercises, setSelectedExercises] = useState<Exercise[]>([]);
   const router = useRouter();
 
-  const { setRoutineTasks } = useRoutineContext();
+  const { addSelectedExercises } = useRoutineContext();
 
   const handleSearch = (query: string) => {
     const filteredExercises = allExercises.filter((exercise) => exercise.name.toLowerCase().includes(query.toLowerCase()));
@@ -25,21 +26,13 @@ const AddExercises = () => {
   };
 
   const handleConfirmSelectedExercises = () => {
-    // Update the `routineTasks` state with the selected exercises
-    setRoutineTasks((prevRoutineTasks) => [
-      ...prevRoutineTasks,
-      ...selectedExercises.map((exercise: Exercise, index: number) => ({
-        exercise,
-        sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid() }],
-        id: uuid(),
-      })),
-    ]);
+    addSelectedExercises(selectedExercises);
     router.back();
   };
 
   return (
     <AppLayout>
-      <div className="flex flex-col md:h-[92vh] overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
+      <div className="flex flex-col h-[85vh] md:h-[92vh] overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
         <SearchBar onSearch={handleSearch} />
         <h1 className="font-bold text-2xl pl-6">All Exercises:</h1>
         <InfiniteScroll exerciseList={exercises} scrollContainerRef={scrollContainerRef} setSelectedExercises={setSelectedExercises} />

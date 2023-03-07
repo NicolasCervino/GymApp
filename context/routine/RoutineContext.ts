@@ -1,12 +1,22 @@
-import { RoutineTask } from "@/interfaces/routineTask";
+import { Exercise } from "@/interfaces/exercise";
+import { ExerciseSet } from "@/interfaces/exerciseSet";
+import { Routine } from "@/interfaces/routine";
 import { createContext } from "react";
 
 interface RoutineContextProps {
-  routineTasks: RoutineTask[];
-  setRoutineTasks: React.Dispatch<React.SetStateAction<RoutineTask[]>>;
+  newRoutine: Routine | null;
+  setNewRoutine: React.Dispatch<React.SetStateAction<Routine | null>>;
+  updateTaskSets: (taskId: string, newSets: ExerciseSet[]) => void;
+  removeTask: (taskId: string) => void;
+  updateName: (newName: string) => void;
+  addSelectedExercises: (selectedExercises: Exercise[]) => void;
 }
 
 export const RoutineContext = createContext<RoutineContextProps>({
-  routineTasks: [],
-  setRoutineTasks: () => {},
+  newRoutine: null,
+  setNewRoutine: () => {},
+  updateTaskSets: () => {},
+  removeTask: () => {},
+  updateName: () => {},
+  addSelectedExercises: () => {},
 });

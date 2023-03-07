@@ -1,14 +1,13 @@
 import AppLayout from "@/layout/appLayout";
 import Link from "next/link";
-import { useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 import { BiDumbbell } from "react-icons/bi";
 import { useRoutineContext } from "context/routine/RoutineProvider";
 import TaskBanner from "@/components/TaskBanner";
+import withAuth from "@/hocs/withAuth";
 
 const NewRoutine = () => {
-  const { routineTasks } = useRoutineContext();
-  const [routineName, setRoutineName] = useState<string>("");
+  const { newRoutine, updateName } = useRoutineContext();
 
   return (
     <AppLayout>
@@ -17,17 +16,18 @@ const NewRoutine = () => {
           type="text"
           placeholder="Routine title"
           className="bg-inherit border-b w-full text-lg p-2"
-          onChange={(e) => setRoutineName(e.target.value)}
+          value={newRoutine?.name || ""}
+          onChange={(e) => updateName(e.target.value)}
         />
         <div className="flex flex-col items-center mt-5 px-2 gap-3 lg:mx-14">
-          {routineTasks.length === 0 ? (
+          {!newRoutine || newRoutine?.tasks.length === 0 ? (
             <>
               <BiDumbbell className="w-10 h-10" color="#25ab75" />
               <p className="text-center text-gray-400">Get started by adding an exercise to your routine</p>
             </>
           ) : (
             <>
-              {routineTasks.map((task) => (
+              {newRoutine?.tasks.map((task) => (
                 <TaskBanner key={task.id} task={task} />
               ))}
             </>
@@ -46,4 +46,4 @@ const NewRoutine = () => {
   );
 };
 
-export default NewRoutine;
+export default withAuth(NewRoutine);
