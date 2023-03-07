@@ -1,6 +1,7 @@
 import RoutineBanner from "@/components/RoutineBanner";
 import UserImage from "@/components/UserImage";
 import withAuth from "@/hocs/withAuth";
+import useRoutines from "@/hooks/useRoutines";
 import { useUser } from "@/hooks/useUser";
 import AppLayout from "@/layout/appLayout";
 import Link from "next/link";
@@ -9,6 +10,8 @@ import { AiOutlinePlus } from "react-icons/ai";
 const Profile = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
+
+  const { routines, loading } = useRoutines();
 
   return (
     <AppLayout>
@@ -31,11 +34,7 @@ const Profile = () => {
             New Routine
           </Link>
           <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
-            <RoutineBanner />
-            <RoutineBanner />
-            <RoutineBanner />
-            <RoutineBanner />
-            <RoutineBanner />
+            {loading ? <h1>Loading...</h1> : routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} />)}
           </div>
         </div>
       </div>
