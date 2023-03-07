@@ -27,6 +27,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         username: fetchedUser.user_metadata.name,
         email: fetchedUser.email,
         image: fetchedUser.user_metadata.avatar_url,
+        userId: fetchedUser.id,
       });
     } else {
       setUserData(null);
@@ -56,6 +57,7 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
             username: fetchedUser.user_metadata.name,
             email: fetchedUser.email,
             image: fetchedUser.user_metadata.avatar_url,
+            userId: fetchedUser.id,
           });
         } else {
           setUserData(null);
