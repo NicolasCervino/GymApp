@@ -18,7 +18,7 @@ const UserImage = ({ size }: { size: number }) => {
           height={size}
         />
       ) : (
-        <HiUserCircle className={`w-[${size}px] h-[${size}px]`} />
+        <HiUserCircle size={size} />
       )}
     </>
   );
