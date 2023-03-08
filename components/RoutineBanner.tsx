@@ -1,5 +1,6 @@
 import { Routine } from "@/interfaces/routine";
 import { useSweetAlert } from "@/utils/useSwal";
+import Link from "next/link";
 import React from "react";
 import { FiTrash2 } from "react-icons/fi";
 
@@ -35,7 +36,12 @@ function RoutineBanner({ routine, removeRoutine }: RoutineBannerProps) {
           .join(", ")}
         {routine.tasks.length > 3 && "..."}
       </p>
-      <button className="w-full p-2 my-2 bg-[#25ab75] hover:bg-[#1f8b60] text-lg font-semibold rounded-lg ">Start Routine</button>
+      <Link
+        href={`/workout/${routine.id}`}
+        className="w-full text-center p-2 my-2 bg-[#25ab75] hover:bg-[#1f8b60] text-lg font-semibold rounded-lg "
+      >
+        Start Routine
+      </Link>
     </div>
   );
 }
