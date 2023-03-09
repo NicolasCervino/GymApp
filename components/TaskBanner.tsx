@@ -3,19 +3,19 @@ import { RoutineTask } from "@/interfaces/routineTask";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
-import { SwipeableList, SwipeableListItem, SwipeAction, TrailingActions } from "react-swipeable-list";
 import { v4 as uuid } from "uuid";
 import "react-swipeable-list/dist/styles.css";
 import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import { FiTrash2 } from "react-icons/fi";
+import SetList from "./SetList";
 
-const TaskBanner = ({ task }: { task: RoutineTask }) => {
+const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutMode?: boolean }) => {
   const [sets, setSets] = useState<ExerciseSet[]>(task.sets);
   const { exercise } = task;
   const { removeTask, updateTaskSets } = useRoutineContext();
 
   useEffect(() => {
-    updateTaskSets(task.id, sets);
+    updateTaskSets(task.id, sets); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sets]);
 
   const handleDeleteTask = () => {
@@ -29,46 +29,9 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
       reps: lastSet ? lastSet.reps : 0,
       setNumber: sets.length + 1,
       id: uuid(),
+      completed: false,
     };
     setSets([...sets, newSet]);
-  };
-
-  const handleDeleteSet = (setNumber: number) => {
-    setSets((prevSets) => {
-      const indexToDelete = prevSets.findIndex((set) => set.setNumber === setNumber);
-      const newSets = prevSets.filter((_, index) => index !== indexToDelete);
-      return newSets.map((set, index) => ({ ...set, setNumber: index + 1 }));
-    });
-  };
-
-  const trailingActions = ({ setNumber }: { setNumber: number }) => (
-    <TrailingActions>
-      <SwipeAction destructive={true} onClick={() => handleDeleteSet(setNumber)}>
-        <div className="flex justify-center items-center px-6 w-[48px] bg-red-800  border-y-8 border-gray-700">Delete</div>
-      </SwipeAction>
-    </TrailingActions>
-  );
-
-  const handleKgChange = (id: string, newKgCount: number) => {
-    setSets((prevSets) =>
-      prevSets.map((set) => {
-        if (set.id === id) {
-          return { ...set, kg: newKgCount };
-        }
-        return set;
-      })
-    );
-  };
-
-  const handleRepChange = (id: string, newRepCount: number) => {
-    setSets((prevSets) =>
-      prevSets.map((set) => {
-        if (set.id === id) {
-          return { ...set, reps: newRepCount };
-        }
-        return set;
-      })
-    );
   };
 
   return (
@@ -85,51 +48,15 @@ const TaskBanner = ({ task }: { task: RoutineTask }) => {
           {/* Table header */}
           <div className="w-full flex justify-around text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <div className="px-6 w-[48px] py-4 flex justify-center">Set</div>
-            {exercise.equipment !== "body weight" && <div className="px-6 py-4 w-[48px] flex justify-center">KG</div>}
+            {exercise.equipment !== "body weight" && exercise.equipment !== "band" && (
+              <div className="px-6 py-4 w-[48px] flex justify-center">KG</div>
+            )}
             <div className="px-6 w-[48px] py-4 flex justify-center">Reps</div>
+            {workoutMode && <div className="px-6 w-[48px] py-4 flex justify-center">✓</div>}
           </div>
           {/* Rep list */}
           <div className="w-full">
-            <SwipeableList>
-              {sets.map((set) => (
-                <SwipeableListItem key={set.id} trailingActions={trailingActions({ setNumber: set.setNumber })}>
-                  <div className="w-full h-16 flex items-center justify-center border-x-4 border-y-8 border-gray-700 select-none bg-[#555878]">
-                    <div className="w-full flex justify-around items-center">
-                      {/* Set number */}
-                      <div className="flex justify-center px-6 w-[48px]">{set.setNumber}</div>
-                      {/* KG input */}
-                      {exercise.equipment !== "body weight" && (
-                        <div className="flex justify-center w-[48px] px-6">
-                          <input
-                            type="number"
-                            className="text-center bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="1"
-                            required
-                            min={0}
-                            value={set.kg}
-                            onChange={(e) => handleKgChange(set.id, parseInt(e.target.value))}
-                          />
-                        </div>
-                      )}
-                      {/* Rep input */}
-                      <div className="px-6 w-[48px]">
-                        <div className="flex justify-center">
-                          <input
-                            type="number"
-                            className="text-center bg-gray-50 w-14 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block px-2.5 py-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                            placeholder="1"
-                            required
-                            min={0}
-                            value={set.reps}
-                            onChange={(e) => handleRepChange(set.id, parseInt(e.target.value))}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </SwipeableListItem>
-              ))}
-            </SwipeableList>
+            <SetList task={task} sets={sets} setSets={setSets} workoutMode={workoutMode} />
           </div>
         </div>
       </div>
