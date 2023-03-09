@@ -3,4 +3,5 @@ export interface ExerciseSet {
   reps: number;
   setNumber: number;
   id: string;
+  completed: boolean;
 }
