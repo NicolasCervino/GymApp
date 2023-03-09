@@ -60,7 +60,7 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
           name: "",
           tasks: selectedExercises.map((exercise: Exercise) => ({
             exercise,
-            sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid() }],
+            sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid(), completed: false }],
             id: "task-" + uuid(),
           })),
         };
@@ -72,7 +72,7 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
             ...prevNewRoutine.tasks,
             ...selectedExercises.map((exercise: Exercise) => ({
               exercise,
-              sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid() }],
+              sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid(), completed: false }],
               id: uuid(),
             })),
           ],
@@ -101,7 +101,15 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
 
   return (
     <RoutineContext.Provider
-      value={{ newRoutine, setNewRoutine, updateTaskSets, removeTask, updateName, addSelectedExercises, saveNewRoutine }}
+      value={{
+        newRoutine,
+        setNewRoutine,
+        updateTaskSets,
+        removeTask,
+        updateName,
+        addSelectedExercises,
+        saveNewRoutine,
+      }}
     >
       {children}
     </RoutineContext.Provider>
