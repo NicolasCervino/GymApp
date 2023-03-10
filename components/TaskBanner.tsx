@@ -8,18 +8,23 @@ import "react-swipeable-list/dist/styles.css";
 import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import { FiTrash2 } from "react-icons/fi";
 import SetList from "./SetList";
+import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
 
 const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutMode?: boolean }) => {
   const [sets, setSets] = useState<ExerciseSet[]>(task.sets);
   const { exercise } = task;
   const { removeTask, updateTaskSets } = useRoutineContext();
 
+  const { updateWorkoutTasks, removeWorkoutTask } = useWorkoutContext();
+
   useEffect(() => {
-    updateTaskSets(task.id, sets); // eslint-disable-next-line react-hooks/exhaustive-deps
+    updateTaskSets(task.id, sets);
+    if (workoutMode) updateWorkoutTasks(task.id, sets); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [sets]);
 
   const handleDeleteTask = () => {
     removeTask(task.id);
+    if (workoutMode) removeWorkoutTask(task.id);
   };
 
   const handleAddSet = () => {
