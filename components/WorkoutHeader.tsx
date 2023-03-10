@@ -1,3 +1,4 @@
+import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
 import useRoutines from "@/hooks/useRoutines";
 import { Routine } from "@/interfaces/routine";
 import { useRouter } from "next/router";
@@ -11,14 +12,18 @@ export const WorkoutHeader = () => {
   const { routineId } = router.query;
   const { routines } = useRoutines();
 
+  const { setCurrentWorkout } = useWorkoutContext();
+
   useEffect(() => {
     const routine = routines.find((r) => r.id === routineId);
     setRoutine(routine ?? null);
   }, [routines, routineId]);
 
   const handleBackButton = () => {
+    setCurrentWorkout(null);
     router.back();
   };
+
   const handleFinishWorkout = () => {};
 
   return (
