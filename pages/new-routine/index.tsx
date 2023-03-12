@@ -1,10 +1,9 @@
 import AppLayout from "@/layout/appLayout";
-import Link from "next/link";
-import { AiOutlinePlus } from "react-icons/ai";
 import { BiDumbbell } from "react-icons/bi";
 import { useRoutineContext } from "context/routine/RoutineProvider";
 import TaskBanner from "@/components/TaskBanner";
 import withAuth from "@/hocs/withAuth";
+import { NewExerciseButton } from "@/components/NewExerciseButton";
 
 const NewRoutine = () => {
   const { newRoutine, updateName } = useRoutineContext();
@@ -33,13 +32,7 @@ const NewRoutine = () => {
             </>
           )}
 
-          <Link
-            href={"new-routine/add-exercise"}
-            className="flex gap-2 justify-center items-center w-full p-2 my-2 bg-[#25ab75] hover:bg-[#1f8b60] text-lg rounded-lg font-semibold"
-          >
-            <AiOutlinePlus />
-            <span>Add Exercise</span>
-          </Link>
+          <NewExerciseButton route="new-routine/add-exercise" />
         </div>
       </div>
     </AppLayout>
