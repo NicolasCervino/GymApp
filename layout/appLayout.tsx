@@ -31,7 +31,7 @@ const AppLayout = ({ children }: { children: React.ReactNode }) => {
     <div className="min-h-screen bg-[#151515] text-white">
       {renderHeader()}
       {children}
-      {routineMode ? "" : <Footer />}
+      {routineMode || workoutMode ? "" : <Footer />}
     </div>
   );
 };
