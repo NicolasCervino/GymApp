@@ -12,6 +12,7 @@ interface WorkoutContextProps {
   updateWorkoutTasks: (taskId: string, set: ExerciseSet[]) => void;
   removeWorkoutTask: (taskId: string) => void;
   addExercisesToWorkout: (exercises: Exercise[]) => void;
+  saveWorkout: () => Promise<Boolean>;
 }
 
 export const WorkoutContext = createContext<WorkoutContextProps>({
@@ -21,4 +22,5 @@ export const WorkoutContext = createContext<WorkoutContextProps>({
   updateWorkoutTasks: () => {},
   removeWorkoutTask: () => {},
   addExercisesToWorkout: () => {},
+  saveWorkout: () => Promise.resolve(false),
 });
