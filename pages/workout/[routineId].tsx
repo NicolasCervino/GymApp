@@ -1,6 +1,7 @@
 import { NewExerciseButton } from "@/components/NewExerciseButton";
 import TaskBanner from "@/components/TaskBanner";
 import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
+import withAuth from "@/hocs/withAuth";
 import useRoutines from "@/hooks/useRoutines";
 import useTimer from "@/hooks/useTimer";
 import { Routine } from "@/interfaces/routine";
@@ -99,4 +100,4 @@ const WorkoutPage = () => {
     </AppLayout>
   );
 };
-export default WorkoutPage;
+export default withAuth(WorkoutPage);
