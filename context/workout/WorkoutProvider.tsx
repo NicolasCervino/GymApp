@@ -4,6 +4,7 @@ import { WorkoutContext } from "./WorkoutContext";
 import { v4 as uuid } from "uuid";
 import { RoutineTask } from "@/interfaces/routineTask";
 import { ExerciseSet } from "@/interfaces/exerciseSet";
+import { Exercise } from "@/interfaces/exercise";
 
 interface WorkoutProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -12,9 +13,11 @@ interface WorkoutProviderProps {
 export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
   const [currentWorkout, setCurrentWorkout] = useState<Workout | null>(null);
 
-  const createNewWorkout = (name: string, tasks: RoutineTask[]) => {
-    const newWorkout: Workout = { id: uuid(), duration: 0, name: name, tasks: tasks };
-    setCurrentWorkout(newWorkout);
+  const createNewWorkout = (name: string, tasks: RoutineTask[], startTime: number) => {
+    if (!currentWorkout) {
+      const newWorkout: Workout = { id: uuid(), duration: 0, name: name, tasks: tasks, startTime: startTime };
+      setCurrentWorkout(newWorkout);
+    }
   };
 
   const updateWorkoutTasks = (taskId: string, newSets: ExerciseSet[]) => {
@@ -41,6 +44,23 @@ export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
     });
   };
 
+  const addExercisesToWorkout = (exercises: Exercise[]) => {
+    const newTasks: RoutineTask[] = exercises.map((exercise) => ({
+      exercise,
+      sets: [{ reps: 0, kg: 0, setNumber: 1, id: uuid(), completed: false }],
+      id: uuid(),
+    }));
+
+    setCurrentWorkout((prevWorkout) => {
+      if (!prevWorkout) return null;
+
+      return {
+        ...prevWorkout,
+        tasks: [...prevWorkout.tasks, ...newTasks],
+      };
+    });
+  };
+
   return (
     <WorkoutContext.Provider
       value={{
@@ -49,6 +69,7 @@ export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
         createNewWorkout,
         updateWorkoutTasks,
         removeWorkoutTask,
+        addExercisesToWorkout,
       }}
     >
       {children}

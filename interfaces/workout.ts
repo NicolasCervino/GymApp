@@ -5,4 +5,5 @@ export interface Workout {
   id: string;
   duration: number;
   tasks: RoutineTask[];
+  startTime: number;
 }
