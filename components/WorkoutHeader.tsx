@@ -20,8 +20,12 @@ export const WorkoutHeader = () => {
   }, [routines, routineId]);
 
   const handleBackButton = () => {
-    setCurrentWorkout(null);
-    router.back();
+    if (router.asPath.includes("/add-exercise")) {
+      router.back();
+    } else {
+      setCurrentWorkout(null);
+      router.back();
+    }
   };
 
   const handleFinishWorkout = () => {};
