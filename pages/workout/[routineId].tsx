@@ -1,3 +1,4 @@
+import { NewExerciseButton } from "@/components/NewExerciseButton";
 import TaskBanner from "@/components/TaskBanner";
 import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
 import useRoutines from "@/hooks/useRoutines";
@@ -19,7 +20,7 @@ const WorkoutPage = () => {
 
   const { routines, loading } = useRoutines();
 
-  const { seconds, minutes, hours, totalSeconds } = useTimer();
+  const { seconds, minutes, hours, totalSeconds } = useTimer(currentWorkout?.startTime || Date.now());
 
   // Get routine
   useEffect(() => {
@@ -30,9 +31,10 @@ const WorkoutPage = () => {
 
   // Create new workout
   useEffect(() => {
-    if (routine) createNewWorkout(routine?.name, routine?.tasks);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [routine]);
+    if (!currentWorkout && routine) {
+      createNewWorkout(routine?.name, routine?.tasks, Date.now());
+    }
+  }, [createNewWorkout, currentWorkout, routine]);
 
   // Volume Count
   useEffect(() => {
@@ -56,6 +58,7 @@ const WorkoutPage = () => {
     return currentWorkout?.tasks.map((task) => task.sets.filter((set) => set.completed === true));
   }
 
+  // Format Time
   const elapsedTime = () => {
     let duration = "";
     if (hours > 0) {
@@ -90,6 +93,7 @@ const WorkoutPage = () => {
           ) : (
             currentWorkout?.tasks.map((task) => <TaskBanner key={task.id} task={task} workoutMode={true} />)
           )}
+          <NewExerciseButton route={`/workout/${routineId}/add-exercise`} />
         </div>
       </div>
     </AppLayout>
