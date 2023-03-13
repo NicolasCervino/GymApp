@@ -20,6 +20,7 @@ export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
   const createNewWorkout = (name: string, tasks: RoutineTask[], startTime: number) => {
     if (!currentWorkout) {
       const newWorkout: Workout = { id: uuid(), duration: 0, name: name, tasks: tasks, startTime: startTime };
+      localStorage.setItem("startTime", startTime.toString());
       setCurrentWorkout(newWorkout);
     }
   };

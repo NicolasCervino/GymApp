@@ -27,7 +27,8 @@ export const WorkoutHeader = () => {
       router.back();
     } else {
       setCurrentWorkout(null);
-      router.back();
+      localStorage.removeItem("startTime");
+      router.push("/profile");
     }
   };
 
