@@ -11,8 +11,6 @@ const Exercises = () => {
   const [exercises, setExercises] = useState<Exercise[]>(allExercises);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
-  console.log(Array.from(new Set(exercisesData.map((ex) => ex.equipment))));
-
   const handleSearch = (query: string) => {
     const filteredExercises = allExercises.filter((exercise) => exercise.name.toLowerCase().includes(query.toLowerCase()));
     setExercises(filteredExercises);
