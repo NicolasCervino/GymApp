@@ -7,6 +7,7 @@ import { ExerciseSet } from "@/interfaces/exerciseSet";
 import { Exercise } from "@/interfaces/exercise";
 import { supabaseClient } from "@/utils/supabaseClient";
 import { useUser } from "@/hooks/useUser";
+import fetchWorkoutPhoto from "@/utils/fetchWorkoutPhoto";
 
 interface WorkoutProviderProps {
   children: JSX.Element | JSX.Element[];
@@ -80,6 +81,7 @@ export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
   const saveWorkout = async () => {
     if (currentWorkout) {
       try {
+        const photoUrl = await fetchWorkoutPhoto();
         const duration = Date.now() - currentWorkout.startTime;
         const { error } = await supabaseClient.from("workouts").insert({
           id: currentWorkout.id,
@@ -87,6 +89,7 @@ export const WorkoutProvider = ({ children }: WorkoutProviderProps) => {
           tasks: removeUncompletedSetsFromTasks(),
           duration: duration,
           userID: userId,
+          image_url: photoUrl,
         });
         if (error) {
           throw error;
