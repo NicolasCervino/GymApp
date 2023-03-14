@@ -32,8 +32,15 @@ export const WorkoutHeader = () => {
     }
   };
 
+  // The current workout has at least one task with a completed set
+  const hasCompletedSet = currentWorkout?.tasks.some((task) => {
+    return task.sets.some((set) => {
+      return set.completed;
+    });
+  });
+
   const handleFinishWorkout = async () => {
-    if (currentWorkout) {
+    if (currentWorkout && hasCompletedSet) {
       const success = await saveWorkout();
       if (success) {
         showAlert("Workout saved", "success", () => {
@@ -44,7 +51,7 @@ export const WorkoutHeader = () => {
         showAlert("Failed to save workout", "error");
       }
     } else {
-      showAlert("Workout is null", "error");
+      showAlert("Workout should have at least 1 task and 1 set", "error");
     }
   };
 
