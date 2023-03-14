@@ -3,15 +3,23 @@ import UserImage from "@/components/UserImage";
 import withAuth from "@/hocs/withAuth";
 import useRoutines from "@/hooks/useRoutines";
 import { useUser } from "@/hooks/useUser";
+import useWorkouts from "@/hooks/useWorkouts";
 import AppLayout from "@/layout/appLayout";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
 
 const Profile = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
+  const [workoutCount, setWorkoutCount] = useState<number>(0);
 
-  const { routines, loading, removeRoutine } = useRoutines();
+  const { workouts, loading: workoutLoading } = useWorkouts();
+  const { routines, loading: routinesLoading, removeRoutine } = useRoutines();
+
+  useEffect(() => {
+    setWorkoutCount(workouts.length);
+  }, [workouts, workoutLoading]);
 
   return (
     <AppLayout>
@@ -22,7 +30,7 @@ const Profile = () => {
           <div>
             <h2 className="font-bold text-2xl">{username}</h2>
             <h3 className="text-lg font-normal text-gray-400">
-              Workouts: <span className="text-[#25ab75]">91</span>
+              Workouts: <span className="text-[#25ab75]">{workoutCount}</span>
             </h3>
           </div>
         </div>
@@ -34,7 +42,7 @@ const Profile = () => {
             New Routine
           </Link>
           <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {loading ? (
+            {routinesLoading ? (
               <h1>Loading...</h1>
             ) : (
               routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} removeRoutine={removeRoutine} />)
