@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { TbLogout, TbPencil } from "react-icons/tb";
+import Swal from "sweetalert2";
 import UserImage from "./UserImage";
 
 const Header = () => {
@@ -30,8 +31,14 @@ const Header = () => {
   }, []);
 
   const handleLogout = async () => {
-    // Maybe make it a modal for confirmation ??
-    await supabaseClient.auth.signOut();
+    Swal.fire({
+      title: "Are you sure you want to exit?",
+      showCancelButton: true,
+      confirmButtonText: "Logout",
+      confirmButtonColor: "#25ab75",
+    }).then(async (result) => {
+      if (result.isConfirmed) await supabaseClient.auth.signOut();
+    });
   };
 
   return (
