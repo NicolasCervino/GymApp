@@ -9,6 +9,7 @@ import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import { FiTrash2 } from "react-icons/fi";
 import SetList from "./SetList";
 import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
+import { weightEquipment } from "@/public/data/exercises";
 
 const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutMode?: boolean }) => {
   const [sets, setSets] = useState<ExerciseSet[]>(task.sets);
@@ -53,9 +54,7 @@ const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutM
           {/* Table header */}
           <div className="w-full flex justify-around text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <div className="px-6 w-[48px] py-4 flex justify-center">Set</div>
-            {exercise.equipment !== "body weight" && exercise.equipment !== "band" && (
-              <div className="px-6 py-4 w-[48px] flex justify-center">KG</div>
-            )}
+            {weightEquipment.includes(exercise.equipment) && <div className="px-6 py-4 w-[48px] flex justify-center">KG</div>}
             <div className="px-6 w-[48px] py-4 flex justify-center">Reps</div>
             {workoutMode && <div className="px-6 w-[48px] py-4 flex justify-center">✓</div>}
           </div>

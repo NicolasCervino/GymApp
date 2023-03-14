@@ -1,5 +1,6 @@
 import { ExerciseSet } from "@/interfaces/exerciseSet";
 import { RoutineTask } from "@/interfaces/routineTask";
+import { weightEquipment } from "@/public/data/exercises";
 import React from "react";
 import { SwipeableList, SwipeableListItem, SwipeAction, TrailingActions } from "react-swipeable-list";
 
@@ -66,7 +67,7 @@ const SetList = ({ task, sets, setSets, workoutMode }: SetListProps) => {
               {/* Set number */}
               <div className="flex justify-center px-6 w-[48px]">{set.setNumber}</div>
               {/* KG input */}
-              {task.exercise.equipment !== "body weight" && task.exercise.equipment !== "band" && (
+              {weightEquipment.includes(task.exercise.equipment) && (
                 <div className="flex justify-center w-[48px] px-6">
                   <input
                     type="number"

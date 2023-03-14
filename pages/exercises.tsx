@@ -3,13 +3,15 @@ import SearchBar from "@/components/SearchBar";
 import withAuth from "@/hocs/withAuth";
 import { Exercise } from "@/interfaces/exercise";
 import AppLayout from "@/layout/appLayout";
-import data from "public/data/exercises.json";
+import { exercisesData } from "@/public/data/exercises";
 import { useRef, useState } from "react";
 
 const Exercises = () => {
-  const allExercises: Exercise[] = data;
+  const allExercises: Exercise[] = exercisesData;
   const [exercises, setExercises] = useState<Exercise[]>(allExercises);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  console.log(Array.from(new Set(exercisesData.map((ex) => ex.equipment))));
 
   const handleSearch = (query: string) => {
     const filteredExercises = allExercises.filter((exercise) => exercise.name.toLowerCase().includes(query.toLowerCase()));

@@ -2,13 +2,13 @@ import { Exercise } from "@/interfaces/exercise";
 import { useRef, useState } from "react";
 import InfiniteScroll from "./InfiniteScroll";
 import SearchBar from "./SearchBar";
-import data from "public/data/exercises.json";
+import { exercisesData } from "@/public/data/exercises";
 import { useRouter } from "next/router";
 import { useRoutineContext } from "@/context/routine/RoutineProvider";
 import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
 
 export const AddExercises = ({ workoutMode = false }: { workoutMode?: boolean }) => {
-  const allExercises: Exercise[] = data;
+  const allExercises: Exercise[] = exercisesData;
   const [exercises, setExercises] = useState<Exercise[]>(allExercises);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [selectedExercises, setSelectedExercises] = useState<Exercise[]>([]);
