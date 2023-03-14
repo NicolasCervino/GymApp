@@ -6,4 +6,6 @@ export interface Workout {
   duration: number;
   tasks: RoutineTask[];
   startTime: number;
+  created_at?: string;
+  image_url?: string;
 }
