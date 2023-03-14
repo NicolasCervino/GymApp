@@ -7,7 +7,7 @@ const WorkoutBanner = ({ workout }: { workout: Workout }) => {
 
   return (
     <div
-      className="bg-cover bg-center w-full h-44 lg:h-52 rounded-2xl relative bg-[#0007] bg-blend-darken shadow-lg"
+      className="bg-cover bg-center w-full h-44 lg:h-80 rounded-2xl relative bg-[#0007] bg-blend-darken shadow-lg"
       style={{ backgroundImage: `url(${workout.image_url})` }}
     >
       <div className="flex flex-col absolute bottom-2 left-4">
