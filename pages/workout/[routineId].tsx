@@ -21,7 +21,7 @@ const WorkoutPage = () => {
 
   const { routines, loading } = useRoutines();
 
-  const { seconds, minutes, hours, totalSeconds } = useTimer(currentWorkout?.startTime || Date.now());
+  const { seconds, minutes, hours } = useTimer();
 
   // Get routine
   useEffect(() => {
@@ -34,8 +34,8 @@ const WorkoutPage = () => {
   useEffect(() => {
     if (!currentWorkout && routine) {
       createNewWorkout(routine?.name, routine?.tasks, Date.now());
-    }
-  }, [createNewWorkout, currentWorkout, routine]);
+    } // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [routine]);
 
   // Volume Count
   useEffect(() => {
@@ -61,7 +61,7 @@ const WorkoutPage = () => {
 
   // Format Time
   const elapsedTime = () => {
-    let duration = "";
+    let duration;
     if (hours > 0) {
       return (duration = `${hours}h ${minutes}m ${seconds}s`);
     } else if (minutes > 0) {
