@@ -38,7 +38,7 @@ function RoutineBanner({ routine, removeRoutine }: RoutineBannerProps) {
       </p>
       <Link
         href={`/workout/${routine.id}`}
-        className="w-full text-center p-2 my-2 bg-[#25ab75] hover:bg-[#1f8b60] text-lg font-semibold rounded-lg "
+        className="w-full text-center p-2 my-2 bg-primary-green hover:bg-[#1f8b60] text-lg font-semibold rounded-lg "
       >
         Start Routine
       </Link>

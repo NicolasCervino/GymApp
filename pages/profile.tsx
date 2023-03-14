@@ -30,7 +30,7 @@ const Profile = () => {
           <div>
             <h2 className="font-bold text-2xl">{username}</h2>
             <h3 className="text-lg font-normal text-gray-400">
-              Workouts: <span className="text-[#25ab75]">{workoutCount}</span>
+              Workouts: <span className="text-primary-green">{workoutCount}</span>
             </h3>
           </div>
         </div>

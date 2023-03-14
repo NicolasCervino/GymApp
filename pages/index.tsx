@@ -10,13 +10,13 @@ function Home() {
         <p className="text-gray-500 font-medium w-[60%] text-center">Spend your fun time at home practicing anytime anywhere</p>
         <Link
           href={"register"}
-          className="w-full h-12 font-semibold rounded-lg bg-[#25ab75] hover:bg-[#1f8b60] text-lg flex items-center justify-center"
+          className="w-full h-12 font-semibold rounded-lg bg-primary-green hover:bg-[#1f8b60] text-lg flex items-center justify-center"
         >
           Get Started
         </Link>
         <p className="text-gray-500 font-semibold pb-3">
           Already have an account?{" "}
-          <Link href={"login"} className="text-[#25ab75] font-bold">
+          <Link href={"login"} className="text-primary-green font-bold">
             Login
           </Link>
         </p>

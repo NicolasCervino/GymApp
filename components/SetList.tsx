@@ -60,7 +60,7 @@ const SetList = ({ task, sets, setSets, workoutMode }: SetListProps) => {
         <SwipeableListItem key={set.id} trailingActions={trailingActions({ setNumber: set.setNumber })}>
           <div
             className={`w-full h-16 flex items-center justify-center border-x-4 border-y-8 border-gray-700 select-none ${
-              set.completed ? "bg-[#25ab75]" : "bg-[#555878]"
+              set.completed ? "bg-primary-green" : "bg-[#555878]"
             }`}
           >
             <div className="w-full flex justify-around items-center">

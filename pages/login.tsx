@@ -75,7 +75,7 @@ const Login = () => {
         {/* Link to register */}
         <p className="w-full flex items-center justify-center text-sm text-gray-500 mt-3 cursor-default">
           Are you new?{" "}
-          <Link href={"/register"} className="ml-1 text-[#25ab75] font-bold">
+          <Link href={"/register"} className="ml-1 text-primary-green font-bold">
             Register
           </Link>
         </p>

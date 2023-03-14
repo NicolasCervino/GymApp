@@ -67,7 +67,7 @@ const ResetPassword = () => {
       <IndexLayout extraClass="items-end md:items-center">
         <div className="w-full md:w-fit px-10 min-h-[20%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
           <div className="flex flex-col text-center justify-center items-center pb-4 gap-3">
-            <AiOutlineExclamationCircle className="w-14 h-14 text-[#25ab75]" />
+            <AiOutlineExclamationCircle className="w-14 h-14 text-primary-green" />
             <h1 className="text-4xl font-bold text-gray-800">Reset password</h1>
           </div>
           <p className="text-lg text-gray-600 text-center font-semibold mb-6 md:mb-3">Enter you new password</p>
@@ -75,7 +75,7 @@ const ResetPassword = () => {
             <label className="text-sm">Password</label>
             <PasswordInput handlePassword={handlePassword} />
             <SubmitButton text="Submit" />
-            <Link href={"/login"} className="flex items-center w-fit font-semibold text-gray-500 hover:text-[#25ab75]">
+            <Link href={"/login"} className="flex items-center w-fit font-semibold text-gray-500 hover:text-primary-green">
               <AiOutlineLeft className="text-black" />
               Back to login
             </Link>
@@ -89,7 +89,7 @@ const ResetPassword = () => {
     <IndexLayout extraClass="items-end md:items-center">
       <div className="w-full md:w-fit px-10 min-h-[20%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
         <div className="flex flex-col text-center justify-center items-center pb-4 gap-3">
-          <AiOutlineExclamationCircle className="w-14 h-14 text-[#25ab75]" />
+          <AiOutlineExclamationCircle className="w-14 h-14 text-primary-green" />
           <h1 className="text-4xl font-bold text-gray-800">Forgot Password</h1>
         </div>
         <p className="text-lg text-gray-600 text-center font-semibold mb-6 md:mb-3">
@@ -106,10 +106,12 @@ const ResetPassword = () => {
           />
           <SubmitButton text="Submit" />
           {/* Success message */}
-          <label className={`text-[#25ab75] text-base font-semibold text-center ${!success ? "hidden" : ""}`}>Check your mailbox!</label>
+          <label className={`text-primary-green text-base font-semibold text-center ${!success ? "hidden" : ""}`}>
+            Check your mailbox!
+          </label>
           {/* Error message */}
           <label className={`text-red-500 text-base font-semibold text-center ${!errorMessage ? "hidden" : ""}`}>{errorMessage}</label>
-          <Link href={"/login"} className="flex items-center mt-2 w-fit font-semibold text-gray-500 hover:text-[#25ab75]">
+          <Link href={"/login"} className="flex items-center mt-2 w-fit font-semibold text-gray-500 hover:text-primary-green">
             <AiOutlineLeft className="text-black" />
             Back to login
           </Link>

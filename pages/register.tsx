@@ -58,7 +58,7 @@ const Register = () => {
       <IndexLayout extraClass="items-end md:items-center">
         <div className="w-full md:w-fit px-10 min-h-[20%] md:h-fit bg-white text-black rounded-t-3xl md:rounded-2xl p-5">
           <div className="flex flex-col text-center justify-center items-center pb-4">
-            <BsCheck2Circle className="w-14 h-14 text-[#25ab75]" />
+            <BsCheck2Circle className="w-14 h-14 text-primary-green" />
             <h1 className="text-4xl font-bold text-gray-800">Check your mailbox</h1>
           </div>
           <p className="text-lg text-gray-700 text-center font-semibold mb-6 md:mb-3">
@@ -115,7 +115,7 @@ const Register = () => {
 
         <p className="w-full flex items-center justify-center text-sm text-gray-500 mt-3">
           Already have an account?{" "}
-          <Link href={"/login"} className="ml-1 text-[#25ab75] font-bold">
+          <Link href={"/login"} className="ml-1 text-primary-green font-bold">
             Login
           </Link>
         </p>

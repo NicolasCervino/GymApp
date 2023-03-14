@@ -35,7 +35,7 @@ export const AddExercises = ({ workoutMode = false }: { workoutMode?: boolean })
       <InfiniteScroll exerciseList={exercises} scrollContainerRef={scrollContainerRef} setSelectedExercises={setSelectedExercises} />
       <div className={selectedExercises.length > 0 ? "flex justify-center" : "hidden"}>
         <button
-          className="flex fixed bottom-2 gap-2 justify-center items-center w-[80%] p-2 my-2 bg-[#25ab75] hover:bg-[#1f8b60] text-lg rounded-lg font-semibold"
+          className="flex fixed bottom-2 gap-2 justify-center items-center w-[80%] p-2 my-2 bg-primary-green hover:bg-[#1f8b60] text-lg rounded-lg font-semibold"
           onClick={handleConfirmSelectedExercises}
         >
           {selectedExercises.length === 1 ? `Add ${selectedExercises.length} exercise` : `Add ${selectedExercises.length} exercises`}

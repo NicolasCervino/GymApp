@@ -44,7 +44,7 @@ const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutM
     <div className="border w-full flex flex-col">
       <div className="flex items-center gap-3 px-4 py-2 bg-gray-900">
         <Image src={exercise.gif_url} alt="exercise-img" width={55} height={55} className="rounded-full" loading={"lazy"} />
-        <h3 className="text-[#25ab75] capitalize">{task.exercise.name}</h3>
+        <h3 className="text-primary-green capitalize">{task.exercise.name}</h3>
         <button className="ml-auto" onClick={handleDeleteTask}>
           <FiTrash2 size={18} className="hover:text-red-700" />
         </button>
