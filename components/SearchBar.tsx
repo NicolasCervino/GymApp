@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsSearch } from "react-icons/bs";
 
-function SearchBar({ onSearch }: { onSearch: (query: string) => void }) {
+function SearchBar({ onSearch, workouts }: { onSearch: (query: string) => void; workouts?: boolean }) {
   const [query, setQuery] = useState<string>("");
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -17,7 +17,7 @@ function SearchBar({ onSearch }: { onSearch: (query: string) => void }) {
       <input
         className="outline-none w-full bg-[#252525] h-8 rounded-r-xl"
         type="text"
-        placeholder="Search exercises by name"
+        placeholder={workouts ? "Search workouts by name" : "Search exercises by name"}
         onChange={(e) => setQuery(e.target.value)}
       />
     </form>

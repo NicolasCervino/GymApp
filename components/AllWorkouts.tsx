@@ -1,4 +1,3 @@
-import background from "../public/workout-backdrop.jpg";
 import { Workout } from "@/interfaces/workout";
 import React from "react";
 import WorkoutBanner from "./WorkoutBanner";
