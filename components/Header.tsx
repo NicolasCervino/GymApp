@@ -66,15 +66,30 @@ const Header = () => {
       {/* Navigation */}
       <div className="flex">
         <div className="flex items-baseline space-x-4">
-          <Link href="/" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+          <Link
+            href="/"
+            className={`hidden md:flex gap-2 ${
+              router.pathname === "/app" ? "text-primary-green" : "text-gray-300 hover:text-white"
+            } px-3 py-2 rounded-md text-sm font-medium`}
+          >
             Home
             <RiHomeLine className="w-5 h-5" />
           </Link>
-          <Link href="/exercises" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+          <Link
+            href="/exercises"
+            className={`hidden md:flex gap-2 ${
+              router.pathname === "/exercises" ? "text-primary-green" : "text-gray-300 hover:text-white"
+            } px-3 py-2 rounded-md text-sm font-medium`}
+          >
             Exercises
             <BiDumbbell className="w-5 h-5" />
           </Link>
-          <Link href="/profile" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+          <Link
+            href="/profile"
+            className={`hidden md:flex gap-2 ${
+              router.pathname === "/profile" ? "text-primary-green" : "text-gray-300 hover:text-white"
+            } px-3 py-2 rounded-md text-sm font-medium`}
+          >
             Profile
             <RiUser3Line className="w-5 h-5" />
           </Link>
