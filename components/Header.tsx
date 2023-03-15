@@ -6,6 +6,8 @@ import { useEffect, useState } from "react";
 import { TbLogout, TbPencil } from "react-icons/tb";
 import Swal from "sweetalert2";
 import UserImage from "./UserImage";
+import { RiHomeLine, RiUser3Line } from "react-icons/ri";
+import { BiDumbbell } from "react-icons/bi";
 
 const Header = () => {
   const userData = useUser();
@@ -42,13 +44,17 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-[#151515] min-h-[8vh] flex items-center justify-between text-white">
+    <div className="bg-[#151515] min-h-[8vh] py-3 flex items-center justify-between text-white">
       {profileMode ? (
-        <Link className="ml-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" href={"/edit-profile"}>
+        <Link
+          className="ml-5 flex items-center md:border-none md:gap-2 border-white border-2 p-2 rounded-lg hover:bg-slate-500"
+          href={"/edit-profile"}
+        >
           <TbPencil className="w-5 h-5" />
+          <span className="hidden md:block">Edit profile</span>
         </Link>
       ) : (
-        <div className="flex items-center gap-3 ml-5">
+        <div className="flex items-center gap-3 ml-5 md:ml-12">
           <UserImage size={48} />
           <div className="flex flex-col">
             <h1 className="text-xl font-bold">Hello {username}</h1>
@@ -56,11 +62,35 @@ const Header = () => {
           </div>
         </div>
       )}
-      {profileMode ? <h1 className="text-xl font-bold">Profile</h1> : ""}
-      {/* Logout button */}
-      <button className="mr-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleLogout}>
-        <TbLogout className="w-5 h-5"></TbLogout>
-      </button>
+      {profileMode ? <h1 className="md:hidden text-xl font-bold">Profile</h1> : ""}
+      {/* Navigation */}
+      <div className="flex">
+        <div className="flex items-baseline space-x-4">
+          <Link href="/" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+            Home
+            <RiHomeLine className="w-5 h-5" />
+          </Link>
+          <Link href="/exercises" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+            Exercises
+            <BiDumbbell className="w-5 h-5" />
+          </Link>
+          <Link href="/profile" className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+            Profile
+            <RiUser3Line className="w-5 h-5" />
+          </Link>
+        </div>
+        <button
+          className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          onClick={handleLogout}
+        >
+          Logout
+          <TbLogout className="w-5 h-5"></TbLogout>
+        </button>
+        {/* Logout button */}
+        <button className="md:hidden mr-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleLogout}>
+          <TbLogout className="w-5 h-5"></TbLogout>
+        </button>
+      </div>
     </div>
   );
 };
