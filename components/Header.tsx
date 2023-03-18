@@ -8,17 +8,20 @@ import Swal from "sweetalert2";
 import UserImage from "./UserImage";
 import { RiHomeLine, RiUser3Line } from "react-icons/ri";
 import { BiDumbbell } from "react-icons/bi";
+import { AiOutlineLeft } from "react-icons/ai";
 
 const Header = () => {
   const userData = useUser();
   const username = userData ? userData.username : null;
   const [profileMode, setProfileMode] = useState<boolean>(false);
+  const [editProfileMode, setEditProfileMode] = useState<boolean>(false);
   const router = useRouter();
 
   const [greeting, setGreeting] = useState<string>("");
 
   useEffect(() => {
     setProfileMode(router.asPath.includes("/profile"));
+    setEditProfileMode(router.asPath.includes("edit-profile"));
   }, [router.asPath]);
 
   useEffect(() => {
@@ -43,26 +46,54 @@ const Header = () => {
     });
   };
 
-  return (
-    <div className="bg-[#151515] min-h-[8vh] py-3 flex items-center justify-between text-white">
-      {profileMode ? (
+  const handleBackButton = () => {
+    router.push("/profile");
+  };
+
+  const renderLeftHeaderSide = () => {
+    if (profileMode) {
+      return (
         <Link
-          className="ml-5 flex items-center md:border-none md:gap-2 border-white border-2 p-2 rounded-lg hover:bg-slate-500"
+          className="ml-5 flex items-center md:border-none md:gap-2 border-white border-2 p-2 rounded-lg md:hover:bg-transparent md:text-gray-300 md:hover:text-white hover:bg-slate-500"
           href={"/edit-profile"}
         >
           <TbPencil className="w-5 h-5" />
           <span className="hidden md:block">Edit profile</span>
         </Link>
-      ) : (
-        <div className="flex items-center gap-3 ml-5 md:ml-12">
-          <UserImage size={48} />
-          <div className="flex flex-col">
-            <h1 className="text-xl font-bold">Hello {username}</h1>
-            <p className="text-base font-light">{greeting}</p>
-          </div>
+      );
+    }
+    if (editProfileMode) {
+      return (
+        <button
+          className="border-white flex md:border-none items-center md:text-gray-300 md:hover:text-white md:hover:bg-transparent gap-2 border-2 p-2 ml-5 rounded-lg hover:bg-slate-500"
+          onClick={handleBackButton}
+        >
+          <AiOutlineLeft className="w-5 h-5" />
+          <span className="hidden md:block">Back</span>
+        </button>
+      );
+    }
+    return (
+      <div className="flex items-center gap-3 ml-5 md:ml-12">
+        <UserImage size={60} />
+        <div className="flex flex-col">
+          <h1 className="text-xl font-bold">Hello {username}</h1>
+          <p className="text-base font-light">{greeting}</p>
         </div>
-      )}
-      {profileMode ? <h1 className="md:hidden text-xl font-bold">Profile</h1> : ""}
+      </div>
+    );
+  };
+
+  const renderCenterText = () => {
+    if (profileMode) return <h1 className="md:hidden text-xl font-bold">Profile</h1>;
+    if (editProfileMode) return <h1 className="md:hidden text-xl font-bold">Edit Profile</h1>;
+    return null;
+  };
+
+  return (
+    <div className="bg-[#151515] min-h-[8vh] py-3 flex items-center justify-between text-white">
+      {renderLeftHeaderSide()}
+      {renderCenterText()}
       {/* Navigation */}
       <div className="flex">
         <div className="flex items-baseline space-x-4">
@@ -94,15 +125,12 @@ const Header = () => {
             <RiUser3Line className="w-5 h-5" />
           </Link>
         </div>
+        {/* Logout button */}
         <button
-          className="hidden md:flex gap-2 text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+          className=" mr-5 md:flex md:gap-2 md:items-center md:px-3 md:py-2 text-sm font-medium text-white md:text-gray-300  md:hover:text-white border-white md:hover:bg-transparent border-2 md:border-none p-2 rounded-lg hover:bg-slate-500"
           onClick={handleLogout}
         >
-          Logout
-          <TbLogout className="w-5 h-5"></TbLogout>
-        </button>
-        {/* Logout button */}
-        <button className="md:hidden mr-5 border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleLogout}>
+          <span className="hidden md:block">Logout</span>
           <TbLogout className="w-5 h-5"></TbLogout>
         </button>
       </div>
