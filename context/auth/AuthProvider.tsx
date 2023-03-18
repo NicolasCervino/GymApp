@@ -24,9 +24,9 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
     const fetchedUser = await getUser();
     if (fetchedUser) {
       setUserData({
-        username: fetchedUser.user_metadata.name,
+        username: fetchedUser.user_metadata.custom_name || fetchedUser.user_metadata.name,
         email: fetchedUser.email,
-        image: fetchedUser.user_metadata.avatar_url,
+        image: fetchedUser.user_metadata.custom_avatar || fetchedUser.user_metadata.avatar_url,
         userId: fetchedUser.id,
       });
     } else {
@@ -35,13 +35,16 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
   };
 
   // Runs on auth event
-  const handleAuthChange = (event: AuthChangeEvent) => {
+  const handleAuthChange = async (event: AuthChangeEvent) => {
     if (event === "SIGNED_IN") {
       setIsAuthenticated(true);
-      updateUser();
+      await updateUser();
     } else if (event === "SIGNED_OUT") {
       setIsAuthenticated(false);
       updateUser();
+    }
+    if (event === "USER_UPDATED") {
+      await updateUser();
     }
   };
 
@@ -54,9 +57,9 @@ export const AuthProvider = ({ children }: AuthProviderProps) => {
         const fetchedUser = await getUser();
         if (fetchedUser) {
           setUserData({
-            username: fetchedUser.user_metadata.name,
+            username: fetchedUser.user_metadata.custom_name || fetchedUser.user_metadata.name,
             email: fetchedUser.email,
-            image: fetchedUser.user_metadata.avatar_url,
+            image: fetchedUser.user_metadata.custom_avatar || fetchedUser.user_metadata.avatar_url,
             userId: fetchedUser.id,
           });
         } else {
