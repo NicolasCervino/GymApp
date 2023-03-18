@@ -9,6 +9,7 @@ import { BsCheck2 } from "react-icons/bs";
 
 export const WorkoutHeader = () => {
   const [routine, setRoutine] = useState<Routine | null>(null);
+  const [addExerciseMode, setAddExerciseMode] = useState<boolean>(false);
   const router = useRouter();
   const { routineId } = router.query;
   const { routines } = useRoutines();
@@ -16,6 +17,10 @@ export const WorkoutHeader = () => {
   const { showAlert, showingAlert } = useSweetAlert();
 
   const { currentWorkout, setCurrentWorkout, saveWorkout } = useWorkoutContext();
+
+  useEffect(() => {
+    setAddExerciseMode(router.asPath.includes("/add-exercise"));
+  }, [router.asPath]);
 
   useEffect(() => {
     const routine = routines.find((r) => r.id === routineId);
@@ -60,13 +65,15 @@ export const WorkoutHeader = () => {
       <button disabled={showingAlert} className="border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleBackButton}>
         <AiOutlineLeft className="w-5 h-5" />
       </button>
-      <div className="flex-1 flex items-center justify-center">
+      <div className={`flex-1 flex items-center justify-center ${addExerciseMode ? "mr-5" : ""}`}>
         <h1 className="text-xl font-bold">{routine?.name}</h1>
       </div>
       {/* Finish button */}
-      <button disabled={showingAlert} className="border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleFinishWorkout}>
-        <BsCheck2 className="w-5 h-5" />
-      </button>
+      {!addExerciseMode && (
+        <button disabled={showingAlert} className="border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleFinishWorkout}>
+          <BsCheck2 className="w-5 h-5" />
+        </button>
+      )}
     </div>
   );
 };
