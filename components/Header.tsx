@@ -15,14 +15,17 @@ const Header = () => {
   const username = userData ? userData.username : null;
   const [profileMode, setProfileMode] = useState<boolean>(false);
   const [editProfileMode, setEditProfileMode] = useState<boolean>(false);
+  const [exerciseMode, setExerciseMode] = useState<boolean>(false);
   const router = useRouter();
+  const { exerciseId } = router.query;
 
   const [greeting, setGreeting] = useState<string>("");
 
   useEffect(() => {
     setProfileMode(router.asPath.includes("/profile"));
     setEditProfileMode(router.asPath.includes("edit-profile"));
-  }, [router.asPath]);
+    setExerciseMode(router.asPath.includes(`exercises/${exerciseId}`));
+  }, [router.asPath, exerciseId]);
 
   useEffect(() => {
     const currentHour = new Date().getHours();
@@ -47,7 +50,8 @@ const Header = () => {
   };
 
   const handleBackButton = () => {
-    router.push("/profile");
+    if (editProfileMode) router.push("/profile");
+    if (exerciseMode) router.push("/exercises");
   };
 
   const renderLeftHeaderSide = () => {
@@ -62,7 +66,7 @@ const Header = () => {
         </Link>
       );
     }
-    if (editProfileMode) {
+    if (editProfileMode || exerciseMode) {
       return (
         <button
           className="border-white flex md:border-none items-center md:text-gray-300 md:hover:text-white md:hover:bg-transparent gap-2 border-2 p-2 ml-5 rounded-lg hover:bg-slate-500"
@@ -87,6 +91,7 @@ const Header = () => {
   const renderCenterText = () => {
     if (profileMode) return <h1 className="md:hidden text-xl font-bold">Profile</h1>;
     if (editProfileMode) return <h1 className="md:hidden text-xl font-bold">Edit Profile</h1>;
+    if (exerciseMode) return <h1 className="md:hidden text-xl font-bold">Exercise</h1>;
     return null;
   };
 
