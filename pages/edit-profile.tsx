@@ -1,4 +1,5 @@
 import UserImage from "@/components/UserImage";
+import withAuth from "@/hocs/withAuth";
 import { useUser } from "@/hooks/useUser";
 import AppLayout from "@/layout/appLayout";
 import { supabaseClient } from "@/utils/supabaseClient";
@@ -168,4 +169,4 @@ const EditProfile = () => {
   );
 };
 
-export default EditProfile;
+export default withAuth(EditProfile);
