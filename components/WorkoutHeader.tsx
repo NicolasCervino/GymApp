@@ -1,6 +1,7 @@
 import { useWorkoutContext } from "@/context/workout/WorkoutProvider";
 import useRoutines from "@/hooks/useRoutines";
 import { Routine } from "@/interfaces/routine";
+import { defaultRoutines } from "@/public/data/defaultRoutines";
 import { useSweetAlert } from "@/utils/useSwal";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -23,7 +24,7 @@ export const WorkoutHeader = () => {
   }, [router.asPath]);
 
   useEffect(() => {
-    const routine = routines.find((r) => r.id === routineId);
+    const routine = routines.find((r) => r.id === routineId) || defaultRoutines.find((r) => r.id === routineId);
     setRoutine(routine ?? null);
   }, [routines, routineId]);
 
@@ -61,12 +62,12 @@ export const WorkoutHeader = () => {
   };
 
   return (
-    <div className="bg-[#151515] min-h-[8vh] flex items-center justify-between px-4 text-white">
+    <div className="bg-[#151515] min-h-[8vh] flex items-center justify-between px-4 text-white py-2">
       <button disabled={showingAlert} className="border-white border-2 p-2 rounded-lg hover:bg-slate-500" onClick={handleBackButton}>
         <AiOutlineLeft className="w-5 h-5" />
       </button>
       <div className={`flex-1 flex items-center justify-center ${addExerciseMode ? "mr-5" : ""}`}>
-        <h1 className="text-xl font-bold">{routine?.name}</h1>
+        <h1 className="text-xl font-bold text-center">{routine?.name}</h1>
       </div>
       {/* Finish button */}
       {!addExerciseMode && (

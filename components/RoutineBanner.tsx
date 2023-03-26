@@ -7,9 +7,10 @@ import { FiTrash2 } from "react-icons/fi";
 interface RoutineBannerProps {
   routine: Routine;
   removeRoutine: (routineId: string) => Promise<boolean>;
+  defaultRoutine?: boolean;
 }
 
-function RoutineBanner({ routine, removeRoutine }: RoutineBannerProps) {
+function RoutineBanner({ routine, removeRoutine, defaultRoutine }: RoutineBannerProps) {
   const { showAlert, showingAlert } = useSweetAlert();
 
   const handleDeleteRoutine = async () => {
@@ -25,9 +26,11 @@ function RoutineBanner({ routine, removeRoutine }: RoutineBannerProps) {
     <div className="bg-[#252525] p-3 flex flex-col justify-between">
       <div className="flex mb-2">
         <h3 className="font-bold text-xl">{routine.name}</h3>
-        <button disabled={showingAlert} className="ml-auto" onClick={handleDeleteRoutine}>
-          <FiTrash2 size={18} className="hover:text-red-700" />
-        </button>
+        {!defaultRoutine && (
+          <button disabled={showingAlert} className="ml-auto" onClick={handleDeleteRoutine}>
+            <FiTrash2 size={18} className="hover:text-red-700" />
+          </button>
+        )}
       </div>
       <p className="text-base text-gray-400 capitalize mb-2">
         {routine.tasks

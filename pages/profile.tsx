@@ -5,6 +5,7 @@ import useRoutines from "@/hooks/useRoutines";
 import { useUser } from "@/hooks/useUser";
 import useWorkouts from "@/hooks/useWorkouts";
 import AppLayout from "@/layout/appLayout";
+import { defaultRoutines } from "@/public/data/defaultRoutines";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlinePlus } from "react-icons/ai";
@@ -23,7 +24,7 @@ const Profile = () => {
 
   return (
     <AppLayout>
-      <div className="md:ml-28 h-[85vh] md:h-[92vh] overflow-x-hidden px-6 py-5 text-white">
+      <div className="md:ml-28 h-[85vh] md:h-[92vh] overflow-x-hidden px-6 py-5 text-white md:pb-6">
         {/* User Info Area */}
         <div className="flex items-center gap-4">
           <UserImage size={90} />
@@ -41,13 +42,26 @@ const Profile = () => {
             <AiOutlinePlus color="#25ab75" />
             New Routine
           </Link>
+          {/* Default Routines */}
+          <h2 className="font-bold text-xl mt-2">Default Routines:</h2>
           <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {routinesLoading ? (
-              <h1>Loading...</h1>
-            ) : (
-              routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} removeRoutine={removeRoutine} />)
-            )}
+            {defaultRoutines.map((routine) => (
+              <RoutineBanner routine={routine} key={routine.id} removeRoutine={removeRoutine} defaultRoutine={true} />
+            ))}
           </div>
+          {/* User Routines */}
+          {!routinesLoading && routines.length > 0 && (
+            <>
+              <h2 className="font-bold text-xl mt-2">User Routines:</h2>
+              <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {routinesLoading ? (
+                  <h1>Loading...</h1>
+                ) : (
+                  routines.map((routine) => <RoutineBanner routine={routine} key={routine.id} removeRoutine={removeRoutine} />)
+                )}
+              </div>
+            </>
+          )}
         </div>
       </div>
     </AppLayout>

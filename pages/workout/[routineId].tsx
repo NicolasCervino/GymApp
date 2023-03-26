@@ -7,6 +7,7 @@ import useTimer from "@/hooks/useTimer";
 import { Routine } from "@/interfaces/routine";
 import { Workout } from "@/interfaces/workout";
 import AppLayout from "@/layout/appLayout";
+import { defaultRoutines } from "@/public/data/defaultRoutines";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
@@ -25,7 +26,7 @@ const WorkoutPage = () => {
 
   // Get routine
   useEffect(() => {
-    const routine = routines.find((r) => r.id === routineId);
+    const routine = routines.find((r) => r.id === routineId) || defaultRoutines.find((r) => r.id === routineId);
     setRoutine(routine ?? null);
     if (!routine && !loading) router.push("/"); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [routines, loading, routineId]);
