@@ -55,7 +55,7 @@ const InfiniteScroll = ({ exerciseList, scrollContainerRef, setSelectedExercises
   });
 
   return exerciseList.length > 0 ? (
-    <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4 p-6">
+    <div className="grid grid-row md:grid-cols-3 lg:grid-cols-4 gap-4 p-6 mb-10">
       {showingExercises.map((exercise) => (
         <ExerciseBanner key={exercise.id} exercise={exercise} setSelectedExercises={setSelectedExercises} />
       ))}
