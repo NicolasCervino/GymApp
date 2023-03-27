@@ -7,11 +7,11 @@ const WorkoutBanner = ({ workout }: { workout: Workout }) => {
 
   return (
     <div
-      className="bg-cover bg-center w-full h-44 lg:h-72 rounded-2xl relative bg-[#0007] bg-blend-darken shadow-lg"
+      className="bg-cover bg-center w-full h-44 lg:h-72 rounded-2xl bg-[#0007] bg-blend-darken shadow-lg flex flex-col items-start justify-end p-3"
       style={{ backgroundImage: `url(${workout.image_url})` }}
     >
-      <div className="flex flex-col absolute bottom-2 left-4">
-        <h3 className="font-bold text-2xl">{workout.name}</h3>
+      <div className="flex flex-col">
+        <h3 className="font-bold text-xl md:text-2xl">{workout.name}</h3>
         <span className="font-extralight text-base">{workout.tasks.length === 1 ? "1 Task" : `${workout.tasks.length} Tasks`}</span>
         <span className="font-extralight text-base flex items-center gap-1">
           <AiOutlineClockCircle />
