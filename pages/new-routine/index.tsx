@@ -16,6 +16,7 @@ const NewRoutine = () => {
             type="text"
             placeholder="Routine title"
             className="bg-inherit border-b w-full text-lg p-2"
+            maxLength={27}
             value={newRoutine?.name || ""}
             onChange={(e) => updateName(e.target.value)}
           />

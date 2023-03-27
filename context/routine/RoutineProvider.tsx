@@ -43,6 +43,7 @@ export const RoutineProvider = ({ children }: RoutineProviderProps) => {
   };
 
   const updateName = (newName: string) => {
+    if (newName.length > 27) return null;
     setNewRoutine((prevRoutine) => {
       if (!prevRoutine) return null;
 
