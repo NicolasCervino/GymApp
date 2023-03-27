@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const SearchResultWorkouts = ({ workouts, setSearchMode }: { workouts: Workout[]; setSearchMode: Dispatch<SetStateAction<boolean>> }) => {
   return (
-    <div className="flex flex-col items-center md:items-start gap-4 m-5 text-white">
+    <div className="flex flex-col items-center md:items-start gap-4 m-5 text-white mb-20">
       <div className="flex w-full items-center justify-between">
         <h1 className="font-bold text-2xl self-start">Search results: </h1>
         <button className="text-primary-green flex items-center gap-2" onClick={() => setSearchMode(false)}>

@@ -8,7 +8,7 @@ import LatestWorkout from "@/components/LatestWorkout";
 import AllWorkouts from "@/components/AllWorkouts";
 import SearchResultWorkouts from "@/components/SearchResultWorkouts";
 
-const App = () => {
+const AppHomePage = () => {
   const { workouts, loading } = useWorkouts();
   const [latestWorkout, setLatestWorkout] = useState<Workout | null>(null);
   const [searchResults, setSearchResults] = useState<Workout[]>([]);
@@ -58,4 +58,4 @@ const App = () => {
   );
 };
 
-export default withAuth(App);
+export default withAuth(AppHomePage);

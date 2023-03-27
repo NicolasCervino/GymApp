@@ -2,7 +2,7 @@ import publicOnly from "@/hocs/publicOnly";
 import IndexLayout from "@/layout";
 import Link from "next/link";
 
-function Home() {
+const LandingPage = () => {
   return (
     <IndexLayout extraClass="items-center text-white">
       <div className="w-full md:w-fit mx-auto px-6 sm:h-fit gap-5 bg-white absolute bottom-0 rounded-t-3xl flex flex-col items-center justify-around">
@@ -23,6 +23,6 @@ function Home() {
       </div>
     </IndexLayout>
   );
-}
+};
 
-export default publicOnly(Home);
+export default publicOnly(LandingPage);
