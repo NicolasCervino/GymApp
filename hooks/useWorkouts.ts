@@ -29,6 +29,8 @@ const useWorkouts = () => {
           console.error("Error fetching workouts", error);
           setLoading(false);
         }
+      } else {
+        setLoading(false);
       }
     };
 
