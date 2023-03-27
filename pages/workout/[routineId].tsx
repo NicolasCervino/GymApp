@@ -74,8 +74,8 @@ const WorkoutPage = () => {
 
   return (
     <AppLayout>
-      <div className="h-[85vh] md:px-20 md:h-[92vh] overflow-x-hidden px-6 py-5 text-white">
-        <div className="flex gap-4 border-b pb-2">
+      <div className="h-[92vh] md:px-20 overflow-x-hidden px-0 w-full py-5 text-white">
+        <div className="flex gap-4 border-b mx-6 pb-2">
           <div className="flex flex-col">
             <span className="text-gray-300 font-light">Duration</span>
             {elapsedTime()}
@@ -89,7 +89,7 @@ const WorkoutPage = () => {
             {sets}
           </div>
         </div>
-        <div className="flex flex-col items-center mt-5 px-2 gap-3 lg:mx-14">
+        <div className="flex flex-col items-center mt-5 gap-3 lg:mx-14">
           {loading ? (
             <div>Loading...</div>
           ) : (

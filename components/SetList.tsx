@@ -23,7 +23,7 @@ const SetList = ({ task, sets, setSets, workoutMode }: SetListProps) => {
   const trailingActions = ({ setNumber }: { setNumber: number }) => (
     <TrailingActions>
       <SwipeAction destructive={true} onClick={() => handleDeleteSet(setNumber)}>
-        <div className="flex justify-center items-center px-6 w-[48px] bg-red-800  border-y-8 border-gray-700">Delete</div>
+        <div className="flex justify-center items-center px-6 w-[48px] bg-red-800 border-y-8 border-[#151515]">Delete</div>
       </SwipeAction>
     </TrailingActions>
   );
@@ -57,10 +57,14 @@ const SetList = ({ task, sets, setSets, workoutMode }: SetListProps) => {
   return (
     <SwipeableList>
       {sets.map((set) => (
-        <SwipeableListItem key={set.id} trailingActions={trailingActions({ setNumber: set.setNumber })}>
+        <SwipeableListItem
+          key={set.id}
+          trailingActions={trailingActions({ setNumber: set.setNumber })}
+          className="even:bg-[#151515] odd:bg-gray-800"
+        >
           <div
-            className={`w-full h-16 flex items-center justify-center border-x-4 border-y-8 border-gray-700 select-none ${
-              set.completed ? "bg-primary-green" : "bg-[#555878]"
+            className={`w-full h-16 flex items-center justify-center border-x-4 border-y-8 border-[#151515] select-none ${
+              set.completed ? "bg-primary-green" : ""
             }`}
           >
             <div className="w-full flex justify-around items-center">

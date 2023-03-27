@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Home() {
   return (
-    <IndexLayout extraClass="items-center">
+    <IndexLayout extraClass="items-center text-white">
       <div className="w-full md:w-fit mx-auto px-6 sm:h-fit gap-5 bg-white absolute bottom-0 rounded-t-3xl flex flex-col items-center justify-around">
         <h2 className="mt-9 mx-4 text-black text-3xl text-center font-bold">Get a better life and have a healthy body</h2>
         <p className="text-gray-500 font-medium w-[60%] text-center">Spend your fun time at home practicing anytime anywhere</p>

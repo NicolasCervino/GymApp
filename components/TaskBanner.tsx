@@ -41,8 +41,8 @@ const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutM
   };
 
   return (
-    <div className="border w-full flex flex-col">
-      <div className="flex items-center gap-3 px-4 py-2 bg-gray-900">
+    <div className="w-full flex flex-col">
+      <div className="flex items-center gap-3 px-4 py-2 bg-[#151515]">
         <Image src={exercise.gif_url} alt="exercise-img" width={55} height={55} className="rounded-full" loading={"lazy"} />
         <h3 className="text-primary-green capitalize">{task.exercise.name}</h3>
         <button className="ml-auto" onClick={handleDeleteTask}>
@@ -50,9 +50,9 @@ const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutM
         </button>
       </div>
       <div className="relative overflow-x-auto shadow-md">
-        <div className="w-full bg-gray-900">
+        <div className="w-full ">
           {/* Table header */}
-          <div className="w-full flex justify-around text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <div className="w-full flex justify-around text-xs uppercase text-gray-400">
             <div className="px-6 w-[48px] py-4 flex justify-center">Set</div>
             {weightEquipment.includes(exercise.equipment) && <div className="px-6 py-4 w-[48px] flex justify-center">KG</div>}
             <div className="px-6 w-[48px] py-4 flex justify-center">Reps</div>
@@ -65,7 +65,7 @@ const TaskBanner = ({ task, workoutMode = false }: { task: RoutineTask; workoutM
         </div>
       </div>
       <button
-        className="flex gap-2 justify-center items-center w-full p-2 my-2 text-gray-400 bg-gray-900  hover:bg-[#080b12] hover:text-white text-sm font-semibold"
+        className="flex gap-2 justify-center items-center w-full p-2 my-2 text-gray-400 bg-gray-800  hover:bg-[#151515] hover:text-white text-sm font-semibold"
         onClick={handleAddSet}
       >
         <AiOutlinePlus />

@@ -29,7 +29,7 @@ export const AddExercises = ({ workoutMode = false }: { workoutMode?: boolean })
   };
 
   return (
-    <div className="flex flex-col h-[85vh] md:h-[92vh] overflow-y-scroll overflow-x-hidden" ref={scrollContainerRef}>
+    <div className={`flex flex-col h-[92vh] overflow-y-scroll overflow-x-hidden`} ref={scrollContainerRef}>
       <SearchBar onSearch={handleSearch} />
       <h1 className="font-bold text-2xl pl-6">All Exercises:</h1>
       <InfiniteScroll exerciseList={exercises} scrollContainerRef={scrollContainerRef} setSelectedExercises={setSelectedExercises} />
