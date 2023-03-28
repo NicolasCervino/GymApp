@@ -35,7 +35,7 @@ const ResetPassword = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const { data, error } = await supabaseClient.auth.resetPasswordForEmail(email, {
-      redirectTo: "http://localhost:3000/reset-password",
+      redirectTo: "https://ego-lifting.vercel.app/reset-password",
     });
     if (data) {
       setErrorMessage(null);

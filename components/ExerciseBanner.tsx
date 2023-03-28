@@ -41,7 +41,7 @@ const ExerciseBanner = ({ exercise, setSelectedExercises }: ExerciseBannerProps)
 
   return (
     <div
-      className={`flex items-center gap-4 bg-[#252525] p-5 shadow-xl ${isSelected ? "border-l-4 border-primary-green" : ""}`}
+      className={`flex items-center gap-4 bg-[#252525] p-5 cursor-pointer shadow-xl ${isSelected ? "border-l-4 border-primary-green" : ""}`}
       onClick={handleBannerClick}
     >
       <Image src={exercise.gif_url} alt="exercise-img" width={80} height={80} className="rounded-full" loading={"lazy"} />
