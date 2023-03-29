@@ -1,38 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Ego-Lifting
 
-## Getting Started
+El proyecto se realizo utilizando Next. Js. Se utiliza Supabase para la base de datos y la autenticacion. Permite crear rutinas de ejercicios y llevar un seguimiento de los entrenamientos realizados. Se puede registrar un usuario con email y contraseña o utilizando una cuenta de Google. Ademas se permite restablecer la contraseña de un usuario en caso de olvidarla.
 
-First, run the development server:
+## Main Page
+La pagina principal muestra un saludo, el nombre del usuario y los entrenamientos. Ademas, se muestra el entramiento del dia de hoy en un tamaño mayor al del resto y se permite buscar entrenamientos por nombre. A la hora de guardar el entrenamiento se le asocia una imagen al azar obtenida utilizando la api de Unsplash o se coloca una por defecto en caso de que halla algun error.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+![Mainpage-desktop](https://user-images.githubusercontent.com/99894603/228595455-9dd7a442-a55c-4da0-acc4-5620032e2b4d.jpg) ![Mainpage](https://user-images.githubusercontent.com/99894603/228594766-ff2eeba7-5edf-4ec6-b194-f28727efbe53.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Mobile y Desktop
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Exercises
+La pagina de ejercicios muestra una lista con todos los ejercicios disponibles. La list se carga a medida que el usuario scrollea hacia abajo para evitar problemas de rendimiento. Se permite buscar ejercicios por nombre y al seleccionar un ejercicio especifico se muestran detalles del mismo. Entre los detalles se incluye el peso maximo que se realizo en dicho ejercico, que se actualiza en caso de que se supere en un nuevo entrenamiento y a su vez se calcula el 1RM y se muestra el set con mejor volumen de entre los entrenamientos de un usuario.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+![Exercises](https://user-images.githubusercontent.com/99894603/228603214-778917c1-4a85-46a2-99d8-65b4762ea076.jpg) ![BenchPress](https://user-images.githubusercontent.com/99894603/228603594-ba417bf3-228f-4ca3-bddd-3b1e60d20075.jpg)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Profile Page
+La pagina de perfil muestra 3 rutinas predeterminadas y a su vez permite acceder a las rutinas personalizadas creadas por el usuario. Las rutinas creadas por un usuario se almacenan utilizando Supabase. Tambien permite acceder a la seccion de crear rutinas y a la seccion para editar el perfil.
 
-To learn more about Next.js, take a look at the following resources:
+![ProfilePage](https://user-images.githubusercontent.com/99894603/228597713-c2fc2e3a-de1f-4791-893d-5ad4740525a3.jpg)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+La seccion para editar el perfil permite cambiar el nombre de usuario o la imagen de perfil. Se puede previsualizar la imagen antes de guardar los cambios y la nueva imagen se almacena en Supabase sobreescribiendo a la imagen anterior.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![EditProfile](https://user-images.githubusercontent.com/99894603/228599364-e9ff380c-ef78-4142-9510-a307c7cc94fc.jpg)
 
-## Deploy on Vercel
+## Workout
+La pagina de un entrenamiento muestra el nombre de la rutina elegida en la parte superior, junto con el tiempo transcurrido, la cantidad de sets realizados hasta el momento y el volumen (CantidadDeReps x Peso). A su vez se permite agregar mas sets durante el entrenamiento o eliminar algun set deslizando el mismo hacia la izquierda.
+Tambien se pueden agregar otros ejercicios a la rutina o eliminar alguno en caso de cambiar de opinion.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![WorkoutPage](https://user-images.githubusercontent.com/99894603/228600805-7ff20bf8-3250-485a-a148-7fcab981ea0f.jpg)   ![ExerciseDelete](https://user-images.githubusercontent.com/99894603/228602143-719edaba-656f-4662-b2fe-40de997d8a6c.jpg)
