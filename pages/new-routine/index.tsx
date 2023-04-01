@@ -11,16 +11,18 @@ const NewRoutine = () => {
   return (
     <AppLayout>
       <div className="h-[92vh] md:px-20 overflow-x-hidden px-0 w-full py-5 text-white">
-        <div className="mx-6">
-          <input
-            type="text"
-            placeholder="Routine title"
-            className="bg-inherit border-b w-full text-lg p-2"
-            maxLength={27}
-            value={newRoutine?.name || ""}
-            onChange={(e) => updateName(e.target.value)}
-          />
-        </div>
+        {newRoutine && newRoutine.tasks.length > 0 && (
+          <div className="mx-6">
+            <input
+              type="text"
+              placeholder="Routine title"
+              className="bg-inherit border-b w-full text-lg p-2"
+              maxLength={27}
+              value={newRoutine?.name || ""}
+              onChange={(e) => updateName(e.target.value)}
+            />
+          </div>
+        )}
         <div className="flex flex-col items-center mt-5 gap-3 lg:mx-14">
           {!newRoutine || newRoutine?.tasks.length === 0 ? (
             <>
