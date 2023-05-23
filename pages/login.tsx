@@ -45,10 +45,12 @@ const Login = () => {
             type={"email"}
             placeholder="example@mail.com"
             onChange={(e) => setEmail(e.target.value)}
+            defaultValue={"a@yopmail.com"}
             autoComplete={"on"}
           />
           <label className="text-sm">Password</label>
           <PasswordInput handlePassword={handlePassword} />
+          <span className="text-gray-500 font-semibold text-sm text-center">Default values for easier testing</span>
           {/* Error message */}
           <label className={`text-red-500 font-semibold text-sm text-center ${message === "" ? "hidden" : ""}`}>{message}</label>
           <SubmitButton text="Sign in" />
