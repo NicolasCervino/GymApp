@@ -11,7 +11,6 @@ const PasswordInput = ({ handlePassword }: { handlePassword: (e: ChangeEvent<HTM
         type={hidePassword ? "password" : "text"}
         placeholder="password"
         onChange={(e) => handlePassword(e)}
-        defaultValue={"123456"}
         autoComplete={"on"}
         required
       />
