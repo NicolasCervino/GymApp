@@ -22,7 +22,7 @@ export const exercisesData = [
       "target": "abs"
   },
   {
-      "gif_ur": "waist",
+      "body_part": "waist",
       "equipment": "body weight",
       "gif_url": "https://api.exercisedb.io/image/bLgr7Ts44rPbSt",
       "id": "0002",
