@@ -1,15 +1,15 @@
 export const weightEquipment = [
-  "cable",
-  "leverage machine",
-  "barbell",
-  "rope",
-  "dumbbell",
-  "ez barbell",
-  "kettlebell",
-  "olympic barbell",
-  "weighted",
-  "resistance band",
-  "trap bar",
+    "cable",
+    "leverage machine",
+    "barbell",
+    "rope",
+    "dumbbell",
+    "ez barbell",
+    "kettlebell",
+    "olympic barbell",
+    "weighted",
+    "resistance band",
+    "trap bar",
 ];
 
 
@@ -17,7 +17,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/99rpn9xtINLMvK",
+        "gif_url": "/exercises/0001.gif",
         "id": "0001",
         "name": "3/4 sit-up",
         "target": "abs"
@@ -25,7 +25,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/rxuQdED7E4Q3I-",
+        "gif_url": "/exercises/0002.gif",
         "id": "0002",
         "name": "45° side bend",
         "target": "abs"
@@ -33,7 +33,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Mb7E14F2Zlkm9h",
+        "gif_url": "/exercises/0003.gif",
         "id": "0003",
         "name": "air bike",
         "target": "abs"
@@ -41,7 +41,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qcsmLzVBVQ7ERb",
+        "gif_url": "/exercises/1512.gif",
         "id": "1512",
         "name": "all fours squad stretch",
         "target": "quads"
@@ -49,7 +49,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KyuFscpiD2SqiU",
+        "gif_url": "/exercises/0006.gif",
         "id": "0006",
         "name": "alternate heel touchers",
         "target": "abs"
@@ -57,7 +57,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/cDwHuWZKjLrNvt",
+        "gif_url": "/exercises/0007.gif",
         "id": "0007",
         "name": "alternate lateral pulldown",
         "target": "lats"
@@ -65,7 +65,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/tuGhKdC1iSoxwp",
+        "gif_url": "/exercises/1368.gif",
         "id": "1368",
         "name": "ankle circles",
         "target": "calves"
@@ -73,7 +73,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/aEBaipm-rrS95m",
+        "gif_url": "/exercises/3293.gif",
         "id": "3293",
         "name": "archer pull up",
         "target": "lats"
@@ -81,7 +81,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/S8CcMAdcON7LG3",
+        "gif_url": "/exercises/3294.gif",
         "id": "3294",
         "name": "archer push up",
         "target": "pectorals"
@@ -89,7 +89,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VU9R-CuGQbAJum",
+        "gif_url": "/exercises/2355.gif",
         "id": "2355",
         "name": "arm slingers hanging bent knee legs",
         "target": "abs"
@@ -97,7 +97,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/7Vhr16Jf4d4faG",
+        "gif_url": "/exercises/2333.gif",
         "id": "2333",
         "name": "arm slingers hanging straight legs",
         "target": "abs"
@@ -105,7 +105,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/D1yx3DDpWRDXOE",
+        "gif_url": "/exercises/3214.gif",
         "id": "3214",
         "name": "arms apart circular toe touch (male)",
         "target": "glutes"
@@ -113,7 +113,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IZQB8diHuPM4Il",
+        "gif_url": "/exercises/3204.gif",
         "id": "3204",
         "name": "arms overhead full sit-up (male)",
         "target": "abs"
@@ -121,7 +121,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/HB-bIDUAQ2b8Cr",
+        "gif_url": "/exercises/0009.gif",
         "id": "0009",
         "name": "assisted chest dip (kneeling)",
         "target": "pectorals"
@@ -129,7 +129,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/acvgK5bkD5wxy3",
+        "gif_url": "/exercises/0011.gif",
         "id": "0011",
         "name": "assisted hanging knee raise",
         "target": "abs"
@@ -137,7 +137,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/f13UXFVURwOnMN",
+        "gif_url": "/exercises/0010.gif",
         "id": "0010",
         "name": "assisted hanging knee raise with throw down",
         "target": "abs"
@@ -145,7 +145,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/e6Lz1ViQdySFaB",
+        "gif_url": "/exercises/1708.gif",
         "id": "1708",
         "name": "assisted lying calves stretch",
         "target": "calves"
@@ -153,7 +153,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/IlPqzb2HnMSyCv",
+        "gif_url": "/exercises/1709.gif",
         "id": "1709",
         "name": "assisted lying glutes stretch",
         "target": "glutes"
@@ -161,7 +161,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/aT-wbUpLLnybWP",
+        "gif_url": "/exercises/1710.gif",
         "id": "1710",
         "name": "assisted lying gluteus and piriformis stretch",
         "target": "glutes"
@@ -169,7 +169,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/b677Sfo4BHdHDN",
+        "gif_url": "/exercises/0012.gif",
         "id": "0012",
         "name": "assisted lying leg raise with lateral throw down",
         "target": "abs"
@@ -177,7 +177,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/tomrH6L2TkgHZS",
+        "gif_url": "/exercises/0013.gif",
         "id": "0013",
         "name": "assisted lying leg raise with throw down",
         "target": "abs"
@@ -185,7 +185,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/NdMydv1atGP-TP",
+        "gif_url": "/exercises/0014.gif",
         "id": "0014",
         "name": "assisted motion russian twist",
         "target": "abs"
@@ -193,7 +193,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/7HhCDLa5QYQkL-",
+        "gif_url": "/exercises/0015.gif",
         "id": "0015",
         "name": "assisted parallel close grip pull-up",
         "target": "lats"
@@ -201,7 +201,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/VDqOyciSCx1Eg1",
+        "gif_url": "/exercises/0016.gif",
         "id": "0016",
         "name": "assisted prone hamstring",
         "target": "hamstrings"
@@ -209,7 +209,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/WJ8NBNuYsy0ezo",
+        "gif_url": "/exercises/1713.gif",
         "id": "1713",
         "name": "assisted prone lying quads stretch",
         "target": "quads"
@@ -217,7 +217,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/DWbI8BHgn3RUpi",
+        "gif_url": "/exercises/1714.gif",
         "id": "1714",
         "name": "assisted prone rectus femoris stretch",
         "target": "abs"
@@ -225,7 +225,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Ybr5OFr7CzQGkd",
+        "gif_url": "/exercises/0017.gif",
         "id": "0017",
         "name": "assisted pull-up",
         "target": "lats"
@@ -233,7 +233,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/JfaNx2KUAq6zJR",
+        "gif_url": "/exercises/1716.gif",
         "id": "1716",
         "name": "assisted seated pectoralis major stretch with stability ball",
         "target": "pectorals"
@@ -241,7 +241,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/8FJjycx6lkERTa",
+        "gif_url": "/exercises/1712.gif",
         "id": "1712",
         "name": "assisted side lying adductor stretch",
         "target": "adductors"
@@ -249,7 +249,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/3I2UZljirtpI3f",
+        "gif_url": "/exercises/1758.gif",
         "id": "1758",
         "name": "assisted sit-up",
         "target": "abs"
@@ -257,7 +257,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/SolkFT749kGt2q",
+        "gif_url": "/exercises/1431.gif",
         "id": "1431",
         "name": "assisted standing chin-up",
         "target": "lats"
@@ -265,7 +265,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/LqpOPjvQXSUsre",
+        "gif_url": "/exercises/1432.gif",
         "id": "1432",
         "name": "assisted standing pull-up",
         "target": "lats"
@@ -273,7 +273,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/2AuT0rOeDR1UiS",
+        "gif_url": "/exercises/0018.gif",
         "id": "0018",
         "name": "assisted standing triceps extension (with towel)",
         "target": "triceps"
@@ -281,7 +281,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/rGjtrucbgiEwCd",
+        "gif_url": "/exercises/0019.gif",
         "id": "0019",
         "name": "assisted triceps dip (kneeling)",
         "target": "triceps"
@@ -289,7 +289,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/H0hedhxyyv7fqm",
+        "gif_url": "/exercises/2364.gif",
         "id": "2364",
         "name": "assisted wide-grip chest dip (kneeling)",
         "target": "pectorals"
@@ -297,7 +297,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/3hYfjiasPWEWtU",
+        "gif_url": "/exercises/3220.gif",
         "id": "3220",
         "name": "astride jumps (male)",
         "target": "cardiovascular system"
@@ -305,7 +305,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/LPIXbafWzTqZgc",
+        "gif_url": "/exercises/3672.gif",
         "id": "3672",
         "name": "back and forth step",
         "target": "cardiovascular system"
@@ -313,7 +313,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/kL8VNIXxemJgpu",
+        "gif_url": "/exercises/1314.gif",
         "id": "1314",
         "name": "back extension on exercise ball",
         "target": "spine"
@@ -321,7 +321,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Ud18s2e4DO1wt2",
+        "gif_url": "/exercises/3297.gif",
         "id": "3297",
         "name": "back lever",
         "target": "upper back"
@@ -329,7 +329,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/SPCG1zmLrPuKxz",
+        "gif_url": "/exercises/1405.gif",
         "id": "1405",
         "name": "back pec stretch",
         "target": "lats"
@@ -337,7 +337,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/gcwvkzkYGh3aTk",
+        "gif_url": "/exercises/1473.gif",
         "id": "1473",
         "name": "backward jump",
         "target": "quads"
@@ -345,7 +345,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/1nMQaBCZT2zIP5",
+        "gif_url": "/exercises/0020.gif",
         "id": "0020",
         "name": "balance board",
         "target": "quads"
@@ -353,7 +353,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/2nOPQBpAL5Og4K",
+        "gif_url": "/exercises/0968.gif",
         "id": "0968",
         "name": "band alternating biceps curl",
         "target": "biceps"
@@ -361,7 +361,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/gr7ghpnLSRET6n",
+        "gif_url": "/exercises/0969.gif",
         "id": "0969",
         "name": "band alternating v-up",
         "target": "abs"
@@ -369,7 +369,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/OgmmZVV5x2qTof",
+        "gif_url": "/exercises/0970.gif",
         "id": "0970",
         "name": "band assisted pull-up",
         "target": "lats"
@@ -377,7 +377,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/jFm1-nCAb7b4YT",
+        "gif_url": "/exercises/0971.gif",
         "id": "0971",
         "name": "band assisted wheel rollerout",
         "target": "abs"
@@ -385,7 +385,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/qbHsVSdRqYOtWC",
+        "gif_url": "/exercises/1254.gif",
         "id": "1254",
         "name": "band bench press",
         "target": "pectorals"
@@ -393,7 +393,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/7m1Of0Ky9mKevC",
+        "gif_url": "/exercises/0980.gif",
         "id": "0980",
         "name": "band bent-over hip extension",
         "target": "glutes"
@@ -401,7 +401,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/AsjISPuH0x8wN3",
+        "gif_url": "/exercises/0972.gif",
         "id": "0972",
         "name": "band bicycle crunch",
         "target": "abs"
@@ -409,7 +409,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/o3e0YuSnEcC5Pr",
+        "gif_url": "/exercises/0974.gif",
         "id": "0974",
         "name": "band close-grip pulldown",
         "target": "lats"
@@ -417,7 +417,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/oqYX-TvJBe87OG",
+        "gif_url": "/exercises/0975.gif",
         "id": "0975",
         "name": "band close-grip push-up",
         "target": "triceps"
@@ -425,7 +425,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/ywPca-mxeOBXDU",
+        "gif_url": "/exercises/0976.gif",
         "id": "0976",
         "name": "band concentration curl",
         "target": "biceps"
@@ -433,7 +433,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/qciiLRFR-CnV-l",
+        "gif_url": "/exercises/3117.gif",
         "id": "3117",
         "name": "band fixed back close grip pulldown",
         "target": "lats"
@@ -441,7 +441,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/f74WA0xY7KuvBK",
+        "gif_url": "/exercises/3116.gif",
         "id": "3116",
         "name": "band fixed back underhand pulldown",
         "target": "lats"
@@ -449,7 +449,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/XF-7-uMuAP5Zec",
+        "gif_url": "/exercises/0977.gif",
         "id": "0977",
         "name": "band front lateral raise",
         "target": "delts"
@@ -457,7 +457,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/SYzeNs2bwTWGuJ",
+        "gif_url": "/exercises/0978.gif",
         "id": "0978",
         "name": "band front raise",
         "target": "delts"
@@ -465,7 +465,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/0Ftwh1zwx-E46z",
+        "gif_url": "/exercises/1408.gif",
         "id": "1408",
         "name": "band hip lift",
         "target": "glutes"
@@ -473,7 +473,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/5v6ASy5wltg7Y2",
+        "gif_url": "/exercises/0979.gif",
         "id": "0979",
         "name": "band horizontal pallof press",
         "target": "abs"
@@ -481,7 +481,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/Bd7FaO0iTLzTpM",
+        "gif_url": "/exercises/0981.gif",
         "id": "0981",
         "name": "band jack knife sit-up",
         "target": "abs"
@@ -489,7 +489,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/g-TNDcNjQD2XSa",
+        "gif_url": "/exercises/0983.gif",
         "id": "0983",
         "name": "band kneeling one arm pulldown",
         "target": "lats"
@@ -497,7 +497,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/0EUuCJjeGWfwFY",
+        "gif_url": "/exercises/0985.gif",
         "id": "0985",
         "name": "band kneeling twisting crunch",
         "target": "abs"
@@ -505,7 +505,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/1bZWMqIoNGatkI",
+        "gif_url": "/exercises/0984.gif",
         "id": "0984",
         "name": "band lying hip internal rotation",
         "target": "glutes"
@@ -513,7 +513,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/kj2p9HkIWfyU9M",
+        "gif_url": "/exercises/1002.gif",
         "id": "1002",
         "name": "band lying straight leg raise",
         "target": "abs"
@@ -521,7 +521,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/0aopPXX36BirOW",
+        "gif_url": "/exercises/0986.gif",
         "id": "0986",
         "name": "band one arm overhead biceps curl",
         "target": "biceps"
@@ -529,7 +529,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/tJnI7-x6ngAtv8",
+        "gif_url": "/exercises/0987.gif",
         "id": "0987",
         "name": "band one arm single leg split squat",
         "target": "quads"
@@ -537,7 +537,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/LsWhxDvTxTdl7D",
+        "gif_url": "/exercises/0988.gif",
         "id": "0988",
         "name": "band one arm standing low row",
         "target": "upper back"
@@ -545,7 +545,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/24v839UYOaW4lZ",
+        "gif_url": "/exercises/0989.gif",
         "id": "0989",
         "name": "band one arm twisting chest press",
         "target": "pectorals"
@@ -553,7 +553,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/Wr9STFDMVXM0eb",
+        "gif_url": "/exercises/0990.gif",
         "id": "0990",
         "name": "band one arm twisting seated row",
         "target": "upper back"
@@ -561,7 +561,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/8sHhxPUtqKtDDO",
+        "gif_url": "/exercises/0991.gif",
         "id": "0991",
         "name": "band pull through",
         "target": "glutes"
@@ -569,7 +569,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/UP5EGuYtMADBqO",
+        "gif_url": "/exercises/0992.gif",
         "id": "0992",
         "name": "band push sit-up",
         "target": "abs"
@@ -577,7 +577,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/iCd7rdDbowmPae",
+        "gif_url": "/exercises/0993.gif",
         "id": "0993",
         "name": "band reverse fly",
         "target": "delts"
@@ -585,7 +585,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/PX6G2f18Krhgxo",
+        "gif_url": "/exercises/0994.gif",
         "id": "0994",
         "name": "band reverse wrist curl",
         "target": "forearms"
@@ -593,7 +593,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/lZbj4newrV8D2B",
+        "gif_url": "/exercises/0996.gif",
         "id": "0996",
         "name": "band seated hip internal rotation",
         "target": "glutes"
@@ -601,7 +601,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/H9t0ggC2WY48C7",
+        "gif_url": "/exercises/1011.gif",
         "id": "1011",
         "name": "band seated twist",
         "target": "abs"
@@ -609,7 +609,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/N1FMNIRBDuLC90",
+        "gif_url": "/exercises/0997.gif",
         "id": "0997",
         "name": "band shoulder press",
         "target": "delts"
@@ -617,7 +617,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/aita2bP-IguTUl",
+        "gif_url": "/exercises/1018.gif",
         "id": "1018",
         "name": "band shrug",
         "target": "traps"
@@ -625,7 +625,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/0muzKp8uiZ-6bj",
+        "gif_url": "/exercises/0998.gif",
         "id": "0998",
         "name": "band side triceps extension",
         "target": "triceps"
@@ -633,7 +633,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/ZydLCOTrZdIh7M",
+        "gif_url": "/exercises/0999.gif",
         "id": "0999",
         "name": "band single leg calf raise",
         "target": "calves"
@@ -641,7 +641,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/0EAQuDRutyrc2v",
+        "gif_url": "/exercises/1000.gif",
         "id": "1000",
         "name": "band single leg reverse calf raise",
         "target": "calves"
@@ -649,7 +649,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/H8lno887TZBc1m",
+        "gif_url": "/exercises/1001.gif",
         "id": "1001",
         "name": "band single leg split squat",
         "target": "quads"
@@ -657,7 +657,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/9DKnTWd6TstyFh",
+        "gif_url": "/exercises/1004.gif",
         "id": "1004",
         "name": "band squat",
         "target": "glutes"
@@ -665,7 +665,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/D5H6Zlu-89iNgj",
+        "gif_url": "/exercises/1003.gif",
         "id": "1003",
         "name": "band squat row",
         "target": "glutes"
@@ -673,7 +673,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/HL1yywOYvT4cnw",
+        "gif_url": "/exercises/1005.gif",
         "id": "1005",
         "name": "band standing crunch",
         "target": "abs"
@@ -681,7 +681,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/9Tb3FOAqxYYcST",
+        "gif_url": "/exercises/1022.gif",
         "id": "1022",
         "name": "band standing rear delt row",
         "target": "delts"
@@ -689,7 +689,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/T9jafWg-5vTUr9",
+        "gif_url": "/exercises/1007.gif",
         "id": "1007",
         "name": "band standing twisting crunch",
         "target": "abs"
@@ -697,7 +697,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/FG8fwbrjOCsXJa",
+        "gif_url": "/exercises/1008.gif",
         "id": "1008",
         "name": "band step-up",
         "target": "glutes"
@@ -705,7 +705,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/Ouzs5x2IiucVki",
+        "gif_url": "/exercises/1009.gif",
         "id": "1009",
         "name": "band stiff leg deadlift",
         "target": "glutes"
@@ -713,7 +713,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/icMeopXT8D7pgZ",
+        "gif_url": "/exercises/1023.gif",
         "id": "1023",
         "name": "band straight back stiff leg deadlift",
         "target": "glutes"
@@ -721,7 +721,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/UPyqS2db59VmCb",
+        "gif_url": "/exercises/1010.gif",
         "id": "1010",
         "name": "band straight leg deadlift",
         "target": "spine"
@@ -729,7 +729,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/I1976bZ2G8MymE",
+        "gif_url": "/exercises/1012.gif",
         "id": "1012",
         "name": "band twisting overhead press",
         "target": "delts"
@@ -737,7 +737,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/dKRH9sjiXEfuwy",
+        "gif_url": "/exercises/1369.gif",
         "id": "1369",
         "name": "band two legs calf raise - (band under both legs) v. 2",
         "target": "calves"
@@ -745,7 +745,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/YCNKvd-OKhfBux",
+        "gif_url": "/exercises/1013.gif",
         "id": "1013",
         "name": "band underhand pulldown",
         "target": "lats"
@@ -753,7 +753,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/9QANaCb5WDdSlJ",
+        "gif_url": "/exercises/1014.gif",
         "id": "1014",
         "name": "band v-up",
         "target": "abs"
@@ -761,7 +761,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/RqvGyVGvsfAW5t",
+        "gif_url": "/exercises/1015.gif",
         "id": "1015",
         "name": "band vertical pallof press",
         "target": "abs"
@@ -769,7 +769,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/cZkeEPR3z2pxx-",
+        "gif_url": "/exercises/1016.gif",
         "id": "1016",
         "name": "band wrist curl",
         "target": "forearms"
@@ -777,7 +777,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "band",
-        "gif_url": "https://api.exercisedb.io/image/NdPbuN5VNrYTr4",
+        "gif_url": "/exercises/1017.gif",
         "id": "1017",
         "name": "band y-raise",
         "target": "delts"
@@ -785,7 +785,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/gJoL3Eidfrv--c",
+        "gif_url": "/exercises/0023.gif",
         "id": "0023",
         "name": "barbell alternate biceps curl",
         "target": "biceps"
@@ -793,7 +793,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/WkVI5eg5Jx2tXg",
+        "gif_url": "/exercises/0024.gif",
         "id": "0024",
         "name": "barbell bench front squat",
         "target": "quads"
@@ -801,7 +801,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qGnNFheFWymAre",
+        "gif_url": "/exercises/0025.gif",
         "id": "0025",
         "name": "barbell bench press",
         "target": "pectorals"
@@ -809,7 +809,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/02jDASAkUx-TXZ",
+        "gif_url": "/exercises/0026.gif",
         "id": "0026",
         "name": "barbell bench squat",
         "target": "quads"
@@ -817,7 +817,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kOsMjf4a5SLOYb",
+        "gif_url": "/exercises/1316.gif",
         "id": "1316",
         "name": "barbell bent arm pullover",
         "target": "lats"
@@ -825,7 +825,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/G70n6LRCaNAc45",
+        "gif_url": "/exercises/0027.gif",
         "id": "0027",
         "name": "barbell bent over row",
         "target": "upper back"
@@ -833,7 +833,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Hv8hwoSpsZQhKv",
+        "gif_url": "/exercises/2407.gif",
         "id": "2407",
         "name": "barbell biceps curl (with arm blaster)",
         "target": "biceps"
@@ -841,7 +841,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/k1sgvn1GuzjAgR",
+        "gif_url": "/exercises/0028.gif",
         "id": "0028",
         "name": "barbell clean and press",
         "target": "quads"
@@ -849,7 +849,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qxhRIqOuoQDBXa",
+        "gif_url": "/exercises/0029.gif",
         "id": "0029",
         "name": "barbell clean-grip front squat",
         "target": "glutes"
@@ -857,7 +857,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Npird7JOoD51m4",
+        "gif_url": "/exercises/0030.gif",
         "id": "0030",
         "name": "barbell close-grip bench press",
         "target": "triceps"
@@ -865,7 +865,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/IhQfgvkcHfhApQ",
+        "gif_url": "/exercises/0031.gif",
         "id": "0031",
         "name": "barbell curl",
         "target": "biceps"
@@ -873,7 +873,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/xAQCdnqxIS42a3",
+        "gif_url": "/exercises/0032.gif",
         "id": "0032",
         "name": "barbell deadlift",
         "target": "glutes"
@@ -881,7 +881,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/vdB2AeXN6K9i8A",
+        "gif_url": "/exercises/0033.gif",
         "id": "0033",
         "name": "barbell decline bench press",
         "target": "pectorals"
@@ -889,7 +889,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qQC4rLjxaF69ww",
+        "gif_url": "/exercises/0034.gif",
         "id": "0034",
         "name": "barbell decline bent arm pullover",
         "target": "lats"
@@ -897,7 +897,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qCx9C7bUhyzqR5",
+        "gif_url": "/exercises/0035.gif",
         "id": "0035",
         "name": "barbell decline close grip to skull press",
         "target": "triceps"
@@ -905,7 +905,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/4HPjYODSqdLJem",
+        "gif_url": "/exercises/1255.gif",
         "id": "1255",
         "name": "barbell decline pullover",
         "target": "pectorals"
@@ -913,7 +913,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/bxZjb9WfQFhnOs",
+        "gif_url": "/exercises/0036.gif",
         "id": "0036",
         "name": "barbell decline wide-grip press",
         "target": "pectorals"
@@ -921,7 +921,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/O8IUve5-uCbGSs",
+        "gif_url": "/exercises/0037.gif",
         "id": "0037",
         "name": "barbell decline wide-grip pullover",
         "target": "lats"
@@ -929,7 +929,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/DTRXvyP83GgVY6",
+        "gif_url": "/exercises/0038.gif",
         "id": "0038",
         "name": "barbell drag curl",
         "target": "biceps"
@@ -937,7 +937,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/LOC1VEp0IxkI-7",
+        "gif_url": "/exercises/1370.gif",
         "id": "1370",
         "name": "barbell floor calf raise",
         "target": "calves"
@@ -945,7 +945,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/4Mh9OB-eRfwVba",
+        "gif_url": "/exercises/0039.gif",
         "id": "0039",
         "name": "barbell front chest squat",
         "target": "glutes"
@@ -953,7 +953,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/mbhezX1a77X15c",
+        "gif_url": "/exercises/0041.gif",
         "id": "0041",
         "name": "barbell front raise",
         "target": "delts"
@@ -961,7 +961,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/wcd38eZqh1iQzi",
+        "gif_url": "/exercises/0040.gif",
         "id": "0040",
         "name": "barbell front raise and pullover",
         "target": "pectorals"
@@ -969,7 +969,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/2ShhJDdhUVJrOP",
+        "gif_url": "/exercises/0042.gif",
         "id": "0042",
         "name": "barbell front squat",
         "target": "glutes"
@@ -977,7 +977,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/QIvg4WCKA3KRDx",
+        "gif_url": "/exercises/0043.gif",
         "id": "0043",
         "name": "barbell full squat",
         "target": "glutes"
@@ -985,7 +985,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/u28wcJiODTCtIV",
+        "gif_url": "/exercises/1461.gif",
         "id": "1461",
         "name": "barbell full squat (back pov)",
         "target": "glutes"
@@ -993,7 +993,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/mHptX5o8vl7VsE",
+        "gif_url": "/exercises/1462.gif",
         "id": "1462",
         "name": "barbell full squat (side pov)",
         "target": "glutes"
@@ -1001,7 +1001,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kAz5cMvZn22Mai",
+        "gif_url": "/exercises/1545.gif",
         "id": "1545",
         "name": "barbell full zercher squat",
         "target": "glutes"
@@ -1009,7 +1009,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/hqgFfKndUSClA4",
+        "gif_url": "/exercises/1409.gif",
         "id": "1409",
         "name": "barbell glute bridge",
         "target": "glutes"
@@ -1017,7 +1017,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/nJJhTSuBt9B4gw",
+        "gif_url": "/exercises/3562.gif",
         "id": "3562",
         "name": "barbell glute bridge two legs on bench (male)",
         "target": "glutes"
@@ -1025,7 +1025,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/MaiITepkdg1jan",
+        "gif_url": "/exercises/0044.gif",
         "id": "0044",
         "name": "barbell good morning",
         "target": "hamstrings"
@@ -1033,7 +1033,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Bue3iKtGu5yYXm",
+        "gif_url": "/exercises/0045.gif",
         "id": "0045",
         "name": "barbell guillotine bench press",
         "target": "pectorals"
@@ -1041,7 +1041,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/1Cey6JwSKcYrhI",
+        "gif_url": "/exercises/0046.gif",
         "id": "0046",
         "name": "barbell hack squat",
         "target": "glutes"
@@ -1049,7 +1049,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/fQIiVdzW5Lhe46",
+        "gif_url": "/exercises/1436.gif",
         "id": "1436",
         "name": "barbell high bar squat",
         "target": "glutes"
@@ -1057,7 +1057,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/pd5gcnrq59oUpU",
+        "gif_url": "/exercises/0047.gif",
         "id": "0047",
         "name": "barbell incline bench press",
         "target": "pectorals"
@@ -1065,7 +1065,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/F2jmPxVoZwc22T",
+        "gif_url": "/exercises/1719.gif",
         "id": "1719",
         "name": "barbell incline close grip bench press",
         "target": "triceps"
@@ -1073,7 +1073,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/9ot0KnDLInRMer",
+        "gif_url": "/exercises/0048.gif",
         "id": "0048",
         "name": "barbell incline reverse-grip press",
         "target": "triceps"
@@ -1081,7 +1081,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/PQhHduOXsWcpHc",
+        "gif_url": "/exercises/0049.gif",
         "id": "0049",
         "name": "barbell incline row",
         "target": "upper back"
@@ -1089,7 +1089,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/0fJcKAiTuoJmPi",
+        "gif_url": "/exercises/0050.gif",
         "id": "0050",
         "name": "barbell incline shoulder raise",
         "target": "serratus anterior"
@@ -1097,7 +1097,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/4OkCCiOIR5YqJR",
+        "gif_url": "/exercises/0051.gif",
         "id": "0051",
         "name": "barbell jefferson squat",
         "target": "glutes"
@@ -1105,7 +1105,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/u6n8isRpKe-1s4",
+        "gif_url": "/exercises/0052.gif",
         "id": "0052",
         "name": "barbell jm bench press",
         "target": "triceps"
@@ -1113,7 +1113,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/UuBnXROig1w6YE",
+        "gif_url": "/exercises/0053.gif",
         "id": "0053",
         "name": "barbell jump squat",
         "target": "glutes"
@@ -1121,7 +1121,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/b26XXaEOG6CWRq",
+        "gif_url": "/exercises/1410.gif",
         "id": "1410",
         "name": "barbell lateral lunge",
         "target": "glutes"
@@ -1129,7 +1129,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Qu8u0r0oEKycGC",
+        "gif_url": "/exercises/1435.gif",
         "id": "1435",
         "name": "barbell low bar squat",
         "target": "glutes"
@@ -1137,7 +1137,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/pEROIlFsxmaB8q",
+        "gif_url": "/exercises/0054.gif",
         "id": "0054",
         "name": "barbell lunge",
         "target": "glutes"
@@ -1145,7 +1145,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/iZ-vkresN-BaEG",
+        "gif_url": "/exercises/1720.gif",
         "id": "1720",
         "name": "barbell lying back of the head tricep extension",
         "target": "triceps"
@@ -1153,7 +1153,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/KNNJVQK2Se9IlY",
+        "gif_url": "/exercises/0055.gif",
         "id": "0055",
         "name": "barbell lying close-grip press",
         "target": "triceps"
@@ -1161,7 +1161,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/s2tQx8XzkPvC5m",
+        "gif_url": "/exercises/0056.gif",
         "id": "0056",
         "name": "barbell lying close-grip triceps extension",
         "target": "triceps"
@@ -1169,7 +1169,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/IlsRxLhznQL-1k",
+        "gif_url": "/exercises/0057.gif",
         "id": "0057",
         "name": "barbell lying extension",
         "target": "triceps"
@@ -1177,7 +1177,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qL2iuO7IgZIa9q",
+        "gif_url": "/exercises/0058.gif",
         "id": "0058",
         "name": "barbell lying lifting (on hip)",
         "target": "glutes"
@@ -1185,7 +1185,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/SQVDydPvWjRAmH",
+        "gif_url": "/exercises/0059.gif",
         "id": "0059",
         "name": "barbell lying preacher curl",
         "target": "biceps"
@@ -1193,7 +1193,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/wgozVl1gIICrfd",
+        "gif_url": "/exercises/0061.gif",
         "id": "0061",
         "name": "barbell lying triceps extension",
         "target": "triceps"
@@ -1201,7 +1201,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/dqjBVC0lieA91R",
+        "gif_url": "/exercises/0060.gif",
         "id": "0060",
         "name": "barbell lying triceps extension skull crusher",
         "target": "triceps"
@@ -1209,7 +1209,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ZUzNXnql2aQh54",
+        "gif_url": "/exercises/0063.gif",
         "id": "0063",
         "name": "barbell narrow stance squat",
         "target": "glutes"
@@ -1217,7 +1217,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/f0G5-y-54pPNXk",
+        "gif_url": "/exercises/0064.gif",
         "id": "0064",
         "name": "barbell one arm bent over row",
         "target": "upper back"
@@ -1225,7 +1225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/U9FzuDnxw9VZl6",
+        "gif_url": "/exercises/0065.gif",
         "id": "0065",
         "name": "barbell one arm floor press",
         "target": "triceps"
@@ -1233,7 +1233,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/KQeJ02BGvUXZzV",
+        "gif_url": "/exercises/0066.gif",
         "id": "0066",
         "name": "barbell one arm side deadlift",
         "target": "glutes"
@@ -1241,7 +1241,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/-Xnc69FCOonqhU",
+        "gif_url": "/exercises/0067.gif",
         "id": "0067",
         "name": "barbell one arm snatch",
         "target": "delts"
@@ -1249,7 +1249,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/m8-ZwZwlRzoha1",
+        "gif_url": "/exercises/0068.gif",
         "id": "0068",
         "name": "barbell one leg squat",
         "target": "quads"
@@ -1257,7 +1257,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/H33w1aygG0FZtF",
+        "gif_url": "/exercises/0069.gif",
         "id": "0069",
         "name": "barbell overhead squat",
         "target": "quads"
@@ -1265,7 +1265,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Eic7rKcK4b5DMO",
+        "gif_url": "/exercises/1411.gif",
         "id": "1411",
         "name": "barbell palms down wrist curl over a bench",
         "target": "forearms"
@@ -1273,7 +1273,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/sBvMm50pbL5ScF",
+        "gif_url": "/exercises/1412.gif",
         "id": "1412",
         "name": "barbell palms up wrist curl over a bench",
         "target": "forearms"
@@ -1281,7 +1281,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/dRUXDoLhg-TYRJ",
+        "gif_url": "/exercises/3017.gif",
         "id": "3017",
         "name": "barbell pendlay row",
         "target": "upper back"
@@ -1289,7 +1289,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/9g-qrjFmLRSnMG",
+        "gif_url": "/exercises/1751.gif",
         "id": "1751",
         "name": "barbell pin presses",
         "target": "triceps"
@@ -1297,7 +1297,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/oFIWlQkYRDLi7t",
+        "gif_url": "/exercises/0070.gif",
         "id": "0070",
         "name": "barbell preacher curl",
         "target": "biceps"
@@ -1305,7 +1305,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/GoM-5sQKn-Okvv",
+        "gif_url": "/exercises/0071.gif",
         "id": "0071",
         "name": "barbell press sit-up",
         "target": "abs"
@@ -1313,7 +1313,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/MrOAsiSh4Fk3Wx",
+        "gif_url": "/exercises/0072.gif",
         "id": "0072",
         "name": "barbell prone incline curl",
         "target": "biceps"
@@ -1321,7 +1321,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/L5rt0mTViAluDS",
+        "gif_url": "/exercises/0073.gif",
         "id": "0073",
         "name": "barbell pullover",
         "target": "lats"
@@ -1329,7 +1329,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ppr57g5Q2CWYYT",
+        "gif_url": "/exercises/0022.gif",
         "id": "0022",
         "name": "barbell pullover to press",
         "target": "lats"
@@ -1337,7 +1337,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/pRD2NLFcFyhkcJ",
+        "gif_url": "/exercises/0074.gif",
         "id": "0074",
         "name": "barbell rack pull",
         "target": "glutes"
@@ -1345,7 +1345,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/SNOGod0xM1AMTh",
+        "gif_url": "/exercises/0075.gif",
         "id": "0075",
         "name": "barbell rear delt raise",
         "target": "delts"
@@ -1353,7 +1353,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/eUQEHxGFVYxNjN",
+        "gif_url": "/exercises/0076.gif",
         "id": "0076",
         "name": "barbell rear delt row",
         "target": "delts"
@@ -1361,7 +1361,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/gEJm9TIqUDpdII",
+        "gif_url": "/exercises/0078.gif",
         "id": "0078",
         "name": "barbell rear lunge",
         "target": "glutes"
@@ -1369,7 +1369,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/b0WiHFESw4b73F",
+        "gif_url": "/exercises/0077.gif",
         "id": "0077",
         "name": "barbell rear lunge v. 2",
         "target": "glutes"
@@ -1377,7 +1377,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kjDoWAWZ0fVDt1",
+        "gif_url": "/exercises/0079.gif",
         "id": "0079",
         "name": "barbell revers wrist curl v. 2",
         "target": "forearms"
@@ -1385,7 +1385,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Zlt6ChhZ0WOa9M",
+        "gif_url": "/exercises/2187.gif",
         "id": "2187",
         "name": "barbell reverse close-grip bench press",
         "target": "triceps"
@@ -1393,7 +1393,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/2QL9cxFdGUvG7h",
+        "gif_url": "/exercises/0080.gif",
         "id": "0080",
         "name": "barbell reverse curl",
         "target": "biceps"
@@ -1401,7 +1401,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kRXKZgjMPftotR",
+        "gif_url": "/exercises/0118.gif",
         "id": "0118",
         "name": "barbell reverse grip bent over row",
         "target": "upper back"
@@ -1409,7 +1409,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/AvwML22RRWfiZA",
+        "gif_url": "/exercises/1256.gif",
         "id": "1256",
         "name": "barbell reverse grip decline bench press",
         "target": "pectorals"
@@ -1417,7 +1417,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/W3bVjOY7NrsvuQ",
+        "gif_url": "/exercises/1257.gif",
         "id": "1257",
         "name": "barbell reverse grip incline bench press",
         "target": "pectorals"
@@ -1425,7 +1425,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/tGGocs1s4nFsR-",
+        "gif_url": "/exercises/1317.gif",
         "id": "1317",
         "name": "barbell reverse grip incline bench row",
         "target": "upper back"
@@ -1433,7 +1433,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/u9pjPf2hCH95WA",
+        "gif_url": "/exercises/1721.gif",
         "id": "1721",
         "name": "barbell reverse grip skullcrusher",
         "target": "triceps"
@@ -1441,7 +1441,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/C85qDIGIqHQOQ-",
+        "gif_url": "/exercises/0081.gif",
         "id": "0081",
         "name": "barbell reverse preacher curl",
         "target": "biceps"
@@ -1449,7 +1449,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/fbu2DHyTq-Zd8Z",
+        "gif_url": "/exercises/0082.gif",
         "id": "0082",
         "name": "barbell reverse wrist curl",
         "target": "forearms"
@@ -1457,7 +1457,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/MFoEH5t5TLZvqj",
+        "gif_url": "/exercises/0084.gif",
         "id": "0084",
         "name": "barbell rollerout",
         "target": "abs"
@@ -1465,7 +1465,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kA-L3Y-hUwxY6D",
+        "gif_url": "/exercises/0083.gif",
         "id": "0083",
         "name": "barbell rollerout from bench",
         "target": "abs"
@@ -1473,7 +1473,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/5v7cKGBzaKv4Id",
+        "gif_url": "/exercises/0085.gif",
         "id": "0085",
         "name": "barbell romanian deadlift",
         "target": "glutes"
@@ -1481,7 +1481,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/kKPsEiRBniEHyd",
+        "gif_url": "/exercises/0086.gif",
         "id": "0086",
         "name": "barbell seated behind head military press",
         "target": "delts"
@@ -1489,7 +1489,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/3KxrqK60BARarB",
+        "gif_url": "/exercises/0087.gif",
         "id": "0087",
         "name": "barbell seated bradford rocky press",
         "target": "delts"
@@ -1497,7 +1497,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/TzN-peJxRoS34I",
+        "gif_url": "/exercises/0088.gif",
         "id": "0088",
         "name": "barbell seated calf raise",
         "target": "calves"
@@ -1505,7 +1505,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/8Wg8v5xoWMa5h1",
+        "gif_url": "/exercises/1371.gif",
         "id": "1371",
         "name": "barbell seated calf raise",
         "target": "calves"
@@ -1513,7 +1513,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/jMgDK8cxvf7BrW",
+        "gif_url": "/exercises/1718.gif",
         "id": "1718",
         "name": "barbell seated close grip behind neck triceps extension",
         "target": "triceps"
@@ -1521,7 +1521,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/RiTp3lcAcDr4Ef",
+        "gif_url": "/exercises/0089.gif",
         "id": "0089",
         "name": "barbell seated close-grip concentration curl",
         "target": "biceps"
@@ -1529,7 +1529,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Nc-g2AM66WI5YL",
+        "gif_url": "/exercises/0090.gif",
         "id": "0090",
         "name": "barbell seated good morning",
         "target": "glutes"
@@ -1537,7 +1537,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/7twhbmVKEWu4yP",
+        "gif_url": "/exercises/0091.gif",
         "id": "0091",
         "name": "barbell seated overhead press",
         "target": "delts"
@@ -1545,7 +1545,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/owpYT4oYuYnVRx",
+        "gif_url": "/exercises/0092.gif",
         "id": "0092",
         "name": "barbell seated overhead triceps extension",
         "target": "triceps"
@@ -1553,7 +1553,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qihSWJCoBGNpcR",
+        "gif_url": "/exercises/0094.gif",
         "id": "0094",
         "name": "barbell seated twist",
         "target": "abs"
@@ -1561,7 +1561,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/n3-fNkTkVcyKWR",
+        "gif_url": "/exercises/0095.gif",
         "id": "0095",
         "name": "barbell shrug",
         "target": "traps"
@@ -1569,7 +1569,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ycmKpP6SePtyZF",
+        "gif_url": "/exercises/0096.gif",
         "id": "0096",
         "name": "barbell side bent v. 2",
         "target": "abs"
@@ -1577,7 +1577,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/-2-Sw8VHZl6Qvy",
+        "gif_url": "/exercises/0098.gif",
         "id": "0098",
         "name": "barbell side split squat",
         "target": "quads"
@@ -1585,7 +1585,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/wcJHmd7gMVR0qb",
+        "gif_url": "/exercises/0097.gif",
         "id": "0097",
         "name": "barbell side split squat v. 2",
         "target": "quads"
@@ -1593,7 +1593,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ZX9Yk5ZR3zZAwQ",
+        "gif_url": "/exercises/1756.gif",
         "id": "1756",
         "name": "barbell single leg deadlift",
         "target": "glutes"
@@ -1601,7 +1601,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/1-zXj64g3hgfk6",
+        "gif_url": "/exercises/0099.gif",
         "id": "0099",
         "name": "barbell single leg split squat",
         "target": "quads"
@@ -1609,7 +1609,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/tWdn5aE7D4zkPk",
+        "gif_url": "/exercises/2799.gif",
         "id": "2799",
         "name": "barbell sitted alternate leg raise",
         "target": "abs"
@@ -1617,7 +1617,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/czsCD30H3R8S-i",
+        "gif_url": "/exercises/2800.gif",
         "id": "2800",
         "name": "barbell sitted alternate leg raise (female)",
         "target": "abs"
@@ -1625,7 +1625,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/60SRdGSQNusAcw",
+        "gif_url": "/exercises/0100.gif",
         "id": "0100",
         "name": "barbell skier",
         "target": "delts"
@@ -1633,7 +1633,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/sBqp7Q8UJXRtDq",
+        "gif_url": "/exercises/0101.gif",
         "id": "0101",
         "name": "barbell speed squat",
         "target": "glutes"
@@ -1641,7 +1641,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/MbGZgkjjkFXWGI",
+        "gif_url": "/exercises/2810.gif",
         "id": "2810",
         "name": "barbell split squat v. 2",
         "target": "quads"
@@ -1649,7 +1649,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/Q-HUGRXfwIxC5W",
+        "gif_url": "/exercises/0102.gif",
         "id": "0102",
         "name": "barbell squat (on knees)",
         "target": "quads"
@@ -1657,7 +1657,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/NSGimK8b-dxY6j",
+        "gif_url": "/exercises/2798.gif",
         "id": "2798",
         "name": "barbell squat jump step rear lunge",
         "target": "quads"
@@ -1665,7 +1665,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/nxEgQI2PYbB3B5",
+        "gif_url": "/exercises/0103.gif",
         "id": "0103",
         "name": "barbell standing ab rollerout",
         "target": "abs"
@@ -1673,7 +1673,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/B9d-VG7YWbthko",
+        "gif_url": "/exercises/0104.gif",
         "id": "0104",
         "name": "barbell standing back wrist curl",
         "target": "forearms"
@@ -1681,7 +1681,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/5eiPPIvCG63CSs",
+        "gif_url": "/exercises/0105.gif",
         "id": "0105",
         "name": "barbell standing bradford press",
         "target": "delts"
@@ -1689,7 +1689,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/a5q-ZubG6R9leD",
+        "gif_url": "/exercises/1372.gif",
         "id": "1372",
         "name": "barbell standing calf raise",
         "target": "calves"
@@ -1697,7 +1697,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/MO-1suLDi5WQLq",
+        "gif_url": "/exercises/0106.gif",
         "id": "0106",
         "name": "barbell standing close grip curl",
         "target": "biceps"
@@ -1705,7 +1705,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/I1udHEGm5jQ5gx",
+        "gif_url": "/exercises/1456.gif",
         "id": "1456",
         "name": "barbell standing close grip military press",
         "target": "delts"
@@ -1713,7 +1713,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/M2UaGRwplndbrd",
+        "gif_url": "/exercises/2414.gif",
         "id": "2414",
         "name": "barbell standing concentration curl",
         "target": "biceps"
@@ -1721,7 +1721,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/quASEq2xZKP0UN",
+        "gif_url": "/exercises/0107.gif",
         "id": "0107",
         "name": "barbell standing front raise over head",
         "target": "delts"
@@ -1729,7 +1729,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/vydezRDamOnYtf",
+        "gif_url": "/exercises/0108.gif",
         "id": "0108",
         "name": "barbell standing leg calf raise",
         "target": "calves"
@@ -1737,7 +1737,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/u0B1cefZThV0zy",
+        "gif_url": "/exercises/0109.gif",
         "id": "0109",
         "name": "barbell standing overhead triceps extension",
         "target": "triceps"
@@ -1745,7 +1745,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ZWmI-MhBFMBQTQ",
+        "gif_url": "/exercises/0110.gif",
         "id": "0110",
         "name": "barbell standing reverse grip curl",
         "target": "biceps"
@@ -1753,7 +1753,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/-t93CGDJ7fCUA-",
+        "gif_url": "/exercises/0111.gif",
         "id": "0111",
         "name": "barbell standing rocking leg calf raise",
         "target": "calves"
@@ -1761,7 +1761,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/HcP84pPgooLicP",
+        "gif_url": "/exercises/0112.gif",
         "id": "0112",
         "name": "barbell standing twist",
         "target": "abs"
@@ -1769,7 +1769,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/z-s2ILaebkO3dw",
+        "gif_url": "/exercises/1629.gif",
         "id": "1629",
         "name": "barbell standing wide grip biceps curl",
         "target": "biceps"
@@ -1777,7 +1777,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/ALtRyMJZNKvQiy",
+        "gif_url": "/exercises/1457.gif",
         "id": "1457",
         "name": "barbell standing wide military press",
         "target": "delts"
@@ -1785,7 +1785,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/PLJXsgcR4vpdya",
+        "gif_url": "/exercises/0113.gif",
         "id": "0113",
         "name": "barbell standing wide-grip curl",
         "target": "biceps"
@@ -1793,7 +1793,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/vv7uE3sMfLU9RM",
+        "gif_url": "/exercises/0114.gif",
         "id": "0114",
         "name": "barbell step-up",
         "target": "glutes"
@@ -1801,7 +1801,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/IkR2dqeJXzKPpD",
+        "gif_url": "/exercises/0115.gif",
         "id": "0115",
         "name": "barbell stiff leg good morning",
         "target": "glutes"
@@ -1809,7 +1809,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/cvHKQWebEUWxcz",
+        "gif_url": "/exercises/0116.gif",
         "id": "0116",
         "name": "barbell straight leg deadlift",
         "target": "hamstrings"
@@ -1817,7 +1817,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/51NdeQmCu9ZpNR",
+        "gif_url": "/exercises/0117.gif",
         "id": "0117",
         "name": "barbell sumo deadlift",
         "target": "glutes"
@@ -1825,7 +1825,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/XHozxhSi23i3Wi",
+        "gif_url": "/exercises/3305.gif",
         "id": "3305",
         "name": "barbell thruster",
         "target": "delts"
@@ -1833,7 +1833,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/iNOfNSRgMEJqr5",
+        "gif_url": "/exercises/0120.gif",
         "id": "0120",
         "name": "barbell upright row",
         "target": "delts"
@@ -1841,7 +1841,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/hrWAa6DWna3k5P",
+        "gif_url": "/exercises/0119.gif",
         "id": "0119",
         "name": "barbell upright row v. 2",
         "target": "delts"
@@ -1849,7 +1849,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/UBNtFXOETA9CYh",
+        "gif_url": "/exercises/0121.gif",
         "id": "0121",
         "name": "barbell upright row v. 3",
         "target": "delts"
@@ -1857,7 +1857,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/rH69XOhUUzPPrx",
+        "gif_url": "/exercises/0122.gif",
         "id": "0122",
         "name": "barbell wide bench press",
         "target": "pectorals"
@@ -1865,7 +1865,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/f88W9hbyKwrVFK",
+        "gif_url": "/exercises/1258.gif",
         "id": "1258",
         "name": "barbell wide reverse grip bench press",
         "target": "pectorals"
@@ -1873,7 +1873,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/XDRN1CjGAY6HBn",
+        "gif_url": "/exercises/0124.gif",
         "id": "0124",
         "name": "barbell wide squat",
         "target": "quads"
@@ -1881,7 +1881,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/H7EyI2zeV6a7Pn",
+        "gif_url": "/exercises/0123.gif",
         "id": "0123",
         "name": "barbell wide-grip upright row",
         "target": "delts"
@@ -1889,7 +1889,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/LzIdSJpdBWUv6q",
+        "gif_url": "/exercises/0126.gif",
         "id": "0126",
         "name": "barbell wrist curl",
         "target": "forearms"
@@ -1897,7 +1897,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/LFvQPUajZgLiPG",
+        "gif_url": "/exercises/0125.gif",
         "id": "0125",
         "name": "barbell wrist curl v. 2",
         "target": "forearms"
@@ -1905,7 +1905,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/fNoB7tx9Gn6VBb",
+        "gif_url": "/exercises/0127.gif",
         "id": "0127",
         "name": "barbell zercher squat",
         "target": "glutes"
@@ -1913,7 +1913,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/6G141AraHWFc2e",
+        "gif_url": "/exercises/3212.gif",
         "id": "3212",
         "name": "basic toe touch (male)",
         "target": "glutes"
@@ -1921,7 +1921,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/Oh8W9TlTUB-6vd",
+        "gif_url": "/exercises/0128.gif",
         "id": "0128",
         "name": "battling ropes",
         "target": "delts"
@@ -1929,7 +1929,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/neyMZdIjsAevSy",
+        "gif_url": "/exercises/3360.gif",
         "id": "3360",
         "name": "bear crawl",
         "target": "cardiovascular system"
@@ -1937,7 +1937,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "assisted",
-        "gif_url": "https://api.exercisedb.io/image/fUnxnZHh0E3Bet",
+        "gif_url": "/exercises/1259.gif",
         "id": "1259",
         "name": "behind head chest stretch",
         "target": "pectorals"
@@ -1945,7 +1945,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yd2FywpslM4efI",
+        "gif_url": "/exercises/0129.gif",
         "id": "0129",
         "name": "bench dip (knees bent)",
         "target": "triceps"
@@ -1953,7 +1953,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jXZFOKIKrQqjKG",
+        "gif_url": "/exercises/1399.gif",
         "id": "1399",
         "name": "bench dip on floor",
         "target": "triceps"
@@ -1961,7 +1961,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/-7jbTDTadcXrs5",
+        "gif_url": "/exercises/0130.gif",
         "id": "0130",
         "name": "bench hip extension",
         "target": "glutes"
@@ -1969,7 +1969,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/S-hWMl6M2YVI8P",
+        "gif_url": "/exercises/3019.gif",
         "id": "3019",
         "name": "bench pull-ups",
         "target": "lats"
@@ -1977,7 +1977,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/UbtvgqwoRN9wUT",
+        "gif_url": "/exercises/3639.gif",
         "id": "3639",
         "name": "bent knee lying twist (male)",
         "target": "glutes"
@@ -1985,7 +1985,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/nLPJJyOmQl5rBK",
+        "gif_url": "/exercises/1770.gif",
         "id": "1770",
         "name": "biceps leg concentration curl",
         "target": "biceps"
@@ -1993,7 +1993,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XA19H9ffjYTOod",
+        "gif_url": "/exercises/0139.gif",
         "id": "0139",
         "name": "biceps narrow pull-ups",
         "target": "biceps"
@@ -2001,7 +2001,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/WL0I8Bjkq0xvkZ",
+        "gif_url": "/exercises/0140.gif",
         "id": "0140",
         "name": "biceps pull-up",
         "target": "biceps"
@@ -2009,7 +2009,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IMqhQugfncxXff",
+        "gif_url": "/exercises/0137.gif",
         "id": "0137",
         "name": "body-up",
         "target": "triceps"
@@ -2017,7 +2017,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/75uQ42hr4g3A0i",
+        "gif_url": "/exercises/3543.gif",
         "id": "3543",
         "name": "bodyweight drop jump squat",
         "target": "glutes"
@@ -2025,7 +2025,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/aXAWmla0ICtk7X",
+        "gif_url": "/exercises/3544.gif",
         "id": "3544",
         "name": "bodyweight incline side plank",
         "target": "abs"
@@ -2033,7 +2033,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jtfDpkOy2cvpgN",
+        "gif_url": "/exercises/1771.gif",
         "id": "1771",
         "name": "bodyweight kneeling triceps extension",
         "target": "triceps"
@@ -2041,7 +2041,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/SDcv-FqIZZmgIQ",
+        "gif_url": "/exercises/1769.gif",
         "id": "1769",
         "name": "bodyweight side lying biceps curl",
         "target": "biceps"
@@ -2049,7 +2049,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/psn4GJ7N0eSmgJ",
+        "gif_url": "/exercises/3168.gif",
         "id": "3168",
         "name": "bodyweight squatting row",
         "target": "upper back"
@@ -2057,7 +2057,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jSAOCqony6DFwO",
+        "gif_url": "/exercises/3167.gif",
         "id": "3167",
         "name": "bodyweight squatting row (with towel)",
         "target": "upper back"
@@ -2065,7 +2065,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/CusBIKgGTuaB8o",
+        "gif_url": "/exercises/1373.gif",
         "id": "1373",
         "name": "bodyweight standing calf raise",
         "target": "calves"
@@ -2073,7 +2073,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XWe3ZWTWIPqlWN",
+        "gif_url": "/exercises/3156.gif",
         "id": "3156",
         "name": "bodyweight standing close-grip one arm row",
         "target": "upper back"
@@ -2081,7 +2081,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/JeZyu7xarDfAaJ",
+        "gif_url": "/exercises/3158.gif",
         "id": "3158",
         "name": "bodyweight standing close-grip row",
         "target": "upper back"
@@ -2089,7 +2089,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/-YmMiXzorLmKJP",
+        "gif_url": "/exercises/3162.gif",
         "id": "3162",
         "name": "bodyweight standing one arm row",
         "target": "upper back"
@@ -2097,7 +2097,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qn8yKW27XGM6-k",
+        "gif_url": "/exercises/3161.gif",
         "id": "3161",
         "name": "bodyweight standing one arm row (with towel)",
         "target": "upper back"
@@ -2105,7 +2105,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/exDXFvE9HoKZy0",
+        "gif_url": "/exercises/3166.gif",
         "id": "3166",
         "name": "bodyweight standing row",
         "target": "upper back"
@@ -2113,7 +2113,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/TJQDFebwkiKVA5",
+        "gif_url": "/exercises/3165.gif",
         "id": "3165",
         "name": "bodyweight standing row (with towel)",
         "target": "upper back"
@@ -2121,7 +2121,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RoXb43OBTpauUI",
+        "gif_url": "/exercises/0138.gif",
         "id": "0138",
         "name": "bottoms-up",
         "target": "abs"
@@ -2129,7 +2129,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/HExbKQdt5KX6F7",
+        "gif_url": "/exercises/1374.gif",
         "id": "1374",
         "name": "box jump down with one leg stabilization",
         "target": "calves"
@@ -2137,7 +2137,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/dplW2HR1vmPFZe",
+        "gif_url": "/exercises/2466.gif",
         "id": "2466",
         "name": "bridge - mountain climber (cross body)",
         "target": "abs"
@@ -2145,7 +2145,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/kuWIAXGLJQm-6D",
+        "gif_url": "/exercises/1160.gif",
         "id": "1160",
         "name": "burpee",
         "target": "cardiovascular system"
@@ -2153,7 +2153,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Aq4YKXf0oVzIC9",
+        "gif_url": "/exercises/0870.gif",
         "id": "0870",
         "name": "butt-ups",
         "target": "abs"
@@ -2161,7 +2161,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/ShyCRPr2-eBrGW",
+        "gif_url": "/exercises/1494.gif",
         "id": "1494",
         "name": "butterfly yoga pose",
         "target": "adductors"
@@ -2169,7 +2169,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/93bLR2buy9RlEP",
+        "gif_url": "/exercises/0148.gif",
         "id": "0148",
         "name": "cable alternate shoulder press",
         "target": "delts"
@@ -2177,7 +2177,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/hrHhcgkCf7q-7u",
+        "gif_url": "/exercises/0149.gif",
         "id": "0149",
         "name": "cable alternate triceps extension",
         "target": "triceps"
@@ -2185,7 +2185,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/ue0oob9rEDJ6lK",
+        "gif_url": "/exercises/3235.gif",
         "id": "3235",
         "name": "cable assisted inverse leg curl",
         "target": "hamstrings"
@@ -2193,7 +2193,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/T-oQWq6Pwo-pCX",
+        "gif_url": "/exercises/0150.gif",
         "id": "0150",
         "name": "cable bar lateral pulldown",
         "target": "lats"
@@ -2201,7 +2201,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/G3Rj7XxI9O5-EI",
+        "gif_url": "/exercises/0151.gif",
         "id": "0151",
         "name": "cable bench press",
         "target": "pectorals"
@@ -2209,7 +2209,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/OkNzHXdwT9eQAi",
+        "gif_url": "/exercises/1630.gif",
         "id": "1630",
         "name": "cable close grip curl",
         "target": "biceps"
@@ -2217,7 +2217,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/B2UYYdYvZF7r4F",
+        "gif_url": "/exercises/1631.gif",
         "id": "1631",
         "name": "cable concentration curl",
         "target": "biceps"
@@ -2225,7 +2225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/ubK9QBD2Gytmsj",
+        "gif_url": "/exercises/0152.gif",
         "id": "0152",
         "name": "cable concentration extension (on knee)",
         "target": "triceps"
@@ -2233,7 +2233,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/tfns3Yd7tsIl4R",
+        "gif_url": "/exercises/0153.gif",
         "id": "0153",
         "name": "cable cross-over lateral pulldown",
         "target": "lats"
@@ -2241,7 +2241,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/VffhJ4eXxYcEAZ",
+        "gif_url": "/exercises/0154.gif",
         "id": "0154",
         "name": "cable cross-over revers fly",
         "target": "delts"
@@ -2249,7 +2249,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/x48UXKenvFdbxw",
+        "gif_url": "/exercises/0155.gif",
         "id": "0155",
         "name": "cable cross-over variation",
         "target": "pectorals"
@@ -2257,7 +2257,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/S1qRZlEN0DW5ui",
+        "gif_url": "/exercises/0868.gif",
         "id": "0868",
         "name": "cable curl",
         "target": "biceps"
@@ -2265,7 +2265,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Ie6v-MCJZEsihA",
+        "gif_url": "/exercises/0157.gif",
         "id": "0157",
         "name": "cable deadlift",
         "target": "glutes"
@@ -2273,7 +2273,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/stM0xUx5mz8M8r",
+        "gif_url": "/exercises/0158.gif",
         "id": "0158",
         "name": "cable decline fly",
         "target": "pectorals"
@@ -2281,7 +2281,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/w7eqiXimlqeMPO",
+        "gif_url": "/exercises/1260.gif",
         "id": "1260",
         "name": "cable decline one arm press",
         "target": "pectorals"
@@ -2289,7 +2289,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/viMdx4x-K0Xb8b",
+        "gif_url": "/exercises/1261.gif",
         "id": "1261",
         "name": "cable decline press",
         "target": "pectorals"
@@ -2297,7 +2297,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/ToCzHAkD6iDZE-",
+        "gif_url": "/exercises/0159.gif",
         "id": "0159",
         "name": "cable decline seated wide-grip row",
         "target": "upper back"
@@ -2305,7 +2305,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/1cNIi0YglGU8Ap",
+        "gif_url": "/exercises/1632.gif",
         "id": "1632",
         "name": "cable drag curl",
         "target": "biceps"
@@ -2313,7 +2313,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/fNLQkaAgjR44zn",
+        "gif_url": "/exercises/0160.gif",
         "id": "0160",
         "name": "cable floor seated wide-grip row",
         "target": "upper back"
@@ -2321,7 +2321,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/z0QkqVASiGJbC5",
+        "gif_url": "/exercises/0161.gif",
         "id": "0161",
         "name": "cable forward raise",
         "target": "delts"
@@ -2329,7 +2329,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/cxbZfLuEp0dbUz",
+        "gif_url": "/exercises/0162.gif",
         "id": "0162",
         "name": "cable front raise",
         "target": "delts"
@@ -2337,7 +2337,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/woXWI9eTHHw8Lq",
+        "gif_url": "/exercises/0164.gif",
         "id": "0164",
         "name": "cable front shoulder raise",
         "target": "delts"
@@ -2345,7 +2345,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2gUMl1aJZ7rZg8",
+        "gif_url": "/exercises/0165.gif",
         "id": "0165",
         "name": "cable hammer curl (with rope)",
         "target": "biceps"
@@ -2353,7 +2353,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/GjAYWn-66DDmbt",
+        "gif_url": "/exercises/1722.gif",
         "id": "1722",
         "name": "cable high pulley overhead tricep extension",
         "target": "triceps"
@@ -2361,7 +2361,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Kc7gx9U6n6k5Yl",
+        "gif_url": "/exercises/0167.gif",
         "id": "0167",
         "name": "cable high row (kneeling)",
         "target": "upper back"
@@ -2369,7 +2369,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/S8KboIgsF7B3XY",
+        "gif_url": "/exercises/0168.gif",
         "id": "0168",
         "name": "cable hip adduction",
         "target": "adductors"
@@ -2377,7 +2377,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/VJOG2npFm-XKxr",
+        "gif_url": "/exercises/0169.gif",
         "id": "0169",
         "name": "cable incline bench press",
         "target": "pectorals"
@@ -2385,7 +2385,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/KMwdkMR6MbeQTS",
+        "gif_url": "/exercises/1318.gif",
         "id": "1318",
         "name": "cable incline bench row",
         "target": "upper back"
@@ -2393,7 +2393,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/rAWOrtNPPg25KG",
+        "gif_url": "/exercises/0171.gif",
         "id": "0171",
         "name": "cable incline fly",
         "target": "pectorals"
@@ -2401,7 +2401,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/ETIP0QFELjeybl",
+        "gif_url": "/exercises/0170.gif",
         "id": "0170",
         "name": "cable incline fly (on stability ball)",
         "target": "pectorals"
@@ -2409,7 +2409,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/zVAvqbu6etPLYJ",
+        "gif_url": "/exercises/0172.gif",
         "id": "0172",
         "name": "cable incline pushdown",
         "target": "lats"
@@ -2417,7 +2417,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/qRzHy6FUFDL4GP",
+        "gif_url": "/exercises/0173.gif",
         "id": "0173",
         "name": "cable incline triceps extension",
         "target": "triceps"
@@ -2425,7 +2425,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/tnehVzMXp1xzH9",
+        "gif_url": "/exercises/0174.gif",
         "id": "0174",
         "name": "cable judo flip",
         "target": "abs"
@@ -2433,7 +2433,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/UFga3wmCQXy6KC",
+        "gif_url": "/exercises/0860.gif",
         "id": "0860",
         "name": "cable kickback",
         "target": "triceps"
@@ -2441,7 +2441,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/bEgV-lCMpsBPtP",
+        "gif_url": "/exercises/0175.gif",
         "id": "0175",
         "name": "cable kneeling crunch",
         "target": "abs"
@@ -2449,7 +2449,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/LSlZ5gJhHMWx-C",
+        "gif_url": "/exercises/3697.gif",
         "id": "3697",
         "name": "cable kneeling rear delt row (with rope) (male)",
         "target": "delts"
@@ -2457,7 +2457,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/4chK3nGhC17Z6X",
+        "gif_url": "/exercises/0176.gif",
         "id": "0176",
         "name": "cable kneeling triceps extension",
         "target": "triceps"
@@ -2465,7 +2465,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/1ADcRaIKMIeTQm",
+        "gif_url": "/exercises/2330.gif",
         "id": "2330",
         "name": "cable lat pulldown full range of motion",
         "target": "lats"
@@ -2473,7 +2473,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/SFlZbJiy2PAS1q",
+        "gif_url": "/exercises/0177.gif",
         "id": "0177",
         "name": "cable lateral pulldown (with rope attachment)",
         "target": "lats"
@@ -2481,7 +2481,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/9GOrKOVp2jhPqn",
+        "gif_url": "/exercises/2616.gif",
         "id": "2616",
         "name": "cable lateral pulldown with v-bar",
         "target": "lats"
@@ -2489,7 +2489,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/amnTcoAR2y2g3F",
+        "gif_url": "/exercises/0178.gif",
         "id": "0178",
         "name": "cable lateral raise",
         "target": "delts"
@@ -2497,7 +2497,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/fx4V7HGpnfuTuI",
+        "gif_url": "/exercises/0179.gif",
         "id": "0179",
         "name": "cable low fly",
         "target": "pectorals"
@@ -2505,7 +2505,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/DPzjtoyBclXws2",
+        "gif_url": "/exercises/0180.gif",
         "id": "0180",
         "name": "cable low seated row",
         "target": "upper back"
@@ -2513,7 +2513,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/sRGhJKb8ptcoDe",
+        "gif_url": "/exercises/1634.gif",
         "id": "1634",
         "name": "cable lying bicep curl",
         "target": "biceps"
@@ -2521,7 +2521,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2ztfxUfU06XXZK",
+        "gif_url": "/exercises/0182.gif",
         "id": "0182",
         "name": "cable lying close-grip curl",
         "target": "biceps"
@@ -2529,7 +2529,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/DPokn72GwEsuCh",
+        "gif_url": "/exercises/0184.gif",
         "id": "0184",
         "name": "cable lying extension pullover (with rope attachment)",
         "target": "lats"
@@ -2537,7 +2537,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/IOS3lutx8Cg05r",
+        "gif_url": "/exercises/0185.gif",
         "id": "0185",
         "name": "cable lying fly",
         "target": "pectorals"
@@ -2545,7 +2545,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/xTSnrB2hHdJjcR",
+        "gif_url": "/exercises/0186.gif",
         "id": "0186",
         "name": "cable lying triceps extension v. 2",
         "target": "triceps"
@@ -2553,7 +2553,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/nzx71oIlHFDH0N",
+        "gif_url": "/exercises/0188.gif",
         "id": "0188",
         "name": "cable middle fly",
         "target": "pectorals"
@@ -2561,7 +2561,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/pK8KRPyfXH5H7b",
+        "gif_url": "/exercises/0189.gif",
         "id": "0189",
         "name": "cable one arm bent over row",
         "target": "upper back"
@@ -2569,7 +2569,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/HszrMZqxS58IC0",
+        "gif_url": "/exercises/0190.gif",
         "id": "0190",
         "name": "cable one arm curl",
         "target": "biceps"
@@ -2577,7 +2577,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/duh2VI0lvYI4TJ",
+        "gif_url": "/exercises/1262.gif",
         "id": "1262",
         "name": "cable one arm decline chest fly",
         "target": "pectorals"
@@ -2585,7 +2585,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/KnjOEeDxTVF9UD",
+        "gif_url": "/exercises/1263.gif",
         "id": "1263",
         "name": "cable one arm fly on exercise ball",
         "target": "pectorals"
@@ -2593,7 +2593,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/JjLxJAD3QaMSpT",
+        "gif_url": "/exercises/1264.gif",
         "id": "1264",
         "name": "cable one arm incline fly on exercise ball",
         "target": "pectorals"
@@ -2601,7 +2601,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/h4W5geLIUl66pH",
+        "gif_url": "/exercises/1265.gif",
         "id": "1265",
         "name": "cable one arm incline press",
         "target": "pectorals"
@@ -2609,7 +2609,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/dYlCTxX4gFwdVw",
+        "gif_url": "/exercises/1266.gif",
         "id": "1266",
         "name": "cable one arm incline press on exercise ball",
         "target": "pectorals"
@@ -2617,7 +2617,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/rssRAwjOxaEQEQ",
+        "gif_url": "/exercises/0191.gif",
         "id": "0191",
         "name": "cable one arm lateral bent-over",
         "target": "pectorals"
@@ -2625,7 +2625,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/oSGJRNqPj6RREO",
+        "gif_url": "/exercises/0192.gif",
         "id": "0192",
         "name": "cable one arm lateral raise",
         "target": "delts"
@@ -2633,7 +2633,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/60BkULzOcvSE4R",
+        "gif_url": "/exercises/1633.gif",
         "id": "1633",
         "name": "cable one arm preacher curl",
         "target": "biceps"
@@ -2641,7 +2641,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/H9hLcX3TwaJYx2",
+        "gif_url": "/exercises/1267.gif",
         "id": "1267",
         "name": "cable one arm press on exercise ball",
         "target": "pectorals"
@@ -2649,7 +2649,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/BAWUV9oI6eKhNo",
+        "gif_url": "/exercises/3563.gif",
         "id": "3563",
         "name": "cable one arm pulldown",
         "target": "lats"
@@ -2657,7 +2657,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/3-3hGDp9ofbTT8",
+        "gif_url": "/exercises/1635.gif",
         "id": "1635",
         "name": "cable one arm reverse preacher curl",
         "target": "biceps"
@@ -2665,7 +2665,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Q1Q5gYUT2aXFBS",
+        "gif_url": "/exercises/0193.gif",
         "id": "0193",
         "name": "cable one arm straight back high row (kneeling)",
         "target": "upper back"
@@ -2673,7 +2673,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/yH8yB7BsiKFtst",
+        "gif_url": "/exercises/1723.gif",
         "id": "1723",
         "name": "cable one arm tricep pushdown",
         "target": "triceps"
@@ -2681,7 +2681,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2kOgg5pqZEanuF",
+        "gif_url": "/exercises/1636.gif",
         "id": "1636",
         "name": "cable overhead curl",
         "target": "biceps"
@@ -2689,7 +2689,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/iMwTNwgqo3WqCO",
+        "gif_url": "/exercises/1637.gif",
         "id": "1637",
         "name": "cable overhead curl on exercise ball",
         "target": "biceps"
@@ -2697,7 +2697,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/vLLOPnYjtGHVt3",
+        "gif_url": "/exercises/0194.gif",
         "id": "0194",
         "name": "cable overhead triceps extension (rope attachment)",
         "target": "triceps"
@@ -2705,7 +2705,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/I7zUUBP00B9ozS",
+        "gif_url": "/exercises/1319.gif",
         "id": "1319",
         "name": "cable palm rotational row",
         "target": "upper back"
@@ -2713,7 +2713,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/hW01EOiKRYLUmR",
+        "gif_url": "/exercises/0195.gif",
         "id": "0195",
         "name": "cable preacher curl",
         "target": "biceps"
@@ -2721,7 +2721,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/tEC1tC71pfXfrB",
+        "gif_url": "/exercises/1268.gif",
         "id": "1268",
         "name": "cable press on exercise ball",
         "target": "pectorals"
@@ -2729,7 +2729,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2Ci8jOS7gd5hoC",
+        "gif_url": "/exercises/0196.gif",
         "id": "0196",
         "name": "cable pull through (with rope)",
         "target": "glutes"
@@ -2737,7 +2737,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/pHe7GepgKVFqx8",
+        "gif_url": "/exercises/0198.gif",
         "id": "0198",
         "name": "cable pulldown",
         "target": "lats"
@@ -2745,7 +2745,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/tIuD86tlMaQqdN",
+        "gif_url": "/exercises/0197.gif",
         "id": "0197",
         "name": "cable pulldown (pro lat bar)",
         "target": "lats"
@@ -2753,7 +2753,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/DgiJ8H9uSGOjmy",
+        "gif_url": "/exercises/1638.gif",
         "id": "1638",
         "name": "cable pulldown bicep curl",
         "target": "biceps"
@@ -2761,7 +2761,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/XL-9BzJfrPfYuE",
+        "gif_url": "/exercises/0201.gif",
         "id": "0201",
         "name": "cable pushdown",
         "target": "triceps"
@@ -2769,7 +2769,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/1GtAG5YFj7izOL",
+        "gif_url": "/exercises/0199.gif",
         "id": "0199",
         "name": "cable pushdown (straight arm) v. 2",
         "target": "lats"
@@ -2777,7 +2777,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/cmKo1FoOQLu-zc",
+        "gif_url": "/exercises/0200.gif",
         "id": "0200",
         "name": "cable pushdown (with rope attachment)",
         "target": "triceps"
@@ -2785,7 +2785,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/oL1v5-bYgIA4ua",
+        "gif_url": "/exercises/0202.gif",
         "id": "0202",
         "name": "cable rear delt row (stirrups)",
         "target": "delts"
@@ -2793,7 +2793,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/L2Zwwxy7NjXkTq",
+        "gif_url": "/exercises/0203.gif",
         "id": "0203",
         "name": "cable rear delt row (with rope)",
         "target": "delts"
@@ -2801,7 +2801,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/KIzTiEKvx4SMLt",
+        "gif_url": "/exercises/0204.gif",
         "id": "0204",
         "name": "cable rear drive",
         "target": "triceps"
@@ -2809,7 +2809,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/icAz1iKR7WV232",
+        "gif_url": "/exercises/0205.gif",
         "id": "0205",
         "name": "cable rear pulldown",
         "target": "lats"
@@ -2817,7 +2817,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/DtJ3n1mHoKTi62",
+        "gif_url": "/exercises/0873.gif",
         "id": "0873",
         "name": "cable reverse crunch",
         "target": "abs"
@@ -2825,7 +2825,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/pHErOn-b-nj-u5",
+        "gif_url": "/exercises/0206.gif",
         "id": "0206",
         "name": "cable reverse curl",
         "target": "biceps"
@@ -2833,7 +2833,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/W1CJAgcUY0cc8j",
+        "gif_url": "/exercises/2406.gif",
         "id": "2406",
         "name": "cable reverse grip triceps pushdown (sz-bar) (with arm blaster)",
         "target": "triceps"
@@ -2841,7 +2841,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/RojO5sfUxdjY7g",
+        "gif_url": "/exercises/1413.gif",
         "id": "1413",
         "name": "cable reverse one arm curl",
         "target": "biceps"
@@ -2849,7 +2849,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/6uDzaRK2cTUML3",
+        "gif_url": "/exercises/0209.gif",
         "id": "0209",
         "name": "cable reverse preacher curl",
         "target": "biceps"
@@ -2857,7 +2857,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2PEW5OhAHccEC-",
+        "gif_url": "/exercises/0210.gif",
         "id": "0210",
         "name": "cable reverse wrist curl",
         "target": "forearms"
@@ -2865,7 +2865,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/vAbSujpe6l68mH",
+        "gif_url": "/exercises/0207.gif",
         "id": "0207",
         "name": "cable reverse-grip pushdown",
         "target": "triceps"
@@ -2873,7 +2873,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Ase5VQpmbaYJQK",
+        "gif_url": "/exercises/0208.gif",
         "id": "0208",
         "name": "cable reverse-grip straight back seated high row",
         "target": "upper back"
@@ -2881,7 +2881,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/1hjnwWH3anq89Y",
+        "gif_url": "/exercises/1320.gif",
         "id": "1320",
         "name": "cable rope crossover seated row",
         "target": "upper back"
@@ -2889,7 +2889,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/GswoYklzzZbs8K",
+        "gif_url": "/exercises/1321.gif",
         "id": "1321",
         "name": "cable rope elevated seated row",
         "target": "upper back"
@@ -2897,7 +2897,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/UjL3XQKfBK0B2C",
+        "gif_url": "/exercises/1322.gif",
         "id": "1322",
         "name": "cable rope extension incline bench row",
         "target": "upper back"
@@ -2905,7 +2905,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/48gD88TWSXy7J2",
+        "gif_url": "/exercises/1639.gif",
         "id": "1639",
         "name": "cable rope hammer preacher curl",
         "target": "biceps"
@@ -2913,7 +2913,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/bNKzZ-XeTKhrIH",
+        "gif_url": "/exercises/1724.gif",
         "id": "1724",
         "name": "cable rope high pulley overhead tricep extension",
         "target": "triceps"
@@ -2921,7 +2921,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/8cgmLqJbA46W-A",
+        "gif_url": "/exercises/1725.gif",
         "id": "1725",
         "name": "cable rope incline tricep extension",
         "target": "triceps"
@@ -2929,7 +2929,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/14jFiD7g2xGI1k",
+        "gif_url": "/exercises/1726.gif",
         "id": "1726",
         "name": "cable rope lying on floor tricep extension",
         "target": "triceps"
@@ -2937,7 +2937,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/HOuwuGoUI4PdWR",
+        "gif_url": "/exercises/1640.gif",
         "id": "1640",
         "name": "cable rope one arm hammer preacher curl",
         "target": "biceps"
@@ -2945,7 +2945,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/9E28OiSAcaudKp",
+        "gif_url": "/exercises/1323.gif",
         "id": "1323",
         "name": "cable rope seated row",
         "target": "upper back"
@@ -2953,7 +2953,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/LcxJuSCl1fos9P",
+        "gif_url": "/exercises/0211.gif",
         "id": "0211",
         "name": "cable russian twists (on stability ball)",
         "target": "abs"
@@ -2961,7 +2961,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/XBd9m1Nt0O-g9X",
+        "gif_url": "/exercises/2144.gif",
         "id": "2144",
         "name": "cable seated chest press",
         "target": "pectorals"
@@ -2969,7 +2969,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/4JQh55lMI0IVBz",
+        "gif_url": "/exercises/0212.gif",
         "id": "0212",
         "name": "cable seated crunch",
         "target": "abs"
@@ -2977,7 +2977,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/mv3QQoZL5rJl2K",
+        "gif_url": "/exercises/1641.gif",
         "id": "1641",
         "name": "cable seated curl",
         "target": "biceps"
@@ -2985,7 +2985,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/viDqaPqv-fs8-B",
+        "gif_url": "/exercises/0213.gif",
         "id": "0213",
         "name": "cable seated high row (v-bar)",
         "target": "lats"
@@ -2993,7 +2993,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/NJ8uOzDiSGEO0L",
+        "gif_url": "/exercises/0214.gif",
         "id": "0214",
         "name": "cable seated one arm alternate row",
         "target": "upper back"
@@ -3001,7 +3001,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/LLEjctKtCGb2c8",
+        "gif_url": "/exercises/1642.gif",
         "id": "1642",
         "name": "cable seated one arm concentration curl",
         "target": "biceps"
@@ -3009,7 +3009,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/-r88mgPqNj3BhE",
+        "gif_url": "/exercises/1643.gif",
         "id": "1643",
         "name": "cable seated overhead curl",
         "target": "biceps"
@@ -3017,7 +3017,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/FlyTrsGesvHOOs",
+        "gif_url": "/exercises/0215.gif",
         "id": "0215",
         "name": "cable seated rear lateral raise",
         "target": "delts"
@@ -3025,7 +3025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/TimlEtb124tvCB",
+        "gif_url": "/exercises/0861.gif",
         "id": "0861",
         "name": "cable seated row",
         "target": "upper back"
@@ -3033,7 +3033,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/FGzaUBl4rRt345",
+        "gif_url": "/exercises/0216.gif",
         "id": "0216",
         "name": "cable seated shoulder internal rotation",
         "target": "delts"
@@ -3041,7 +3041,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/r8VEGwmxByAF6e",
+        "gif_url": "/exercises/2399.gif",
         "id": "2399",
         "name": "cable seated twist",
         "target": "abs"
@@ -3049,7 +3049,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/IBsMVPc4pnPMWp",
+        "gif_url": "/exercises/0218.gif",
         "id": "0218",
         "name": "cable seated wide-grip row",
         "target": "upper back"
@@ -3057,7 +3057,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/QnVtDHmiJ5Gc3k",
+        "gif_url": "/exercises/0219.gif",
         "id": "0219",
         "name": "cable shoulder press",
         "target": "delts"
@@ -3065,7 +3065,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/-YE9YAByQjCODD",
+        "gif_url": "/exercises/0220.gif",
         "id": "0220",
         "name": "cable shrug",
         "target": "traps"
@@ -3073,7 +3073,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Q3cVBFiXYfrf84",
+        "gif_url": "/exercises/0222.gif",
         "id": "0222",
         "name": "cable side bend",
         "target": "abs"
@@ -3081,7 +3081,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/22UoW1yIkSSbs3",
+        "gif_url": "/exercises/0221.gif",
         "id": "0221",
         "name": "cable side bend crunch (bosu ball)",
         "target": "abs"
@@ -3089,7 +3089,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/1uczoWqXimfZhN",
+        "gif_url": "/exercises/0223.gif",
         "id": "0223",
         "name": "cable side crunch",
         "target": "abs"
@@ -3097,7 +3097,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/Fc1iTmOxDj6eWX",
+        "gif_url": "/exercises/1717.gif",
         "id": "1717",
         "name": "cable squat row (with rope attachment)",
         "target": "lats"
@@ -3105,7 +3105,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/rE5qxLBNbeVXVd",
+        "gif_url": "/exercises/1644.gif",
         "id": "1644",
         "name": "cable squatting curl",
         "target": "biceps"
@@ -3113,7 +3113,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/bXgdTvb1BNvnvo",
+        "gif_url": "/exercises/0224.gif",
         "id": "0224",
         "name": "cable standing back wrist curl",
         "target": "forearms"
@@ -3121,7 +3121,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/PEa6v-kd8qbU2e",
+        "gif_url": "/exercises/1375.gif",
         "id": "1375",
         "name": "cable standing calf raise",
         "target": "calves"
@@ -3129,7 +3129,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2vzcp5dxpSrHlY",
+        "gif_url": "/exercises/0225.gif",
         "id": "0225",
         "name": "cable standing cross-over high reverse fly",
         "target": "delts"
@@ -3137,7 +3137,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/UqEGeXzMCb0jRw",
+        "gif_url": "/exercises/0226.gif",
         "id": "0226",
         "name": "cable standing crunch",
         "target": "abs"
@@ -3145,7 +3145,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/6dvW00jlemA63q",
+        "gif_url": "/exercises/0874.gif",
         "id": "0874",
         "name": "cable standing crunch (with rope attachment)",
         "target": "abs"
@@ -3153,7 +3153,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/3kBMsNe3BZ0TfE",
+        "gif_url": "/exercises/0227.gif",
         "id": "0227",
         "name": "cable standing fly",
         "target": "pectorals"
@@ -3161,7 +3161,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/0hbpQejzLetcFi",
+        "gif_url": "/exercises/0228.gif",
         "id": "0228",
         "name": "cable standing hip extension",
         "target": "glutes"
@@ -3169,7 +3169,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/iAfFeWoZ-gkJWp",
+        "gif_url": "/exercises/0229.gif",
         "id": "0229",
         "name": "cable standing inner curl",
         "target": "biceps"
@@ -3177,7 +3177,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/d-TLBgbZ13yaou",
+        "gif_url": "/exercises/0230.gif",
         "id": "0230",
         "name": "cable standing lift",
         "target": "abs"
@@ -3185,7 +3185,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/m9MNGm4JChpYyJ",
+        "gif_url": "/exercises/0231.gif",
         "id": "0231",
         "name": "cable standing one arm triceps extension",
         "target": "triceps"
@@ -3193,7 +3193,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/q8gntgXdo7KnVT",
+        "gif_url": "/exercises/1376.gif",
         "id": "1376",
         "name": "cable standing one leg calf raise",
         "target": "calves"
@@ -3201,7 +3201,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/ZqWrVZC1zrqO5W",
+        "gif_url": "/exercises/0232.gif",
         "id": "0232",
         "name": "cable standing pulldown (with rope)",
         "target": "biceps"
@@ -3209,7 +3209,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/aSlA14x5-1Wt8V",
+        "gif_url": "/exercises/0233.gif",
         "id": "0233",
         "name": "cable standing rear delt row (with rope)",
         "target": "delts"
@@ -3217,7 +3217,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/KUgJ7u-PJbEPC-",
+        "gif_url": "/exercises/1727.gif",
         "id": "1727",
         "name": "cable standing reverse grip one arm overhead tricep extension",
         "target": "triceps"
@@ -3225,7 +3225,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/gIscsml9aGhLpk",
+        "gif_url": "/exercises/0234.gif",
         "id": "0234",
         "name": "cable standing row (v-bar)",
         "target": "upper back"
@@ -3233,7 +3233,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/avIX4I7xwk2-bz",
+        "gif_url": "/exercises/0235.gif",
         "id": "0235",
         "name": "cable standing shoulder external rotation",
         "target": "delts"
@@ -3241,7 +3241,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/iOns8AVmAcvX-t",
+        "gif_url": "/exercises/0236.gif",
         "id": "0236",
         "name": "cable standing twist row (v-bar)",
         "target": "upper back"
@@ -3249,7 +3249,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/sZ-YbNCfvbDJg2",
+        "gif_url": "/exercises/1269.gif",
         "id": "1269",
         "name": "cable standing up straight crossovers",
         "target": "pectorals"
@@ -3257,7 +3257,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/gDI90GhXoY9fjS",
+        "gif_url": "/exercises/0238.gif",
         "id": "0238",
         "name": "cable straight arm pulldown",
         "target": "lats"
@@ -3265,7 +3265,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/c5PxcWTtpW0bq9",
+        "gif_url": "/exercises/0237.gif",
         "id": "0237",
         "name": "cable straight arm pulldown (with rope)",
         "target": "lats"
@@ -3273,7 +3273,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/7b2ah12FEat8cQ",
+        "gif_url": "/exercises/0239.gif",
         "id": "0239",
         "name": "cable straight back seated row",
         "target": "upper back"
@@ -3281,7 +3281,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/evY0UPdCPSsSYX",
+        "gif_url": "/exercises/0240.gif",
         "id": "0240",
         "name": "cable supine reverse fly",
         "target": "delts"
@@ -3289,7 +3289,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/vDzqq3ewKAyH1A",
+        "gif_url": "/exercises/2464.gif",
         "id": "2464",
         "name": "cable thibaudeau kayak row",
         "target": "lats"
@@ -3297,7 +3297,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/VCGb15RxjmNwN9",
+        "gif_url": "/exercises/0241.gif",
         "id": "0241",
         "name": "cable triceps pushdown (v-bar)",
         "target": "triceps"
@@ -3305,7 +3305,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/LQq4Kfw04PKdvt",
+        "gif_url": "/exercises/2405.gif",
         "id": "2405",
         "name": "cable triceps pushdown (v-bar) (with arm blaster)",
         "target": "triceps"
@@ -3313,7 +3313,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/lrlw6thB0QFGzb",
+        "gif_url": "/exercises/0242.gif",
         "id": "0242",
         "name": "cable tuck reverse crunch",
         "target": "abs"
@@ -3321,7 +3321,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/9VxB7MmvfcRqD9",
+        "gif_url": "/exercises/0243.gif",
         "id": "0243",
         "name": "cable twist",
         "target": "abs"
@@ -3329,7 +3329,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/vfvpN6uUFpr4H2",
+        "gif_url": "/exercises/0862.gif",
         "id": "0862",
         "name": "cable twist (up-down)",
         "target": "abs"
@@ -3337,7 +3337,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/6cJPzElAk1uQYs",
+        "gif_url": "/exercises/0244.gif",
         "id": "0244",
         "name": "cable twisting pull",
         "target": "lats"
@@ -3345,7 +3345,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/4N2bAP9qi8uhL2",
+        "gif_url": "/exercises/1645.gif",
         "id": "1645",
         "name": "cable two arm curl on incline bench",
         "target": "biceps"
@@ -3353,7 +3353,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/HJOximpDcpJJez",
+        "gif_url": "/exercises/1728.gif",
         "id": "1728",
         "name": "cable two arm tricep kickback",
         "target": "triceps"
@@ -3361,7 +3361,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/jqKWFjmqlbcxjl",
+        "gif_url": "/exercises/0245.gif",
         "id": "0245",
         "name": "cable underhand pulldown",
         "target": "lats"
@@ -3369,7 +3369,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/4oVMoVF-y3rIrP",
+        "gif_url": "/exercises/1270.gif",
         "id": "1270",
         "name": "cable upper chest crossovers",
         "target": "pectorals"
@@ -3377,7 +3377,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/cEoqo3JIlmkY99",
+        "gif_url": "/exercises/1324.gif",
         "id": "1324",
         "name": "cable upper row",
         "target": "upper back"
@@ -3385,7 +3385,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/2ikf6Q0USgNMBS",
+        "gif_url": "/exercises/0246.gif",
         "id": "0246",
         "name": "cable upright row",
         "target": "delts"
@@ -3393,7 +3393,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/75OZhhXSdSxAxG",
+        "gif_url": "/exercises/1325.gif",
         "id": "1325",
         "name": "cable wide grip rear pulldown behind neck",
         "target": "lats"
@@ -3401,7 +3401,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/T83zA5HXeqCxHa",
+        "gif_url": "/exercises/0247.gif",
         "id": "0247",
         "name": "cable wrist curl",
         "target": "forearms"
@@ -3409,7 +3409,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/V1tv7vfaBueCaj",
+        "gif_url": "/exercises/1407.gif",
         "id": "1407",
         "name": "calf push stretch with hands against wall",
         "target": "calves"
@@ -3417,7 +3417,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8c4fDpyA4Vnikl",
+        "gif_url": "/exercises/1377.gif",
         "id": "1377",
         "name": "calf stretch with hands against wall",
         "target": "calves"
@@ -3425,7 +3425,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/ad94IkBsdmlOyL",
+        "gif_url": "/exercises/1378.gif",
         "id": "1378",
         "name": "calf stretch with rope",
         "target": "calves"
@@ -3433,7 +3433,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/KmdByPrQf3lGzc",
+        "gif_url": "/exercises/0248.gif",
         "id": "0248",
         "name": "cambered bar lying row",
         "target": "upper back"
@@ -3441,7 +3441,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/F0u5hXCkHpb8n4",
+        "gif_url": "/exercises/2963.gif",
         "id": "2963",
         "name": "captains chair straight leg raise",
         "target": "abs"
@@ -3449,7 +3449,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qTcNGOiokRnIiN",
+        "gif_url": "/exercises/1548.gif",
         "id": "1548",
         "name": "chair leg extended stretch",
         "target": "quads"
@@ -3457,7 +3457,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VDr7sLaeo3kzN1",
+        "gif_url": "/exercises/1271.gif",
         "id": "1271",
         "name": "chest and front of shoulder stretch",
         "target": "pectorals"
@@ -3465,7 +3465,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yboCpa8xCsJ0JO",
+        "gif_url": "/exercises/0251.gif",
         "id": "0251",
         "name": "chest dip",
         "target": "pectorals"
@@ -3473,7 +3473,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hHlR1u2BmFfFjM",
+        "gif_url": "/exercises/1430.gif",
         "id": "1430",
         "name": "chest dip (on dip-pull-up cage)",
         "target": "pectorals"
@@ -3481,7 +3481,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/znF2uYSdczUPVh",
+        "gif_url": "/exercises/2462.gif",
         "id": "2462",
         "name": "chest dip on straight bar",
         "target": "pectorals"
@@ -3489,7 +3489,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/xwCWpBeN0AnNjA",
+        "gif_url": "/exercises/1272.gif",
         "id": "1272",
         "name": "chest stretch with exercise ball",
         "target": "pectorals"
@@ -3497,7 +3497,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/4YeyrpTgZoeiif",
+        "gif_url": "/exercises/3216.gif",
         "id": "3216",
         "name": "chest tap push-up (male)",
         "target": "pectorals"
@@ -3505,7 +3505,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/3EaF5aD0se1kFB",
+        "gif_url": "/exercises/1326.gif",
         "id": "1326",
         "name": "chin-up",
         "target": "lats"
@@ -3513,7 +3513,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DGuKd-FpjX8do1",
+        "gif_url": "/exercises/0253.gif",
         "id": "0253",
         "name": "chin-ups (narrow parallel grip)",
         "target": "upper back"
@@ -3521,7 +3521,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/ItVNmpt-dctTUU",
+        "gif_url": "/exercises/0257.gif",
         "id": "0257",
         "name": "circles knee stretch",
         "target": "calves"
@@ -3529,7 +3529,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/342XITKgnxXeoV",
+        "gif_url": "/exercises/1273.gif",
         "id": "1273",
         "name": "clap push up",
         "target": "pectorals"
@@ -3537,7 +3537,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PFAWBwvKvvZwtQ",
+        "gif_url": "/exercises/0258.gif",
         "id": "0258",
         "name": "clock push-up",
         "target": "pectorals"
@@ -3545,7 +3545,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IPDHdE8IJPdaLa",
+        "gif_url": "/exercises/1327.gif",
         "id": "1327",
         "name": "close grip chin-up",
         "target": "lats"
@@ -3553,7 +3553,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/JfOR7Bc-61wa3G",
+        "gif_url": "/exercises/0259.gif",
         "id": "0259",
         "name": "close-grip push-up",
         "target": "triceps"
@@ -3561,7 +3561,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/wqS9wwMHBnJHxs",
+        "gif_url": "/exercises/2398.gif",
         "id": "2398",
         "name": "close-grip push-up (on knees)",
         "target": "triceps"
@@ -3569,7 +3569,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/SVKpzVdGXWtvRp",
+        "gif_url": "/exercises/0260.gif",
         "id": "0260",
         "name": "cocoons",
         "target": "abs"
@@ -3577,7 +3577,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/pLvpx1NRfqtacN",
+        "gif_url": "/exercises/1468.gif",
         "id": "1468",
         "name": "crab twist toe touch",
         "target": "abs"
@@ -3585,7 +3585,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/imNDFgKzD9z36k",
+        "gif_url": "/exercises/0262.gif",
         "id": "0262",
         "name": "cross body crunch",
         "target": "abs"
@@ -3593,7 +3593,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/c90UzJTI37vPcs",
+        "gif_url": "/exercises/0267.gif",
         "id": "0267",
         "name": "crunch (hands overhead)",
         "target": "abs"
@@ -3601,7 +3601,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/qgfqPN5BtXMJ2G",
+        "gif_url": "/exercises/0271.gif",
         "id": "0271",
         "name": "crunch (on stability ball)",
         "target": "abs"
@@ -3609,7 +3609,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/UijJQPFNMxIEEz",
+        "gif_url": "/exercises/0272.gif",
         "id": "0272",
         "name": "crunch (on stability ball, arms straight)",
         "target": "abs"
@@ -3617,7 +3617,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PFSdfADKURena7",
+        "gif_url": "/exercises/0274.gif",
         "id": "0274",
         "name": "crunch floor",
         "target": "abs"
@@ -3625,7 +3625,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/OsgqlcTNYl4QeT",
+        "gif_url": "/exercises/3016.gif",
         "id": "3016",
         "name": "curl-up",
         "target": "abs"
@@ -3633,7 +3633,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/98D9OzlWCCcmz8",
+        "gif_url": "/exercises/3769.gif",
         "id": "3769",
         "name": "curtsey squat",
         "target": "glutes"
@@ -3641,7 +3641,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/UbOnIrhhDGKD-F",
+        "gif_url": "/exercises/2331.gif",
         "id": "2331",
         "name": "cycle cross trainer",
         "target": "cardiovascular system"
@@ -3649,7 +3649,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Ww-NMMzFIEukKv",
+        "gif_url": "/exercises/0276.gif",
         "id": "0276",
         "name": "dead bug",
         "target": "abs"
@@ -3657,7 +3657,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XAvsImDum8DRcK",
+        "gif_url": "/exercises/0277.gif",
         "id": "0277",
         "name": "decline crunch",
         "target": "abs"
@@ -3665,7 +3665,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XHo2QLmiBzdZEy",
+        "gif_url": "/exercises/0279.gif",
         "id": "0279",
         "name": "decline push-up",
         "target": "pectorals"
@@ -3673,7 +3673,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GwL12SM0aDbLmz",
+        "gif_url": "/exercises/0282.gif",
         "id": "0282",
         "name": "decline sit-up",
         "target": "abs"
@@ -3681,7 +3681,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/YhTxcRBdt6sPrf",
+        "gif_url": "/exercises/1274.gif",
         "id": "1274",
         "name": "deep push up",
         "target": "pectorals"
@@ -3689,7 +3689,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iQTmlJmW5g0mFF",
+        "gif_url": "/exercises/0283.gif",
         "id": "0283",
         "name": "diamond push-up",
         "target": "triceps"
@@ -3697,7 +3697,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IfE7tVUSfglTt4",
+        "gif_url": "/exercises/0284.gif",
         "id": "0284",
         "name": "donkey calf raise",
         "target": "calves"
@@ -3705,7 +3705,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/zLi6MeQRDQ8N47",
+        "gif_url": "/exercises/1275.gif",
         "id": "1275",
         "name": "drop push up",
         "target": "pectorals"
@@ -3713,7 +3713,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/dym2Rip8TqKthn",
+        "gif_url": "/exercises/0285.gif",
         "id": "0285",
         "name": "dumbbell alternate biceps curl",
         "target": "biceps"
@@ -3721,7 +3721,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/uvDVcO4CiuNWsA",
+        "gif_url": "/exercises/2403.gif",
         "id": "2403",
         "name": "dumbbell alternate biceps curl (with arm blaster)",
         "target": "biceps"
@@ -3729,7 +3729,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Jiy48S23htxam-",
+        "gif_url": "/exercises/1646.gif",
         "id": "1646",
         "name": "dumbbell alternate hammer preacher curl",
         "target": "biceps"
@@ -3737,7 +3737,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oZyv3hHvVfLQ5f",
+        "gif_url": "/exercises/1647.gif",
         "id": "1647",
         "name": "dumbbell alternate preacher curl",
         "target": "biceps"
@@ -3745,7 +3745,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/5dRYQBJ5xPIm3o",
+        "gif_url": "/exercises/1648.gif",
         "id": "1648",
         "name": "dumbbell alternate seated hammer curl",
         "target": "biceps"
@@ -3753,7 +3753,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rYUfvLBM2dhRaq",
+        "gif_url": "/exercises/0286.gif",
         "id": "0286",
         "name": "dumbbell alternate side press",
         "target": "delts"
@@ -3761,7 +3761,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/TnRK96Vgftk166",
+        "gif_url": "/exercises/1649.gif",
         "id": "1649",
         "name": "dumbbell alternating bicep curl with leg raised on exercise ball",
         "target": "biceps"
@@ -3769,7 +3769,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/loWKErr21NtU1Y",
+        "gif_url": "/exercises/1650.gif",
         "id": "1650",
         "name": "dumbbell alternating seated bicep curl on exercise ball",
         "target": "biceps"
@@ -3777,7 +3777,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/2inD0fkAwZhYdQ",
+        "gif_url": "/exercises/2137.gif",
         "id": "2137",
         "name": "dumbbell arnold press",
         "target": "delts"
@@ -3785,7 +3785,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/cBLl8ED9mdOA5l",
+        "gif_url": "/exercises/0287.gif",
         "id": "0287",
         "name": "dumbbell arnold press v. 2",
         "target": "delts"
@@ -3793,7 +3793,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/FlBoGRcDFoZCcc",
+        "gif_url": "/exercises/0288.gif",
         "id": "0288",
         "name": "dumbbell around pullover",
         "target": "pectorals"
@@ -3801,7 +3801,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/tt0e792okGJEfF",
+        "gif_url": "/exercises/0289.gif",
         "id": "0289",
         "name": "dumbbell bench press",
         "target": "pectorals"
@@ -3809,7 +3809,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/E3era0Cz5xw0sj",
+        "gif_url": "/exercises/0290.gif",
         "id": "0290",
         "name": "dumbbell bench seated press",
         "target": "delts"
@@ -3817,7 +3817,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Sfrjrmx48qnuWW",
+        "gif_url": "/exercises/0291.gif",
         "id": "0291",
         "name": "dumbbell bench squat",
         "target": "glutes"
@@ -3825,7 +3825,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/C56JgZeue7zxag",
+        "gif_url": "/exercises/0293.gif",
         "id": "0293",
         "name": "dumbbell bent over row",
         "target": "upper back"
@@ -3833,7 +3833,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oIuKGNr32B2HlE",
+        "gif_url": "/exercises/1651.gif",
         "id": "1651",
         "name": "dumbbell bicep curl lunge with bowling motion",
         "target": "biceps"
@@ -3841,7 +3841,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/NfJ2OrPqwuoFT7",
+        "gif_url": "/exercises/1652.gif",
         "id": "1652",
         "name": "dumbbell bicep curl on exercise ball with leg raised",
         "target": "biceps"
@@ -3849,7 +3849,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DrlYOOzkVeiyxn",
+        "gif_url": "/exercises/1653.gif",
         "id": "1653",
         "name": "dumbbell bicep curl with stork stance",
         "target": "biceps"
@@ -3857,7 +3857,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/0h3DRO3WwTB1gm",
+        "gif_url": "/exercises/0294.gif",
         "id": "0294",
         "name": "dumbbell biceps curl",
         "target": "biceps"
@@ -3865,7 +3865,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/TQYJYMdnioXPA5",
+        "gif_url": "/exercises/2401.gif",
         "id": "2401",
         "name": "dumbbell biceps curl (with arm blaster)",
         "target": "biceps"
@@ -3873,7 +3873,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xsZnzNGJkn3xaB",
+        "gif_url": "/exercises/1654.gif",
         "id": "1654",
         "name": "dumbbell biceps curl reverse",
         "target": "biceps"
@@ -3881,7 +3881,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/nb3W0u1fx3t1Vl",
+        "gif_url": "/exercises/1655.gif",
         "id": "1655",
         "name": "dumbbell biceps curl squat",
         "target": "biceps"
@@ -3889,7 +3889,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-5mCH7z6kSiOVY",
+        "gif_url": "/exercises/1656.gif",
         "id": "1656",
         "name": "dumbbell biceps curl v sit on bosu ball",
         "target": "biceps"
@@ -3897,7 +3897,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/XQIXNcjeU0wBdS",
+        "gif_url": "/exercises/1201.gif",
         "id": "1201",
         "name": "dumbbell burpee",
         "target": "cardiovascular system"
@@ -3905,7 +3905,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/dNg5ccUPU66mws",
+        "gif_url": "/exercises/0295.gif",
         "id": "0295",
         "name": "dumbbell clean",
         "target": "glutes"
@@ -3913,7 +3913,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/gsSdjlZAfhjabf",
+        "gif_url": "/exercises/1731.gif",
         "id": "1731",
         "name": "dumbbell close grip press",
         "target": "triceps"
@@ -3921,7 +3921,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/iUEqg1z6iN-ONe",
+        "gif_url": "/exercises/0296.gif",
         "id": "0296",
         "name": "dumbbell close-grip press",
         "target": "triceps"
@@ -3929,7 +3929,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/M2i0Nxdh48vTU6",
+        "gif_url": "/exercises/0297.gif",
         "id": "0297",
         "name": "dumbbell concentration curl",
         "target": "biceps"
@@ -3937,7 +3937,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kI4OdAu2IiEk2K",
+        "gif_url": "/exercises/3635.gif",
         "id": "3635",
         "name": "dumbbell contralateral forward lunge",
         "target": "glutes"
@@ -3945,7 +3945,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/PxtZ8F3CD4FBXR",
+        "gif_url": "/exercises/0298.gif",
         "id": "0298",
         "name": "dumbbell cross body hammer curl",
         "target": "biceps"
@@ -3953,7 +3953,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/M3mub0jk3XpH2q",
+        "gif_url": "/exercises/1657.gif",
         "id": "1657",
         "name": "dumbbell cross body hammer curl v. 2",
         "target": "biceps"
@@ -3961,7 +3961,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/gKJmHuSIt2pCgH",
+        "gif_url": "/exercises/0299.gif",
         "id": "0299",
         "name": "dumbbell cuban press",
         "target": "delts"
@@ -3969,7 +3969,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/aQqEDvod-DMfRp",
+        "gif_url": "/exercises/2136.gif",
         "id": "2136",
         "name": "dumbbell cuban press v. 2",
         "target": "delts"
@@ -3977,7 +3977,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/s6OM6pyjfF-HiA",
+        "gif_url": "/exercises/0300.gif",
         "id": "0300",
         "name": "dumbbell deadlift",
         "target": "glutes"
@@ -3985,7 +3985,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oUGpj5dd2B8L2R",
+        "gif_url": "/exercises/0301.gif",
         "id": "0301",
         "name": "dumbbell decline bench press",
         "target": "pectorals"
@@ -3993,7 +3993,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/taO3qFtAnS7rFn",
+        "gif_url": "/exercises/0302.gif",
         "id": "0302",
         "name": "dumbbell decline fly",
         "target": "pectorals"
@@ -4001,7 +4001,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/J5K4UEWh4ZBmJ0",
+        "gif_url": "/exercises/0303.gif",
         "id": "0303",
         "name": "dumbbell decline hammer press",
         "target": "pectorals"
@@ -4009,7 +4009,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/JEIsMbcvNwpgFU",
+        "gif_url": "/exercises/1276.gif",
         "id": "1276",
         "name": "dumbbell decline one arm fly",
         "target": "pectorals"
@@ -4017,7 +4017,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/TGsh7sRdZ0m5SS",
+        "gif_url": "/exercises/1617.gif",
         "id": "1617",
         "name": "dumbbell decline one arm hammer press",
         "target": "triceps"
@@ -4025,7 +4025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/HQIUBNe5RtD3pJ",
+        "gif_url": "/exercises/0305.gif",
         "id": "0305",
         "name": "dumbbell decline shrug",
         "target": "traps"
@@ -4033,7 +4033,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/v7zpNNSoTlY5CW",
+        "gif_url": "/exercises/0304.gif",
         "id": "0304",
         "name": "dumbbell decline shrug v. 2",
         "target": "traps"
@@ -4041,7 +4041,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/u64SANete10lbI",
+        "gif_url": "/exercises/0306.gif",
         "id": "0306",
         "name": "dumbbell decline triceps extension",
         "target": "triceps"
@@ -4049,7 +4049,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/znirSvNv177lsZ",
+        "gif_url": "/exercises/0307.gif",
         "id": "0307",
         "name": "dumbbell decline twist fly",
         "target": "pectorals"
@@ -4057,7 +4057,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/a8P-VNSt29FR6V",
+        "gif_url": "/exercises/1437.gif",
         "id": "1437",
         "name": "dumbbell finger curls",
         "target": "forearms"
@@ -4065,7 +4065,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/k4l1uY2cHH8CcZ",
+        "gif_url": "/exercises/0308.gif",
         "id": "0308",
         "name": "dumbbell fly",
         "target": "pectorals"
@@ -4073,7 +4073,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/UafADtywOoa1Hg",
+        "gif_url": "/exercises/1277.gif",
         "id": "1277",
         "name": "dumbbell fly on exercise ball",
         "target": "pectorals"
@@ -4081,7 +4081,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oZnU81DePE5j61",
+        "gif_url": "/exercises/1732.gif",
         "id": "1732",
         "name": "dumbbell forward lunge triceps extension",
         "target": "triceps"
@@ -4089,7 +4089,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/5ebIrv2wsfi-94",
+        "gif_url": "/exercises/0310.gif",
         "id": "0310",
         "name": "dumbbell front raise",
         "target": "delts"
@@ -4097,7 +4097,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jPdcAPDHUwraUA",
+        "gif_url": "/exercises/0309.gif",
         "id": "0309",
         "name": "dumbbell front raise v. 2",
         "target": "delts"
@@ -4105,7 +4105,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ynyopWnouHlwSj",
+        "gif_url": "/exercises/0311.gif",
         "id": "0311",
         "name": "dumbbell full can lateral raise",
         "target": "delts"
@@ -4113,7 +4113,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/MS3FBKU5ZhMgvX",
+        "gif_url": "/exercises/1760.gif",
         "id": "1760",
         "name": "dumbbell goblet squat",
         "target": "quads"
@@ -4121,7 +4121,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1mNnBwY3gwARBF",
+        "gif_url": "/exercises/0313.gif",
         "id": "0313",
         "name": "dumbbell hammer curl",
         "target": "biceps"
@@ -4129,7 +4129,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Hw745pDHe3ALdX",
+        "gif_url": "/exercises/1659.gif",
         "id": "1659",
         "name": "dumbbell hammer curl on exercise ball",
         "target": "biceps"
@@ -4137,7 +4137,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/A6PeUdDOSK6cCB",
+        "gif_url": "/exercises/0312.gif",
         "id": "0312",
         "name": "dumbbell hammer curl v. 2",
         "target": "biceps"
@@ -4145,7 +4145,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xv2jMsXmVQuVhP",
+        "gif_url": "/exercises/2402.gif",
         "id": "2402",
         "name": "dumbbell hammer curls (with arm blaster)",
         "target": "biceps"
@@ -4153,7 +4153,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Rn7eibV2wtslqF",
+        "gif_url": "/exercises/1664.gif",
         "id": "1664",
         "name": "dumbbell high curl",
         "target": "biceps"
@@ -4161,7 +4161,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/LYNueR0wmbPckH",
+        "gif_url": "/exercises/3545.gif",
         "id": "3545",
         "name": "dumbbell incline alternate press",
         "target": "pectorals"
@@ -4169,7 +4169,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DYgMjS840ielm0",
+        "gif_url": "/exercises/0314.gif",
         "id": "0314",
         "name": "dumbbell incline bench press",
         "target": "pectorals"
@@ -4177,7 +4177,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/fjB-HW8UR-hyZ9",
+        "gif_url": "/exercises/0315.gif",
         "id": "0315",
         "name": "dumbbell incline biceps curl",
         "target": "biceps"
@@ -4185,7 +4185,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/XQB7ICoNmiUPwo",
+        "gif_url": "/exercises/0316.gif",
         "id": "0316",
         "name": "dumbbell incline breeding",
         "target": "pectorals"
@@ -4193,7 +4193,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/WTPs3QlFmV4NOG",
+        "gif_url": "/exercises/0318.gif",
         "id": "0318",
         "name": "dumbbell incline curl",
         "target": "biceps"
@@ -4201,7 +4201,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/tiEO3W3whWL3H4",
+        "gif_url": "/exercises/0317.gif",
         "id": "0317",
         "name": "dumbbell incline curl v. 2",
         "target": "biceps"
@@ -4209,7 +4209,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/izH9PKx0jy7TxH",
+        "gif_url": "/exercises/0319.gif",
         "id": "0319",
         "name": "dumbbell incline fly",
         "target": "pectorals"
@@ -4217,7 +4217,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/pbzZFqSXye-Gzz",
+        "gif_url": "/exercises/1278.gif",
         "id": "1278",
         "name": "dumbbell incline fly on exercise ball",
         "target": "pectorals"
@@ -4225,7 +4225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/FS62IIPVCkoYZq",
+        "gif_url": "/exercises/0320.gif",
         "id": "0320",
         "name": "dumbbell incline hammer curl",
         "target": "biceps"
@@ -4233,7 +4233,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/mdnjvqfXT9PXjQ",
+        "gif_url": "/exercises/0321.gif",
         "id": "0321",
         "name": "dumbbell incline hammer press",
         "target": "pectorals"
@@ -4241,7 +4241,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/WdYaluDvg7nThu",
+        "gif_url": "/exercises/1618.gif",
         "id": "1618",
         "name": "dumbbell incline hammer press on exercise ball",
         "target": "triceps"
@@ -4249,7 +4249,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/tiQ3DosYmgvUwq",
+        "gif_url": "/exercises/0322.gif",
         "id": "0322",
         "name": "dumbbell incline inner biceps curl",
         "target": "biceps"
@@ -4257,7 +4257,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/pi5CinaB3w0v2d",
+        "gif_url": "/exercises/1279.gif",
         "id": "1279",
         "name": "dumbbell incline one arm fly",
         "target": "pectorals"
@@ -4265,7 +4265,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kWUtTA1EhhsP70",
+        "gif_url": "/exercises/1280.gif",
         "id": "1280",
         "name": "dumbbell incline one arm fly on exercise ball",
         "target": "pectorals"
@@ -4273,7 +4273,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rw1tJYxoCWJkDs",
+        "gif_url": "/exercises/1619.gif",
         "id": "1619",
         "name": "dumbbell incline one arm hammer press",
         "target": "triceps"
@@ -4281,7 +4281,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/hjYIiJboO9mTCK",
+        "gif_url": "/exercises/1620.gif",
         "id": "1620",
         "name": "dumbbell incline one arm hammer press on exercise ball",
         "target": "triceps"
@@ -4289,7 +4289,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/XlPbJ1ZRLV6hqJ",
+        "gif_url": "/exercises/0323.gif",
         "id": "0323",
         "name": "dumbbell incline one arm lateral raise",
         "target": "delts"
@@ -4297,7 +4297,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Jca7qnFdnLJTPO",
+        "gif_url": "/exercises/1281.gif",
         "id": "1281",
         "name": "dumbbell incline one arm press",
         "target": "pectorals"
@@ -4305,7 +4305,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1n56GWvmQnHYZ-",
+        "gif_url": "/exercises/1282.gif",
         "id": "1282",
         "name": "dumbbell incline one arm press on exercise ball",
         "target": "pectorals"
@@ -4313,7 +4313,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/XAPn5WUPULVH7w",
+        "gif_url": "/exercises/0324.gif",
         "id": "0324",
         "name": "dumbbell incline palm-in press",
         "target": "pectorals"
@@ -4321,7 +4321,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/nPpACxHAWL3KlL",
+        "gif_url": "/exercises/1283.gif",
         "id": "1283",
         "name": "dumbbell incline press on exercise ball",
         "target": "pectorals"
@@ -4329,7 +4329,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/g-mt58CYrZ8yWT",
+        "gif_url": "/exercises/0325.gif",
         "id": "0325",
         "name": "dumbbell incline raise",
         "target": "delts"
@@ -4337,7 +4337,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/OmC8iwm0lqsinS",
+        "gif_url": "/exercises/0326.gif",
         "id": "0326",
         "name": "dumbbell incline rear lateral raise",
         "target": "delts"
@@ -4345,7 +4345,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/c0cL9yOstpZ7DH",
+        "gif_url": "/exercises/0327.gif",
         "id": "0327",
         "name": "dumbbell incline row",
         "target": "upper back"
@@ -4353,7 +4353,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/F5S4yhaOXZnLtS",
+        "gif_url": "/exercises/0328.gif",
         "id": "0328",
         "name": "dumbbell incline shoulder raise",
         "target": "serratus anterior"
@@ -4361,7 +4361,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oEG2ri9dHVBHAs",
+        "gif_url": "/exercises/0329.gif",
         "id": "0329",
         "name": "dumbbell incline shrug",
         "target": "traps"
@@ -4369,7 +4369,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/M3CNDiAgPXJeHS",
+        "gif_url": "/exercises/3542.gif",
         "id": "3542",
         "name": "dumbbell incline t-raise",
         "target": "delts"
@@ -4377,7 +4377,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/yvuvSkXscmv8oG",
+        "gif_url": "/exercises/0330.gif",
         "id": "0330",
         "name": "dumbbell incline triceps extension",
         "target": "triceps"
@@ -4385,7 +4385,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oy8yMAHWeS79JE",
+        "gif_url": "/exercises/0331.gif",
         "id": "0331",
         "name": "dumbbell incline twisted flyes",
         "target": "pectorals"
@@ -4393,7 +4393,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/PANy4nzRnPGw5d",
+        "gif_url": "/exercises/1733.gif",
         "id": "1733",
         "name": "dumbbell incline two arm extension",
         "target": "triceps"
@@ -4401,7 +4401,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/tqYTT0Drs-4Zzn",
+        "gif_url": "/exercises/3541.gif",
         "id": "3541",
         "name": "dumbbell incline y-raise",
         "target": "upper back"
@@ -4409,7 +4409,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/CKdd3k4PkKgseH",
+        "gif_url": "/exercises/0332.gif",
         "id": "0332",
         "name": "dumbbell iron cross",
         "target": "delts"
@@ -4417,7 +4417,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/bLg6aA3cvaZga7",
+        "gif_url": "/exercises/0333.gif",
         "id": "0333",
         "name": "dumbbell kickback",
         "target": "triceps"
@@ -4425,7 +4425,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ETkXzFwQnPaT2L",
+        "gif_url": "/exercises/1734.gif",
         "id": "1734",
         "name": "dumbbell kickbacks on exercise ball",
         "target": "triceps"
@@ -4433,7 +4433,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-5jQ8-6F8LMxkh",
+        "gif_url": "/exercises/1660.gif",
         "id": "1660",
         "name": "dumbbell kneeling bicep curl exercise ball",
         "target": "biceps"
@@ -4441,7 +4441,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7izJCAzz-D-uad",
+        "gif_url": "/exercises/0334.gif",
         "id": "0334",
         "name": "dumbbell lateral raise",
         "target": "delts"
@@ -4449,7 +4449,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/OgXh7HZvRbT3Cu",
+        "gif_url": "/exercises/0335.gif",
         "id": "0335",
         "name": "dumbbell lateral to front raise",
         "target": "delts"
@@ -4457,7 +4457,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/eCHxLIHJuoydbf",
+        "gif_url": "/exercises/0336.gif",
         "id": "0336",
         "name": "dumbbell lunge",
         "target": "glutes"
@@ -4465,7 +4465,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/T15JUxgBlraw3L",
+        "gif_url": "/exercises/1658.gif",
         "id": "1658",
         "name": "dumbbell lunge with bicep curl",
         "target": "biceps"
@@ -4473,7 +4473,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/BSBJ7eiAqWQ0Ga",
+        "gif_url": "/exercises/0337.gif",
         "id": "0337",
         "name": "dumbbell lying  extension (across face)",
         "target": "triceps"
@@ -4481,7 +4481,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/qPcljTmEWY34ch",
+        "gif_url": "/exercises/1729.gif",
         "id": "1729",
         "name": "dumbbell lying alternate extension",
         "target": "triceps"
@@ -4489,7 +4489,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/EWXrj78qznu-M0",
+        "gif_url": "/exercises/0338.gif",
         "id": "0338",
         "name": "dumbbell lying elbow press",
         "target": "triceps"
@@ -4497,7 +4497,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/M8YgdawMIECQDb",
+        "gif_url": "/exercises/0863.gif",
         "id": "0863",
         "name": "dumbbell lying external shoulder rotation",
         "target": "delts"
@@ -4505,7 +4505,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-iahRZ5E7GdXeB",
+        "gif_url": "/exercises/0339.gif",
         "id": "0339",
         "name": "dumbbell lying femoral",
         "target": "hamstrings"
@@ -4513,7 +4513,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/FM5rZYzkDZsRd6",
+        "gif_url": "/exercises/0340.gif",
         "id": "0340",
         "name": "dumbbell lying hammer press",
         "target": "pectorals"
@@ -4521,7 +4521,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ehrkugMGdBBCQV",
+        "gif_url": "/exercises/2470.gif",
         "id": "2470",
         "name": "dumbbell lying on floor rear delt raise",
         "target": "delts"
@@ -4529,7 +4529,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/txsUyxVOcsa5il",
+        "gif_url": "/exercises/0341.gif",
         "id": "0341",
         "name": "dumbbell lying one arm deltoid rear",
         "target": "delts"
@@ -4537,7 +4537,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1Hwjq3agq68a24",
+        "gif_url": "/exercises/0343.gif",
         "id": "0343",
         "name": "dumbbell lying one arm press",
         "target": "pectorals"
@@ -4545,7 +4545,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/3a09hN0pfnZalB",
+        "gif_url": "/exercises/0342.gif",
         "id": "0342",
         "name": "dumbbell lying one arm press v. 2",
         "target": "pectorals"
@@ -4553,7 +4553,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/o5zGxShsaTxkSt",
+        "gif_url": "/exercises/0344.gif",
         "id": "0344",
         "name": "dumbbell lying one arm pronated triceps extension",
         "target": "triceps"
@@ -4561,7 +4561,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/B30tCgs2MzZZ52",
+        "gif_url": "/exercises/0345.gif",
         "id": "0345",
         "name": "dumbbell lying one arm rear lateral raise",
         "target": "delts"
@@ -4569,7 +4569,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/cL--u2-TYOT33Z",
+        "gif_url": "/exercises/0346.gif",
         "id": "0346",
         "name": "dumbbell lying one arm supinated triceps extension",
         "target": "triceps"
@@ -4577,7 +4577,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ImGqd6oFQnanVv",
+        "gif_url": "/exercises/0347.gif",
         "id": "0347",
         "name": "dumbbell lying pronation",
         "target": "forearms"
@@ -4585,7 +4585,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/y4auxeaSr77tKO",
+        "gif_url": "/exercises/2705.gif",
         "id": "2705",
         "name": "dumbbell lying pronation on floor",
         "target": "forearms"
@@ -4593,7 +4593,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/HW1kYTohM898qZ",
+        "gif_url": "/exercises/1284.gif",
         "id": "1284",
         "name": "dumbbell lying pullover on exercise ball",
         "target": "pectorals"
@@ -4601,7 +4601,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7ZAkK2DVIfY3Y3",
+        "gif_url": "/exercises/1328.gif",
         "id": "1328",
         "name": "dumbbell lying rear delt row",
         "target": "upper back"
@@ -4609,7 +4609,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xGvpnRGLVuO85E",
+        "gif_url": "/exercises/0348.gif",
         "id": "0348",
         "name": "dumbbell lying rear lateral raise",
         "target": "delts"
@@ -4617,7 +4617,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Qhf7ssGUGI5eDB",
+        "gif_url": "/exercises/1735.gif",
         "id": "1735",
         "name": "dumbbell lying single extension",
         "target": "triceps"
@@ -4625,7 +4625,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/nb07TgqV-epLSQ",
+        "gif_url": "/exercises/0349.gif",
         "id": "0349",
         "name": "dumbbell lying supination",
         "target": "forearms"
@@ -4633,7 +4633,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/94foEh4GBM3lif",
+        "gif_url": "/exercises/2706.gif",
         "id": "2706",
         "name": "dumbbell lying supination on floor",
         "target": "forearms"
@@ -4641,7 +4641,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jyrYEn4FGNGA0f",
+        "gif_url": "/exercises/1661.gif",
         "id": "1661",
         "name": "dumbbell lying supine biceps curl",
         "target": "biceps"
@@ -4649,7 +4649,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/4ETZC8Q5ameLFy",
+        "gif_url": "/exercises/0350.gif",
         "id": "0350",
         "name": "dumbbell lying supine curl",
         "target": "biceps"
@@ -4657,7 +4657,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/aS2rIz1vaIFGpO",
+        "gif_url": "/exercises/0351.gif",
         "id": "0351",
         "name": "dumbbell lying triceps extension",
         "target": "triceps"
@@ -4665,7 +4665,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oi7hpiSy7Kbgjl",
+        "gif_url": "/exercises/1662.gif",
         "id": "1662",
         "name": "dumbbell lying wide curl",
         "target": "biceps"
@@ -4673,7 +4673,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jf2of8rBDy-WHb",
+        "gif_url": "/exercises/0352.gif",
         "id": "0352",
         "name": "dumbbell neutral grip bench press",
         "target": "triceps"
@@ -4681,7 +4681,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/oGcbe1ePciGz44",
+        "gif_url": "/exercises/1285.gif",
         "id": "1285",
         "name": "dumbbell one arm bench fly",
         "target": "pectorals"
@@ -4689,7 +4689,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DyePFgOXRgoCea",
+        "gif_url": "/exercises/0292.gif",
         "id": "0292",
         "name": "dumbbell one arm bent-over row",
         "target": "upper back"
@@ -4697,7 +4697,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Jn5dLqPMcIcZFY",
+        "gif_url": "/exercises/1286.gif",
         "id": "1286",
         "name": "dumbbell one arm chest fly on exercise ball",
         "target": "pectorals"
@@ -4705,7 +4705,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/8aovFCZ4cVeo1S",
+        "gif_url": "/exercises/0353.gif",
         "id": "0353",
         "name": "dumbbell one arm concetration curl (on stability ball)",
         "target": "biceps"
@@ -4713,7 +4713,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/CWDtNXARkro4HB",
+        "gif_url": "/exercises/1287.gif",
         "id": "1287",
         "name": "dumbbell one arm decline chest press",
         "target": "pectorals"
@@ -4721,7 +4721,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/U9t74MeoDBFq4n",
+        "gif_url": "/exercises/1288.gif",
         "id": "1288",
         "name": "dumbbell one arm fly on exercise ball",
         "target": "pectorals"
@@ -4729,7 +4729,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/wojlIrbPbIJ40G",
+        "gif_url": "/exercises/1736.gif",
         "id": "1736",
         "name": "dumbbell one arm french press on exercise ball",
         "target": "triceps"
@@ -4737,7 +4737,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/JsjZ3xxqzfBOLO",
+        "gif_url": "/exercises/1663.gif",
         "id": "1663",
         "name": "dumbbell one arm hammer preacher curl",
         "target": "biceps"
@@ -4745,7 +4745,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/6Wt0dgQSzGJnnR",
+        "gif_url": "/exercises/1621.gif",
         "id": "1621",
         "name": "dumbbell one arm hammer press on exercise ball",
         "target": "triceps"
@@ -4753,7 +4753,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/GsUerRJkmguVGa",
+        "gif_url": "/exercises/1289.gif",
         "id": "1289",
         "name": "dumbbell one arm incline chest press",
         "target": "pectorals"
@@ -4761,7 +4761,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/3-xyugBx8pJFvL",
+        "gif_url": "/exercises/0354.gif",
         "id": "0354",
         "name": "dumbbell one arm kickback",
         "target": "triceps"
@@ -4769,7 +4769,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/T4n4Ptj--ZOEvm",
+        "gif_url": "/exercises/0355.gif",
         "id": "0355",
         "name": "dumbbell one arm lateral raise",
         "target": "delts"
@@ -4777,7 +4777,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jaLWXfIkg7XHV2",
+        "gif_url": "/exercises/0356.gif",
         "id": "0356",
         "name": "dumbbell one arm lateral raise with support",
         "target": "delts"
@@ -4785,7 +4785,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/iVIdUeAPvGZJkC",
+        "gif_url": "/exercises/1290.gif",
         "id": "1290",
         "name": "dumbbell one arm press on exercise ball",
         "target": "pectorals"
@@ -4793,7 +4793,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jbmxak68RZ2ZRD",
+        "gif_url": "/exercises/1665.gif",
         "id": "1665",
         "name": "dumbbell one arm prone curl",
         "target": "biceps"
@@ -4801,7 +4801,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/UiP93Xo-VJNSn3",
+        "gif_url": "/exercises/1666.gif",
         "id": "1666",
         "name": "dumbbell one arm prone hammer curl",
         "target": "biceps"
@@ -4809,7 +4809,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/lJOK5aPKMCVZ7C",
+        "gif_url": "/exercises/1291.gif",
         "id": "1291",
         "name": "dumbbell one arm pullover on exercise ball",
         "target": "pectorals"
@@ -4817,7 +4817,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/OJAoYfmkHi6Eh8",
+        "gif_url": "/exercises/0358.gif",
         "id": "0358",
         "name": "dumbbell one arm revers wrist curl",
         "target": "forearms"
@@ -4825,7 +4825,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/4pGJg8ujxpum3q",
+        "gif_url": "/exercises/0359.gif",
         "id": "0359",
         "name": "dumbbell one arm reverse fly (with support)",
         "target": "delts"
@@ -4833,7 +4833,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ljHGwKzXZ6FZIi",
+        "gif_url": "/exercises/1622.gif",
         "id": "1622",
         "name": "dumbbell one arm reverse grip press",
         "target": "pectorals"
@@ -4841,7 +4841,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/p65wdqsCBKdeoX",
+        "gif_url": "/exercises/1414.gif",
         "id": "1414",
         "name": "dumbbell one arm reverse preacher curl",
         "target": "biceps"
@@ -4849,7 +4849,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/q3qgXtQNJ0L5Nm",
+        "gif_url": "/exercises/1667.gif",
         "id": "1667",
         "name": "dumbbell one arm reverse spider curl",
         "target": "biceps"
@@ -4857,7 +4857,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/S5GePuS1xlpkoQ",
+        "gif_url": "/exercises/1668.gif",
         "id": "1668",
         "name": "dumbbell one arm seated bicep curl on exercise ball",
         "target": "biceps"
@@ -4865,7 +4865,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7-iAHZhjeNxv9M",
+        "gif_url": "/exercises/1669.gif",
         "id": "1669",
         "name": "dumbbell one arm seated hammer curl",
         "target": "biceps"
@@ -4873,7 +4873,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/EBV7xLtyDI5wA6",
+        "gif_url": "/exercises/1415.gif",
         "id": "1415",
         "name": "dumbbell one arm seated neutral wrist curl",
         "target": "forearms"
@@ -4881,7 +4881,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/9cU22s09T3dAQD",
+        "gif_url": "/exercises/0361.gif",
         "id": "0361",
         "name": "dumbbell one arm shoulder press",
         "target": "delts"
@@ -4889,7 +4889,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jU3KBnLXfasYBa",
+        "gif_url": "/exercises/0360.gif",
         "id": "0360",
         "name": "dumbbell one arm shoulder press v. 2",
         "target": "delts"
@@ -4897,7 +4897,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rzic3yHxT2jQCT",
+        "gif_url": "/exercises/3888.gif",
         "id": "3888",
         "name": "dumbbell one arm snatch",
         "target": "glutes"
@@ -4905,7 +4905,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/8cHTz6AeCQN3wC",
+        "gif_url": "/exercises/1670.gif",
         "id": "1670",
         "name": "dumbbell one arm standing curl",
         "target": "biceps"
@@ -4913,7 +4913,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/3TDR2hNEAaaN90",
+        "gif_url": "/exercises/1671.gif",
         "id": "1671",
         "name": "dumbbell one arm standing hammer curl",
         "target": "biceps"
@@ -4921,7 +4921,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Nz6-bXteEB0yEs",
+        "gif_url": "/exercises/0362.gif",
         "id": "0362",
         "name": "dumbbell one arm triceps extension (on bench)",
         "target": "triceps"
@@ -4929,7 +4929,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/QfRusqhZGXhupx",
+        "gif_url": "/exercises/0363.gif",
         "id": "0363",
         "name": "dumbbell one arm upright row",
         "target": "delts"
@@ -4937,7 +4937,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-JWyHP4SX-sAMc",
+        "gif_url": "/exercises/0364.gif",
         "id": "0364",
         "name": "dumbbell one arm wrist curl",
         "target": "forearms"
@@ -4945,7 +4945,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/thBWJt-hIpgiGT",
+        "gif_url": "/exercises/1672.gif",
         "id": "1672",
         "name": "dumbbell one arm zottman preacher curl",
         "target": "biceps"
@@ -4953,7 +4953,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Eg-oRmyhsbGS2U",
+        "gif_url": "/exercises/1292.gif",
         "id": "1292",
         "name": "dumbbell one leg fly on exercise ball",
         "target": "pectorals"
@@ -4961,7 +4961,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-FcYo269bkERh5",
+        "gif_url": "/exercises/0365.gif",
         "id": "0365",
         "name": "dumbbell over bench neutral wrist curl",
         "target": "biceps"
@@ -4969,7 +4969,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/lSeBSXpYhqJO7h",
+        "gif_url": "/exercises/0366.gif",
         "id": "0366",
         "name": "dumbbell over bench one arm  neutral wrist curl",
         "target": "biceps"
@@ -4977,7 +4977,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/gHHU3kNBWz747O",
+        "gif_url": "/exercises/1441.gif",
         "id": "1441",
         "name": "dumbbell over bench one arm reverse wrist curl",
         "target": "forearms"
@@ -4985,7 +4985,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DWVDziXep6BJ12",
+        "gif_url": "/exercises/0367.gif",
         "id": "0367",
         "name": "dumbbell over bench one arm wrist curl",
         "target": "forearms"
@@ -4993,7 +4993,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rcFJM0nAdFUFjz",
+        "gif_url": "/exercises/0368.gif",
         "id": "0368",
         "name": "dumbbell over bench revers wrist curl",
         "target": "forearms"
@@ -5001,7 +5001,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/KBBvwdwFgOLXC1",
+        "gif_url": "/exercises/0369.gif",
         "id": "0369",
         "name": "dumbbell over bench wrist curl",
         "target": "forearms"
@@ -5009,7 +5009,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/dLUQtqBkbzGT2I",
+        "gif_url": "/exercises/1329.gif",
         "id": "1329",
         "name": "dumbbell palm rotational bent over row",
         "target": "upper back"
@@ -5017,7 +5017,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Pp74WA4M-dzCBi",
+        "gif_url": "/exercises/1623.gif",
         "id": "1623",
         "name": "dumbbell palms in incline bench press",
         "target": "triceps"
@@ -5025,7 +5025,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/zdpZAa8pfESlsQ",
+        "gif_url": "/exercises/0370.gif",
         "id": "0370",
         "name": "dumbbell peacher hammer curl",
         "target": "biceps"
@@ -5033,7 +5033,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/IYQWb14gT-ig6t",
+        "gif_url": "/exercises/0371.gif",
         "id": "0371",
         "name": "dumbbell plyo squat",
         "target": "glutes"
@@ -5041,7 +5041,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Z1UaiCV7d7vbD5",
+        "gif_url": "/exercises/0372.gif",
         "id": "0372",
         "name": "dumbbell preacher curl",
         "target": "biceps"
@@ -5049,7 +5049,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/q-cGTGo04BeUc0",
+        "gif_url": "/exercises/1673.gif",
         "id": "1673",
         "name": "dumbbell preacher curl over exercise ball",
         "target": "biceps"
@@ -5057,7 +5057,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-olOBRgmO9ku3L",
+        "gif_url": "/exercises/1293.gif",
         "id": "1293",
         "name": "dumbbell press on exercise ball",
         "target": "pectorals"
@@ -5065,7 +5065,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1DwAGRQy-MqgHQ",
+        "gif_url": "/exercises/0373.gif",
         "id": "0373",
         "name": "dumbbell pronate-grip triceps extension",
         "target": "triceps"
@@ -5073,7 +5073,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/fF2z6nay4CEBUM",
+        "gif_url": "/exercises/0374.gif",
         "id": "0374",
         "name": "dumbbell prone incline curl",
         "target": "biceps"
@@ -5081,7 +5081,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/BjrZPFDkx6N1Vt",
+        "gif_url": "/exercises/1674.gif",
         "id": "1674",
         "name": "dumbbell prone incline hammer curl",
         "target": "biceps"
@@ -5089,7 +5089,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ctVdLi4nZMCcmP",
+        "gif_url": "/exercises/0375.gif",
         "id": "0375",
         "name": "dumbbell pullover",
         "target": "pectorals"
@@ -5097,7 +5097,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/C6BP7uoHZAVRHs",
+        "gif_url": "/exercises/1294.gif",
         "id": "1294",
         "name": "dumbbell pullover hip extension on exercise ball",
         "target": "pectorals"
@@ -5105,7 +5105,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/fEHZX5Fpfzxp7m",
+        "gif_url": "/exercises/1295.gif",
         "id": "1295",
         "name": "dumbbell pullover on exercise ball",
         "target": "pectorals"
@@ -5113,7 +5113,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/MeDpISZwusUDqk",
+        "gif_url": "/exercises/1700.gif",
         "id": "1700",
         "name": "dumbbell push press",
         "target": "delts"
@@ -5121,7 +5121,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/GmIna4bofj-I0D",
+        "gif_url": "/exercises/0376.gif",
         "id": "0376",
         "name": "dumbbell raise",
         "target": "delts"
@@ -5129,7 +5129,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/wwnp6bdRqMhf9V",
+        "gif_url": "/exercises/2292.gif",
         "id": "2292",
         "name": "dumbbell rear delt raise",
         "target": "delts"
@@ -5137,7 +5137,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/MYgnOGoyWioI3u",
+        "gif_url": "/exercises/0377.gif",
         "id": "0377",
         "name": "dumbbell rear delt row_shoulder",
         "target": "delts"
@@ -5145,7 +5145,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/A97QFzcc0AE4xx",
+        "gif_url": "/exercises/0378.gif",
         "id": "0378",
         "name": "dumbbell rear fly",
         "target": "delts"
@@ -5153,7 +5153,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/3Rxb1iosGmOs3M",
+        "gif_url": "/exercises/0380.gif",
         "id": "0380",
         "name": "dumbbell rear lateral raise",
         "target": "delts"
@@ -5161,7 +5161,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/sOyZs4GkoquHlM",
+        "gif_url": "/exercises/0379.gif",
         "id": "0379",
         "name": "dumbbell rear lateral raise (support head)",
         "target": "delts"
@@ -5169,7 +5169,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/t51Psmq59kAWvP",
+        "gif_url": "/exercises/0381.gif",
         "id": "0381",
         "name": "dumbbell rear lunge",
         "target": "glutes"
@@ -5177,7 +5177,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Z8bTqukQk6nN7f",
+        "gif_url": "/exercises/0382.gif",
         "id": "0382",
         "name": "dumbbell revers grip biceps curl",
         "target": "biceps"
@@ -5185,7 +5185,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/6B9JLgLTvFbV9i",
+        "gif_url": "/exercises/1624.gif",
         "id": "1624",
         "name": "dumbbell reverse bench press",
         "target": "pectorals"
@@ -5193,7 +5193,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/x0-4B6g8prt2Pa",
+        "gif_url": "/exercises/0383.gif",
         "id": "0383",
         "name": "dumbbell reverse fly",
         "target": "delts"
@@ -5201,7 +5201,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/zwJB860GuIlA1R",
+        "gif_url": "/exercises/1330.gif",
         "id": "1330",
         "name": "dumbbell reverse grip incline bench one arm row",
         "target": "upper back"
@@ -5209,7 +5209,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/i1Pg2xpvyiJkgX",
+        "gif_url": "/exercises/1331.gif",
         "id": "1331",
         "name": "dumbbell reverse grip incline bench two arm row",
         "target": "upper back"
@@ -5217,7 +5217,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7wcuZaRt2zVghn",
+        "gif_url": "/exercises/2327.gif",
         "id": "2327",
         "name": "dumbbell reverse grip row (female)",
         "target": "upper back"
@@ -5225,7 +5225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/0CrZyQiNYrR3vb",
+        "gif_url": "/exercises/0384.gif",
         "id": "0384",
         "name": "dumbbell reverse preacher curl",
         "target": "biceps"
@@ -5233,7 +5233,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/HOVmSiaB1haTuR",
+        "gif_url": "/exercises/1675.gif",
         "id": "1675",
         "name": "dumbbell reverse spider curl",
         "target": "biceps"
@@ -5241,7 +5241,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kZV-5fEqYla9Eu",
+        "gif_url": "/exercises/0385.gif",
         "id": "0385",
         "name": "dumbbell reverse wrist curl",
         "target": "forearms"
@@ -5249,7 +5249,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7HgJTNq-Mx32Cz",
+        "gif_url": "/exercises/1459.gif",
         "id": "1459",
         "name": "dumbbell romanian deadlift",
         "target": "glutes"
@@ -5257,7 +5257,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DRvzRmojfFvrOG",
+        "gif_url": "/exercises/0386.gif",
         "id": "0386",
         "name": "dumbbell rotation reverse fly",
         "target": "delts"
@@ -5265,7 +5265,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/uIhUrbTH42TBij",
+        "gif_url": "/exercises/2397.gif",
         "id": "2397",
         "name": "dumbbell scott press",
         "target": "delts"
@@ -5273,7 +5273,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Ml9nEH1ToanLuH",
+        "gif_url": "/exercises/0387.gif",
         "id": "0387",
         "name": "dumbbell seated alternate front raise",
         "target": "delts"
@@ -5281,7 +5281,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Q59MDOjbM7PvLX",
+        "gif_url": "/exercises/1676.gif",
         "id": "1676",
         "name": "dumbbell seated alternate hammer curl on exercise ball",
         "target": "biceps"
@@ -5289,7 +5289,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/aUf8iIXtPuKGkd",
+        "gif_url": "/exercises/0388.gif",
         "id": "0388",
         "name": "dumbbell seated alternate press",
         "target": "delts"
@@ -5297,7 +5297,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/fp8BDeYR7YZWxW",
+        "gif_url": "/exercises/3546.gif",
         "id": "3546",
         "name": "dumbbell seated alternate shoulder",
         "target": "delts"
@@ -5305,7 +5305,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/gdLsumZ9FgKkge",
+        "gif_url": "/exercises/0389.gif",
         "id": "0389",
         "name": "dumbbell seated bench extension",
         "target": "triceps"
@@ -5313,7 +5313,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ecUANiBk8YWExI",
+        "gif_url": "/exercises/2317.gif",
         "id": "2317",
         "name": "dumbbell seated bent arm lateral raise",
         "target": "delts"
@@ -5321,7 +5321,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/KojQGFHKUWfU2u",
+        "gif_url": "/exercises/1730.gif",
         "id": "1730",
         "name": "dumbbell seated bent over alternate kickback",
         "target": "triceps"
@@ -5329,7 +5329,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/MMraK4SAmzNh2R",
+        "gif_url": "/exercises/1737.gif",
         "id": "1737",
         "name": "dumbbell seated bent over triceps extension",
         "target": "triceps"
@@ -5337,7 +5337,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/yZKN-YEfcBlJT0",
+        "gif_url": "/exercises/1677.gif",
         "id": "1677",
         "name": "dumbbell seated bicep curl",
         "target": "biceps"
@@ -5345,7 +5345,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/mvp4UPZ4nOXl-y",
+        "gif_url": "/exercises/0390.gif",
         "id": "0390",
         "name": "dumbbell seated biceps curl (on stability ball)",
         "target": "biceps"
@@ -5353,7 +5353,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/9Ir-pHqAimJfbQ",
+        "gif_url": "/exercises/3547.gif",
         "id": "3547",
         "name": "dumbbell seated biceps curl to shoulder press",
         "target": "biceps"
@@ -5361,7 +5361,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/DF3g9RAn1UklPu",
+        "gif_url": "/exercises/1379.gif",
         "id": "1379",
         "name": "dumbbell seated calf raise",
         "target": "calves"
@@ -5369,7 +5369,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/GIyCXpdX3zTYRK",
+        "gif_url": "/exercises/0391.gif",
         "id": "0391",
         "name": "dumbbell seated curl",
         "target": "biceps"
@@ -5377,7 +5377,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-2QphR88pd2JEJ",
+        "gif_url": "/exercises/0392.gif",
         "id": "0392",
         "name": "dumbbell seated front raise",
         "target": "delts"
@@ -5385,7 +5385,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/LhIa4TdRsaM1Mk",
+        "gif_url": "/exercises/1678.gif",
         "id": "1678",
         "name": "dumbbell seated hammer curl",
         "target": "biceps"
@@ -5393,7 +5393,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/95wnFjmSttESJs",
+        "gif_url": "/exercises/0393.gif",
         "id": "0393",
         "name": "dumbbell seated inner biceps curl",
         "target": "biceps"
@@ -5401,7 +5401,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xfLWXgONl-cqbI",
+        "gif_url": "/exercises/0394.gif",
         "id": "0394",
         "name": "dumbbell seated kickback",
         "target": "triceps"
@@ -5409,7 +5409,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ddRx53H9GA1qre",
+        "gif_url": "/exercises/0396.gif",
         "id": "0396",
         "name": "dumbbell seated lateral raise",
         "target": "delts"
@@ -5417,7 +5417,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7zhMT1lPrSOiZs",
+        "gif_url": "/exercises/0395.gif",
         "id": "0395",
         "name": "dumbbell seated lateral raise v. 2",
         "target": "delts"
@@ -5425,7 +5425,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/-OrLt2gjARPoYe",
+        "gif_url": "/exercises/0397.gif",
         "id": "0397",
         "name": "dumbbell seated neutral wrist curl",
         "target": "biceps"
@@ -5433,7 +5433,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/jlBylK0u7j7J3S",
+        "gif_url": "/exercises/1679.gif",
         "id": "1679",
         "name": "dumbbell seated one arm bicep curl on exercise ball with leg raised",
         "target": "biceps"
@@ -5441,7 +5441,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/AhNdii0FOIT5do",
+        "gif_url": "/exercises/0398.gif",
         "id": "0398",
         "name": "dumbbell seated one arm kickback",
         "target": "triceps"
@@ -5449,7 +5449,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/CxMiH2m53rB3O8",
+        "gif_url": "/exercises/0399.gif",
         "id": "0399",
         "name": "dumbbell seated one arm rotate",
         "target": "forearms"
@@ -5457,7 +5457,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/eULcvEvj1hH3jo",
+        "gif_url": "/exercises/0400.gif",
         "id": "0400",
         "name": "dumbbell seated one leg calf raise",
         "target": "calves"
@@ -5465,7 +5465,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rFiVe00IYRSdni",
+        "gif_url": "/exercises/1380.gif",
         "id": "1380",
         "name": "dumbbell seated one leg calf raise - hammer grip",
         "target": "calves"
@@ -5473,7 +5473,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/FTelSD7RIUGPK6",
+        "gif_url": "/exercises/1381.gif",
         "id": "1381",
         "name": "dumbbell seated one leg calf raise - palm up",
         "target": "calves"
@@ -5481,7 +5481,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/RqdK6A6DReq0Xl",
+        "gif_url": "/exercises/0401.gif",
         "id": "0401",
         "name": "dumbbell seated palms up wrist curl",
         "target": "forearms"
@@ -5489,7 +5489,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ymTqCX2zrvc5Yt",
+        "gif_url": "/exercises/0402.gif",
         "id": "0402",
         "name": "dumbbell seated preacher curl",
         "target": "biceps"
@@ -5497,7 +5497,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/QW8IXzeHnApAEO",
+        "gif_url": "/exercises/0403.gif",
         "id": "0403",
         "name": "dumbbell seated revers grip concentration curl",
         "target": "biceps"
@@ -5505,7 +5505,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1Tq-2fC-YiYs0H",
+        "gif_url": "/exercises/1738.gif",
         "id": "1738",
         "name": "dumbbell seated reverse grip one arm overhead tricep extension",
         "target": "triceps"
@@ -5513,7 +5513,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/c8wgfypM4ADTbb",
+        "gif_url": "/exercises/0405.gif",
         "id": "0405",
         "name": "dumbbell seated shoulder press",
         "target": "delts"
@@ -5521,7 +5521,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/dFFmk8ArJfVfL2",
+        "gif_url": "/exercises/0404.gif",
         "id": "0404",
         "name": "dumbbell seated shoulder press (parallel grip)",
         "target": "delts"
@@ -5529,7 +5529,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/X8zwJVFsKPZEJf",
+        "gif_url": "/exercises/2188.gif",
         "id": "2188",
         "name": "dumbbell seated triceps extension",
         "target": "triceps"
@@ -5537,7 +5537,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/PdsSLO6A40kXyn",
+        "gif_url": "/exercises/0406.gif",
         "id": "0406",
         "name": "dumbbell shrug",
         "target": "traps"
@@ -5545,7 +5545,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/WcBuecObdcF9ui",
+        "gif_url": "/exercises/0407.gif",
         "id": "0407",
         "name": "dumbbell side bend",
         "target": "abs"
@@ -5553,7 +5553,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/0DTNNDsUHsDWsx",
+        "gif_url": "/exercises/0408.gif",
         "id": "0408",
         "name": "dumbbell side lying one hand raise",
         "target": "delts"
@@ -5561,7 +5561,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/lbMRgFP19DGokG",
+        "gif_url": "/exercises/3664.gif",
         "id": "3664",
         "name": "dumbbell side plank with rear fly",
         "target": "upper back"
@@ -5569,7 +5569,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/OBAPXJWQBlv-3l",
+        "gif_url": "/exercises/3548.gif",
         "id": "3548",
         "name": "dumbbell single arm overhead carry",
         "target": "delts"
@@ -5577,7 +5577,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/x0Jxn6ZPw0537z",
+        "gif_url": "/exercises/0409.gif",
         "id": "0409",
         "name": "dumbbell single leg calf raise",
         "target": "calves"
@@ -5585,7 +5585,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/2a9EnTGE7KmAAj",
+        "gif_url": "/exercises/1757.gif",
         "id": "1757",
         "name": "dumbbell single leg deadlift",
         "target": "glutes"
@@ -5593,7 +5593,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/mN8ZGa3IMSvBPW",
+        "gif_url": "/exercises/2805.gif",
         "id": "2805",
         "name": "dumbbell single leg deadlift with stepbox support",
         "target": "glutes"
@@ -5601,7 +5601,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/4jv4RKt6jjr4la",
+        "gif_url": "/exercises/0410.gif",
         "id": "0410",
         "name": "dumbbell single leg split squat",
         "target": "quads"
@@ -5609,7 +5609,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/8cyfIfwOb6tTci",
+        "gif_url": "/exercises/0411.gif",
         "id": "0411",
         "name": "dumbbell single leg squat",
         "target": "glutes"
@@ -5617,7 +5617,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/8OfQRsTE4VGRcS",
+        "gif_url": "/exercises/0413.gif",
         "id": "0413",
         "name": "dumbbell squat",
         "target": "glutes"
@@ -5625,7 +5625,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/yDl1iUacEdAEtq",
+        "gif_url": "/exercises/3560.gif",
         "id": "3560",
         "name": "dumbbell standing alternate hammer curl and press",
         "target": "biceps"
@@ -5633,7 +5633,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Pxlp-KMc3DKAUX",
+        "gif_url": "/exercises/0414.gif",
         "id": "0414",
         "name": "dumbbell standing alternate overhead press",
         "target": "delts"
@@ -5641,7 +5641,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/IoiIllpFgoJ41H",
+        "gif_url": "/exercises/0415.gif",
         "id": "0415",
         "name": "dumbbell standing alternate raise",
         "target": "delts"
@@ -5649,7 +5649,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/glU001Sn6-P2Us",
+        "gif_url": "/exercises/1739.gif",
         "id": "1739",
         "name": "dumbbell standing alternating tricep kickback",
         "target": "triceps"
@@ -5657,7 +5657,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/5K3SxTosjs9Eyl",
+        "gif_url": "/exercises/2143.gif",
         "id": "2143",
         "name": "dumbbell standing around world",
         "target": "delts"
@@ -5665,7 +5665,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/5WhFqPD2OBrpcH",
+        "gif_url": "/exercises/1740.gif",
         "id": "1740",
         "name": "dumbbell standing bent over one arm triceps extension",
         "target": "triceps"
@@ -5673,7 +5673,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Ja9KXlEFQBJCx3",
+        "gif_url": "/exercises/1741.gif",
         "id": "1741",
         "name": "dumbbell standing bent over two arm triceps extension",
         "target": "triceps"
@@ -5681,7 +5681,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/f6gXGqySItwLhw",
+        "gif_url": "/exercises/0416.gif",
         "id": "0416",
         "name": "dumbbell standing biceps curl",
         "target": "biceps"
@@ -5689,7 +5689,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/cLKTHyfQPP0Imo",
+        "gif_url": "/exercises/0417.gif",
         "id": "0417",
         "name": "dumbbell standing calf raise",
         "target": "calves"
@@ -5697,7 +5697,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/dM410yBtYWKc8K",
+        "gif_url": "/exercises/0418.gif",
         "id": "0418",
         "name": "dumbbell standing concentration curl",
         "target": "biceps"
@@ -5705,7 +5705,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/7JDyHJi8p4rj1J",
+        "gif_url": "/exercises/0419.gif",
         "id": "0419",
         "name": "dumbbell standing front raise above head",
         "target": "delts"
@@ -5713,7 +5713,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Jv6evnu7UmhrD1",
+        "gif_url": "/exercises/2321.gif",
         "id": "2321",
         "name": "dumbbell standing inner biceps curl v. 2",
         "target": "biceps"
@@ -5721,7 +5721,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/o0GAqLJfpMDIF5",
+        "gif_url": "/exercises/0420.gif",
         "id": "0420",
         "name": "dumbbell standing kickback",
         "target": "triceps"
@@ -5729,7 +5729,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/AVkniiK9bQFBG3",
+        "gif_url": "/exercises/0421.gif",
         "id": "0421",
         "name": "dumbbell standing one arm concentration curl",
         "target": "biceps"
@@ -5737,7 +5737,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/9AMSsIiCHnxXmQ",
+        "gif_url": "/exercises/0422.gif",
         "id": "0422",
         "name": "dumbbell standing one arm curl (over incline bench)",
         "target": "biceps"
@@ -5745,7 +5745,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xHqMlV-DAz0ST0",
+        "gif_url": "/exercises/1680.gif",
         "id": "1680",
         "name": "dumbbell standing one arm curl over incline bench",
         "target": "biceps"
@@ -5753,7 +5753,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/9TSNlNYJDqE8RH",
+        "gif_url": "/exercises/0423.gif",
         "id": "0423",
         "name": "dumbbell standing one arm extension",
         "target": "triceps"
@@ -5761,7 +5761,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kn3OuEYkDK1iEU",
+        "gif_url": "/exercises/0424.gif",
         "id": "0424",
         "name": "dumbbell standing one arm palm in press",
         "target": "delts"
@@ -5769,7 +5769,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ZS2oFrtlce40R8",
+        "gif_url": "/exercises/0425.gif",
         "id": "0425",
         "name": "dumbbell standing one arm reverse curl",
         "target": "biceps"
@@ -5777,7 +5777,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/CxfcdFWZjey9ws",
+        "gif_url": "/exercises/0426.gif",
         "id": "0426",
         "name": "dumbbell standing overhead press",
         "target": "delts"
@@ -5785,7 +5785,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/c8z16u5gPYcV4J",
+        "gif_url": "/exercises/0427.gif",
         "id": "0427",
         "name": "dumbbell standing palms in press",
         "target": "delts"
@@ -5793,7 +5793,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/AMcDZCJydZcPrf",
+        "gif_url": "/exercises/0428.gif",
         "id": "0428",
         "name": "dumbbell standing preacher curl",
         "target": "biceps"
@@ -5801,7 +5801,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/Rrr5oMDKFOFF2t",
+        "gif_url": "/exercises/0429.gif",
         "id": "0429",
         "name": "dumbbell standing reverse curl",
         "target": "biceps"
@@ -5809,7 +5809,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/R1mtWr2yww4fwF",
+        "gif_url": "/exercises/0430.gif",
         "id": "0430",
         "name": "dumbbell standing triceps extension",
         "target": "triceps"
@@ -5817,7 +5817,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/qJkAXdNG1zvmpj",
+        "gif_url": "/exercises/2293.gif",
         "id": "2293",
         "name": "dumbbell standing zottman preacher curl",
         "target": "biceps"
@@ -5825,7 +5825,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/mFerhcZKFCAbkG",
+        "gif_url": "/exercises/1684.gif",
         "id": "1684",
         "name": "dumbbell step up single leg balance with bicep curl",
         "target": "biceps"
@@ -5833,7 +5833,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/4rR4lxmqDqfCLz",
+        "gif_url": "/exercises/0431.gif",
         "id": "0431",
         "name": "dumbbell step-up",
         "target": "glutes"
@@ -5841,7 +5841,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/pTMAmWgyOmxcHj",
+        "gif_url": "/exercises/2796.gif",
         "id": "2796",
         "name": "dumbbell step-up lunge",
         "target": "quads"
@@ -5849,7 +5849,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/VqSLd82V847NUX",
+        "gif_url": "/exercises/2812.gif",
         "id": "2812",
         "name": "dumbbell step-up split squat",
         "target": "quads"
@@ -5857,7 +5857,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/xYsc539l2X0ZDF",
+        "gif_url": "/exercises/0432.gif",
         "id": "0432",
         "name": "dumbbell stiff leg deadlift",
         "target": "glutes"
@@ -5865,7 +5865,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/rdswnpv-REEh6V",
+        "gif_url": "/exercises/0433.gif",
         "id": "0433",
         "name": "dumbbell straight arm pullover",
         "target": "pectorals"
@@ -5873,7 +5873,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/K0TtBbmVqGsWJI",
+        "gif_url": "/exercises/0434.gif",
         "id": "0434",
         "name": "dumbbell straight leg deadlift",
         "target": "glutes"
@@ -5881,7 +5881,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/LhoSgTUYa6MShB",
+        "gif_url": "/exercises/2808.gif",
         "id": "2808",
         "name": "dumbbell sumo pull through",
         "target": "glutes"
@@ -5889,7 +5889,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/yiwmPAUaAYS3zv",
+        "gif_url": "/exercises/2803.gif",
         "id": "2803",
         "name": "dumbbell supported squat",
         "target": "quads"
@@ -5897,7 +5897,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/HrTCzRu5Wbvlqy",
+        "gif_url": "/exercises/0436.gif",
         "id": "0436",
         "name": "dumbbell tate press",
         "target": "triceps"
@@ -5905,7 +5905,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/BXbXOS3iuKPF10",
+        "gif_url": "/exercises/1742.gif",
         "id": "1742",
         "name": "dumbbell tricep kickback with stork stance",
         "target": "triceps"
@@ -5913,7 +5913,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/nFfCLEreCK5A42",
+        "gif_url": "/exercises/1743.gif",
         "id": "1743",
         "name": "dumbbell twisting bench press",
         "target": "triceps"
@@ -5921,7 +5921,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/FZIMY4cqZZ6Wz7",
+        "gif_url": "/exercises/0437.gif",
         "id": "0437",
         "name": "dumbbell upright row",
         "target": "delts"
@@ -5929,7 +5929,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kfnOsmZCAxRyzJ",
+        "gif_url": "/exercises/1765.gif",
         "id": "1765",
         "name": "dumbbell upright row (back pov)",
         "target": "delts"
@@ -5937,7 +5937,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/kPoEGwSXuuEt9k",
+        "gif_url": "/exercises/0864.gif",
         "id": "0864",
         "name": "dumbbell upright shoulder external rotation",
         "target": "delts"
@@ -5945,7 +5945,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ZLYThbXYVaUpUS",
+        "gif_url": "/exercises/5201.gif",
         "id": "5201",
         "name": "dumbbell waiter biceps curl",
         "target": "biceps"
@@ -5953,7 +5953,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/sk7w6quTCrisI2",
+        "gif_url": "/exercises/0438.gif",
         "id": "0438",
         "name": "dumbbell w-press",
         "target": "delts"
@@ -5961,7 +5961,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/1WMMxKwWjzKsbu",
+        "gif_url": "/exercises/0439.gif",
         "id": "0439",
         "name": "dumbbell zottman curl",
         "target": "biceps"
@@ -5969,7 +5969,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/BCgtn6PIKXTzlN",
+        "gif_url": "/exercises/2294.gif",
         "id": "2294",
         "name": "dumbbell zottman preacher curl",
         "target": "biceps"
@@ -5977,7 +5977,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/wZXA-e1mXpgs0z",
+        "gif_url": "/exercises/2189.gif",
         "id": "2189",
         "name": "dumbbells seated triceps extension",
         "target": "triceps"
@@ -5985,7 +5985,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/In35tCdUa2R-PA",
+        "gif_url": "/exercises/1167.gif",
         "id": "1167",
         "name": "dynamic chest stretch (male)",
         "target": "pectorals"
@@ -5993,7 +5993,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/HBwVv5dzZ7qqrY",
+        "gif_url": "/exercises/3287.gif",
         "id": "3287",
         "name": "elbow dips",
         "target": "triceps"
@@ -6001,7 +6001,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/AcLh7zC7tDtXPA",
+        "gif_url": "/exercises/1772.gif",
         "id": "1772",
         "name": "elbow lift - reverse push-up",
         "target": "upper back"
@@ -6009,7 +6009,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/zDuZDS2NzIXmOu",
+        "gif_url": "/exercises/0443.gif",
         "id": "0443",
         "name": "elbow-to-knee",
         "target": "abs"
@@ -6017,7 +6017,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jzxZgEToSfCPir",
+        "gif_url": "/exercises/3292.gif",
         "id": "3292",
         "name": "elevator",
         "target": "upper back"
@@ -6025,7 +6025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/Hy6sVPtrx9NeJX",
+        "gif_url": "/exercises/1332.gif",
         "id": "1332",
         "name": "exercise ball alternating arm ups",
         "target": "lats"
@@ -6033,7 +6033,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/GoKOGu5p7Wc3rb",
+        "gif_url": "/exercises/1333.gif",
         "id": "1333",
         "name": "exercise ball back extension with arms extended",
         "target": "spine"
@@ -6041,7 +6041,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/qoOTg-niXtDoSZ",
+        "gif_url": "/exercises/1334.gif",
         "id": "1334",
         "name": "exercise ball back extension with hands behind head",
         "target": "spine"
@@ -6049,7 +6049,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/2x3VrdWq0MK-aM",
+        "gif_url": "/exercises/1335.gif",
         "id": "1335",
         "name": "exercise ball back extension with knees off ground",
         "target": "spine"
@@ -6057,7 +6057,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/vRsNPmn6LknjvO",
+        "gif_url": "/exercises/1336.gif",
         "id": "1336",
         "name": "exercise ball back extension with rotation",
         "target": "spine"
@@ -6065,7 +6065,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/Ne2H5wxa3rC3eb",
+        "gif_url": "/exercises/1744.gif",
         "id": "1744",
         "name": "exercise ball dip",
         "target": "triceps"
@@ -6073,7 +6073,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/ke7WDD5d2ZaQCD",
+        "gif_url": "/exercises/1559.gif",
         "id": "1559",
         "name": "exercise ball hip flexor stretch",
         "target": "glutes"
@@ -6081,7 +6081,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/eFQqPyYKcSN2GR",
+        "gif_url": "/exercises/1338.gif",
         "id": "1338",
         "name": "exercise ball hug",
         "target": "spine"
@@ -6089,7 +6089,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/x4M-2zLj2HdBQM",
+        "gif_url": "/exercises/1339.gif",
         "id": "1339",
         "name": "exercise ball lat stretch",
         "target": "lats"
@@ -6097,7 +6097,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/Koxw3RZ45dM6vW",
+        "gif_url": "/exercises/1341.gif",
         "id": "1341",
         "name": "exercise ball lower back stretch (pyramid)",
         "target": "lats"
@@ -6105,7 +6105,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/Rnsip8SQ1X4L90",
+        "gif_url": "/exercises/1342.gif",
         "id": "1342",
         "name": "exercise ball lying side lat stretch",
         "target": "lats"
@@ -6113,7 +6113,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/X3Byx1Gk7LdIL7",
+        "gif_url": "/exercises/1382.gif",
         "id": "1382",
         "name": "exercise ball on the wall calf raise",
         "target": "calves"
@@ -6121,7 +6121,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/bivCrYZVuy3bXk",
+        "gif_url": "/exercises/3241.gif",
         "id": "3241",
         "name": "exercise ball on the wall calf raise (tennis ball between ankles)",
         "target": "calves"
@@ -6129,7 +6129,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/TXf9ge4olZ2Vn4",
+        "gif_url": "/exercises/3240.gif",
         "id": "3240",
         "name": "exercise ball on the wall calf raise (tennis ball between knees)",
         "target": "calves"
@@ -6137,7 +6137,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/5hddya7PTn19SV",
+        "gif_url": "/exercises/1416.gif",
         "id": "1416",
         "name": "exercise ball one leg prone lower body rotation",
         "target": "glutes"
@@ -6145,7 +6145,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/VJ2E8Ixg4EYa06",
+        "gif_url": "/exercises/1417.gif",
         "id": "1417",
         "name": "exercise ball one legged diagonal kick hamstring curl",
         "target": "glutes"
@@ -6153,7 +6153,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/yz9WBzNwD78VEr",
+        "gif_url": "/exercises/1296.gif",
         "id": "1296",
         "name": "exercise ball pike push up",
         "target": "pectorals"
@@ -6161,7 +6161,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/0R8iYHMpf5nF07",
+        "gif_url": "/exercises/1343.gif",
         "id": "1343",
         "name": "exercise ball prone leg raise",
         "target": "spine"
@@ -6169,7 +6169,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/G1y5NG3LpJqYxM",
+        "gif_url": "/exercises/1560.gif",
         "id": "1560",
         "name": "exercise ball seated hamstring stretch",
         "target": "hamstrings"
@@ -6177,7 +6177,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/qmfjZMxXl0202A",
+        "gif_url": "/exercises/1745.gif",
         "id": "1745",
         "name": "exercise ball seated triceps stretch",
         "target": "triceps"
@@ -6185,7 +6185,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/hH0kLSkBkRvG1z",
+        "gif_url": "/exercises/1746.gif",
         "id": "1746",
         "name": "exercise ball supine triceps extension",
         "target": "triceps"
@@ -6193,7 +6193,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/yslc8AVDLhEyIB",
+        "gif_url": "/exercises/1747.gif",
         "id": "1747",
         "name": "ez bar french press on exercise ball",
         "target": "triceps"
@@ -6201,7 +6201,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/BLFaHSgkiXBYN7",
+        "gif_url": "/exercises/3010.gif",
         "id": "3010",
         "name": "ez bar lying bent arms pullover",
         "target": "lats"
@@ -6209,7 +6209,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/1qIV9qsCpRjETR",
+        "gif_url": "/exercises/1748.gif",
         "id": "1748",
         "name": "ez bar lying close grip triceps extension behind head",
         "target": "triceps"
@@ -6217,7 +6217,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/Jyfj1aLjET5VvM",
+        "gif_url": "/exercises/1344.gif",
         "id": "1344",
         "name": "ez bar reverse grip bent over row",
         "target": "upper back"
@@ -6225,7 +6225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/7f3o6lgW0d0rqr",
+        "gif_url": "/exercises/1682.gif",
         "id": "1682",
         "name": "ez bar seated close grip concentration curl",
         "target": "biceps"
@@ -6233,7 +6233,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/Pv8A0zTUqkc7Ad",
+        "gif_url": "/exercises/1749.gif",
         "id": "1749",
         "name": "ez bar standing french press",
         "target": "triceps"
@@ -6241,7 +6241,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/yNogyBsYRDfqxK",
+        "gif_url": "/exercises/0445.gif",
         "id": "0445",
         "name": "ez barbell anti gravity press",
         "target": "delts"
@@ -6249,7 +6249,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/TFyWbEg359Gxcn",
+        "gif_url": "/exercises/1627.gif",
         "id": "1627",
         "name": "ez barbell close grip preacher curl",
         "target": "biceps"
@@ -6257,7 +6257,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/56huNC4Cs5iK5x",
+        "gif_url": "/exercises/0446.gif",
         "id": "0446",
         "name": "ez barbell close-grip curl",
         "target": "biceps"
@@ -6265,7 +6265,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/NthKXAQGvsDDqR",
+        "gif_url": "/exercises/0447.gif",
         "id": "0447",
         "name": "ez barbell curl",
         "target": "biceps"
@@ -6273,7 +6273,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/S5m29XBMcEZyY8",
+        "gif_url": "/exercises/0448.gif",
         "id": "0448",
         "name": "ez barbell decline close grip face press",
         "target": "triceps"
@@ -6281,7 +6281,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/o7JWxETwSHVQdl",
+        "gif_url": "/exercises/2186.gif",
         "id": "2186",
         "name": "ez barbell decline triceps extension",
         "target": "triceps"
@@ -6289,7 +6289,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/CYirhpLPd4MePZ",
+        "gif_url": "/exercises/0449.gif",
         "id": "0449",
         "name": "ez barbell incline triceps extension",
         "target": "triceps"
@@ -6297,7 +6297,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/fHOgJUnlng6Jn0",
+        "gif_url": "/exercises/0450.gif",
         "id": "0450",
         "name": "ez barbell jm bench press",
         "target": "triceps"
@@ -6305,7 +6305,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/yLJ9okNv6sruiX",
+        "gif_url": "/exercises/0451.gif",
         "id": "0451",
         "name": "ez barbell reverse grip curl",
         "target": "biceps"
@@ -6313,7 +6313,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/gl8H10D3gelLxd",
+        "gif_url": "/exercises/0452.gif",
         "id": "0452",
         "name": "ez barbell reverse grip preacher curl",
         "target": "biceps"
@@ -6321,7 +6321,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/xPkVTJ7kY2Cl-k",
+        "gif_url": "/exercises/1458.gif",
         "id": "1458",
         "name": "ez barbell seated curls",
         "target": "biceps"
@@ -6329,7 +6329,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/lGwGW7z4ExxtSS",
+        "gif_url": "/exercises/0453.gif",
         "id": "0453",
         "name": "ez barbell seated triceps extension",
         "target": "triceps"
@@ -6337,7 +6337,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/6eQQbAp6GzE4ho",
+        "gif_url": "/exercises/0454.gif",
         "id": "0454",
         "name": "ez barbell spider curl",
         "target": "biceps"
@@ -6345,7 +6345,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/HNiFB2Cww2Wntp",
+        "gif_url": "/exercises/1628.gif",
         "id": "1628",
         "name": "ez barbell spider curl",
         "target": "biceps"
@@ -6353,7 +6353,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/ZYg6DkSIsNmYLx",
+        "gif_url": "/exercises/2404.gif",
         "id": "2404",
         "name": "ez-bar biceps curl (with arm blaster)",
         "target": "biceps"
@@ -6361,7 +6361,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/yTM50s17TufK89",
+        "gif_url": "/exercises/2432.gif",
         "id": "2432",
         "name": "ez-bar close-grip bench press",
         "target": "triceps"
@@ -6369,7 +6369,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "ez barbell",
-        "gif_url": "https://api.exercisedb.io/image/z5ARfxoqZX5Ch8",
+        "gif_url": "/exercises/2741.gif",
         "id": "2741",
         "name": "ez-barbell standing wide grip biceps curl",
         "target": "biceps"
@@ -6377,7 +6377,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/CtW6MGT90BIPDo",
+        "gif_url": "/exercises/2133.gif",
         "id": "2133",
         "name": "farmers walk",
         "target": "quads"
@@ -6385,7 +6385,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/yZJo7ZUQpSTUj6",
+        "gif_url": "/exercises/0455.gif",
         "id": "0455",
         "name": "finger curls",
         "target": "forearms"
@@ -6393,7 +6393,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/kxu8l78DzwTQnQ",
+        "gif_url": "/exercises/3303.gif",
         "id": "3303",
         "name": "flag",
         "target": "abs"
@@ -6401,7 +6401,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KOUg9madnAu2AF",
+        "gif_url": "/exercises/0456.gif",
         "id": "0456",
         "name": "flexion leg sit up (bent knee)",
         "target": "abs"
@@ -6409,7 +6409,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/-nk6YVrO7Hedcd",
+        "gif_url": "/exercises/0457.gif",
         "id": "0457",
         "name": "flexion leg sit up (straight arm)",
         "target": "abs"
@@ -6417,7 +6417,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/QUjJrbPxVzpNKh",
+        "gif_url": "/exercises/0458.gif",
         "id": "0458",
         "name": "floor fly (with barbell)",
         "target": "pectorals"
@@ -6425,7 +6425,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/l2hbmJNqLrizfS",
+        "gif_url": "/exercises/0459.gif",
         "id": "0459",
         "name": "flutter kicks",
         "target": "glutes"
@@ -6433,7 +6433,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/m5I6-tVQdtIqQ3",
+        "gif_url": "/exercises/1472.gif",
         "id": "1472",
         "name": "forward jump",
         "target": "quads"
@@ -6441,7 +6441,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/BCuWNBagGcMdud",
+        "gif_url": "/exercises/3470.gif",
         "id": "3470",
         "name": "forward lunge (male)",
         "target": "glutes"
@@ -6449,7 +6449,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/NregcN7VwduwiE",
+        "gif_url": "/exercises/3194.gif",
         "id": "3194",
         "name": "frankenstein squat",
         "target": "glutes"
@@ -6457,7 +6457,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/UeQSmaPFeizTdr",
+        "gif_url": "/exercises/2429.gif",
         "id": "2429",
         "name": "frog crunch",
         "target": "abs"
@@ -6465,7 +6465,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8S1LLq8SvWAZUS",
+        "gif_url": "/exercises/3301.gif",
         "id": "3301",
         "name": "frog planche",
         "target": "abs"
@@ -6473,7 +6473,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/eZBUVdRVzVW-mA",
+        "gif_url": "/exercises/3296.gif",
         "id": "3296",
         "name": "front lever",
         "target": "abs"
@@ -6481,7 +6481,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/UooqEhJNu3596W",
+        "gif_url": "/exercises/3295.gif",
         "id": "3295",
         "name": "front lever reps",
         "target": "upper back"
@@ -6489,7 +6489,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/thl7skmSpU96aX",
+        "gif_url": "/exercises/0464.gif",
         "id": "0464",
         "name": "front plank with twist",
         "target": "abs"
@@ -6497,7 +6497,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/sV1eLM6BJYkX0e",
+        "gif_url": "/exercises/3315.gif",
         "id": "3315",
         "name": "full maltese",
         "target": "abs"
@@ -6505,7 +6505,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YGa-mjdbxLApVT",
+        "gif_url": "/exercises/3299.gif",
         "id": "3299",
         "name": "full planche",
         "target": "abs"
@@ -6513,7 +6513,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KEHwkitMWAfWaZ",
+        "gif_url": "/exercises/3327.gif",
         "id": "3327",
         "name": "full planche push-up",
         "target": "pectorals"
@@ -6521,7 +6521,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hspEz-O3XaknES",
+        "gif_url": "/exercises/0466.gif",
         "id": "0466",
         "name": "gironda sternum chin",
         "target": "lats"
@@ -6529,7 +6529,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GASQ2Qq3toy97h",
+        "gif_url": "/exercises/3561.gif",
         "id": "3561",
         "name": "glute bridge march",
         "target": "glutes"
@@ -6537,7 +6537,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/peJLmNb1sfpHfb",
+        "gif_url": "/exercises/3523.gif",
         "id": "3523",
         "name": "glute bridge two legs on bench (male)",
         "target": "glutes"
@@ -6545,7 +6545,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/ayAXzvluXtrW5r",
+        "gif_url": "/exercises/3193.gif",
         "id": "3193",
         "name": "glute-ham raise",
         "target": "hamstrings"
@@ -6553,7 +6553,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/rjKa6JXd4G3FCv",
+        "gif_url": "/exercises/0467.gif",
         "id": "0467",
         "name": "gorilla chin",
         "target": "abs"
@@ -6561,7 +6561,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iADWtQyu-817-V",
+        "gif_url": "/exercises/0469.gif",
         "id": "0469",
         "name": "groin crunch",
         "target": "abs"
@@ -6569,7 +6569,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/Ok4PNgj6pDvk3n",
+        "gif_url": "/exercises/1383.gif",
         "id": "1383",
         "name": "hack calf raise",
         "target": "calves"
@@ -6577,7 +6577,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/58j06gzKwxx7TT",
+        "gif_url": "/exercises/1384.gif",
         "id": "1384",
         "name": "hack one leg calf raise",
         "target": "calves"
@@ -6585,7 +6585,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/xg7blxx6kFy7-0",
+        "gif_url": "/exercises/3221.gif",
         "id": "3221",
         "name": "half knee bends (male)",
         "target": "cardiovascular system"
@@ -6593,7 +6593,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/NfZpkBuv61Vt59",
+        "gif_url": "/exercises/3202.gif",
         "id": "3202",
         "name": "half sit-up (male)",
         "target": "abs"
@@ -6601,7 +6601,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/9G4qo-traaEwM9",
+        "gif_url": "/exercises/1511.gif",
         "id": "1511",
         "name": "hamstring stretch",
         "target": "hamstrings"
@@ -6609,7 +6609,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "upper body ergometer",
-        "gif_url": "https://api.exercisedb.io/image/56ql0S7aK8xGkP",
+        "gif_url": "/exercises/2139.gif",
         "id": "2139",
         "name": "hands bike",
         "target": "pectorals"
@@ -6617,7 +6617,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YN2vZMAcScpAJA",
+        "gif_url": "/exercises/3218.gif",
         "id": "3218",
         "name": "hands clasped circular toe touch (male)",
         "target": "glutes"
@@ -6625,7 +6625,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GcZNsWGKEg7yGu",
+        "gif_url": "/exercises/3215.gif",
         "id": "3215",
         "name": "hands reversed clasped circular toe touch (male)",
         "target": "glutes"
@@ -6633,7 +6633,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/dnhVJsbbAdaX9x",
+        "gif_url": "/exercises/3302.gif",
         "id": "3302",
         "name": "handstand",
         "target": "triceps"
@@ -6641,7 +6641,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/aOjBRi7VM27HBF",
+        "gif_url": "/exercises/0471.gif",
         "id": "0471",
         "name": "handstand push-up",
         "target": "triceps"
@@ -6649,7 +6649,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DdEObMh7pVf0qZ",
+        "gif_url": "/exercises/1764.gif",
         "id": "1764",
         "name": "hanging leg hip raise",
         "target": "abs"
@@ -6657,7 +6657,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/MYJ3cKH4XomLgk",
+        "gif_url": "/exercises/0472.gif",
         "id": "0472",
         "name": "hanging leg raise",
         "target": "abs"
@@ -6665,7 +6665,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/H-tfJKSFqr3szR",
+        "gif_url": "/exercises/1761.gif",
         "id": "1761",
         "name": "hanging oblique knee raise",
         "target": "abs"
@@ -6673,7 +6673,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Tl10Ub6-4ZoRUk",
+        "gif_url": "/exercises/0473.gif",
         "id": "0473",
         "name": "hanging pike",
         "target": "abs"
@@ -6681,7 +6681,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/vjemj3O8siNHmQ",
+        "gif_url": "/exercises/0474.gif",
         "id": "0474",
         "name": "hanging straight leg hip raise",
         "target": "abs"
@@ -6689,7 +6689,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/uA3WP6kQgsV8u0",
+        "gif_url": "/exercises/0475.gif",
         "id": "0475",
         "name": "hanging straight leg raise",
         "target": "abs"
@@ -6697,7 +6697,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/pS6jqb5akTKsZr",
+        "gif_url": "/exercises/0476.gif",
         "id": "0476",
         "name": "hanging straight twisting leg hip raise",
         "target": "abs"
@@ -6705,7 +6705,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/BP2qkDe5dUna2B",
+        "gif_url": "/exercises/3636.gif",
         "id": "3636",
         "name": "high knee against wall",
         "target": "cardiovascular system"
@@ -6713,7 +6713,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/AUduKsZDY3evLE",
+        "gif_url": "/exercises/0484.gif",
         "id": "0484",
         "name": "hip raise (bent knee)",
         "target": "abs"
@@ -6721,7 +6721,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/bWNwZmCGkxrqII",
+        "gif_url": "/exercises/1418.gif",
         "id": "1418",
         "name": "hug keens to chest",
         "target": "glutes"
@@ -6729,7 +6729,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/OnBUfpfB8owbZJ",
+        "gif_url": "/exercises/3234.gif",
         "id": "3234",
         "name": "hyght dumbbell fly",
         "target": "pectorals"
@@ -6737,7 +6737,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Vd1DW6WtqG2u9Q",
+        "gif_url": "/exercises/0489.gif",
         "id": "0489",
         "name": "hyperextension",
         "target": "spine"
@@ -6745,7 +6745,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/1xQFuJM5-LTbA6",
+        "gif_url": "/exercises/0488.gif",
         "id": "0488",
         "name": "hyperextension (on bench)",
         "target": "spine"
@@ -6753,7 +6753,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iD84kFWYI0e7hD",
+        "gif_url": "/exercises/3289.gif",
         "id": "3289",
         "name": "impossible dips",
         "target": "triceps"
@@ -6761,7 +6761,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/paATwX7Y13TTGh",
+        "gif_url": "/exercises/1471.gif",
         "id": "1471",
         "name": "inchworm",
         "target": "abs"
@@ -6769,7 +6769,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iQU4pgxl-n03Y6",
+        "gif_url": "/exercises/3698.gif",
         "id": "3698",
         "name": "inchworm v. 2",
         "target": "abs"
@@ -6777,7 +6777,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PZ889NWIRlrkH8",
+        "gif_url": "/exercises/0490.gif",
         "id": "0490",
         "name": "incline close-grip push-up",
         "target": "triceps"
@@ -6785,7 +6785,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qC29VTgLhPMMt4",
+        "gif_url": "/exercises/0491.gif",
         "id": "0491",
         "name": "incline leg hip raise (leg straight)",
         "target": "abs"
@@ -6793,7 +6793,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/fHM1aW-GlawMIp",
+        "gif_url": "/exercises/0492.gif",
         "id": "0492",
         "name": "incline push up depth jump",
         "target": "pectorals"
@@ -6801,7 +6801,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/tYcC-PtUJYSgDo",
+        "gif_url": "/exercises/0493.gif",
         "id": "0493",
         "name": "incline push-up",
         "target": "pectorals"
@@ -6809,7 +6809,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/HWPNFTp-fMV4aT",
+        "gif_url": "/exercises/3785.gif",
         "id": "3785",
         "name": "incline push-up (on box)",
         "target": "pectorals"
@@ -6817,7 +6817,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Cf6XcHlRDxrptP",
+        "gif_url": "/exercises/0494.gif",
         "id": "0494",
         "name": "incline reverse grip push-up",
         "target": "pectorals"
@@ -6825,7 +6825,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/V2uVZlITrlP19J",
+        "gif_url": "/exercises/3011.gif",
         "id": "3011",
         "name": "incline scapula push up",
         "target": "serratus anterior"
@@ -6833,7 +6833,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yhewDnBqzZg6jq",
+        "gif_url": "/exercises/0495.gif",
         "id": "0495",
         "name": "incline twisting sit-up",
         "target": "abs"
@@ -6841,7 +6841,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/gqsH-KruvcdsaR",
+        "gif_url": "/exercises/1564.gif",
         "id": "1564",
         "name": "intermediate hip flexor and quad stretch",
         "target": "quads"
@@ -6849,7 +6849,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/o-Iyfnz5GbfY3y",
+        "gif_url": "/exercises/0496.gif",
         "id": "0496",
         "name": "inverse leg curl (bench support)",
         "target": "hamstrings"
@@ -6857,7 +6857,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/1ojLRYiIlNjij5",
+        "gif_url": "/exercises/2400.gif",
         "id": "2400",
         "name": "inverse leg curl (on pull-up cable machine)",
         "target": "hamstrings"
@@ -6865,7 +6865,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/2446y-KzitB2YI",
+        "gif_url": "/exercises/0499.gif",
         "id": "0499",
         "name": "inverted row",
         "target": "upper back"
@@ -6873,7 +6873,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hZPUbjQ2tipXYy",
+        "gif_url": "/exercises/2300.gif",
         "id": "2300",
         "name": "inverted row bent knees",
         "target": "upper back"
@@ -6881,7 +6881,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/69Yb0zobJEo0lx",
+        "gif_url": "/exercises/2298.gif",
         "id": "2298",
         "name": "inverted row on bench",
         "target": "upper back"
@@ -6889,7 +6889,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/1a8g717GhSzAPz",
+        "gif_url": "/exercises/0497.gif",
         "id": "0497",
         "name": "inverted row v. 2",
         "target": "upper back"
@@ -6897,7 +6897,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Sa7rhGiqQT9LHD",
+        "gif_url": "/exercises/0498.gif",
         "id": "0498",
         "name": "inverted row with straps",
         "target": "upper back"
@@ -6905,7 +6905,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hkprKVA6wDgGpg",
+        "gif_url": "/exercises/1419.gif",
         "id": "1419",
         "name": "iron cross stretch",
         "target": "glutes"
@@ -6913,7 +6913,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/oaOEwda9YHqbXx",
+        "gif_url": "/exercises/1297.gif",
         "id": "1297",
         "name": "isometric chest squeeze",
         "target": "pectorals"
@@ -6921,7 +6921,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PD2lqx1XtRRPOH",
+        "gif_url": "/exercises/0500.gif",
         "id": "0500",
         "name": "isometric wipers",
         "target": "pectorals"
@@ -6929,7 +6929,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/zCHJBQuGy5G9aQ",
+        "gif_url": "/exercises/0501.gif",
         "id": "0501",
         "name": "jack burpee",
         "target": "cardiovascular system"
@@ -6937,7 +6937,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/JidrR27hk3RayP",
+        "gif_url": "/exercises/3224.gif",
         "id": "3224",
         "name": "jack jump (male)",
         "target": "cardiovascular system"
@@ -6945,7 +6945,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YV1DgiCBkQ8ge5",
+        "gif_url": "/exercises/0507.gif",
         "id": "0507",
         "name": "jackknife sit-up",
         "target": "abs"
@@ -6953,7 +6953,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Xpz1N1qleKjQx9",
+        "gif_url": "/exercises/0508.gif",
         "id": "0508",
         "name": "janda sit-up",
         "target": "abs"
@@ -6961,7 +6961,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/OVg3rmxonqhLYX",
+        "gif_url": "/exercises/2612.gif",
         "id": "2612",
         "name": "jump rope",
         "target": "cardiovascular system"
@@ -6969,7 +6969,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VKzwn1EPG8PYjh",
+        "gif_url": "/exercises/0514.gif",
         "id": "0514",
         "name": "jump squat",
         "target": "glutes"
@@ -6977,7 +6977,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/aulEazy8ceKB3b",
+        "gif_url": "/exercises/0513.gif",
         "id": "0513",
         "name": "jump squat v. 2",
         "target": "glutes"
@@ -6985,7 +6985,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/ZqxkBn13VagL2Z",
+        "gif_url": "/exercises/0517.gif",
         "id": "0517",
         "name": "kettlebell advanced windmill",
         "target": "abs"
@@ -6993,7 +6993,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/2rPBB6e7VwEl1y",
+        "gif_url": "/exercises/0518.gif",
         "id": "0518",
         "name": "kettlebell alternating hang clean",
         "target": "forearms"
@@ -7001,7 +7001,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/Fq8nlpwpq1MvSv",
+        "gif_url": "/exercises/0520.gif",
         "id": "0520",
         "name": "kettlebell alternating press",
         "target": "delts"
@@ -7009,7 +7009,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/R-kQXfwze-m9d0",
+        "gif_url": "/exercises/0519.gif",
         "id": "0519",
         "name": "kettlebell alternating press on floor",
         "target": "pectorals"
@@ -7017,7 +7017,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/BfT80sDpXowYz3",
+        "gif_url": "/exercises/0521.gif",
         "id": "0521",
         "name": "kettlebell alternating renegade row",
         "target": "upper back"
@@ -7025,7 +7025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/OqykmjhDjdGIXn",
+        "gif_url": "/exercises/0522.gif",
         "id": "0522",
         "name": "kettlebell alternating row",
         "target": "upper back"
@@ -7033,7 +7033,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/jeyizemsYZPbBV",
+        "gif_url": "/exercises/0523.gif",
         "id": "0523",
         "name": "kettlebell arnold press",
         "target": "delts"
@@ -7041,7 +7041,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/qgibCXiVSPoPsa",
+        "gif_url": "/exercises/0524.gif",
         "id": "0524",
         "name": "kettlebell bent press",
         "target": "abs"
@@ -7049,7 +7049,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/aeUnh43h65KPr8",
+        "gif_url": "/exercises/0525.gif",
         "id": "0525",
         "name": "kettlebell bottoms up clean from the hang position",
         "target": "biceps"
@@ -7057,7 +7057,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/TcrIpUayIzr96r",
+        "gif_url": "/exercises/0526.gif",
         "id": "0526",
         "name": "kettlebell double alternating hang clean",
         "target": "biceps"
@@ -7065,7 +7065,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/OrydOsrE5TatyN",
+        "gif_url": "/exercises/0527.gif",
         "id": "0527",
         "name": "kettlebell double jerk",
         "target": "delts"
@@ -7073,7 +7073,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/rRSw7GsEB5VT8N",
+        "gif_url": "/exercises/0528.gif",
         "id": "0528",
         "name": "kettlebell double push press",
         "target": "delts"
@@ -7081,7 +7081,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/Rc1XqSjesen0XF",
+        "gif_url": "/exercises/0529.gif",
         "id": "0529",
         "name": "kettlebell double snatch",
         "target": "delts"
@@ -7089,7 +7089,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/RO6xEz3GAKPBwH",
+        "gif_url": "/exercises/0530.gif",
         "id": "0530",
         "name": "kettlebell double windmill",
         "target": "abs"
@@ -7097,7 +7097,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/VJoBKNTQgu56D7",
+        "gif_url": "/exercises/0531.gif",
         "id": "0531",
         "name": "kettlebell extended range one arm press on floor",
         "target": "pectorals"
@@ -7105,7 +7105,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/JrmBSYXolZgpoJ",
+        "gif_url": "/exercises/0532.gif",
         "id": "0532",
         "name": "kettlebell figure 8",
         "target": "abs"
@@ -7113,7 +7113,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/VKu-RX3GLuYoFY",
+        "gif_url": "/exercises/0533.gif",
         "id": "0533",
         "name": "kettlebell front squat",
         "target": "glutes"
@@ -7121,7 +7121,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/i9yREeJHtctq4n",
+        "gif_url": "/exercises/0534.gif",
         "id": "0534",
         "name": "kettlebell goblet squat",
         "target": "glutes"
@@ -7129,7 +7129,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/h6Dvdj4osGxdZG",
+        "gif_url": "/exercises/0535.gif",
         "id": "0535",
         "name": "kettlebell hang clean",
         "target": "hamstrings"
@@ -7137,7 +7137,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/nkoiNKs4WmqpZN",
+        "gif_url": "/exercises/0536.gif",
         "id": "0536",
         "name": "kettlebell lunge pass through",
         "target": "glutes"
@@ -7145,7 +7145,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/ws57if415GyUZO",
+        "gif_url": "/exercises/0537.gif",
         "id": "0537",
         "name": "kettlebell one arm clean and jerk",
         "target": "delts"
@@ -7153,7 +7153,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/q1W3OUwzFUuXCJ",
+        "gif_url": "/exercises/1298.gif",
         "id": "1298",
         "name": "kettlebell one arm floor press",
         "target": "pectorals"
@@ -7161,7 +7161,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/uDmumP6NFRTELV",
+        "gif_url": "/exercises/0538.gif",
         "id": "0538",
         "name": "kettlebell one arm jerk",
         "target": "delts"
@@ -7169,7 +7169,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/Ia76oiQm5IRgov",
+        "gif_url": "/exercises/0539.gif",
         "id": "0539",
         "name": "kettlebell one arm military press to the side",
         "target": "delts"
@@ -7177,7 +7177,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/GlrX5RHwFfcbOn",
+        "gif_url": "/exercises/0540.gif",
         "id": "0540",
         "name": "kettlebell one arm push press",
         "target": "delts"
@@ -7185,7 +7185,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/IpjNPWtPp6oysl",
+        "gif_url": "/exercises/0541.gif",
         "id": "0541",
         "name": "kettlebell one arm row",
         "target": "upper back"
@@ -7193,7 +7193,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/6hm2Mot0AI3QhZ",
+        "gif_url": "/exercises/0542.gif",
         "id": "0542",
         "name": "kettlebell one arm snatch",
         "target": "delts"
@@ -7201,7 +7201,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/kb-KUSHDeQVlZ5",
+        "gif_url": "/exercises/0543.gif",
         "id": "0543",
         "name": "kettlebell pirate supper legs",
         "target": "delts"
@@ -7209,7 +7209,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/gBtHoNbhwcbLpd",
+        "gif_url": "/exercises/0544.gif",
         "id": "0544",
         "name": "kettlebell pistol squat",
         "target": "glutes"
@@ -7217,7 +7217,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/jsImDwQuiWh7dC",
+        "gif_url": "/exercises/0545.gif",
         "id": "0545",
         "name": "kettlebell plyo push-up",
         "target": "pectorals"
@@ -7225,7 +7225,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/Xq32rAjiz9JQbC",
+        "gif_url": "/exercises/0546.gif",
         "id": "0546",
         "name": "kettlebell seated press",
         "target": "delts"
@@ -7233,7 +7233,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/8R2sTGN48D8pum",
+        "gif_url": "/exercises/1438.gif",
         "id": "1438",
         "name": "kettlebell seated two arm military press",
         "target": "delts"
@@ -7241,7 +7241,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/RkvW3GZNrsJS6M",
+        "gif_url": "/exercises/0547.gif",
         "id": "0547",
         "name": "kettlebell seesaw press",
         "target": "delts"
@@ -7249,7 +7249,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/0VDieYpTA39fKW",
+        "gif_url": "/exercises/0548.gif",
         "id": "0548",
         "name": "kettlebell sumo high pull",
         "target": "traps"
@@ -7257,7 +7257,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/4hKllp-PnvghCQ",
+        "gif_url": "/exercises/0549.gif",
         "id": "0549",
         "name": "kettlebell swing",
         "target": "glutes"
@@ -7265,7 +7265,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/6K1ATraIxKs6RU",
+        "gif_url": "/exercises/0550.gif",
         "id": "0550",
         "name": "kettlebell thruster",
         "target": "delts"
@@ -7273,7 +7273,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/EiESvmybCKrpHS",
+        "gif_url": "/exercises/0551.gif",
         "id": "0551",
         "name": "kettlebell turkish get up (squat style)",
         "target": "glutes"
@@ -7281,7 +7281,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/SkeQboOgRFcRkU",
+        "gif_url": "/exercises/0552.gif",
         "id": "0552",
         "name": "kettlebell two arm clean",
         "target": "delts"
@@ -7289,7 +7289,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/3nwd3sAbBCLXpD",
+        "gif_url": "/exercises/0553.gif",
         "id": "0553",
         "name": "kettlebell two arm military press",
         "target": "delts"
@@ -7297,7 +7297,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/NsWyODZNidm0g0",
+        "gif_url": "/exercises/1345.gif",
         "id": "1345",
         "name": "kettlebell two arm row",
         "target": "upper back"
@@ -7305,7 +7305,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "kettlebell",
-        "gif_url": "https://api.exercisedb.io/image/nXpuE8YDecbSTx",
+        "gif_url": "/exercises/0554.gif",
         "id": "0554",
         "name": "kettlebell windmill",
         "target": "abs"
@@ -7313,7 +7313,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yCGbuEPNWQwhrN",
+        "gif_url": "/exercises/0555.gif",
         "id": "0555",
         "name": "kick out sit",
         "target": "hamstrings"
@@ -7321,7 +7321,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/NqS-Ky4WIdAcfy",
+        "gif_url": "/exercises/0558.gif",
         "id": "0558",
         "name": "kipping muscle up",
         "target": "lats"
@@ -7329,7 +7329,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/QALBzXnZ2LhdsB",
+        "gif_url": "/exercises/3640.gif",
         "id": "3640",
         "name": "knee touch crunch",
         "target": "abs"
@@ -7337,7 +7337,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/K7IQdwN5QoNAa6",
+        "gif_url": "/exercises/1420.gif",
         "id": "1420",
         "name": "kneeling jump squat",
         "target": "glutes"
@@ -7345,7 +7345,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PlVFNZzw5Ug94a",
+        "gif_url": "/exercises/1346.gif",
         "id": "1346",
         "name": "kneeling lat stretch",
         "target": "lats"
@@ -7353,7 +7353,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/K7RaOsgKmTGlFf",
+        "gif_url": "/exercises/3239.gif",
         "id": "3239",
         "name": "kneeling plank tap shoulder (male)",
         "target": "abs"
@@ -7361,7 +7361,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/mbUmaBv1rwwJ2H",
+        "gif_url": "/exercises/3211.gif",
         "id": "3211",
         "name": "kneeling push-up (male)",
         "target": "pectorals"
@@ -7369,7 +7369,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/HHe6ixhz6799Le",
+        "gif_url": "/exercises/3288.gif",
         "id": "3288",
         "name": "korean dips",
         "target": "pectorals"
@@ -7377,7 +7377,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/0C0boGtBHiKd9b",
+        "gif_url": "/exercises/3418.gif",
         "id": "3418",
         "name": "l-pull-up",
         "target": "lats"
@@ -7385,7 +7385,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/fgQlB8LXJHL1wk",
+        "gif_url": "/exercises/3419.gif",
         "id": "3419",
         "name": "l-sit on floor",
         "target": "abs"
@@ -7393,7 +7393,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/IfyRRAjHrcNJz6",
+        "gif_url": "/exercises/0562.gif",
         "id": "0562",
         "name": "landmine 180",
         "target": "abs"
@@ -7401,7 +7401,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/c4E9BAVj-bD8FK",
+        "gif_url": "/exercises/3237.gif",
         "id": "3237",
         "name": "landmine lateral raise",
         "target": "delts"
@@ -7409,7 +7409,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Hvsf8hG8rPc-rw",
+        "gif_url": "/exercises/3300.gif",
         "id": "3300",
         "name": "lean planche",
         "target": "abs"
@@ -7417,7 +7417,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/HvOod1JWgyBjvG",
+        "gif_url": "/exercises/2271.gif",
         "id": "2271",
         "name": "left hook. boxing",
         "target": "delts"
@@ -7425,7 +7425,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/J08lP0hRbeZESp",
+        "gif_url": "/exercises/0570.gif",
         "id": "0570",
         "name": "leg pull in flat bench",
         "target": "abs"
@@ -7433,7 +7433,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/kxpmcRwGjlA4CW",
+        "gif_url": "/exercises/1576.gif",
         "id": "1576",
         "name": "leg up hamstring stretch",
         "target": "hamstrings"
@@ -7441,7 +7441,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/7HJR0AKK5z2PFa",
+        "gif_url": "/exercises/2287.gif",
         "id": "2287",
         "name": "lever alternate leg press ",
         "target": "quads"
@@ -7449,7 +7449,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Iln2ZcCmQ976t2",
+        "gif_url": "/exercises/0571.gif",
         "id": "0571",
         "name": "lever alternating narrow grip seated row ",
         "target": "upper back"
@@ -7457,7 +7457,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/bXLvUZH2oqmSVY",
+        "gif_url": "/exercises/0572.gif",
         "id": "0572",
         "name": "lever assisted chin-up",
         "target": "lats"
@@ -7465,7 +7465,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/NQmRs0WCSUN3T-",
+        "gif_url": "/exercises/0573.gif",
         "id": "0573",
         "name": "lever back extension",
         "target": "spine"
@@ -7473,7 +7473,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/2g1RMKbATso9SX",
+        "gif_url": "/exercises/0574.gif",
         "id": "0574",
         "name": "lever bent over row ",
         "target": "upper back"
@@ -7481,7 +7481,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/K6O0FTEh0VvSG1",
+        "gif_url": "/exercises/3200.gif",
         "id": "3200",
         "name": "lever bent-over row with v-bar ",
         "target": "upper back"
@@ -7489,7 +7489,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/DfyOt-OLCzo5-2",
+        "gif_url": "/exercises/0575.gif",
         "id": "0575",
         "name": "lever bicep curl",
         "target": "biceps"
@@ -7497,7 +7497,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/uhp2wRyt07YsUX",
+        "gif_url": "/exercises/2289.gif",
         "id": "2289",
         "name": "lever calf press ",
         "target": "calves"
@@ -7505,7 +7505,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/3QVitjiSKplHs-",
+        "gif_url": "/exercises/0577.gif",
         "id": "0577",
         "name": "lever chest press",
         "target": "pectorals"
@@ -7513,7 +7513,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/4ZzReZ6EplbaqB",
+        "gif_url": "/exercises/0576.gif",
         "id": "0576",
         "name": "lever chest press ",
         "target": "pectorals"
@@ -7521,7 +7521,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/y2cN5RLszof9hq",
+        "gif_url": "/exercises/0578.gif",
         "id": "0578",
         "name": "lever deadlift ",
         "target": "glutes"
@@ -7529,7 +7529,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/mHvtFGwLPbAKwJ",
+        "gif_url": "/exercises/1300.gif",
         "id": "1300",
         "name": "lever decline chest press",
         "target": "pectorals"
@@ -7537,7 +7537,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ZGjEkzSVZAbK0v",
+        "gif_url": "/exercises/1253.gif",
         "id": "1253",
         "name": "lever donkey calf raise",
         "target": "calves"
@@ -7545,7 +7545,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/jB9wG9rwA76pTR",
+        "gif_url": "/exercises/0579.gif",
         "id": "0579",
         "name": "lever front pulldown",
         "target": "lats"
@@ -7553,7 +7553,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/NTzOjYrZ1KCbOX",
+        "gif_url": "/exercises/0580.gif",
         "id": "0580",
         "name": "lever gripless shrug",
         "target": "traps"
@@ -7561,7 +7561,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/xj0y50qFa5gjzp",
+        "gif_url": "/exercises/1439.gif",
         "id": "1439",
         "name": "lever gripless shrug v. 2",
         "target": "traps"
@@ -7569,7 +7569,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/2G0qmB2XbMr-PY",
+        "gif_url": "/exercises/2288.gif",
         "id": "2288",
         "name": "lever gripper hands ",
         "target": "forearms"
@@ -7577,7 +7577,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/xndRnWzaWdkapi",
+        "gif_url": "/exercises/1615.gif",
         "id": "1615",
         "name": "lever hammer grip preacher curl",
         "target": "biceps"
@@ -7585,7 +7585,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/OnYi12HvgHZLBF",
+        "gif_url": "/exercises/0581.gif",
         "id": "0581",
         "name": "lever high row ",
         "target": "upper back"
@@ -7593,7 +7593,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/rG3xIpgOgMXBho",
+        "gif_url": "/exercises/2286.gif",
         "id": "2286",
         "name": "lever hip extension v. 2",
         "target": "glutes"
@@ -7601,7 +7601,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/1EVQQRBnKMEFi8",
+        "gif_url": "/exercises/2611.gif",
         "id": "2611",
         "name": "lever horizontal one leg press",
         "target": "glutes"
@@ -7609,7 +7609,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/lnI9uVFAM8dTOq",
+        "gif_url": "/exercises/1299.gif",
         "id": "1299",
         "name": "lever incline chest press",
         "target": "pectorals"
@@ -7617,7 +7617,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/el3n3goApf3ewn",
+        "gif_url": "/exercises/1479.gif",
         "id": "1479",
         "name": "lever incline chest press v. 2",
         "target": "pectorals"
@@ -7625,7 +7625,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/fPrVlUuWILsZ2c",
+        "gif_url": "/exercises/0582.gif",
         "id": "0582",
         "name": "lever kneeling leg curl ",
         "target": "hamstrings"
@@ -7633,7 +7633,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/nS1gRDQ6Xpuz0q",
+        "gif_url": "/exercises/0583.gif",
         "id": "0583",
         "name": "lever kneeling twist",
         "target": "abs"
@@ -7641,7 +7641,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/3D791caorCdTvQ",
+        "gif_url": "/exercises/0584.gif",
         "id": "0584",
         "name": "lever lateral raise",
         "target": "delts"
@@ -7649,7 +7649,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Wd6jdXJc79171l",
+        "gif_url": "/exercises/0585.gif",
         "id": "0585",
         "name": "lever leg extension",
         "target": "quads"
@@ -7657,7 +7657,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/uVM62CkYRz1w1R",
+        "gif_url": "/exercises/0586.gif",
         "id": "0586",
         "name": "lever lying leg curl",
         "target": "hamstrings"
@@ -7665,7 +7665,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/0VdgUdlb9C0NQe",
+        "gif_url": "/exercises/3195.gif",
         "id": "3195",
         "name": "lever lying two-one leg curl",
         "target": "hamstrings"
@@ -7673,7 +7673,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/a8xl8HuTclAYyE",
+        "gif_url": "/exercises/0587.gif",
         "id": "0587",
         "name": "lever military press ",
         "target": "delts"
@@ -7681,7 +7681,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/pdhowR9WxtuThQ",
+        "gif_url": "/exercises/0588.gif",
         "id": "0588",
         "name": "lever narrow grip seated row ",
         "target": "upper back"
@@ -7689,7 +7689,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/IRtKR8Yi8YqSW4",
+        "gif_url": "/exercises/0589.gif",
         "id": "0589",
         "name": "lever one arm bent over row ",
         "target": "upper back"
@@ -7697,7 +7697,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/rz82mKcKVKxnkS",
+        "gif_url": "/exercises/1356.gif",
         "id": "1356",
         "name": "lever one arm lateral high row",
         "target": "upper back"
@@ -7705,7 +7705,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/TiuBMohay3TBZI",
+        "gif_url": "/exercises/1347.gif",
         "id": "1347",
         "name": "lever one arm lateral wide pulldown ",
         "target": "lats"
@@ -7713,7 +7713,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ujclvHTa9xR7Nz",
+        "gif_url": "/exercises/0590.gif",
         "id": "0590",
         "name": "lever one arm shoulder press ",
         "target": "delts"
@@ -7721,7 +7721,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/-hdlUPa2hIT0Hu",
+        "gif_url": "/exercises/0591.gif",
         "id": "0591",
         "name": "lever overhand triceps dip",
         "target": "triceps"
@@ -7729,7 +7729,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ogbxm7LsVAnGBs",
+        "gif_url": "/exercises/0592.gif",
         "id": "0592",
         "name": "lever preacher curl",
         "target": "biceps"
@@ -7737,7 +7737,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/-MxP1ldVh5aq3Y",
+        "gif_url": "/exercises/1614.gif",
         "id": "1614",
         "name": "lever preacher curl v. 2",
         "target": "biceps"
@@ -7745,7 +7745,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/50hH9-PNBfzg6G",
+        "gif_url": "/exercises/2285.gif",
         "id": "2285",
         "name": "lever pullover ",
         "target": "lats"
@@ -7753,7 +7753,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/6JQHtq523IjALt",
+        "gif_url": "/exercises/2736.gif",
         "id": "2736",
         "name": "lever reverse grip lateral pulldown ",
         "target": "lats"
@@ -7761,7 +7761,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/L5mF-JHOV0qmle",
+        "gif_url": "/exercises/1616.gif",
         "id": "1616",
         "name": "lever reverse grip preacher curl",
         "target": "biceps"
@@ -7769,7 +7769,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Buk2a24OBml-jk",
+        "gif_url": "/exercises/1348.gif",
         "id": "1348",
         "name": "lever reverse grip vertical row",
         "target": "upper back"
@@ -7777,7 +7777,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/W-lwhMgRLt2WKc",
+        "gif_url": "/exercises/0593.gif",
         "id": "0593",
         "name": "lever reverse hyperextension ",
         "target": "glutes"
@@ -7785,7 +7785,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/HdfGhqPXKtGVPT",
+        "gif_url": "/exercises/1349.gif",
         "id": "1349",
         "name": "lever reverse t-bar row",
         "target": "upper back"
@@ -7793,7 +7793,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/4n2oJQ4HO8DLVq",
+        "gif_url": "/exercises/2315.gif",
         "id": "2315",
         "name": "lever rotary calf",
         "target": "calves"
@@ -7801,7 +7801,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ITi8y-6MeSeS8a",
+        "gif_url": "/exercises/2335.gif",
         "id": "2335",
         "name": "lever seated calf press",
         "target": "calves"
@@ -7809,7 +7809,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/5IiW4-CYZCl1dA",
+        "gif_url": "/exercises/0594.gif",
         "id": "0594",
         "name": "lever seated calf raise ",
         "target": "calves"
@@ -7817,7 +7817,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ro0A7tsRG01aRK",
+        "gif_url": "/exercises/1452.gif",
         "id": "1452",
         "name": "lever seated crunch",
         "target": "abs"
@@ -7825,7 +7825,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/FIHVQUF0Wj6MrV",
+        "gif_url": "/exercises/0595.gif",
         "id": "0595",
         "name": "lever seated crunch (chest pad)",
         "target": "abs"
@@ -7833,7 +7833,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/kT2ioJswbwtyB7",
+        "gif_url": "/exercises/3760.gif",
         "id": "3760",
         "name": "lever seated crunch v. 2",
         "target": "abs"
@@ -7841,7 +7841,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/MHJW-EEhQ3Lm-j",
+        "gif_url": "/exercises/1451.gif",
         "id": "1451",
         "name": "lever seated dip",
         "target": "triceps"
@@ -7849,7 +7849,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ofcBKJZHe6zMDQ",
+        "gif_url": "/exercises/0596.gif",
         "id": "0596",
         "name": "lever seated fly",
         "target": "pectorals"
@@ -7857,7 +7857,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/694MBlTRP5FZt0",
+        "gif_url": "/exercises/3759.gif",
         "id": "3759",
         "name": "lever seated good morning",
         "target": "glutes"
@@ -7865,7 +7865,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/RjiKaN7rcr8bNC",
+        "gif_url": "/exercises/0597.gif",
         "id": "0597",
         "name": "lever seated hip abduction",
         "target": "abductors"
@@ -7873,7 +7873,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/I2stncsnb0tsnf",
+        "gif_url": "/exercises/0598.gif",
         "id": "0598",
         "name": "lever seated hip adduction",
         "target": "adductors"
@@ -7881,7 +7881,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/lYE8mBBFXdyUoh",
+        "gif_url": "/exercises/0599.gif",
         "id": "0599",
         "name": "lever seated leg curl",
         "target": "hamstrings"
@@ -7889,7 +7889,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/08SGSX9I9bfaGS",
+        "gif_url": "/exercises/0600.gif",
         "id": "0600",
         "name": "lever seated leg raise crunch ",
         "target": "abs"
@@ -7897,7 +7897,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/tlPg7hwCHYbTjm",
+        "gif_url": "/exercises/0602.gif",
         "id": "0602",
         "name": "lever seated reverse fly",
         "target": "delts"
@@ -7905,7 +7905,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Z9XyMWqse7IIVz",
+        "gif_url": "/exercises/0601.gif",
         "id": "0601",
         "name": "lever seated reverse fly (parallel grip)",
         "target": "delts"
@@ -7913,7 +7913,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/2MY0mrfFtbwY9r",
+        "gif_url": "/exercises/1350.gif",
         "id": "1350",
         "name": "lever seated row",
         "target": "upper back"
@@ -7921,7 +7921,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Ra1fQedm56nwho",
+        "gif_url": "/exercises/1385.gif",
         "id": "1385",
         "name": "lever seated squat calf raise on leg press machine",
         "target": "calves"
@@ -7929,7 +7929,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/RmHcFsGVa8Wp7Z",
+        "gif_url": "/exercises/0603.gif",
         "id": "0603",
         "name": "lever shoulder press ",
         "target": "delts"
@@ -7937,7 +7937,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/ZTmc4Ld1Nu6PW3",
+        "gif_url": "/exercises/0869.gif",
         "id": "0869",
         "name": "lever shoulder press  v. 2",
         "target": "delts"
@@ -7945,7 +7945,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/uzyYegTjZuBaaN",
+        "gif_url": "/exercises/2318.gif",
         "id": "2318",
         "name": "lever shoulder press  v. 3",
         "target": "delts"
@@ -7953,7 +7953,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/OHbpKayk-lBC2L",
+        "gif_url": "/exercises/0604.gif",
         "id": "0604",
         "name": "lever shrug ",
         "target": "traps"
@@ -7961,7 +7961,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/cUEPuA7jwB2Auk",
+        "gif_url": "/exercises/0605.gif",
         "id": "0605",
         "name": "lever standing calf raise",
         "target": "calves"
@@ -7969,7 +7969,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/BXUArN-G9B3giX",
+        "gif_url": "/exercises/3758.gif",
         "id": "3758",
         "name": "lever standing chest press",
         "target": "pectorals"
@@ -7977,7 +7977,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Z2jY7-aFoMPykS",
+        "gif_url": "/exercises/0606.gif",
         "id": "0606",
         "name": "lever t bar row ",
         "target": "upper back"
@@ -7985,7 +7985,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/Nm-VQeyZ540UNF",
+        "gif_url": "/exercises/1351.gif",
         "id": "1351",
         "name": "lever t-bar reverse grip row",
         "target": "upper back"
@@ -7993,7 +7993,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/NqudFK9PvL5-yB",
+        "gif_url": "/exercises/0607.gif",
         "id": "0607",
         "name": "lever triceps extension",
         "target": "triceps"
@@ -8001,7 +8001,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/LwJZ3b3UV3Xm2T",
+        "gif_url": "/exercises/1313.gif",
         "id": "1313",
         "name": "lever unilateral row",
         "target": "upper back"
@@ -8009,7 +8009,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/gCoMt3GA0krBBA",
+        "gif_url": "/exercises/0609.gif",
         "id": "0609",
         "name": "london bridge",
         "target": "upper back"
@@ -8017,7 +8017,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GdOaNXGZct81Bc",
+        "gif_url": "/exercises/3013.gif",
         "id": "3013",
         "name": "low glute bridge on floor",
         "target": "glutes"
@@ -8025,7 +8025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YuJq9X4LzftJpE",
+        "gif_url": "/exercises/1352.gif",
         "id": "1352",
         "name": "lower back curl",
         "target": "spine"
@@ -8033,7 +8033,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VBTR3tyWbPr1n1",
+        "gif_url": "/exercises/3582.gif",
         "id": "3582",
         "name": "lunge with jump",
         "target": "glutes"
@@ -8041,7 +8041,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/NDNgxHdgTAzDVn",
+        "gif_url": "/exercises/1688.gif",
         "id": "1688",
         "name": "lunge with twist",
         "target": "abs"
@@ -8049,7 +8049,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IZnDHVB0rFiUX3",
+        "gif_url": "/exercises/0613.gif",
         "id": "0613",
         "name": "lying (side) quads stretch",
         "target": "quads"
@@ -8057,7 +8057,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XPmDLX13SBpHKa",
+        "gif_url": "/exercises/2312.gif",
         "id": "2312",
         "name": "lying elbow to knee",
         "target": "abs"
@@ -8065,7 +8065,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/rWDPzGcpEBLVrK",
+        "gif_url": "/exercises/0620.gif",
         "id": "0620",
         "name": "lying leg raise flat bench",
         "target": "abs"
@@ -8073,7 +8073,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/r0dSQBCaYfPtgx",
+        "gif_url": "/exercises/0865.gif",
         "id": "0865",
         "name": "lying leg-hip raise",
         "target": "abs"
@@ -8081,7 +8081,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/BU497ZMELBKDTv",
+        "gif_url": "/exercises/1301.gif",
         "id": "1301",
         "name": "machine inner chest press",
         "target": "pectorals"
@@ -8089,7 +8089,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Of2TfJzADGIbvm",
+        "gif_url": "/exercises/0624.gif",
         "id": "0624",
         "name": "march sit (wall)",
         "target": "glutes"
@@ -8097,7 +8097,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/rmLcHCmgsE0Hy1",
+        "gif_url": "/exercises/1353.gif",
         "id": "1353",
         "name": "medicine ball catch and overhead throw",
         "target": "lats"
@@ -8105,7 +8105,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/GIAAYpWiJ7S7BS",
+        "gif_url": "/exercises/1302.gif",
         "id": "1302",
         "name": "medicine ball chest pass",
         "target": "pectorals"
@@ -8113,7 +8113,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/GvHKKTxck-24gq",
+        "gif_url": "/exercises/1303.gif",
         "id": "1303",
         "name": "medicine ball chest push from 3 point stance",
         "target": "pectorals"
@@ -8121,7 +8121,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/4z6qFCDw-bWNZa",
+        "gif_url": "/exercises/1304.gif",
         "id": "1304",
         "name": "medicine ball chest push multiple response",
         "target": "pectorals"
@@ -8129,7 +8129,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/oo4JhczcmceXHv",
+        "gif_url": "/exercises/1305.gif",
         "id": "1305",
         "name": "medicine ball chest push single response",
         "target": "pectorals"
@@ -8137,7 +8137,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/hSqVvR-6PrIpnd",
+        "gif_url": "/exercises/1312.gif",
         "id": "1312",
         "name": "medicine ball chest push with run release",
         "target": "pectorals"
@@ -8145,7 +8145,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/mD7UcCZwBy7Dy4",
+        "gif_url": "/exercises/1701.gif",
         "id": "1701",
         "name": "medicine ball close grip push up",
         "target": "triceps"
@@ -8153,7 +8153,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/mJDNXiGujPRwc-",
+        "gif_url": "/exercises/1354.gif",
         "id": "1354",
         "name": "medicine ball overhead slam",
         "target": "upper back"
@@ -8161,7 +8161,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/lM4uX7YlEboAF9",
+        "gif_url": "/exercises/1750.gif",
         "id": "1750",
         "name": "medicine ball supine chest throw",
         "target": "triceps"
@@ -8169,7 +8169,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/mVsdvJGvPJRmog",
+        "gif_url": "/exercises/0627.gif",
         "id": "0627",
         "name": "mixed grip chin-up",
         "target": "lats"
@@ -8177,7 +8177,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/90bPikEV16LcTL",
+        "gif_url": "/exercises/3217.gif",
         "id": "3217",
         "name": "modified hindu push-up (male)",
         "target": "pectorals"
@@ -8185,7 +8185,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/wlpyhaCR41i2wC",
+        "gif_url": "/exercises/1421.gif",
         "id": "1421",
         "name": "modified push up to lower arms",
         "target": "forearms"
@@ -8193,7 +8193,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Dz7CxDhGz-jTUP",
+        "gif_url": "/exercises/0628.gif",
         "id": "0628",
         "name": "monster walk",
         "target": "glutes"
@@ -8201,7 +8201,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/4NlFv4T1OYWd07",
+        "gif_url": "/exercises/0630.gif",
         "id": "0630",
         "name": "mountain climber",
         "target": "cardiovascular system"
@@ -8209,7 +8209,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DRp15npi8WsUoH",
+        "gif_url": "/exercises/0631.gif",
         "id": "0631",
         "name": "muscle up",
         "target": "lats"
@@ -8217,7 +8217,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/sT8lC9FPQapPAY",
+        "gif_url": "/exercises/1401.gif",
         "id": "1401",
         "name": "muscle-up (on vertical bar)",
         "target": "lats"
@@ -8225,7 +8225,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/6Oa5E1WzYnbp9Y",
+        "gif_url": "/exercises/2328.gif",
         "id": "2328",
         "name": "narrow push-up on exercise ball",
         "target": "triceps"
@@ -8233,7 +8233,7 @@ export const exercisesData = [
     {
         "body_part": "neck",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8D7y08wAUwxncc",
+        "gif_url": "/exercises/1403.gif",
         "id": "1403",
         "name": "neck side stretch",
         "target": "levator scapulae"
@@ -8241,7 +8241,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RK53N-3q7V9DEx",
+        "gif_url": "/exercises/0634.gif",
         "id": "0634",
         "name": "negative crunch",
         "target": "abs"
@@ -8249,7 +8249,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/nuCFowUSx8thrJ",
+        "gif_url": "/exercises/1495.gif",
         "id": "1495",
         "name": "oblique crunch v. 2",
         "target": "abs"
@@ -8257,7 +8257,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/rtcWhyw2-ck4xl",
+        "gif_url": "/exercises/0635.gif",
         "id": "0635",
         "name": "oblique crunches floor",
         "target": "abs"
@@ -8265,7 +8265,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "olympic barbell",
-        "gif_url": "https://api.exercisedb.io/image/qQNFkB-JHaps2V",
+        "gif_url": "/exercises/0636.gif",
         "id": "0636",
         "name": "olympic barbell hammer curl",
         "target": "biceps"
@@ -8273,7 +8273,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "olympic barbell",
-        "gif_url": "https://api.exercisedb.io/image/93iQloScLyyWGQ",
+        "gif_url": "/exercises/0637.gif",
         "id": "0637",
         "name": "olympic barbell triceps extension",
         "target": "triceps"
@@ -8281,7 +8281,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hUWqXGcNCgu2Lc",
+        "gif_url": "/exercises/1355.gif",
         "id": "1355",
         "name": "one arm against wall",
         "target": "lats"
@@ -8289,7 +8289,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/d5dpcZP9AXtOlJ",
+        "gif_url": "/exercises/0638.gif",
         "id": "0638",
         "name": "one arm chin-up",
         "target": "lats"
@@ -8297,7 +8297,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/ywqLqSo08dXWKz",
+        "gif_url": "/exercises/0639.gif",
         "id": "0639",
         "name": "one arm dip",
         "target": "triceps"
@@ -8305,7 +8305,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/cK6XNNX8aPNrvW",
+        "gif_url": "/exercises/0640.gif",
         "id": "0640",
         "name": "one arm slam (with medicine ball)",
         "target": "abs"
@@ -8313,7 +8313,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PRmJOjC1k7VbFG",
+        "gif_url": "/exercises/1773.gif",
         "id": "1773",
         "name": "one arm towel row",
         "target": "upper back"
@@ -8321,7 +8321,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iAm4TvyAEqXbRX",
+        "gif_url": "/exercises/1386.gif",
         "id": "1386",
         "name": "one leg donkey calf raise",
         "target": "calves"
@@ -8329,7 +8329,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Ptp8YD4ihoWfKB",
+        "gif_url": "/exercises/1387.gif",
         "id": "1387",
         "name": "one leg floor calf raise",
         "target": "calves"
@@ -8337,7 +8337,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/OpoGaKIveDmFIh",
+        "gif_url": "/exercises/1476.gif",
         "id": "1476",
         "name": "one leg squat",
         "target": "glutes"
@@ -8345,7 +8345,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/zAKztTFLZNZeL3",
+        "gif_url": "/exercises/0641.gif",
         "id": "0641",
         "name": "otis up",
         "target": "abs"
@@ -8353,7 +8353,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/pKrM9sNBGkmJtL",
+        "gif_url": "/exercises/0642.gif",
         "id": "0642",
         "name": "outside leg kick push-up",
         "target": "glutes"
@@ -8361,7 +8361,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/V0qc-8hzIjC-wC",
+        "gif_url": "/exercises/0643.gif",
         "id": "0643",
         "name": "overhead triceps stretch",
         "target": "triceps"
@@ -8369,7 +8369,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/wDOW3gRHF5nthv",
+        "gif_url": "/exercises/3147.gif",
         "id": "3147",
         "name": "pelvic tilt",
         "target": "abs"
@@ -8377,7 +8377,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/TJxKixCxFpfEce",
+        "gif_url": "/exercises/1422.gif",
         "id": "1422",
         "name": "pelvic tilt into bridge",
         "target": "glutes"
@@ -8385,7 +8385,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/8QJHaObkFVQn4Z",
+        "gif_url": "/exercises/1388.gif",
         "id": "1388",
         "name": "peroneals stretch",
         "target": "calves"
@@ -8393,7 +8393,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GHHUn7pXnnqNBD",
+        "gif_url": "/exercises/3662.gif",
         "id": "3662",
         "name": "pike-to-cobra push-up",
         "target": "glutes"
@@ -8401,7 +8401,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/nmnJWCl050p2I0",
+        "gif_url": "/exercises/1306.gif",
         "id": "1306",
         "name": "plyo push up",
         "target": "pectorals"
@@ -8409,7 +8409,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/EYRcuGinc4pPX9",
+        "gif_url": "/exercises/1687.gif",
         "id": "1687",
         "name": "posterior step to overhead reach",
         "target": "abs"
@@ -8417,7 +8417,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/3WICnn7OYEcBq8",
+        "gif_url": "/exercises/1389.gif",
         "id": "1389",
         "name": "posterior tibialis stretch",
         "target": "calves"
@@ -8425,7 +8425,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/kww8Y4dWCo6VVJ",
+        "gif_url": "/exercises/3119.gif",
         "id": "3119",
         "name": "potty squat",
         "target": "abs"
@@ -8433,7 +8433,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/bYAbM0jUrCIYiL",
+        "gif_url": "/exercises/3132.gif",
         "id": "3132",
         "name": "potty squat with support",
         "target": "glutes"
@@ -8441,7 +8441,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/QKyLRRMmMNZV0v",
+        "gif_url": "/exercises/0648.gif",
         "id": "0648",
         "name": "power clean",
         "target": "hamstrings"
@@ -8449,7 +8449,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/6Bo7t8qEv3XFnl",
+        "gif_url": "/exercises/3665.gif",
         "id": "3665",
         "name": "power point plank",
         "target": "abs"
@@ -8457,7 +8457,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/M-vSW8nKC2Lb2u",
+        "gif_url": "/exercises/3203.gif",
         "id": "3203",
         "name": "prisoner half sit-up (male)",
         "target": "abs"
@@ -8465,7 +8465,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/yFyxLI7mNSmdGB",
+        "gif_url": "/exercises/1707.gif",
         "id": "1707",
         "name": "prone twist on stability ball",
         "target": "abs"
@@ -8473,7 +8473,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/mqLx7yaJ88lwnh",
+        "gif_url": "/exercises/0651.gif",
         "id": "0651",
         "name": "pull up (neutral grip)",
         "target": "lats"
@@ -8481,7 +8481,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/tM-LVx49ofH4XO",
+        "gif_url": "/exercises/0650.gif",
         "id": "0650",
         "name": "pull-in (on stability ball)",
         "target": "abs"
@@ -8489,7 +8489,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DooMd6MuZmGFgu",
+        "gif_url": "/exercises/0652.gif",
         "id": "0652",
         "name": "pull-up",
         "target": "lats"
@@ -8497,7 +8497,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GRXpNe5KA6-WG3",
+        "gif_url": "/exercises/1689.gif",
         "id": "1689",
         "name": "push and pull bodyweight",
         "target": "pectorals"
@@ -8505,7 +8505,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/4Q4Mr-Vmrugw4U",
+        "gif_url": "/exercises/3638.gif",
         "id": "3638",
         "name": "push to run",
         "target": "cardiovascular system"
@@ -8513,7 +8513,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "bosu ball",
-        "gif_url": "https://api.exercisedb.io/image/MAxEF9xWBLI06r",
+        "gif_url": "/exercises/1307.gif",
         "id": "1307",
         "name": "push up on bosu ball",
         "target": "pectorals"
@@ -8521,7 +8521,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/tSJo6AgENkbNv9",
+        "gif_url": "/exercises/0662.gif",
         "id": "0662",
         "name": "push-up",
         "target": "pectorals"
@@ -8529,7 +8529,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "bosu ball",
-        "gif_url": "https://api.exercisedb.io/image/QvMf2BDODJZRD4",
+        "gif_url": "/exercises/0653.gif",
         "id": "0653",
         "name": "push-up (bosu ball)",
         "target": "pectorals"
@@ -8537,7 +8537,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/5qQ2rQs66sMMNf",
+        "gif_url": "/exercises/0655.gif",
         "id": "0655",
         "name": "push-up (on stability ball)",
         "target": "pectorals"
@@ -8545,7 +8545,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/cQ9wmNq9PU5RBn",
+        "gif_url": "/exercises/0656.gif",
         "id": "0656",
         "name": "push-up (on stability ball)",
         "target": "pectorals"
@@ -8553,7 +8553,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/7JoxM7611JZGBZ",
+        "gif_url": "/exercises/0659.gif",
         "id": "0659",
         "name": "push-up (wall)",
         "target": "pectorals"
@@ -8561,7 +8561,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/4SGo3qXXNqUuBw",
+        "gif_url": "/exercises/0658.gif",
         "id": "0658",
         "name": "push-up (wall) v. 2",
         "target": "pectorals"
@@ -8569,7 +8569,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/9DJKr3U6RczclG",
+        "gif_url": "/exercises/0660.gif",
         "id": "0660",
         "name": "push-up close-grip off dumbbell",
         "target": "triceps"
@@ -8577,7 +8577,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/OT8lmjhbKZErrh",
+        "gif_url": "/exercises/0661.gif",
         "id": "0661",
         "name": "push-up inside leg kick",
         "target": "glutes"
@@ -8585,7 +8585,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/uYoXbKGwkiEqBf",
+        "gif_url": "/exercises/0663.gif",
         "id": "0663",
         "name": "push-up medicine ball",
         "target": "pectorals"
@@ -8593,7 +8593,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/eit2XleMZF6c2H",
+        "gif_url": "/exercises/1467.gif",
         "id": "1467",
         "name": "push-up on lower arms",
         "target": "triceps"
@@ -8601,7 +8601,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jw9qcEKxqiErQL",
+        "gif_url": "/exercises/3145.gif",
         "id": "3145",
         "name": "push-up plus",
         "target": "pectorals"
@@ -8609,7 +8609,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RJAvyNDTOYitwl",
+        "gif_url": "/exercises/0664.gif",
         "id": "0664",
         "name": "push-up to side plank",
         "target": "abs"
@@ -8617,7 +8617,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/3RNLlLQxF2ZSqE",
+        "gif_url": "/exercises/3533.gif",
         "id": "3533",
         "name": "quads",
         "target": "quads"
@@ -8625,7 +8625,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KTGHdf2myYodTy",
+        "gif_url": "/exercises/3201.gif",
         "id": "3201",
         "name": "quarter sit-up",
         "target": "abs"
@@ -8633,7 +8633,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/xMZ9kIizhIrOR7",
+        "gif_url": "/exercises/3552.gif",
         "id": "3552",
         "name": "quick feet v. 2",
         "target": "quads"
@@ -8641,7 +8641,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/eYtSGJ-L1ZI3Yn",
+        "gif_url": "/exercises/0666.gif",
         "id": "0666",
         "name": "raise single arm push-up",
         "target": "pectorals"
@@ -8649,7 +8649,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RzMjGOwoZJknxp",
+        "gif_url": "/exercises/0668.gif",
         "id": "0668",
         "name": "rear decline bridge",
         "target": "glutes"
@@ -8657,7 +8657,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/73E799QKGP-7GG",
+        "gif_url": "/exercises/0669.gif",
         "id": "0669",
         "name": "rear deltoid stretch",
         "target": "delts"
@@ -8665,7 +8665,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qm5J4ftkMQ49JP",
+        "gif_url": "/exercises/0670.gif",
         "id": "0670",
         "name": "rear pull-up",
         "target": "lats"
@@ -8673,7 +8673,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/pCPO8zb5AORhm4",
+        "gif_url": "/exercises/1582.gif",
         "id": "1582",
         "name": "reclining big toe pose with rope",
         "target": "hamstrings"
@@ -8681,7 +8681,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/uGkz--EB0abmbn",
+        "gif_url": "/exercises/3236.gif",
         "id": "3236",
         "name": "resistance band hip thrusts on knees (female)",
         "target": "glutes"
@@ -8689,7 +8689,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/HjrlOH77F754Qw",
+        "gif_url": "/exercises/3007.gif",
         "id": "3007",
         "name": "resistance band leg extension",
         "target": "quads"
@@ -8697,7 +8697,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/ErB9L6mLANe847",
+        "gif_url": "/exercises/3123.gif",
         "id": "3123",
         "name": "resistance band seated biceps curl",
         "target": "biceps"
@@ -8705,7 +8705,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/qgAF3aLq3c9Yuj",
+        "gif_url": "/exercises/3124.gif",
         "id": "3124",
         "name": "resistance band seated chest press",
         "target": "pectorals"
@@ -8713,7 +8713,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/W2WhPgd065xcfb",
+        "gif_url": "/exercises/3006.gif",
         "id": "3006",
         "name": "resistance band seated hip abduction",
         "target": "abductors"
@@ -8721,7 +8721,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/KTTpcG84drUn3K",
+        "gif_url": "/exercises/3122.gif",
         "id": "3122",
         "name": "resistance band seated shoulder press",
         "target": "delts"
@@ -8729,7 +8729,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "resistance band",
-        "gif_url": "https://api.exercisedb.io/image/sOoYHOnxrNYwWN",
+        "gif_url": "/exercises/3144.gif",
         "id": "3144",
         "name": "resistance band seated straight back row",
         "target": "upper back"
@@ -8737,7 +8737,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/IRUGHeu6xwaNcv",
+        "gif_url": "/exercises/0872.gif",
         "id": "0872",
         "name": "reverse crunch",
         "target": "abs"
@@ -8745,7 +8745,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/UDlJzkFkXmTqni",
+        "gif_url": "/exercises/0672.gif",
         "id": "0672",
         "name": "reverse dip",
         "target": "triceps"
@@ -8753,7 +8753,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/d8GZjUapNIm6AC",
+        "gif_url": "/exercises/0673.gif",
         "id": "0673",
         "name": "reverse grip machine lat pulldown",
         "target": "lats"
@@ -8761,7 +8761,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/LhfaVpHDGfbYMI",
+        "gif_url": "/exercises/0674.gif",
         "id": "0674",
         "name": "reverse grip pull-up",
         "target": "lats"
@@ -8769,7 +8769,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/4HUTaye3gqJCev",
+        "gif_url": "/exercises/0675.gif",
         "id": "0675",
         "name": "reverse hyper extension (on stability ball)",
         "target": "glutes"
@@ -8777,7 +8777,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/6YOchzDAakJWrO",
+        "gif_url": "/exercises/1423.gif",
         "id": "1423",
         "name": "reverse hyper on flat bench",
         "target": "glutes"
@@ -8785,7 +8785,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/f7WLcKHpvU-nfC",
+        "gif_url": "/exercises/3663.gif",
         "id": "3663",
         "name": "reverse plank with leg lift",
         "target": "abs"
@@ -8793,7 +8793,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/C5NZ7IRY6yzSSM",
+        "gif_url": "/exercises/0677.gif",
         "id": "0677",
         "name": "ring dips",
         "target": "triceps"
@@ -8801,7 +8801,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Zl-Q16FNHy82Yu",
+        "gif_url": "/exercises/2571.gif",
         "id": "2571",
         "name": "rocking frog stretch",
         "target": "glutes"
@@ -8809,7 +8809,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RNhcpjJ1uHM9m7",
+        "gif_url": "/exercises/0678.gif",
         "id": "0678",
         "name": "rocky pull-up pulldown",
         "target": "lats"
@@ -8817,7 +8817,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/roIzD7Dn5fHEqe",
+        "gif_url": "/exercises/2208.gif",
         "id": "2208",
         "name": "roller back stretch",
         "target": "spine"
@@ -8825,7 +8825,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/7M9ExO2uqaj6c8",
+        "gif_url": "/exercises/2204.gif",
         "id": "2204",
         "name": "roller body saw",
         "target": "abs"
@@ -8833,7 +8833,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/EPvfzfR4IcSoDZ",
+        "gif_url": "/exercises/2205.gif",
         "id": "2205",
         "name": "roller hip lat stretch",
         "target": "glutes"
@@ -8841,7 +8841,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/gTceQJO1NCktiQ",
+        "gif_url": "/exercises/2202.gif",
         "id": "2202",
         "name": "roller hip stretch",
         "target": "glutes"
@@ -8849,7 +8849,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/IVWcW2olc6ljDy",
+        "gif_url": "/exercises/2206.gif",
         "id": "2206",
         "name": "roller reverse crunch",
         "target": "abs"
@@ -8857,7 +8857,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/RriiLBMtgots3H",
+        "gif_url": "/exercises/2203.gif",
         "id": "2203",
         "name": "roller seated shoulder flexor depresor retractor",
         "target": "pectorals"
@@ -8865,7 +8865,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/1Zv0QZBD52S66r",
+        "gif_url": "/exercises/2209.gif",
         "id": "2209",
         "name": "roller seated single leg shoulder flexor depresor retractor",
         "target": "pectorals"
@@ -8873,7 +8873,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "roller",
-        "gif_url": "https://api.exercisedb.io/image/kmPpKUQTyGVysc",
+        "gif_url": "/exercises/2207.gif",
         "id": "2207",
         "name": "roller side lat stretch",
         "target": "lats"
@@ -8881,7 +8881,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/YhOafPR3eABmmP",
+        "gif_url": "/exercises/0680.gif",
         "id": "0680",
         "name": "rope climb",
         "target": "upper back"
@@ -8889,7 +8889,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KhYIG8WSe5zlkS",
+        "gif_url": "/exercises/0685.gif",
         "id": "0685",
         "name": "run",
         "target": "cardiovascular system"
@@ -8897,7 +8897,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VYxSlQiOem7siN",
+        "gif_url": "/exercises/0684.gif",
         "id": "0684",
         "name": "run (equipment)",
         "target": "cardiovascular system"
@@ -8905,7 +8905,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/jLKUNaM286QOtH",
+        "gif_url": "/exercises/1585.gif",
         "id": "1585",
         "name": "runners stretch",
         "target": "hamstrings"
@@ -8913,7 +8913,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8UDr6obqDMOI42",
+        "gif_url": "/exercises/0687.gif",
         "id": "0687",
         "name": "russian twist",
         "target": "abs"
@@ -8921,7 +8921,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/w8FdnVjfwv0vbR",
+        "gif_url": "/exercises/3012.gif",
         "id": "3012",
         "name": "scapula dips",
         "target": "traps"
@@ -8929,7 +8929,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/M1Jv-kVGND-pTC",
+        "gif_url": "/exercises/3021.gif",
         "id": "3021",
         "name": "scapula push-up",
         "target": "serratus anterior"
@@ -8937,7 +8937,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8RDsPVTnY686NJ",
+        "gif_url": "/exercises/0688.gif",
         "id": "0688",
         "name": "scapular pull-up",
         "target": "traps"
@@ -8945,7 +8945,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/n3lxsBMo6h9rg4",
+        "gif_url": "/exercises/3219.gif",
         "id": "3219",
         "name": "scissor jumps (male)",
         "target": "cardiovascular system"
@@ -8953,7 +8953,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/E0K4Oc3UX-w7fq",
+        "gif_url": "/exercises/1390.gif",
         "id": "1390",
         "name": "seated calf stretch (male)",
         "target": "calves"
@@ -8961,7 +8961,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/e3cEeh1Kq6ROd4",
+        "gif_url": "/exercises/1424.gif",
         "id": "1424",
         "name": "seated glute stretch",
         "target": "glutes"
@@ -8969,7 +8969,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PR-Bs83HIcMSqA",
+        "gif_url": "/exercises/0689.gif",
         "id": "0689",
         "name": "seated leg raise",
         "target": "abs"
@@ -8977,7 +8977,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/RO3HOaCM5WxNwP",
+        "gif_url": "/exercises/0690.gif",
         "id": "0690",
         "name": "seated lower back stretch",
         "target": "lats"
@@ -8985,7 +8985,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/zbwE2KduGuMsr9",
+        "gif_url": "/exercises/2567.gif",
         "id": "2567",
         "name": "seated piriformis stretch",
         "target": "glutes"
@@ -8993,7 +8993,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/TyAeIwaZVCE3vN",
+        "gif_url": "/exercises/0691.gif",
         "id": "0691",
         "name": "seated side crunch (wall)",
         "target": "abs"
@@ -9001,7 +9001,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/loidvTEH1ZZ-1q",
+        "gif_url": "/exercises/1587.gif",
         "id": "1587",
         "name": "seated wide angle pose sequence",
         "target": "hamstrings"
@@ -9009,7 +9009,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yWfpy0-6RFFygN",
+        "gif_url": "/exercises/0697.gif",
         "id": "0697",
         "name": "self assisted inverse leg curl",
         "target": "hamstrings"
@@ -9017,7 +9017,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/PT4K-q0jMOmwMX",
+        "gif_url": "/exercises/1766.gif",
         "id": "1766",
         "name": "self assisted inverse leg curl",
         "target": "hamstrings"
@@ -9025,7 +9025,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/cJfKl39dEL4yr7",
+        "gif_url": "/exercises/0696.gif",
         "id": "0696",
         "name": "self assisted inverse leg curl (on floor)",
         "target": "hamstrings"
@@ -9033,7 +9033,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/8h6CUM2ctSgxFi",
+        "gif_url": "/exercises/3222.gif",
         "id": "3222",
         "name": "semi squat jump (male)",
         "target": "cardiovascular system"
@@ -9041,7 +9041,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Kq6u7s9c0vceWU",
+        "gif_url": "/exercises/3656.gif",
         "id": "3656",
         "name": "short stride run",
         "target": "cardiovascular system"
@@ -9049,7 +9049,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/tMAd09SKe1PCPa",
+        "gif_url": "/exercises/1763.gif",
         "id": "1763",
         "name": "shoulder grip pull-up",
         "target": "lats"
@@ -9057,7 +9057,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/0rP9QHS3fDRHCe",
+        "gif_url": "/exercises/3699.gif",
         "id": "3699",
         "name": "shoulder tap",
         "target": "abs"
@@ -9065,7 +9065,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/7449NEqw-SQhA1",
+        "gif_url": "/exercises/0699.gif",
         "id": "0699",
         "name": "shoulder tap push-up",
         "target": "pectorals"
@@ -9073,7 +9073,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/SFlx4FsoqPqrc3",
+        "gif_url": "/exercises/1774.gif",
         "id": "1774",
         "name": "side bridge hip abduction",
         "target": "abductors"
@@ -9081,7 +9081,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/dQlA4HLK0YQmXN",
+        "gif_url": "/exercises/0705.gif",
         "id": "0705",
         "name": "side bridge v. 2",
         "target": "abs"
@@ -9089,7 +9089,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/CrMfOfIn4y7KR4",
+        "gif_url": "/exercises/0709.gif",
         "id": "0709",
         "name": "side hip (on parallel bars)",
         "target": "abs"
@@ -9097,7 +9097,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DjztFuViBMJdn0",
+        "gif_url": "/exercises/0710.gif",
         "id": "0710",
         "name": "side hip abduction",
         "target": "abductors"
@@ -9105,7 +9105,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/acVPWSid5b7rXk",
+        "gif_url": "/exercises/1358.gif",
         "id": "1358",
         "name": "side lying floor stretch",
         "target": "lats"
@@ -9113,7 +9113,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/XdX33IsVL8u6T6",
+        "gif_url": "/exercises/3667.gif",
         "id": "3667",
         "name": "side lying hip adduction (male)",
         "target": "adductors"
@@ -9121,7 +9121,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/LTCZfdzmDLmqXU",
+        "gif_url": "/exercises/1775.gif",
         "id": "1775",
         "name": "side plank hip adduction",
         "target": "adductors"
@@ -9129,7 +9129,7 @@ export const exercisesData = [
     {
         "body_part": "neck",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/wVOFJYWWPi4www",
+        "gif_url": "/exercises/0716.gif",
         "id": "0716",
         "name": "side push neck stretch",
         "target": "levator scapulae"
@@ -9137,7 +9137,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DzlKraFMGsjarI",
+        "gif_url": "/exercises/0717.gif",
         "id": "0717",
         "name": "side push-up",
         "target": "triceps"
@@ -9145,7 +9145,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/iTYOru-dw8O-vS",
+        "gif_url": "/exercises/0721.gif",
         "id": "0721",
         "name": "side wrist pull stretch",
         "target": "forearms"
@@ -9153,7 +9153,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/5kDIDYivu0-mKC",
+        "gif_url": "/exercises/0720.gif",
         "id": "0720",
         "name": "side-to-side chin",
         "target": "lats"
@@ -9161,7 +9161,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/kuqy-rdxLV9y8N",
+        "gif_url": "/exercises/3213.gif",
         "id": "3213",
         "name": "side-to-side toe touch (male)",
         "target": "abs"
@@ -9169,7 +9169,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/EcDOAUAst5ebDb",
+        "gif_url": "/exercises/0725.gif",
         "id": "0725",
         "name": "single arm push-up",
         "target": "pectorals"
@@ -9177,7 +9177,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/B6or7tMESSp-QZ",
+        "gif_url": "/exercises/3645.gif",
         "id": "3645",
         "name": "single leg bridge with outstretched leg",
         "target": "glutes"
@@ -9185,7 +9185,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/NjH0U-gOn2ALJH",
+        "gif_url": "/exercises/0727.gif",
         "id": "0727",
         "name": "single leg calf raise (on a dumbbell)",
         "target": "calves"
@@ -9193,7 +9193,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/9XUe1dZowoGFRH",
+        "gif_url": "/exercises/0730.gif",
         "id": "0730",
         "name": "single leg platform slide",
         "target": "hamstrings"
@@ -9201,7 +9201,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/3rbcFgkuB1a67d",
+        "gif_url": "/exercises/1759.gif",
         "id": "1759",
         "name": "single leg squat (pistol) male",
         "target": "glutes"
@@ -9209,7 +9209,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/NZo-EHMtE0Mr8O",
+        "gif_url": "/exercises/1489.gif",
         "id": "1489",
         "name": "sissy squat",
         "target": "quads"
@@ -9217,7 +9217,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/DzJBfkEKp8G43-",
+        "gif_url": "/exercises/0735.gif",
         "id": "0735",
         "name": "sit-up v. 2",
         "target": "abs"
@@ -9225,7 +9225,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Es4pn9yI3zdUdU",
+        "gif_url": "/exercises/3679.gif",
         "id": "3679",
         "name": "sit-up with arms on chest",
         "target": "abs"
@@ -9233,7 +9233,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/CDdrNk4i8gAead",
+        "gif_url": "/exercises/3361.gif",
         "id": "3361",
         "name": "skater hops",
         "target": "cardiovascular system"
@@ -9241,7 +9241,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "skierg machine",
-        "gif_url": "https://api.exercisedb.io/image/ct6lkZvXQ9Aeof",
+        "gif_url": "/exercises/2142.gif",
         "id": "2142",
         "name": "ski ergometer",
         "target": "triceps"
@@ -9249,7 +9249,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qarhKUjJ2HSdxf",
+        "gif_url": "/exercises/3671.gif",
         "id": "3671",
         "name": "ski step",
         "target": "cardiovascular system"
@@ -9257,7 +9257,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/TOFAaL1wypYMHo",
+        "gif_url": "/exercises/3304.gif",
         "id": "3304",
         "name": "skin the cat",
         "target": "upper back"
@@ -9265,7 +9265,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/dx5yiIXe8Cqgil",
+        "gif_url": "/exercises/1425.gif",
         "id": "1425",
         "name": "sled 45 degrees one leg press",
         "target": "glutes"
@@ -9273,7 +9273,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/xWwpvpAHkhVxyG",
+        "gif_url": "/exercises/0738.gif",
         "id": "0738",
         "name": "sled 45в° calf press",
         "target": "calves"
@@ -9281,7 +9281,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/P2a-dGcUy4lI1T",
+        "gif_url": "/exercises/0739.gif",
         "id": "0739",
         "name": "sled 45в° leg press",
         "target": "glutes"
@@ -9289,7 +9289,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/QqjGgQsWWxo0DW",
+        "gif_url": "/exercises/1464.gif",
         "id": "1464",
         "name": "sled 45в° leg press (back pov)",
         "target": "glutes"
@@ -9297,7 +9297,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/g7ltKlEYzprh84",
+        "gif_url": "/exercises/1463.gif",
         "id": "1463",
         "name": "sled 45в° leg press (side pov)",
         "target": "glutes"
@@ -9305,7 +9305,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/44acU6vWzhCiZV",
+        "gif_url": "/exercises/0740.gif",
         "id": "0740",
         "name": "sled 45в° leg wide press",
         "target": "glutes"
@@ -9313,7 +9313,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/p-LQEpEErSC87G",
+        "gif_url": "/exercises/1391.gif",
         "id": "1391",
         "name": "sled calf press on leg press",
         "target": "calves"
@@ -9321,7 +9321,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/Z-FEsMKU3bgGFn",
+        "gif_url": "/exercises/0741.gif",
         "id": "0741",
         "name": "sled closer hack squat",
         "target": "glutes"
@@ -9329,7 +9329,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/DRApz1P6c2vQyJ",
+        "gif_url": "/exercises/0742.gif",
         "id": "0742",
         "name": "sled forward angled calf raise",
         "target": "calves"
@@ -9337,7 +9337,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/yZsVlWRGiJ5EOf",
+        "gif_url": "/exercises/0743.gif",
         "id": "0743",
         "name": "sled hack squat",
         "target": "glutes"
@@ -9345,7 +9345,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/zJzLy9ICXi7jLz",
+        "gif_url": "/exercises/2334.gif",
         "id": "2334",
         "name": "sled lying calf press",
         "target": "calves"
@@ -9353,7 +9353,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/hJarS15sWKvpaE",
+        "gif_url": "/exercises/0744.gif",
         "id": "0744",
         "name": "sled lying squat",
         "target": "glutes"
@@ -9361,7 +9361,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "sled machine",
-        "gif_url": "https://api.exercisedb.io/image/tG1ccsktXM7C-v",
+        "gif_url": "/exercises/1392.gif",
         "id": "1392",
         "name": "sled one leg calf press on leg press",
         "target": "calves"
@@ -9369,7 +9369,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "hammer",
-        "gif_url": "https://api.exercisedb.io/image/arcuhLnurIbeXS",
+        "gif_url": "/exercises/1496.gif",
         "id": "1496",
         "name": "sledge hammer",
         "target": "abs"
@@ -9377,7 +9377,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/Zdcy4ynf3Nj3RT",
+        "gif_url": "/exercises/0746.gif",
         "id": "0746",
         "name": "smith back shrug",
         "target": "traps"
@@ -9385,7 +9385,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/HPqQfji1zyTg8e",
+        "gif_url": "/exercises/0747.gif",
         "id": "0747",
         "name": "smith behind neck press",
         "target": "delts"
@@ -9393,7 +9393,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XNVvXxAzMlemWK",
+        "gif_url": "/exercises/0748.gif",
         "id": "0748",
         "name": "smith bench press",
         "target": "pectorals"
@@ -9401,7 +9401,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/LN3ag-2mTX9XrM",
+        "gif_url": "/exercises/0749.gif",
         "id": "0749",
         "name": "smith bent knee good morning",
         "target": "glutes"
@@ -9409,7 +9409,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/fNwBB4ByUUFdGx",
+        "gif_url": "/exercises/1359.gif",
         "id": "1359",
         "name": "smith bent over row",
         "target": "upper back"
@@ -9417,7 +9417,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XOY4UHjwgpwd4J",
+        "gif_url": "/exercises/0750.gif",
         "id": "0750",
         "name": "smith chair squat",
         "target": "quads"
@@ -9425,7 +9425,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/OxzoXsyRzs2SEl",
+        "gif_url": "/exercises/0751.gif",
         "id": "0751",
         "name": "smith close-grip bench press",
         "target": "triceps"
@@ -9433,7 +9433,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/138QJEcwmAhUG8",
+        "gif_url": "/exercises/0752.gif",
         "id": "0752",
         "name": "smith deadlift",
         "target": "glutes"
@@ -9441,7 +9441,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/JObbWAheMVsF8n",
+        "gif_url": "/exercises/0753.gif",
         "id": "0753",
         "name": "smith decline bench press",
         "target": "pectorals"
@@ -9449,7 +9449,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/akU-aABBMFcziK",
+        "gif_url": "/exercises/0754.gif",
         "id": "0754",
         "name": "smith decline reverse-grip press",
         "target": "pectorals"
@@ -9457,7 +9457,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/X5eW8Qopcaqt8W",
+        "gif_url": "/exercises/1433.gif",
         "id": "1433",
         "name": "smith front squat (clean grip)",
         "target": "glutes"
@@ -9465,7 +9465,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/qcYwyf5cN2fu-d",
+        "gif_url": "/exercises/3281.gif",
         "id": "3281",
         "name": "smith full squat",
         "target": "glutes"
@@ -9473,7 +9473,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/PlhESqWHn210Dl",
+        "gif_url": "/exercises/0755.gif",
         "id": "0755",
         "name": "smith hack squat",
         "target": "glutes"
@@ -9481,7 +9481,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/jtulxnPl64zwN3",
+        "gif_url": "/exercises/0756.gif",
         "id": "0756",
         "name": "smith hip raise",
         "target": "abs"
@@ -9489,7 +9489,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/W8T06RCosUy86c",
+        "gif_url": "/exercises/0757.gif",
         "id": "0757",
         "name": "smith incline bench press",
         "target": "pectorals"
@@ -9497,7 +9497,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/KqWB1ym7fyiJDn",
+        "gif_url": "/exercises/0758.gif",
         "id": "0758",
         "name": "smith incline reverse-grip press",
         "target": "pectorals"
@@ -9505,7 +9505,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/9CPpwS1cHewSAH",
+        "gif_url": "/exercises/0759.gif",
         "id": "0759",
         "name": "smith incline shoulder raises",
         "target": "serratus anterior"
@@ -9513,7 +9513,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/SNdulvmXvQ1HZ-",
+        "gif_url": "/exercises/0760.gif",
         "id": "0760",
         "name": "smith leg press",
         "target": "glutes"
@@ -9521,7 +9521,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XkwnWW2sqH40Ym",
+        "gif_url": "/exercises/1434.gif",
         "id": "1434",
         "name": "smith low bar squat",
         "target": "glutes"
@@ -9529,7 +9529,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XdOXQQLJYhNJOt",
+        "gif_url": "/exercises/1683.gif",
         "id": "1683",
         "name": "smith machine bicep curl",
         "target": "biceps"
@@ -9537,7 +9537,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/aCb25fx6QEb9A-",
+        "gif_url": "/exercises/1625.gif",
         "id": "1625",
         "name": "smith machine decline close grip bench press",
         "target": "triceps"
@@ -9545,7 +9545,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/iM-w28PmHjpa3z",
+        "gif_url": "/exercises/1752.gif",
         "id": "1752",
         "name": "smith machine incline tricep extension",
         "target": "triceps"
@@ -9553,7 +9553,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XFb-v43IlprdE5",
+        "gif_url": "/exercises/1626.gif",
         "id": "1626",
         "name": "smith machine reverse decline close grip bench press",
         "target": "pectorals"
@@ -9561,7 +9561,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/JFi4v6xBQVdeYs",
+        "gif_url": "/exercises/0761.gif",
         "id": "0761",
         "name": "smith narrow row",
         "target": "upper back"
@@ -9569,7 +9569,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/tj0rTM21BQebAt",
+        "gif_url": "/exercises/1360.gif",
         "id": "1360",
         "name": "smith one arm row",
         "target": "upper back"
@@ -9577,7 +9577,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/-2glud7he8ODSh",
+        "gif_url": "/exercises/1393.gif",
         "id": "1393",
         "name": "smith one leg floor calf raise",
         "target": "calves"
@@ -9585,7 +9585,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/qFxzC0XvOMRLGW",
+        "gif_url": "/exercises/0762.gif",
         "id": "0762",
         "name": "smith rear delt row",
         "target": "delts"
@@ -9593,7 +9593,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/2wK6I9dhG4SsjA",
+        "gif_url": "/exercises/0763.gif",
         "id": "0763",
         "name": "smith reverse calf raises",
         "target": "calves"
@@ -9601,7 +9601,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/8DZw4AdbRKDBrb",
+        "gif_url": "/exercises/1394.gif",
         "id": "1394",
         "name": "smith reverse calf raises",
         "target": "calves"
@@ -9609,7 +9609,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/fOCwPVOQS7Zg1H",
+        "gif_url": "/exercises/1361.gif",
         "id": "1361",
         "name": "smith reverse grip bent over row",
         "target": "upper back"
@@ -9617,7 +9617,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/XCglQZsfIRlBE-",
+        "gif_url": "/exercises/0764.gif",
         "id": "0764",
         "name": "smith reverse-grip press",
         "target": "pectorals"
@@ -9625,7 +9625,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/WZ0cXgvRo2NM1y",
+        "gif_url": "/exercises/1395.gif",
         "id": "1395",
         "name": "smith seated one leg calf raise",
         "target": "calves"
@@ -9633,7 +9633,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/yCPuyqa2VsuPR-",
+        "gif_url": "/exercises/0765.gif",
         "id": "0765",
         "name": "smith seated shoulder press",
         "target": "delts"
@@ -9641,7 +9641,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/Iezfyuy-xBv-Qm",
+        "gif_url": "/exercises/1426.gif",
         "id": "1426",
         "name": "smith seated wrist curl",
         "target": "forearms"
@@ -9649,7 +9649,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/lMBK4d2O9Y9JuT",
+        "gif_url": "/exercises/0766.gif",
         "id": "0766",
         "name": "smith shoulder press",
         "target": "delts"
@@ -9657,7 +9657,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/nNdBasn0CiDFqQ",
+        "gif_url": "/exercises/0767.gif",
         "id": "0767",
         "name": "smith shrug",
         "target": "traps"
@@ -9665,7 +9665,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/BlGbrlRQjzAZ1t",
+        "gif_url": "/exercises/0768.gif",
         "id": "0768",
         "name": "smith single leg split squat",
         "target": "quads"
@@ -9673,7 +9673,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/oxmJOTmzLTpQFH",
+        "gif_url": "/exercises/0769.gif",
         "id": "0769",
         "name": "smith sprint lunge",
         "target": "glutes"
@@ -9681,7 +9681,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/8o5VG3t5zHj15J",
+        "gif_url": "/exercises/0770.gif",
         "id": "0770",
         "name": "smith squat",
         "target": "glutes"
@@ -9689,7 +9689,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/-ngqIZmIB3YXoU",
+        "gif_url": "/exercises/0771.gif",
         "id": "0771",
         "name": "smith standing back wrist curl",
         "target": "forearms"
@@ -9697,7 +9697,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/9oL86jIsJIeM3t",
+        "gif_url": "/exercises/0772.gif",
         "id": "0772",
         "name": "smith standing behind head military press",
         "target": "delts"
@@ -9705,7 +9705,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/ZZL2PluShsAXoj",
+        "gif_url": "/exercises/0773.gif",
         "id": "0773",
         "name": "smith standing leg calf raise",
         "target": "calves"
@@ -9713,7 +9713,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/JMot8bNuI46R5E",
+        "gif_url": "/exercises/0774.gif",
         "id": "0774",
         "name": "smith standing military press",
         "target": "delts"
@@ -9721,7 +9721,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/vp6b-7pPncRV49",
+        "gif_url": "/exercises/3142.gif",
         "id": "3142",
         "name": "smith sumo squat",
         "target": "glutes"
@@ -9729,7 +9729,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/Yg0B6wV8RxX6zy",
+        "gif_url": "/exercises/1396.gif",
         "id": "1396",
         "name": "smith toe raise",
         "target": "calves"
@@ -9737,7 +9737,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/IWrUXP4ftepiwc",
+        "gif_url": "/exercises/0775.gif",
         "id": "0775",
         "name": "smith upright row",
         "target": "delts"
@@ -9745,7 +9745,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/SWvkvLibg6miHp",
+        "gif_url": "/exercises/1308.gif",
         "id": "1308",
         "name": "smith wide grip bench press",
         "target": "pectorals"
@@ -9753,7 +9753,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "smith machine",
-        "gif_url": "https://api.exercisedb.io/image/Gg7zL8Epx-RJtE",
+        "gif_url": "/exercises/1309.gif",
         "id": "1309",
         "name": "smith wide grip decline bench press",
         "target": "pectorals"
@@ -9761,7 +9761,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/qR-l4u87eKsGqr",
+        "gif_url": "/exercises/0776.gif",
         "id": "0776",
         "name": "snatch pull",
         "target": "quads"
@@ -9769,7 +9769,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "dumbbell",
-        "gif_url": "https://api.exercisedb.io/image/ziJCcvp-cHAm6I",
+        "gif_url": "/exercises/0777.gif",
         "id": "0777",
         "name": "spell caster",
         "target": "abs"
@@ -9777,7 +9777,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/yFOpZE5Jdnf1Cj",
+        "gif_url": "/exercises/1362.gif",
         "id": "1362",
         "name": "sphinx",
         "target": "spine"
@@ -9785,7 +9785,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/SATJxAfFZRsVLC",
+        "gif_url": "/exercises/0778.gif",
         "id": "0778",
         "name": "spider crawl push up",
         "target": "glutes"
@@ -9793,7 +9793,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/LeTE-evfXorkpQ",
+        "gif_url": "/exercises/1363.gif",
         "id": "1363",
         "name": "spine stretch",
         "target": "spine"
@@ -9801,7 +9801,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/sAiV2gQwJzZjde",
+        "gif_url": "/exercises/2329.gif",
         "id": "2329",
         "name": "spine twist",
         "target": "abs"
@@ -9809,7 +9809,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/QLDKiKGoJVngQs",
+        "gif_url": "/exercises/2368.gif",
         "id": "2368",
         "name": "split squats",
         "target": "quads"
@@ -9817,7 +9817,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/igJgs2PK39jKj9",
+        "gif_url": "/exercises/0786.gif",
         "id": "0786",
         "name": "squat jerk",
         "target": "quads"
@@ -9825,7 +9825,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "bosu ball",
-        "gif_url": "https://api.exercisedb.io/image/X9sapKpdjKf0Xy",
+        "gif_url": "/exercises/1705.gif",
         "id": "1705",
         "name": "squat on bosu ball",
         "target": "quads"
@@ -9833,7 +9833,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/c8bho13hGhmLdB",
+        "gif_url": "/exercises/1685.gif",
         "id": "1685",
         "name": "squat to overhead reach",
         "target": "quads"
@@ -9841,7 +9841,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/QZaz8TQ6TJIN9K",
+        "gif_url": "/exercises/1686.gif",
         "id": "1686",
         "name": "squat to overhead reach with twist",
         "target": "quads"
@@ -9849,7 +9849,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "stability ball",
-        "gif_url": "https://api.exercisedb.io/image/j6koPRmPNht84e",
+        "gif_url": "/exercises/2297.gif",
         "id": "2297",
         "name": "stability ball crunch (full range hands behind head)",
         "target": "abs"
@@ -9857,7 +9857,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/vurLGwKh1WpPuY",
+        "gif_url": "/exercises/3291.gif",
         "id": "3291",
         "name": "stalder press",
         "target": "triceps"
@@ -9865,7 +9865,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/zG66hwek8xPx4M",
+        "gif_url": "/exercises/3669.gif",
         "id": "3669",
         "name": "standing archer",
         "target": "upper back"
@@ -9873,7 +9873,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "barbell",
-        "gif_url": "https://api.exercisedb.io/image/oVLYB5EnDkrPvg",
+        "gif_url": "/exercises/0788.gif",
         "id": "0788",
         "name": "standing behind neck press",
         "target": "delts"
@@ -9881,7 +9881,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KEK8cWd-9qyxnZ",
+        "gif_url": "/exercises/1490.gif",
         "id": "1490",
         "name": "standing calf raise (on a staircase)",
         "target": "calves"
@@ -9889,7 +9889,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/0qmaXpWtNtZjoa",
+        "gif_url": "/exercises/1397.gif",
         "id": "1397",
         "name": "standing calves",
         "target": "calves"
@@ -9897,7 +9897,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/MSK3G5CKQnXcBT",
+        "gif_url": "/exercises/1398.gif",
         "id": "1398",
         "name": "standing calves calf stretch",
         "target": "calves"
@@ -9905,7 +9905,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "rope",
-        "gif_url": "https://api.exercisedb.io/image/9e8HnSDkbgCQLG",
+        "gif_url": "/exercises/1599.gif",
         "id": "1599",
         "name": "standing hamstring and calf stretch with strap",
         "target": "hamstrings"
@@ -9913,7 +9913,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/3R9K4482LiUZjz",
+        "gif_url": "/exercises/0794.gif",
         "id": "0794",
         "name": "standing lateral stretch",
         "target": "lats"
@@ -9921,7 +9921,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Kr2zyEocge-sCv",
+        "gif_url": "/exercises/1364.gif",
         "id": "1364",
         "name": "standing pelvic tilt",
         "target": "spine"
@@ -9929,7 +9929,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KW2MKoFYTirb1B",
+        "gif_url": "/exercises/0795.gif",
         "id": "0795",
         "name": "standing single leg curl",
         "target": "hamstrings"
@@ -9937,7 +9937,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "wheel roller",
-        "gif_url": "https://api.exercisedb.io/image/u51rhEyqQrOE8d",
+        "gif_url": "/exercises/0796.gif",
         "id": "0796",
         "name": "standing wheel rollerout",
         "target": "abs"
@@ -9945,7 +9945,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/WWO9DyCJL5vqT6",
+        "gif_url": "/exercises/3223.gif",
         "id": "3223",
         "name": "star jump (male)",
         "target": "cardiovascular system"
@@ -9953,7 +9953,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "stationary bike",
-        "gif_url": "https://api.exercisedb.io/image/JQrwAgs9t-T6sl",
+        "gif_url": "/exercises/2138.gif",
         "id": "2138",
         "name": "stationary bike run v. 3",
         "target": "cardiovascular system"
@@ -9961,7 +9961,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/R-dRXD2UV4IaFW",
+        "gif_url": "/exercises/0798.gif",
         "id": "0798",
         "name": "stationary bike walk",
         "target": "cardiovascular system"
@@ -9969,7 +9969,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/2KjLeHa7QaLEtt",
+        "gif_url": "/exercises/3314.gif",
         "id": "3314",
         "name": "straddle maltese",
         "target": "abs"
@@ -9977,7 +9977,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/BGqh0RQILgT6FM",
+        "gif_url": "/exercises/3298.gif",
         "id": "3298",
         "name": "straddle planche",
         "target": "abs"
@@ -9985,7 +9985,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/blZOLTTwYIbb9A",
+        "gif_url": "/exercises/1427.gif",
         "id": "1427",
         "name": "straight leg outer hip abductor",
         "target": "abductors"
@@ -9993,7 +9993,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/BSF91zX-aZlsbt",
+        "gif_url": "/exercises/0803.gif",
         "id": "0803",
         "name": "superman push-up",
         "target": "pectorals"
@@ -10001,7 +10001,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hVH5u3iQd4Ysih",
+        "gif_url": "/exercises/0805.gif",
         "id": "0805",
         "name": "suspended abdominal fallout",
         "target": "abs"
@@ -10009,7 +10009,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/5aHQPMvp9scmPQ",
+        "gif_url": "/exercises/0806.gif",
         "id": "0806",
         "name": "suspended push-up",
         "target": "pectorals"
@@ -10017,7 +10017,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YQbEZfcjS3Am5H",
+        "gif_url": "/exercises/0807.gif",
         "id": "0807",
         "name": "suspended reverse crunch",
         "target": "abs"
@@ -10025,7 +10025,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/0fej-b-ljeI3TG",
+        "gif_url": "/exercises/0808.gif",
         "id": "0808",
         "name": "suspended row",
         "target": "upper back"
@@ -10033,7 +10033,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/MXPGNlWUiPC-1n",
+        "gif_url": "/exercises/0809.gif",
         "id": "0809",
         "name": "suspended split squat",
         "target": "quads"
@@ -10041,7 +10041,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Yz116wgtyJrbnv",
+        "gif_url": "/exercises/3433.gif",
         "id": "3433",
         "name": "swimmer kicks v. 2 (male)",
         "target": "glutes"
@@ -10049,7 +10049,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/VrWyQytOBDQzXj",
+        "gif_url": "/exercises/3318.gif",
         "id": "3318",
         "name": "swing 360",
         "target": "cardiovascular system"
@@ -10057,7 +10057,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/BOyC9ivajG5yNK",
+        "gif_url": "/exercises/1753.gif",
         "id": "1753",
         "name": "three bench dip",
         "target": "triceps"
@@ -10065,7 +10065,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "tire",
-        "gif_url": "https://api.exercisedb.io/image/xO9KBUElnK0e4s",
+        "gif_url": "/exercises/2459.gif",
         "id": "2459",
         "name": "tire flip",
         "target": "glutes"
@@ -10073,7 +10073,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "trap bar",
-        "gif_url": "https://api.exercisedb.io/image/kW5jeiZCPdhdLp",
+        "gif_url": "/exercises/0811.gif",
         "id": "0811",
         "name": "trap bar deadlift",
         "target": "glutes"
@@ -10081,7 +10081,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/CxXx2meXEF0M0M",
+        "gif_url": "/exercises/0814.gif",
         "id": "0814",
         "name": "triceps dip",
         "target": "triceps"
@@ -10089,7 +10089,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/LaFOP-JwSsqemz",
+        "gif_url": "/exercises/0812.gif",
         "id": "0812",
         "name": "triceps dip (bench leg)",
         "target": "triceps"
@@ -10097,7 +10097,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/MIYM-a6iR-XoBh",
+        "gif_url": "/exercises/0813.gif",
         "id": "0813",
         "name": "triceps dip (between benches)",
         "target": "triceps"
@@ -10105,7 +10105,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Q52NSFoR9hLvVz",
+        "gif_url": "/exercises/0815.gif",
         "id": "0815",
         "name": "triceps dips floor",
         "target": "triceps"
@@ -10113,7 +10113,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/xsCIRk6DnTjDhR",
+        "gif_url": "/exercises/0816.gif",
         "id": "0816",
         "name": "triceps press",
         "target": "triceps"
@@ -10121,7 +10121,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/7YaM2073NfH3KM",
+        "gif_url": "/exercises/0817.gif",
         "id": "0817",
         "name": "triceps stretch",
         "target": "triceps"
@@ -10129,7 +10129,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/83fyS-R5afzhrx",
+        "gif_url": "/exercises/0871.gif",
         "id": "0871",
         "name": "tuck crunch",
         "target": "abs"
@@ -10137,7 +10137,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "cable",
-        "gif_url": "https://api.exercisedb.io/image/bT11vP7uDD1Sxl",
+        "gif_url": "/exercises/0818.gif",
         "id": "0818",
         "name": "twin handle parallel grip lat pulldown",
         "target": "lats"
@@ -10145,7 +10145,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/Bts5duqstJrXOi",
+        "gif_url": "/exercises/1466.gif",
         "id": "1466",
         "name": "twist hip lift",
         "target": "glutes"
@@ -10153,7 +10153,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/WDLgMCN3RFRJn1",
+        "gif_url": "/exercises/2802.gif",
         "id": "2802",
         "name": "twisted leg raise",
         "target": "abs"
@@ -10161,7 +10161,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/YomuLgLtjsK3O3",
+        "gif_url": "/exercises/2801.gif",
         "id": "2801",
         "name": "twisted leg raise (female)",
         "target": "abs"
@@ -10169,7 +10169,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/hwgFThSpHfSDiV",
+        "gif_url": "/exercises/3231.gif",
         "id": "3231",
         "name": "two toe touch (male)",
         "target": "spine"
@@ -10177,7 +10177,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/OL1GhHwHrMECaN",
+        "gif_url": "/exercises/1365.gif",
         "id": "1365",
         "name": "upper back stretch",
         "target": "upper back"
@@ -10185,7 +10185,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/b80hAoV6Naa9DJ",
+        "gif_url": "/exercises/1366.gif",
         "id": "1366",
         "name": "upward facing dog",
         "target": "spine"
@@ -10193,7 +10193,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/EffV52n8IhxVIq",
+        "gif_url": "/exercises/3420.gif",
         "id": "3420",
         "name": "v-sit on floor",
         "target": "abs"
@@ -10201,7 +10201,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/GKbAErhCEeg7uF",
+        "gif_url": "/exercises/0826.gif",
         "id": "0826",
         "name": "vertical leg raise (on parallel bars)",
         "target": "abs"
@@ -10209,7 +10209,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "elliptical machine",
-        "gif_url": "https://api.exercisedb.io/image/OI0wEkU2zlxB9A",
+        "gif_url": "/exercises/2141.gif",
         "id": "2141",
         "name": "walk elliptical cross trainer",
         "target": "cardiovascular system"
@@ -10217,7 +10217,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/sWTS4LWTTU9Il7",
+        "gif_url": "/exercises/3655.gif",
         "id": "3655",
         "name": "walking high knees lunge",
         "target": "cardiovascular system"
@@ -10225,7 +10225,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/AEShHslnQ0Cee9",
+        "gif_url": "/exercises/1460.gif",
         "id": "1460",
         "name": "walking lunge",
         "target": "glutes"
@@ -10233,7 +10233,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "leverage machine",
-        "gif_url": "https://api.exercisedb.io/image/PwXhYRVN1krusn",
+        "gif_url": "/exercises/3666.gif",
         "id": "3666",
         "name": "walking on incline treadmill",
         "target": "cardiovascular system"
@@ -10241,7 +10241,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "stepmill machine",
-        "gif_url": "https://api.exercisedb.io/image/qDZrAPDS4ziG0y",
+        "gif_url": "/exercises/2311.gif",
         "id": "2311",
         "name": "walking on stepmill",
         "target": "cardiovascular system"
@@ -10249,7 +10249,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/yuD5Y5yANLV2IT",
+        "gif_url": "/exercises/0830.gif",
         "id": "0830",
         "name": "weighted bench dip",
         "target": "triceps"
@@ -10257,7 +10257,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/3WzHYhlPNfNnmf",
+        "gif_url": "/exercises/2987.gif",
         "id": "2987",
         "name": "weighted close grip chin-up on dip cage",
         "target": "lats"
@@ -10265,7 +10265,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/FPfk-WcHLB7SOp",
+        "gif_url": "/exercises/3643.gif",
         "id": "3643",
         "name": "weighted cossack squats (male)",
         "target": "glutes"
@@ -10273,7 +10273,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/sBdFlfvkfemQXm",
+        "gif_url": "/exercises/0832.gif",
         "id": "0832",
         "name": "weighted crunch",
         "target": "abs"
@@ -10281,7 +10281,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/yxh2YjZQdST8Wh",
+        "gif_url": "/exercises/3670.gif",
         "id": "3670",
         "name": "weighted decline sit-up",
         "target": "abs"
@@ -10289,7 +10289,7 @@ export const exercisesData = [
     {
         "body_part": "lower legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/GL9PVM3XzGaDkc",
+        "gif_url": "/exercises/0833.gif",
         "id": "0833",
         "name": "weighted donkey calf raise",
         "target": "calves"
@@ -10297,7 +10297,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/QLAav1r1QrcgSv",
+        "gif_url": "/exercises/1310.gif",
         "id": "1310",
         "name": "weighted drop push up",
         "target": "pectorals"
@@ -10305,7 +10305,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/ImVWlY5eyVi6-v",
+        "gif_url": "/exercises/2135.gif",
         "id": "2135",
         "name": "weighted front plank",
         "target": "abs"
@@ -10313,7 +10313,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/VrwXcB7ivybnT8",
+        "gif_url": "/exercises/0834.gif",
         "id": "0834",
         "name": "weighted front raise",
         "target": "delts"
@@ -10321,7 +10321,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/eAh6FMLi2m4if9",
+        "gif_url": "/exercises/0866.gif",
         "id": "0866",
         "name": "weighted hanging leg-hip raise",
         "target": "abs"
@@ -10329,7 +10329,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/iA8PShOvJiX2LH",
+        "gif_url": "/exercises/0835.gif",
         "id": "0835",
         "name": "weighted hyperextension (on stability ball)",
         "target": "spine"
@@ -10337,7 +10337,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/lk9SwOfpYH876B",
+        "gif_url": "/exercises/3641.gif",
         "id": "3641",
         "name": "weighted kneeling step with swing",
         "target": "delts"
@@ -10345,7 +10345,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/4sysv1wOksHRTG",
+        "gif_url": "/exercises/3644.gif",
         "id": "3644",
         "name": "weighted lunge with swing",
         "target": "glutes"
@@ -10353,7 +10353,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/Wxx5Kczm4FmCPE",
+        "gif_url": "/exercises/3286.gif",
         "id": "3286",
         "name": "weighted muscle up",
         "target": "lats"
@@ -10361,7 +10361,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/JpcnA8Vry4jqvb",
+        "gif_url": "/exercises/3312.gif",
         "id": "3312",
         "name": "weighted muscle up (on bar)",
         "target": "lats"
@@ -10369,7 +10369,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/CXXMR5K3CK4rPF",
+        "gif_url": "/exercises/3290.gif",
         "id": "3290",
         "name": "weighted one hand pull up",
         "target": "lats"
@@ -10377,7 +10377,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/fw8sJQKOzlOE9x",
+        "gif_url": "/exercises/0840.gif",
         "id": "0840",
         "name": "weighted overhead crunch (on stability ball)",
         "target": "abs"
@@ -10385,7 +10385,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/Pf--q1JEGn3dY5",
+        "gif_url": "/exercises/0841.gif",
         "id": "0841",
         "name": "weighted pull-up",
         "target": "lats"
@@ -10393,7 +10393,7 @@ export const exercisesData = [
     {
         "body_part": "shoulders",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/bNyxEnWn8x-vNl",
+        "gif_url": "/exercises/0844.gif",
         "id": "0844",
         "name": "weighted round arm",
         "target": "delts"
@@ -10401,7 +10401,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/oW350K52vDf3so",
+        "gif_url": "/exercises/0846.gif",
         "id": "0846",
         "name": "weighted russian twist",
         "target": "abs"
@@ -10409,7 +10409,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/cfVDjnOfHXoSmK",
+        "gif_url": "/exercises/0845.gif",
         "id": "0845",
         "name": "weighted russian twist (legs up)",
         "target": "abs"
@@ -10417,7 +10417,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/PMjVFCuluRsgGk",
+        "gif_url": "/exercises/2371.gif",
         "id": "2371",
         "name": "weighted russian twist v. 2",
         "target": "abs"
@@ -10425,7 +10425,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "medicine ball",
-        "gif_url": "https://api.exercisedb.io/image/9zzHGCCP-tzv80",
+        "gif_url": "/exercises/0847.gif",
         "id": "0847",
         "name": "weighted seated bicep curl  (on stability ball)",
         "target": "biceps"
@@ -10433,7 +10433,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/x0x7WA8U4bsaJc",
+        "gif_url": "/exercises/0849.gif",
         "id": "0849",
         "name": "weighted seated twist (on stability ball)",
         "target": "abs"
@@ -10441,7 +10441,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/ttUXMUCd0L4T9e",
+        "gif_url": "/exercises/0850.gif",
         "id": "0850",
         "name": "weighted side bend (on stability ball)",
         "target": "abs"
@@ -10449,7 +10449,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/Ex-5o6nKz7ZSdY",
+        "gif_url": "/exercises/0851.gif",
         "id": "0851",
         "name": "weighted sissy squat",
         "target": "quads"
@@ -10457,7 +10457,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/W8D99nOmsjNAnX",
+        "gif_url": "/exercises/0852.gif",
         "id": "0852",
         "name": "weighted squat",
         "target": "glutes"
@@ -10465,7 +10465,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/Siq-k9kUAipqd1",
+        "gif_url": "/exercises/0853.gif",
         "id": "0853",
         "name": "weighted standing curl",
         "target": "biceps"
@@ -10473,7 +10473,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/zDiCozWrcOqgtg",
+        "gif_url": "/exercises/0854.gif",
         "id": "0854",
         "name": "weighted standing hand squeeze",
         "target": "forearms"
@@ -10481,7 +10481,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/e9Er1cQvXIdJFg",
+        "gif_url": "/exercises/3313.gif",
         "id": "3313",
         "name": "weighted straight bar dip",
         "target": "pectorals"
@@ -10489,7 +10489,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/7Ur2bxLlHObv9O",
+        "gif_url": "/exercises/3642.gif",
         "id": "3642",
         "name": "weighted stretch lunge",
         "target": "glutes"
@@ -10497,7 +10497,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/0WnFoZwo22FeZP",
+        "gif_url": "/exercises/0856.gif",
         "id": "0856",
         "name": "weighted svend press",
         "target": "pectorals"
@@ -10505,7 +10505,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/GCnJ3WEKaZJK7v",
+        "gif_url": "/exercises/1754.gif",
         "id": "1754",
         "name": "weighted three bench dips",
         "target": "triceps"
@@ -10513,7 +10513,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/hBKxvOjajS4drK",
+        "gif_url": "/exercises/1755.gif",
         "id": "1755",
         "name": "weighted tricep dips",
         "target": "triceps"
@@ -10521,7 +10521,7 @@ export const exercisesData = [
     {
         "body_part": "upper arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/xFbX22MeEzsH1e",
+        "gif_url": "/exercises/1767.gif",
         "id": "1767",
         "name": "weighted triceps dip on high parallel bars",
         "target": "triceps"
@@ -10529,7 +10529,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "wheel roller",
-        "gif_url": "https://api.exercisedb.io/image/BbZjLv3sFtnmlu",
+        "gif_url": "/exercises/0857.gif",
         "id": "0857",
         "name": "wheel rollerout",
         "target": "abs"
@@ -10537,7 +10537,7 @@ export const exercisesData = [
     {
         "body_part": "cardio",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/QhVvM6xOkiqhS7",
+        "gif_url": "/exercises/3637.gif",
         "id": "3637",
         "name": "wheel run",
         "target": "cardiovascular system"
@@ -10545,7 +10545,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/tzOtVQLEOLjuUX",
+        "gif_url": "/exercises/1429.gif",
         "id": "1429",
         "name": "wide grip pull-up",
         "target": "lats"
@@ -10553,7 +10553,7 @@ export const exercisesData = [
     {
         "body_part": "back",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/bVOuAzDg9jtSxb",
+        "gif_url": "/exercises/1367.gif",
         "id": "1367",
         "name": "wide grip rear pull-up",
         "target": "lats"
@@ -10561,7 +10561,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/X2xpoAyTtcS1na",
+        "gif_url": "/exercises/1311.gif",
         "id": "1311",
         "name": "wide hand push up",
         "target": "pectorals"
@@ -10569,7 +10569,7 @@ export const exercisesData = [
     {
         "body_part": "chest",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/KBqttueh58y27z",
+        "gif_url": "/exercises/2363.gif",
         "id": "2363",
         "name": "wide-grip chest dip on high parallel bars",
         "target": "pectorals"
@@ -10577,7 +10577,7 @@ export const exercisesData = [
     {
         "body_part": "waist",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/D7f7xFt1Jqs58R",
+        "gif_url": "/exercises/0858.gif",
         "id": "0858",
         "name": "wind sprints",
         "target": "abs"
@@ -10585,7 +10585,7 @@ export const exercisesData = [
     {
         "body_part": "upper legs",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/qByy-N0TGNWuig",
+        "gif_url": "/exercises/1604.gif",
         "id": "1604",
         "name": "world greatest stretch",
         "target": "hamstrings"
@@ -10593,7 +10593,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "body weight",
-        "gif_url": "https://api.exercisedb.io/image/dVhc0oIT8r--bm",
+        "gif_url": "/exercises/1428.gif",
         "id": "1428",
         "name": "wrist circles",
         "target": "forearms"
@@ -10601,7 +10601,7 @@ export const exercisesData = [
     {
         "body_part": "lower arms",
         "equipment": "weighted",
-        "gif_url": "https://api.exercisedb.io/image/PzRcjKzS-Mk54G",
+        "gif_url": "/exercises/0859.gif",
         "id": "0859",
         "name": "wrist rollerer",
         "target": "forearms"
