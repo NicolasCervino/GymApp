@@ -1,6 +1,9 @@
 ## Ego-Lifting
 
 El proyecto se realizo utilizando Next. Js. Se utiliza Supabase para la base de datos y la autenticacion. Permite crear rutinas de ejercicios y llevar un seguimiento de los entrenamientos realizados. Se puede registrar un usuario con email y contraseña o utilizando una cuenta de Google. Ademas se permite restablecer la contraseña de un usuario en caso de olvidarla.
+Para facilitar el testeo se agrego un usuario de prueba:
+email: a@yopmail.com
+password: 12345678
 
 ## Main Page
 La pagina principal muestra un saludo, el nombre del usuario y los entrenamientos. Ademas, se muestra el entramiento del dia de hoy en un tamaño mayor al del resto y se permite buscar entrenamientos por nombre. A la hora de guardar el entrenamiento se le asocia una imagen al azar obtenida utilizando la api de Unsplash o se coloca una por defecto en caso de que halla algun error.
