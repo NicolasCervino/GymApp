@@ -9,7 +9,7 @@ const AllWorkouts = ({ workouts }: { workouts: Workout[] }) => {
       {workouts.length === 0 ? (
         <p>You haven’t worked out yet...</p>
       ) : (
-        <div className="grid grid-row grid-cols-2 gap-4 w-full">
+        <div className="grid grid-row grid-cols-2 gap-4 w-full ultrawide:grid-cols-4">
           {workouts.map((workout) => (
             <WorkoutBanner key={workout.id} workout={workout} />
           ))}

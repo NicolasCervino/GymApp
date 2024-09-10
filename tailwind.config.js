@@ -14,6 +14,9 @@ module.exports = {
       colors: {
         "primary-green": "#25ab75",
       },
+      screens: {
+        'ultrawide': '1920px',
+      },
     },
   },
   plugins: [],
