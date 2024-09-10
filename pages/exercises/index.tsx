@@ -10,9 +10,12 @@ const Exercises = () => {
   const allExercises: Exercise[] = exercisesData;
   const [exercises, setExercises] = useState<Exercise[]>(allExercises);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  // Normalize strings by removing spaces and converting to lowercase
+  const normalizeString = (str: string) => str.replace(/\s+/g, '').toLowerCase();
 
   const handleSearch = (query: string) => {
-    const filteredExercises = allExercises.filter((exercise) => exercise.name.toLowerCase().includes(query.toLowerCase()));
+    const normalizedQuery = normalizeString(query);
+    const filteredExercises = allExercises.filter((exercise) => normalizeString(exercise.name).includes(normalizedQuery));
     setExercises(filteredExercises);
   };
 
