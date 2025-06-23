@@ -46,7 +46,7 @@ const EditProfile = () => {
         setUploading(false);
         throw uploadError;
       }
-      const avatarUrl = "https://dpkgyzzgvsfjlqyyhmej.supabase.co/storage/v1/object/public/avatars/" + filePath;
+      const avatarUrl = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/avatars/${filePath}`;
       setUploading(false);
       return avatarUrl;
     }
