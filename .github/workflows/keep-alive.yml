@@ -1,0 +1,22 @@
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    # Ejecutar cada 6 días a las 00:00 UTC (antes de la pausa semanal)
+    - cron: "0 0 */6 * *"
+  workflow_dispatch: # Permite ejecución manual desde GitHub
+
+jobs:
+  ping-supabase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase via API
+        run: |
+          echo "🔄 Pinging Supabase to keep it alive..."
+          curl -X GET "${{ secrets.APP_URL }}/api/health/supabase" \
+            -H "Content-Type: application/json" \
+            --max-time 30 \
+            --retry 3 \
+            --silent \
+            --show-error
+          echo "✅ Supabase ping completed successfully!"
